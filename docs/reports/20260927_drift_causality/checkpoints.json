@@ -1,0 +1,18 @@
+{
+  "gpu467": {
+    "path": "/data/autovla/projects/MoReAct/runs/diffusion_scratch_b768_root30_20260926/step_008500.pt",
+    "sha256": "c9bdb209a947e0a8c7a606e07fee8eb53b0840066d2529116bd32ac156bb1e70"
+  },
+  "gpu0123": {
+    "path": "/data/autovla/projects/MoReAct/runs/diffusion_stage2_b512_stratified_20260926/step_021000.pt",
+    "sha256": "a604ffccf0c56a6945d727b159784831ee00c9f6c0854f255688c656460a1aaf"
+  },
+  "remogen": {
+    "path": "/data/autovla/projects/remogen_official_release/checkpoints/interx_hhi_adapter/checkpoint.pt",
+    "sha256": "2798c139bf0ff1634cf3e133ba8b4e0cea57d9317f9b08ecf7d1f996ea02f496"
+  },
+  "remogen_vae": {
+    "path": "/data/autovla/projects/remogen_official_release/checkpoints/mvae_hml3d/checkpoint.pt",
+    "sha256": "e1c103cc9d5a4916adb3261bdf79e69d599a3aa4960b669b4969c1c786a58773"
+  }
+}

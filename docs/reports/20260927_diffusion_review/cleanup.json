@@ -1,0 +1,20 @@
+{
+  "paths": [
+    {
+      "path": "tmp/20260927_diffusion_review_before",
+      "files": 29,
+      "bytes": 4650696
+    },
+    {
+      "path": "tmp/20260927_diffusion_review_after",
+      "files": 116,
+      "bytes": 26210787
+    },
+    {
+      "path": "tmp/20260927_diffusion_review_final",
+      "files": 121,
+      "bytes": 26333753
+    }
+  ],
+  "reason": "Isolated regression artifacts; original failures reproduced and fixed; all final tests passed. No active pytest process or formal experiment dependency."
+}

@@ -1,0 +1,42 @@
+{
+  "hug": {
+    "old8750": {
+      "max_root_step_cm": 2.3256205022335052,
+      "max_root_step_frame": 39,
+      "mean_joint_step_cm": 1.100169587880373,
+      "p95_joint_step_cm": 2.5432007666677214
+    },
+    "best": {
+      "max_root_step_cm": 19.27625685930252,
+      "max_root_step_frame": 162,
+      "mean_joint_step_cm": 2.7882063761353493,
+      "p95_joint_step_cm": 6.902976930141431
+    },
+    "best_rollout": {
+      "max_root_step_cm": 28.67780029773712,
+      "max_root_step_frame": 66,
+      "mean_joint_step_cm": 4.471686482429504,
+      "p95_joint_step_cm": 21.95626877248283
+    }
+  },
+  "handshake": {
+    "old8750": {
+      "max_root_step_cm": 0.6240373477339745,
+      "max_root_step_frame": 34,
+      "mean_joint_step_cm": 0.3651013830676675,
+      "p95_joint_step_cm": 0.9147458011284468
+    },
+    "best": {
+      "max_root_step_cm": 2.219223417341709,
+      "max_root_step_frame": 74,
+      "mean_joint_step_cm": 0.9760578162968159,
+      "p95_joint_step_cm": 2.111232448369264
+    },
+    "best_rollout": {
+      "max_root_step_cm": 1.2089564464986324,
+      "max_root_step_frame": 34,
+      "mean_joint_step_cm": 0.7337681949138641,
+      "p95_joint_step_cm": 1.5484248753637055
+    }
+  }
+}

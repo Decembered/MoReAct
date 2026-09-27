@@ -1,0 +1,34 @@
+{
+  "hug": {
+    "frames": 191,
+    "MoReAct": {
+      "mpjpe_cm": 28.92085611820221,
+      "root_ade_cm": 28.672894835472107,
+      "aligned_mpjpe_cm": 11.959413439035416,
+      "pair_distance_error_cm": 22.066660225391388
+    },
+    "ReMoGen": {
+      "mpjpe_cm": 60.3137918971109,
+      "root_ade_cm": 57.65369514583445,
+      "aligned_mpjpe_cm": 14.381728674361224,
+      "pair_distance_error_cm": 32.195904197267375
+    },
+    "gt_alignment_residual_cm": 6.4171855499515775
+  },
+  "handshake": {
+    "frames": 132,
+    "MoReAct": {
+      "mpjpe_cm": 31.175699830055237,
+      "root_ade_cm": 29.76890206336975,
+      "aligned_mpjpe_cm": 6.080619618296623,
+      "pair_distance_error_cm": 29.08267378807068
+    },
+    "ReMoGen": {
+      "mpjpe_cm": 25.622387682126906,
+      "root_ade_cm": 24.68291913085632,
+      "aligned_mpjpe_cm": 7.282598810085996,
+      "pair_distance_error_cm": 13.416393338477054
+    },
+    "gt_alignment_residual_cm": 5.440099189926199
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "episode": {
+    "episode": "G012T003A018R018",
+    "split": "val",
+    "frames": 122,
+    "file": "episodes/G012T003A018R018.npz",
+    "source_digest": "5f09763eff6f610ebaa878301918d664a8f999fbeb9cb648bc6b7f1c4a26840d",
+    "actor_id": "P1",
+    "reactor_id": "P2",
+    "role_status": "annotation_assumed",
+    "role_evidence": "Inter-X README: 0=P1 actor; 1=P2 actor. Not independently verified.",
+    "original_order": 0
+  },
+  "checkpoint": "runs/smoke_diffusion/last.pt",
+  "checkpoint_step": 200,
+  "seed": 0,
+  "frames": 32,
+  "start_frame": 0,
+  "generation_start": 16,
+  "text": "",
+  "actor_mode": "normal",
+  "guidance": 1.0,
+  "config": {
+    "data": {
+      "source": "/data/autovla/projects/interx_ardy_mvp/full_data",
+      "cache": "/data/autovla/projects/MoReAct/data/interx_smoke",
+      "body_models": "/data/autovla/projects/remogen_official_release/smpl_models",
+      "role_overrides": "/data/autovla/projects/MoReAct/assets/role_overrides.json",
+      "raw_fps": 120,
+      "fps": 30,
+      "history": 16,
+      "future": 8,
+      "primitives": 2,
+      "clip_model": "/home/autovla/.cache/clip/ViT-B-32.pt"
+    },
+    "model": {
+      "latent_dim": 128,
+      "vae_hidden": 64,
+      "vae_layers": 3,
+      "denoiser_hidden": 64,
+      "denoiser_layers": 2,
+      "heads": 4,
+      "ff_size": 128,
+      "dropout": 0.0,
+      "diffusion_steps": 10,
+      "text_dropout": 0.1
+    },
+    "train": {
+      "seed": 0,
+      "batch_size": 4,
+      "learning_rate": 0.0001,
+      "kl_weight": 0.0001,
+      "ema": 0.999,
+      "grad_clip": 1.0,
+      "stage1_steps": 80,
+      "stage2_steps": 80,
+      "stage3_steps": 40,
+      "log_interval": 20,
+      "save_interval": 100,
+      "val_interval": 100,
+      "val_batches": 2,
+      "latent_scale_batches": 8,
+      "device": "cuda:0",
+      "threads": 4
+    }
+  },
+  "segment_seconds": [
+    0.024930433952249587,
+    0.023835584055632353,
+    0.023719707038253546,
+    0.023645282024517655
+  ],
+  "mean_segment_seconds": 0.024032751767663285,
+  "p95_segment_seconds": 0.024766206467757002,
+  "latency_excludes": "checkpoint, body-model loading, text encoding, rendering and file I/O",
+  "metrics": {
+    "world_mpjpe_m": 2.3647301197052,
+    "root_aligned_mpjpe_m": 0.1507786363363266,
+    "root_ade_m": 2.2440173625946045,
+    "root_fde_m": 3.633652687072754,
+    "pair_root_distance_m": 1.6034423112869263,
+    "pair_root_distance_error_m": 1.1824944019317627,
+    "nearest_interperson_joint_distance_m": 1.4714906215667725,
+    "foot_sliding_mps": 4.376168251037598,
+    "foot_contact_fraction": 1.0,
+    "boundary_velocity_jump_mps": 33.207523345947266,
+    "jerk_mps3": 14715.710163116455
+  }
+}

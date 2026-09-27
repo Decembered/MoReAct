@@ -1,0 +1,219 @@
+{
+  "frames": 120,
+  "episodes_per_split": 40,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "units": "cm",
+  "steps": [
+    27000,
+    27500,
+    28000,
+    28500,
+    29000,
+    29500,
+    30000,
+    30500,
+    31000,
+    31500,
+    32000,
+    32500,
+    33000,
+    33500,
+    34000
+  ],
+  "scores": {
+    "train": {
+      "27000": {
+        "root_ade_m": 27.063384097224713,
+        "root_fde_m": 57.55397048235562,
+        "root_aligned_mpjpe_m": 12.426975254590316
+      },
+      "27500": {
+        "root_ade_m": 26.28391644296547,
+        "root_fde_m": 55.37622552054624,
+        "root_aligned_mpjpe_m": 12.273221965879204
+      },
+      "28000": {
+        "root_ade_m": 25.64079109424105,
+        "root_fde_m": 53.12093140246967,
+        "root_aligned_mpjpe_m": 11.962858992628753
+      },
+      "28500": {
+        "root_ade_m": 25.659427028149366,
+        "root_fde_m": 52.535386124315366,
+        "root_aligned_mpjpe_m": 11.772083492639165
+      },
+      "29000": {
+        "root_ade_m": 25.885399460482102,
+        "root_fde_m": 52.14716372545809,
+        "root_aligned_mpjpe_m": 11.557626966387032
+      },
+      "29500": {
+        "root_ade_m": 25.99079089549682,
+        "root_fde_m": 52.1084026992321,
+        "root_aligned_mpjpe_m": 11.470655694914363
+      },
+      "30000": {
+        "root_ade_m": 25.858196944463995,
+        "root_fde_m": 51.705695167183876,
+        "root_aligned_mpjpe_m": 11.443771625248097
+      },
+      "30500": {
+        "root_ade_m": 25.697479300821826,
+        "root_fde_m": 52.25585345023622,
+        "root_aligned_mpjpe_m": 11.346430039654177
+      },
+      "31000": {
+        "root_ade_m": 25.680813322154183,
+        "root_fde_m": 52.49575084540994,
+        "root_aligned_mpjpe_m": 11.164516600159306
+      },
+      "31500": {
+        "root_ade_m": 25.411360046515863,
+        "root_fde_m": 51.695044948719435,
+        "root_aligned_mpjpe_m": 11.121195998663701
+      },
+      "32000": {
+        "root_ade_m": 25.020146194535,
+        "root_fde_m": 50.93706317013129,
+        "root_aligned_mpjpe_m": 10.99577831570059
+      },
+      "32500": {
+        "root_ade_m": 24.492484349757436,
+        "root_fde_m": 50.31745295661191,
+        "root_aligned_mpjpe_m": 10.89780203998089
+      },
+      "33000": {
+        "root_ade_m": 24.039653803532328,
+        "root_fde_m": 49.496521304051086,
+        "root_aligned_mpjpe_m": 10.76098228649547
+      },
+      "33500": {
+        "root_ade_m": 23.715975865100827,
+        "root_fde_m": 49.11117449713249,
+        "root_aligned_mpjpe_m": 10.721659385599196
+      },
+      "34000": {
+        "root_ade_m": 23.52937072049826,
+        "root_fde_m": 48.83439953283717,
+        "root_aligned_mpjpe_m": 10.621802369132634
+      }
+    },
+    "val": {
+      "27000": {
+        "root_ade_m": 22.289882920061547,
+        "root_fde_m": 38.905736412852995,
+        "root_aligned_mpjpe_m": 12.201789676522216
+      },
+      "27500": {
+        "root_ade_m": 22.411344717256725,
+        "root_fde_m": 40.78087529788415,
+        "root_aligned_mpjpe_m": 12.136912457644938
+      },
+      "28000": {
+        "root_ade_m": 22.38668247746925,
+        "root_fde_m": 41.36625051187971,
+        "root_aligned_mpjpe_m": 11.926956670358777
+      },
+      "28500": {
+        "root_ade_m": 22.28394076538583,
+        "root_fde_m": 39.550187789524585,
+        "root_aligned_mpjpe_m": 11.602098935594164
+      },
+      "29000": {
+        "root_ade_m": 22.65231120710571,
+        "root_fde_m": 41.04030469898133,
+        "root_aligned_mpjpe_m": 11.530372568716608
+      },
+      "29500": {
+        "root_ade_m": 22.582244491204623,
+        "root_fde_m": 41.242489128684,
+        "root_aligned_mpjpe_m": 11.565942416588467
+      },
+      "30000": {
+        "root_ade_m": 22.27685148827731,
+        "root_fde_m": 40.50575288323064,
+        "root_aligned_mpjpe_m": 11.455305991694328
+      },
+      "30500": {
+        "root_ade_m": 23.12871616333722,
+        "root_fde_m": 42.38574276367824,
+        "root_aligned_mpjpe_m": 11.350387474521998
+      },
+      "31000": {
+        "root_ade_m": 23.315712981857363,
+        "root_fde_m": 42.0861440586547,
+        "root_aligned_mpjpe_m": 11.310760745157797
+      },
+      "31500": {
+        "root_ade_m": 22.71972834598273,
+        "root_fde_m": 41.22193212000032,
+        "root_aligned_mpjpe_m": 11.222741138190033
+      },
+      "32000": {
+        "root_ade_m": 22.56627958888809,
+        "root_fde_m": 40.454993502547346,
+        "root_aligned_mpjpe_m": 11.159310511623822
+      },
+      "32500": {
+        "root_ade_m": 22.701981347054247,
+        "root_fde_m": 41.47033660827826,
+        "root_aligned_mpjpe_m": 11.045761921753487
+      },
+      "33000": {
+        "root_ade_m": 22.445571104375027,
+        "root_fde_m": 39.891224272238716,
+        "root_aligned_mpjpe_m": 11.017123041674497
+      },
+      "33500": {
+        "root_ade_m": 22.366267259543143,
+        "root_fde_m": 40.34887656724702,
+        "root_aligned_mpjpe_m": 11.02937829059859
+      },
+      "34000": {
+        "root_ade_m": 22.260375758633018,
+        "root_fde_m": 40.04436105334509,
+        "root_aligned_mpjpe_m": 10.931881116703153
+      }
+    }
+  },
+  "sources": {
+    "train": {
+      "27000": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_train/step_027000/per_episode.jsonl",
+      "27500": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_train/step_027500/per_episode.jsonl",
+      "28000": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_train/step_028000/per_episode.jsonl",
+      "28500": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_train/step_028500/per_episode.jsonl",
+      "29000": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_train/step_029000/per_episode.jsonl",
+      "29500": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_train/step_029500/per_episode.jsonl",
+      "30000": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_train/step_030000/per_episode.jsonl",
+      "30500": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_train/step_030500/per_episode.jsonl",
+      "31000": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_train/step_031000/per_episode.jsonl",
+      "31500": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_train/step_031500/per_episode.jsonl",
+      "32000": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_train/step_032000/per_episode.jsonl",
+      "32500": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_train/step_032500/per_episode.jsonl",
+      "33000": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_train/step_033000/per_episode.jsonl",
+      "33500": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_train/step_033500/per_episode.jsonl",
+      "34000": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_train/step_034000/per_episode.jsonl"
+    },
+    "val": {
+      "27000": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_val/step_027000/per_episode.jsonl",
+      "27500": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_val/step_027500/per_episode.jsonl",
+      "28000": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_val/step_028000/per_episode.jsonl",
+      "28500": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_val/step_028500/per_episode.jsonl",
+      "29000": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_val/step_029000/per_episode.jsonl",
+      "29500": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_val/step_029500/per_episode.jsonl",
+      "30000": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_val/step_030000/per_episode.jsonl",
+      "30500": "/data/autovla/projects/MoReAct/docs/reports/20260927_eight_gpu_full_train/evidence/source_val_per_episode.jsonl",
+      "31000": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_val/step_031000/per_episode.jsonl",
+      "31500": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_val/step_031500/per_episode.jsonl",
+      "32000": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_val/step_032000/per_episode.jsonl",
+      "32500": "/data/autovla/projects/MoReAct/docs/reports/20260927_eight_gpu_full_train/evidence/source_val_per_episode.jsonl",
+      "33000": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_val/step_033000/per_episode.jsonl",
+      "33500": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_val/step_033500/per_episode.jsonl",
+      "34000": "/data/autovla/projects/MoReAct/outputs/diffusion_geometry_8gpu_b1024_20260927/root_val/step_034000/per_episode.jsonl"
+    }
+  }
+}

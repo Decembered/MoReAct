@@ -1,0 +1,35 @@
+{
+  "source": "/data/autovla/projects/MoReAct/runs/diffusion_geometry_long_b512_20260927/step_032500.pt",
+  "source_step": 32500,
+  "source_sha256": "6b31f4f0ca8d72834a19715eb8bd98961dec5346d27baa47192a9f0615ccd208",
+  "old_global_batch": 512,
+  "old_total_step": 53000,
+  "remaining_sample_exposure": 10496000,
+  "restart_lr": 3.936054666666667e-05,
+  "benchmarks": {
+    "1024": {
+      "local_batch": 128,
+      "remaining_updates": 10250,
+      "target_step": 42750,
+      "config": "/data/autovla/projects/MoReAct/tmp/eight_gpu_scale_20260927/batch_1024.yaml"
+    },
+    "1536": {
+      "local_batch": 192,
+      "remaining_updates": 6834,
+      "target_step": 39334,
+      "config": "/data/autovla/projects/MoReAct/tmp/eight_gpu_scale_20260927/batch_1536.yaml"
+    },
+    "2048": {
+      "local_batch": 256,
+      "remaining_updates": 5125,
+      "target_step": 37625,
+      "config": "/data/autovla/projects/MoReAct/tmp/eight_gpu_scale_20260927/batch_2048.yaml"
+    },
+    "512": {
+      "local_batch": 64,
+      "remaining_updates": 20500,
+      "target_step": 53000,
+      "config": "/data/autovla/projects/MoReAct/tmp/eight_gpu_scale_20260927/batch_512.yaml"
+    }
+  }
+}

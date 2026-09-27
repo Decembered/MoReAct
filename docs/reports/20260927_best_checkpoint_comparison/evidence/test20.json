@@ -1,0 +1,1222 @@
+{
+  "summary": {
+    "old8750": {
+      "mpjpe_cm": 31.594921704381704,
+      "root_ade_cm": 29.878043346107006,
+      "root_fde_cm": 59.070917312055826,
+      "root_aligned_mpjpe_cm": 10.790124014019966,
+      "pair_distance_error_cm": 16.84874298516661
+    },
+    "best": {
+      "mpjpe_cm": 30.313193164765835,
+      "root_ade_cm": 28.547174585983157,
+      "root_fde_cm": 54.827840737998486,
+      "root_aligned_mpjpe_cm": 10.887813698500395,
+      "pair_distance_error_cm": 15.98223205190152
+    },
+    "best_rollout": {
+      "mpjpe_cm": 30.231174547225237,
+      "root_ade_cm": 28.381547890603542,
+      "root_fde_cm": 54.02167934924364,
+      "root_aligned_mpjpe_cm": 12.835360150784254,
+      "pair_distance_error_cm": 16.06952343136072
+    },
+    "ReMoGen": {
+      "mpjpe_cm": 56.40425879508257,
+      "root_ade_cm": 53.97422010079026,
+      "root_fde_cm": 81.73072904348373,
+      "root_aligned_mpjpe_cm": 13.723310194909573,
+      "pair_distance_error_cm": 32.6022785436362
+    }
+  },
+  "paired": {
+    "best": {
+      "mpjpe_cm": {
+        "mean_delta": -1.2817285396158695,
+        "wins": 12,
+        "bootstrap95": [
+          -5.310634133871645,
+          2.5315231163986027
+        ]
+      },
+      "root_ade_cm": {
+        "mean_delta": -1.330868760123849,
+        "wins": 12,
+        "bootstrap95": [
+          -5.525371619965881,
+          2.7388669110368897
+        ]
+      },
+      "root_fde_cm": {
+        "mean_delta": -4.243076574057341,
+        "wins": 11,
+        "bootstrap95": [
+          -20.247450136579573,
+          9.705987862776958
+        ]
+      },
+      "root_aligned_mpjpe_cm": {
+        "mean_delta": 0.0976896844804287,
+        "wins": 9,
+        "bootstrap95": [
+          -0.46491830283775926,
+          0.5349410925991832
+        ]
+      },
+      "pair_distance_error_cm": {
+        "mean_delta": -0.86651093326509,
+        "wins": 10,
+        "bootstrap95": [
+          -3.86113625287544,
+          1.584517022361978
+        ]
+      }
+    },
+    "best_rollout": {
+      "mpjpe_cm": {
+        "mean_delta": -1.3637471571564674,
+        "wins": 8,
+        "bootstrap95": [
+          -5.764912339858711,
+          2.5712063768878566
+        ]
+      },
+      "root_ade_cm": {
+        "mean_delta": -1.4964954555034637,
+        "wins": 8,
+        "bootstrap95": [
+          -5.765625294763595,
+          2.2933556116186065
+        ]
+      },
+      "root_fde_cm": {
+        "mean_delta": -5.049237962812185,
+        "wins": 9,
+        "bootstrap95": [
+          -19.78453465877101,
+          7.841297301463779
+        ]
+      },
+      "root_aligned_mpjpe_cm": {
+        "mean_delta": 2.045236136764288,
+        "wins": 4,
+        "bootstrap95": [
+          0.8712726659141481,
+          3.3933083969168365
+        ]
+      },
+      "pair_distance_error_cm": {
+        "mean_delta": -0.7792195538058877,
+        "wins": 9,
+        "bootstrap95": [
+          -4.7036891400348395,
+          2.8192825445439667
+        ]
+      }
+    }
+  },
+  "rows": [
+    {
+      "model": "old8750",
+      "episode": "G054T002A010R003",
+      "metrics": {
+        "mpjpe_cm": 5.197155103087425,
+        "root_ade_cm": 3.132903575897217,
+        "root_fde_cm": 6.042209640145302,
+        "root_aligned_mpjpe_cm": 4.12973128259182,
+        "pair_distance_error_cm": 1.0668559931218624
+      }
+    },
+    {
+      "model": "old8750",
+      "episode": "G009T004A026R008",
+      "metrics": {
+        "mpjpe_cm": 5.254536122083664,
+        "root_ade_cm": 5.560516193509102,
+        "root_fde_cm": 12.25486770272255,
+        "root_aligned_mpjpe_cm": 3.6193594336509705,
+        "pair_distance_error_cm": 1.1788389645516872
+      }
+    },
+    {
+      "model": "old8750",
+      "episode": "G002T002A012R010",
+      "metrics": {
+        "mpjpe_cm": 18.360517919063568,
+        "root_ade_cm": 15.32021164894104,
+        "root_fde_cm": 22.67995923757553,
+        "root_aligned_mpjpe_cm": 8.12855139374733,
+        "pair_distance_error_cm": 13.12212198972702
+      }
+    },
+    {
+      "model": "old8750",
+      "episode": "G055T004A022R011",
+      "metrics": {
+        "mpjpe_cm": 53.27219367027283,
+        "root_ade_cm": 50.843346118927,
+        "root_fde_cm": 140.6736135482788,
+        "root_aligned_mpjpe_cm": 9.813834726810455,
+        "pair_distance_error_cm": 22.882069647312164
+      }
+    },
+    {
+      "model": "old8750",
+      "episode": "G035T007A036R009",
+      "metrics": {
+        "mpjpe_cm": 8.71596559882164,
+        "root_ade_cm": 6.309857219457626,
+        "root_fde_cm": 22.932948172092438,
+        "root_aligned_mpjpe_cm": 5.678096413612366,
+        "pair_distance_error_cm": 2.3773713037371635
+      }
+    },
+    {
+      "model": "old8750",
+      "episode": "G017T003A018R019",
+      "metrics": {
+        "mpjpe_cm": 25.773856043815613,
+        "root_ade_cm": 22.788073122501373,
+        "root_fde_cm": 26.58884823322296,
+        "root_aligned_mpjpe_cm": 25.769436359405518,
+        "pair_distance_error_cm": 3.568166121840477
+      }
+    },
+    {
+      "model": "old8750",
+      "episode": "G034T007A039R022",
+      "metrics": {
+        "mpjpe_cm": 67.7334725856781,
+        "root_ade_cm": 66.47024750709534,
+        "root_fde_cm": 134.9759340286255,
+        "root_aligned_mpjpe_cm": 22.279897332191467,
+        "pair_distance_error_cm": 61.14947199821472
+      }
+    },
+    {
+      "model": "old8750",
+      "episode": "G004T007A016R007",
+      "metrics": {
+        "mpjpe_cm": 64.95991349220276,
+        "root_ade_cm": 64.8725152015686,
+        "root_fde_cm": 136.73070669174194,
+        "root_aligned_mpjpe_cm": 13.481476902961731,
+        "pair_distance_error_cm": 32.770201563835144
+      }
+    },
+    {
+      "model": "old8750",
+      "episode": "G031T006A029R019",
+      "metrics": {
+        "mpjpe_cm": 6.487252563238144,
+        "root_ade_cm": 3.151639923453331,
+        "root_fde_cm": 7.596880942583084,
+        "root_aligned_mpjpe_cm": 5.149371549487114,
+        "pair_distance_error_cm": 2.4707790464162827
+      }
+    },
+    {
+      "model": "old8750",
+      "episode": "G007T003A019R014",
+      "metrics": {
+        "mpjpe_cm": 17.849738895893097,
+        "root_ade_cm": 13.868597149848938,
+        "root_fde_cm": 45.88116407394409,
+        "root_aligned_mpjpe_cm": 8.274035155773163,
+        "pair_distance_error_cm": 7.367318123579025
+      }
+    },
+    {
+      "model": "old8750",
+      "episode": "G022T000A001R009",
+      "metrics": {
+        "mpjpe_cm": 11.55715212225914,
+        "root_ade_cm": 6.621699780225754,
+        "root_fde_cm": 7.987773418426514,
+        "root_aligned_mpjpe_cm": 10.17657220363617,
+        "pair_distance_error_cm": 3.224777430295944
+      }
+    },
+    {
+      "model": "old8750",
+      "episode": "G048T002A013R019",
+      "metrics": {
+        "mpjpe_cm": 82.97941088676453,
+        "root_ade_cm": 83.31854343414307,
+        "root_fde_cm": 176.8270969390869,
+        "root_aligned_mpjpe_cm": 8.413422107696533,
+        "pair_distance_error_cm": 56.33383393287659
+      }
+    },
+    {
+      "model": "old8750",
+      "episode": "G042T006A027R014",
+      "metrics": {
+        "mpjpe_cm": 33.374956250190735,
+        "root_ade_cm": 41.557109355926514,
+        "root_fde_cm": 48.703137040138245,
+        "root_aligned_mpjpe_cm": 18.339969217777252,
+        "pair_distance_error_cm": 14.439775049686432
+      }
+    },
+    {
+      "model": "old8750",
+      "episode": "G057T004A024R026",
+      "metrics": {
+        "mpjpe_cm": 32.00240433216095,
+        "root_ade_cm": 25.95749795436859,
+        "root_fde_cm": 42.03217625617981,
+        "root_aligned_mpjpe_cm": 14.018873870372772,
+        "pair_distance_error_cm": 24.193519353866577
+      }
+    },
+    {
+      "model": "old8750",
+      "episode": "G037T006A033R019",
+      "metrics": {
+        "mpjpe_cm": 8.294779062271118,
+        "root_ade_cm": 5.334285646677017,
+        "root_fde_cm": 24.245712161064148,
+        "root_aligned_mpjpe_cm": 7.784200459718704,
+        "pair_distance_error_cm": 1.0875553824007511
+      }
+    },
+    {
+      "model": "old8750",
+      "episode": "G016T007A037R012",
+      "metrics": {
+        "mpjpe_cm": 39.59114849567413,
+        "root_ade_cm": 37.02034056186676,
+        "root_fde_cm": 31.44727051258087,
+        "root_aligned_mpjpe_cm": 13.820943236351013,
+        "pair_distance_error_cm": 19.19875591993332
+      }
+    },
+    {
+      "model": "old8750",
+      "episode": "G001T001A006R009",
+      "metrics": {
+        "mpjpe_cm": 44.68538761138916,
+        "root_ade_cm": 43.899890780448914,
+        "root_fde_cm": 80.4223895072937,
+        "root_aligned_mpjpe_cm": 9.043999761343002,
+        "pair_distance_error_cm": 16.911417245864868
+      }
+    },
+    {
+      "model": "old8750",
+      "episode": "G028T003A017R015",
+      "metrics": {
+        "mpjpe_cm": 52.18285322189331,
+        "root_ade_cm": 51.62297487258911,
+        "root_fde_cm": 149.1288185119629,
+        "root_aligned_mpjpe_cm": 9.284815937280655,
+        "pair_distance_error_cm": 9.772936254739761
+      }
+    },
+    {
+      "model": "old8750",
+      "episode": "G025T002A011R008",
+      "metrics": {
+        "mpjpe_cm": 19.052620232105255,
+        "root_ade_cm": 16.803893446922302,
+        "root_fde_cm": 9.154912829399109,
+        "root_aligned_mpjpe_cm": 8.475945144891739,
+        "pair_distance_error_cm": 16.446399688720703
+      }
+    },
+    {
+      "model": "old8750",
+      "episode": "G029T007A034R025",
+      "metrics": {
+        "mpjpe_cm": 34.57311987876892,
+        "root_ade_cm": 33.10672342777252,
+        "root_fde_cm": 55.111926794052124,
+        "root_aligned_mpjpe_cm": 10.119947791099548,
+        "pair_distance_error_cm": 27.412694692611694
+      }
+    },
+    {
+      "model": "best",
+      "episode": "G054T002A010R003",
+      "metrics": {
+        "mpjpe_cm": 4.94903102517128,
+        "root_ade_cm": 2.724067121744156,
+        "root_fde_cm": 5.40802963078022,
+        "root_aligned_mpjpe_cm": 3.886185958981514,
+        "pair_distance_error_cm": 1.4971012249588966
+      }
+    },
+    {
+      "model": "best",
+      "episode": "G009T004A026R008",
+      "metrics": {
+        "mpjpe_cm": 6.288692355155945,
+        "root_ade_cm": 5.11077418923378,
+        "root_fde_cm": 10.039640218019485,
+        "root_aligned_mpjpe_cm": 4.775659367442131,
+        "pair_distance_error_cm": 2.8331125155091286
+      }
+    },
+    {
+      "model": "best",
+      "episode": "G002T002A012R010",
+      "metrics": {
+        "mpjpe_cm": 19.166994094848633,
+        "root_ade_cm": 16.596226394176483,
+        "root_fde_cm": 17.57989227771759,
+        "root_aligned_mpjpe_cm": 8.40597003698349,
+        "pair_distance_error_cm": 12.513437867164612
+      }
+    },
+    {
+      "model": "best",
+      "episode": "G055T004A022R011",
+      "metrics": {
+        "mpjpe_cm": 41.85380935668945,
+        "root_ade_cm": 39.89910185337067,
+        "root_fde_cm": 95.37438750267029,
+        "root_aligned_mpjpe_cm": 9.223874658346176,
+        "pair_distance_error_cm": 16.13619029521942
+      }
+    },
+    {
+      "model": "best",
+      "episode": "G035T007A036R009",
+      "metrics": {
+        "mpjpe_cm": 9.661844372749329,
+        "root_ade_cm": 7.878191769123077,
+        "root_fde_cm": 25.249609351158142,
+        "root_aligned_mpjpe_cm": 7.0474304258823395,
+        "pair_distance_error_cm": 3.639601171016693
+      }
+    },
+    {
+      "model": "best",
+      "episode": "G017T003A018R019",
+      "metrics": {
+        "mpjpe_cm": 25.031527876853943,
+        "root_ade_cm": 24.88209456205368,
+        "root_fde_cm": 22.616438567638397,
+        "root_aligned_mpjpe_cm": 21.74479216337204,
+        "pair_distance_error_cm": 5.504448711872101
+      }
+    },
+    {
+      "model": "best",
+      "episode": "G034T007A039R022",
+      "metrics": {
+        "mpjpe_cm": 47.61958122253418,
+        "root_ade_cm": 47.377192974090576,
+        "root_fde_cm": 45.52264213562012,
+        "root_aligned_mpjpe_cm": 22.730548679828644,
+        "pair_distance_error_cm": 38.00361752510071
+      }
+    },
+    {
+      "model": "best",
+      "episode": "G004T007A016R007",
+      "metrics": {
+        "mpjpe_cm": 62.9020094871521,
+        "root_ade_cm": 62.41688132286072,
+        "root_fde_cm": 146.20505571365356,
+        "root_aligned_mpjpe_cm": 13.587845861911774,
+        "pair_distance_error_cm": 28.744134306907654
+      }
+    },
+    {
+      "model": "best",
+      "episode": "G031T006A029R019",
+      "metrics": {
+        "mpjpe_cm": 5.80148920416832,
+        "root_ade_cm": 2.2685738280415535,
+        "root_fde_cm": 3.830600529909134,
+        "root_aligned_mpjpe_cm": 4.813746735453606,
+        "pair_distance_error_cm": 1.0006760247051716
+      }
+    },
+    {
+      "model": "best",
+      "episode": "G007T003A019R014",
+      "metrics": {
+        "mpjpe_cm": 25.36287009716034,
+        "root_ade_cm": 21.063996851444244,
+        "root_fde_cm": 85.50275564193726,
+        "root_aligned_mpjpe_cm": 9.61691215634346,
+        "pair_distance_error_cm": 13.04442584514618
+      }
+    },
+    {
+      "model": "best",
+      "episode": "G022T000A001R009",
+      "metrics": {
+        "mpjpe_cm": 11.045143753290176,
+        "root_ade_cm": 4.958992078900337,
+        "root_fde_cm": 4.963584616780281,
+        "root_aligned_mpjpe_cm": 9.93298590183258,
+        "pair_distance_error_cm": 2.4839838966727257
+      }
+    },
+    {
+      "model": "best",
+      "episode": "G048T002A013R019",
+      "metrics": {
+        "mpjpe_cm": 79.81579303741455,
+        "root_ade_cm": 79.3605089187622,
+        "root_fde_cm": 190.1584267616272,
+        "root_aligned_mpjpe_cm": 7.9808734357357025,
+        "pair_distance_error_cm": 54.59277629852295
+      }
+    },
+    {
+      "model": "best",
+      "episode": "G042T006A027R014",
+      "metrics": {
+        "mpjpe_cm": 27.96570658683777,
+        "root_ade_cm": 31.836789846420288,
+        "root_fde_cm": 27.734827995300293,
+        "root_aligned_mpjpe_cm": 18.43477487564087,
+        "pair_distance_error_cm": 11.158672720193863
+      }
+    },
+    {
+      "model": "best",
+      "episode": "G057T004A024R026",
+      "metrics": {
+        "mpjpe_cm": 31.295275688171387,
+        "root_ade_cm": 25.302326679229736,
+        "root_fde_cm": 39.19931352138519,
+        "root_aligned_mpjpe_cm": 14.936237037181854,
+        "pair_distance_error_cm": 22.271576523780823
+      }
+    },
+    {
+      "model": "best",
+      "episode": "G037T006A033R019",
+      "metrics": {
+        "mpjpe_cm": 27.133652567863464,
+        "root_ade_cm": 24.465137720108032,
+        "root_fde_cm": 57.7702522277832,
+        "root_aligned_mpjpe_cm": 9.271977096796036,
+        "pair_distance_error_cm": 10.206437110900879
+      }
+    },
+    {
+      "model": "best",
+      "episode": "G016T007A037R012",
+      "metrics": {
+        "mpjpe_cm": 50.22690296173096,
+        "root_ade_cm": 49.71392750740051,
+        "root_fde_cm": 74.28823113441467,
+        "root_aligned_mpjpe_cm": 13.571807742118835,
+        "pair_distance_error_cm": 23.466266691684723
+      }
+    },
+    {
+      "model": "best",
+      "episode": "G001T001A006R009",
+      "metrics": {
+        "mpjpe_cm": 47.20987379550934,
+        "root_ade_cm": 47.079578042030334,
+        "root_fde_cm": 86.90544366836548,
+        "root_aligned_mpjpe_cm": 8.980138599872589,
+        "pair_distance_error_cm": 18.951518833637238
+      }
+    },
+    {
+      "model": "best",
+      "episode": "G028T003A017R015",
+      "metrics": {
+        "mpjpe_cm": 29.017949104309082,
+        "root_ade_cm": 27.677932381629944,
+        "root_fde_cm": 59.60888862609863,
+        "root_aligned_mpjpe_cm": 9.414032101631165,
+        "pair_distance_error_cm": 11.517345905303955
+      }
+    },
+    {
+      "model": "best",
+      "episode": "G025T002A011R008",
+      "metrics": {
+        "mpjpe_cm": 23.08066636323929,
+        "root_ade_cm": 21.36341780424118,
+        "root_fde_cm": 21.947817504405975,
+        "root_aligned_mpjpe_cm": 8.396142721176147,
+        "pair_distance_error_cm": 19.75729912519455
+      }
+    },
+    {
+      "model": "best",
+      "episode": "G029T007A034R025",
+      "metrics": {
+        "mpjpe_cm": 30.835050344467163,
+        "root_ade_cm": 28.967779874801636,
+        "root_fde_cm": 76.65097713470459,
+        "root_aligned_mpjpe_cm": 11.004338413476944,
+        "pair_distance_error_cm": 22.322018444538116
+      }
+    },
+    {
+      "model": "best_rollout",
+      "episode": "G054T002A010R003",
+      "metrics": {
+        "mpjpe_cm": 5.431228503584862,
+        "root_ade_cm": 3.4995190799236298,
+        "root_fde_cm": 4.535231366753578,
+        "root_aligned_mpjpe_cm": 3.893435001373291,
+        "pair_distance_error_cm": 2.0682403817772865
+      }
+    },
+    {
+      "model": "best_rollout",
+      "episode": "G009T004A026R008",
+      "metrics": {
+        "mpjpe_cm": 10.740450024604797,
+        "root_ade_cm": 7.752072066068649,
+        "root_fde_cm": 11.38501912355423,
+        "root_aligned_mpjpe_cm": 7.52042829990387,
+        "pair_distance_error_cm": 3.6225762218236923
+      }
+    },
+    {
+      "model": "best_rollout",
+      "episode": "G002T002A012R010",
+      "metrics": {
+        "mpjpe_cm": 22.20080941915512,
+        "root_ade_cm": 19.166836142539978,
+        "root_fde_cm": 26.6483873128891,
+        "root_aligned_mpjpe_cm": 9.700421243906021,
+        "pair_distance_error_cm": 17.391356825828552
+      }
+    },
+    {
+      "model": "best_rollout",
+      "episode": "G055T004A022R011",
+      "metrics": {
+        "mpjpe_cm": 31.02072775363922,
+        "root_ade_cm": 28.953447937965393,
+        "root_fde_cm": 70.2416718006134,
+        "root_aligned_mpjpe_cm": 11.532238125801086,
+        "pair_distance_error_cm": 10.01441478729248
+      }
+    },
+    {
+      "model": "best_rollout",
+      "episode": "G035T007A036R009",
+      "metrics": {
+        "mpjpe_cm": 13.197721540927887,
+        "root_ade_cm": 9.400464594364166,
+        "root_fde_cm": 19.02589350938797,
+        "root_aligned_mpjpe_cm": 7.53011479973793,
+        "pair_distance_error_cm": 5.342628434300423
+      }
+    },
+    {
+      "model": "best_rollout",
+      "episode": "G017T003A018R019",
+      "metrics": {
+        "mpjpe_cm": 29.084959626197815,
+        "root_ade_cm": 27.063891291618347,
+        "root_fde_cm": 31.064054369926453,
+        "root_aligned_mpjpe_cm": 23.016932606697083,
+        "pair_distance_error_cm": 9.882734715938568
+      }
+    },
+    {
+      "model": "best_rollout",
+      "episode": "G034T007A039R022",
+      "metrics": {
+        "mpjpe_cm": 43.32696199417114,
+        "root_ade_cm": 48.25378358364105,
+        "root_fde_cm": 45.64116895198822,
+        "root_aligned_mpjpe_cm": 21.840369701385498,
+        "pair_distance_error_cm": 35.690587759017944
+      }
+    },
+    {
+      "model": "best_rollout",
+      "episode": "G004T007A016R007",
+      "metrics": {
+        "mpjpe_cm": 63.833653926849365,
+        "root_ade_cm": 63.098108768463135,
+        "root_fde_cm": 143.3639645576477,
+        "root_aligned_mpjpe_cm": 14.030557870864868,
+        "pair_distance_error_cm": 36.03241145610809
+      }
+    },
+    {
+      "model": "best_rollout",
+      "episode": "G031T006A029R019",
+      "metrics": {
+        "mpjpe_cm": 6.8058110773563385,
+        "root_ade_cm": 3.358228877186775,
+        "root_fde_cm": 16.468243300914764,
+        "root_aligned_mpjpe_cm": 5.3517501801252365,
+        "pair_distance_error_cm": 1.3433357700705528
+      }
+    },
+    {
+      "model": "best_rollout",
+      "episode": "G007T003A019R014",
+      "metrics": {
+        "mpjpe_cm": 17.47288554906845,
+        "root_ade_cm": 12.900026142597198,
+        "root_fde_cm": 42.28705167770386,
+        "root_aligned_mpjpe_cm": 9.515420347452164,
+        "pair_distance_error_cm": 7.2970956563949585
+      }
+    },
+    {
+      "model": "best_rollout",
+      "episode": "G022T000A001R009",
+      "metrics": {
+        "mpjpe_cm": 10.10095328092575,
+        "root_ade_cm": 4.154473915696144,
+        "root_fde_cm": 4.305406287312508,
+        "root_aligned_mpjpe_cm": 9.158731997013092,
+        "pair_distance_error_cm": 1.7433516681194305
+      }
+    },
+    {
+      "model": "best_rollout",
+      "episode": "G048T002A013R019",
+      "metrics": {
+        "mpjpe_cm": 70.77924013137817,
+        "root_ade_cm": 68.11827421188354,
+        "root_fde_cm": 182.43120908737183,
+        "root_aligned_mpjpe_cm": 12.563462555408478,
+        "pair_distance_error_cm": 48.05763363838196
+      }
+    },
+    {
+      "model": "best_rollout",
+      "episode": "G042T006A027R014",
+      "metrics": {
+        "mpjpe_cm": 47.03730344772339,
+        "root_ade_cm": 52.39839553833008,
+        "root_fde_cm": 64.5279049873352,
+        "root_aligned_mpjpe_cm": 29.233062267303467,
+        "pair_distance_error_cm": 15.841540694236755
+      }
+    },
+    {
+      "model": "best_rollout",
+      "episode": "G057T004A024R026",
+      "metrics": {
+        "mpjpe_cm": 32.35843479633331,
+        "root_ade_cm": 31.877079606056213,
+        "root_fde_cm": 55.924445390701294,
+        "root_aligned_mpjpe_cm": 16.478331387043,
+        "pair_distance_error_cm": 29.418674111366272
+      }
+    },
+    {
+      "model": "best_rollout",
+      "episode": "G037T006A033R019",
+      "metrics": {
+        "mpjpe_cm": 18.003609776496887,
+        "root_ade_cm": 15.456870198249817,
+        "root_fde_cm": 39.01974856853485,
+        "root_aligned_mpjpe_cm": 12.657350301742554,
+        "pair_distance_error_cm": 12.884597480297089
+      }
+    },
+    {
+      "model": "best_rollout",
+      "episode": "G016T007A037R012",
+      "metrics": {
+        "mpjpe_cm": 36.37895882129669,
+        "root_ade_cm": 33.508771657943726,
+        "root_fde_cm": 48.39918315410614,
+        "root_aligned_mpjpe_cm": 19.183243811130524,
+        "pair_distance_error_cm": 12.427213042974472
+      }
+    },
+    {
+      "model": "best_rollout",
+      "episode": "G001T001A006R009",
+      "metrics": {
+        "mpjpe_cm": 51.29508972167969,
+        "root_ade_cm": 50.60749053955078,
+        "root_fde_cm": 87.6871407032013,
+        "root_aligned_mpjpe_cm": 10.444297641515732,
+        "pair_distance_error_cm": 20.690424740314484
+      }
+    },
+    {
+      "model": "best_rollout",
+      "episode": "G028T003A017R015",
+      "metrics": {
+        "mpjpe_cm": 37.34752535820007,
+        "root_ade_cm": 34.61956083774567,
+        "root_fde_cm": 80.63895106315613,
+        "root_aligned_mpjpe_cm": 11.1369788646698,
+        "pair_distance_error_cm": 22.68620878458023
+      }
+    },
+    {
+      "model": "best_rollout",
+      "episode": "G025T002A011R008",
+      "metrics": {
+        "mpjpe_cm": 23.231178522109985,
+        "root_ade_cm": 18.679164350032806,
+        "root_fde_cm": 54.204005002975464,
+        "root_aligned_mpjpe_cm": 11.7111437022686,
+        "pair_distance_error_cm": 11.084138602018356
+      }
+    },
+    {
+      "model": "best_rollout",
+      "episode": "G029T007A034R025",
+      "metrics": {
+        "mpjpe_cm": 34.975987672805786,
+        "root_ade_cm": 34.764498472213745,
+        "root_fde_cm": 52.63490676879883,
+        "root_aligned_mpjpe_cm": 10.208932310342789,
+        "pair_distance_error_cm": 17.871303856372833
+      }
+    },
+    {
+      "model": "ReMoGen",
+      "episode": "G054T002A010R003",
+      "metrics": {
+        "mpjpe_cm": 14.053618907928467,
+        "root_ade_cm": 10.928591340780258,
+        "root_fde_cm": 18.44804883003235,
+        "root_aligned_mpjpe_cm": 7.0536598563194275,
+        "pair_distance_error_cm": 2.7134325355291367
+      }
+    },
+    {
+      "model": "ReMoGen",
+      "episode": "G009T004A026R008",
+      "metrics": {
+        "mpjpe_cm": 12.430500984191895,
+        "root_ade_cm": 7.951771467924118,
+        "root_fde_cm": 30.13293147087097,
+        "root_aligned_mpjpe_cm": 7.008133083581924,
+        "pair_distance_error_cm": 7.253902405500412
+      }
+    },
+    {
+      "model": "ReMoGen",
+      "episode": "G002T002A012R010",
+      "metrics": {
+        "mpjpe_cm": 21.913552284240723,
+        "root_ade_cm": 19.103965163230896,
+        "root_fde_cm": 29.728323221206665,
+        "root_aligned_mpjpe_cm": 10.040536522865295,
+        "pair_distance_error_cm": 18.286463618278503
+      }
+    },
+    {
+      "model": "ReMoGen",
+      "episode": "G055T004A022R011",
+      "metrics": {
+        "mpjpe_cm": 74.87330436706543,
+        "root_ade_cm": 76.67615413665771,
+        "root_fde_cm": 149.35208559036255,
+        "root_aligned_mpjpe_cm": 10.615287721157074,
+        "pair_distance_error_cm": 22.27182537317276
+      }
+    },
+    {
+      "model": "ReMoGen",
+      "episode": "G035T007A036R009",
+      "metrics": {
+        "mpjpe_cm": 33.58024060726166,
+        "root_ade_cm": 31.563201546669006,
+        "root_fde_cm": 45.72654366493225,
+        "root_aligned_mpjpe_cm": 8.880624175071716,
+        "pair_distance_error_cm": 18.629948794841766
+      }
+    },
+    {
+      "model": "ReMoGen",
+      "episode": "G017T003A018R019",
+      "metrics": {
+        "mpjpe_cm": 60.59677004814148,
+        "root_ade_cm": 68.74598264694214,
+        "root_fde_cm": 141.89568758010864,
+        "root_aligned_mpjpe_cm": 24.967113137245178,
+        "pair_distance_error_cm": 11.501432955265045
+      }
+    },
+    {
+      "model": "ReMoGen",
+      "episode": "G034T007A039R022",
+      "metrics": {
+        "mpjpe_cm": 25.454047322273254,
+        "root_ade_cm": 18.97171586751938,
+        "root_fde_cm": 25.868600606918335,
+        "root_aligned_mpjpe_cm": 15.692371129989624,
+        "pair_distance_error_cm": 13.501697778701782
+      }
+    },
+    {
+      "model": "ReMoGen",
+      "episode": "G004T007A016R007",
+      "metrics": {
+        "mpjpe_cm": 88.60849738121033,
+        "root_ade_cm": 86.89034581184387,
+        "root_fde_cm": 192.84517765045166,
+        "root_aligned_mpjpe_cm": 14.697623252868652,
+        "pair_distance_error_cm": 42.52841770648956
+      }
+    },
+    {
+      "model": "ReMoGen",
+      "episode": "G031T006A029R019",
+      "metrics": {
+        "mpjpe_cm": 18.831847608089447,
+        "root_ade_cm": 13.540798425674438,
+        "root_fde_cm": 19.975461065769196,
+        "root_aligned_mpjpe_cm": 12.206655740737915,
+        "pair_distance_error_cm": 2.8946124017238617
+      }
+    },
+    {
+      "model": "ReMoGen",
+      "episode": "G007T003A019R014",
+      "metrics": {
+        "mpjpe_cm": 130.53585290908813,
+        "root_ade_cm": 118.68807077407837,
+        "root_fde_cm": 314.6080732345581,
+        "root_aligned_mpjpe_cm": 18.683183193206787,
+        "pair_distance_error_cm": 108.34106206893921
+      }
+    },
+    {
+      "model": "ReMoGen",
+      "episode": "G022T000A001R009",
+      "metrics": {
+        "mpjpe_cm": 9.356442838907242,
+        "root_ade_cm": 5.691193416714668,
+        "root_fde_cm": 8.60670953989029,
+        "root_aligned_mpjpe_cm": 7.559786736965179,
+        "pair_distance_error_cm": 3.1058015301823616
+      }
+    },
+    {
+      "model": "ReMoGen",
+      "episode": "G048T002A013R019",
+      "metrics": {
+        "mpjpe_cm": 204.19487953186035,
+        "root_ade_cm": 204.62071895599365,
+        "root_fde_cm": 226.4554262161255,
+        "root_aligned_mpjpe_cm": 15.485534071922302,
+        "pair_distance_error_cm": 112.89043426513672
+      }
+    },
+    {
+      "model": "ReMoGen",
+      "episode": "G042T006A027R014",
+      "metrics": {
+        "mpjpe_cm": 40.74070751667023,
+        "root_ade_cm": 45.4355925321579,
+        "root_fde_cm": 77.84329652786255,
+        "root_aligned_mpjpe_cm": 18.78223717212677,
+        "pair_distance_error_cm": 21.638379991054535
+      }
+    },
+    {
+      "model": "ReMoGen",
+      "episode": "G057T004A024R026",
+      "metrics": {
+        "mpjpe_cm": 43.20559501647949,
+        "root_ade_cm": 38.79278898239136,
+        "root_fde_cm": 63.254594802856445,
+        "root_aligned_mpjpe_cm": 18.92099827528,
+        "pair_distance_error_cm": 36.49909198284149
+      }
+    },
+    {
+      "model": "ReMoGen",
+      "episode": "G037T006A033R019",
+      "metrics": {
+        "mpjpe_cm": 22.159187495708466,
+        "root_ade_cm": 12.613201141357422,
+        "root_fde_cm": 34.1048538684845,
+        "root_aligned_mpjpe_cm": 15.796905755996704,
+        "pair_distance_error_cm": 7.873738557100296
+      }
+    },
+    {
+      "model": "ReMoGen",
+      "episode": "G016T007A037R012",
+      "metrics": {
+        "mpjpe_cm": 51.401716470718384,
+        "root_ade_cm": 50.31677484512329,
+        "root_fde_cm": 63.25727701187134,
+        "root_aligned_mpjpe_cm": 19.586102664470673,
+        "pair_distance_error_cm": 35.16656756401062
+      }
+    },
+    {
+      "model": "ReMoGen",
+      "episode": "G001T001A006R009",
+      "metrics": {
+        "mpjpe_cm": 29.092836380004883,
+        "root_ade_cm": 26.354750990867615,
+        "root_fde_cm": 49.69034194946289,
+        "root_aligned_mpjpe_cm": 10.178272426128387,
+        "pair_distance_error_cm": 3.5614967346191406
+      }
+    },
+    {
+      "model": "ReMoGen",
+      "episode": "G028T003A017R015",
+      "metrics": {
+        "mpjpe_cm": 106.2059760093689,
+        "root_ade_cm": 104.50812578201294,
+        "root_fde_cm": 46.374475955963135,
+        "root_aligned_mpjpe_cm": 15.281613171100616,
+        "pair_distance_error_cm": 69.51306462287903
+      }
+    },
+    {
+      "model": "ReMoGen",
+      "episode": "G025T002A011R008",
+      "metrics": {
+        "mpjpe_cm": 74.27961826324463,
+        "root_ade_cm": 73.18686842918396,
+        "root_fde_cm": 52.285605669021606,
+        "root_aligned_mpjpe_cm": 10.742338001728058,
+        "pair_distance_error_cm": 70.4452395439148
+      }
+    },
+    {
+      "model": "ReMoGen",
+      "episode": "G029T007A034R025",
+      "metrics": {
+        "mpjpe_cm": 66.569983959198,
+        "root_ade_cm": 64.90378975868225,
+        "root_fde_cm": 44.16106641292572,
+        "root_aligned_mpjpe_cm": 12.287227809429169,
+        "pair_distance_error_cm": 43.42896044254303
+      }
+    }
+  ],
+  "selection": [
+    {
+      "record_id": "G054T002A010R003_aP2_rP1",
+      "episode": "G054T002A010R003",
+      "actor_person": "P2",
+      "reactor_person": "P1",
+      "target_text": "The two people stand face to face, with the first person extending his/her left hand to block his/her face, and then lowering it. The second person extends his/her right hand to slap the face of the first person, who blocks with his/her left hand.",
+      "split": "test",
+      "action": "010",
+      "file": "episodes/G054T002A010R003.npz",
+      "source_rotation_max_error": 1.7881393432617188e-07
+    },
+    {
+      "record_id": "G009T004A026R008_aP1_rP2",
+      "episode": "G009T004A026R008",
+      "actor_person": "P1",
+      "reactor_person": "P2",
+      "target_text": "One person stands with his/her hands on his/her waist, while the second person stands behind him/her and begins to massage his/her right shoulder and arm by patting him/her with both hands.",
+      "split": "test",
+      "action": "026",
+      "file": "episodes/G009T004A026R008.npz",
+      "source_rotation_max_error": 2.384185791015625e-07
+    },
+    {
+      "record_id": "G002T002A012R010_aP1_rP2",
+      "episode": "G002T002A012R010",
+      "actor_person": "P1",
+      "reactor_person": "P2",
+      "target_text": "The first person points his finger at the second person, who faces him and holds her right hand up.",
+      "split": "test",
+      "action": "012",
+      "file": "episodes/G002T002A012R010.npz",
+      "source_rotation_max_error": 1.7881393432617188e-07
+    },
+    {
+      "record_id": "G055T004A022R011_aP2_rP1",
+      "episode": "G055T004A022R011",
+      "actor_person": "P2",
+      "reactor_person": "P1",
+      "target_text": "The first person walks to the left of the second person and embraces the second person's left arm with his/her right arm. They walk together side by side and then they part ways.",
+      "split": "test",
+      "action": "022",
+      "file": "episodes/G055T004A022R011.npz",
+      "source_rotation_max_error": 1.9371509552001953e-07
+    },
+    {
+      "record_id": "G035T007A036R009_aP2_rP1",
+      "episode": "G035T007A036R009",
+      "actor_person": "P2",
+      "reactor_person": "P1",
+      "target_text": "A person sits and the person standing in front of him extends his right hand to cover his mouth.",
+      "split": "test",
+      "action": "036",
+      "file": "episodes/G035T007A036R009.npz",
+      "source_rotation_max_error": 2.384185791015625e-07
+    },
+    {
+      "record_id": "G017T003A018R019_aP2_rP1",
+      "episode": "G017T003A018R019",
+      "actor_person": "P2",
+      "reactor_person": "P1",
+      "target_text": "One person sits while the other person walks towards the left side of the seated person. The standing person bends down and whispers near the seated person's left ear using his/her right hand. Upon hearing this, the seated person nods in surprise and covers his/her mouth with his/her right hand.",
+      "split": "test",
+      "action": "018",
+      "file": "episodes/G017T003A018R019.npz",
+      "source_rotation_max_error": 1.9371509552001953e-07
+    },
+    {
+      "record_id": "G034T007A039R022_aP1_rP2",
+      "episode": "G034T007A039R022",
+      "actor_person": "P1",
+      "reactor_person": "P2",
+      "target_text": "A person stands, waving his right hand as if facing the person on whom he is sitting.",
+      "split": "test",
+      "action": "039",
+      "file": "episodes/G034T007A039R022.npz",
+      "source_rotation_max_error": 2.086162567138672e-07
+    },
+    {
+      "record_id": "G004T007A016R007_aP1_rP2",
+      "episode": "G004T007A016R007",
+      "actor_person": "P1",
+      "reactor_person": "P2",
+      "target_text": "The first person raises his right hand, followed by the second person raising his right hand, and they give each other a high-five in the air.",
+      "split": "test",
+      "action": "016",
+      "file": "episodes/G004T007A016R007.npz",
+      "source_rotation_max_error": 2.086162567138672e-07
+    },
+    {
+      "record_id": "G031T006A029R019_aP2_rP1",
+      "episode": "G031T006A029R019",
+      "actor_person": "P2",
+      "reactor_person": "P1",
+      "target_text": "During a conversation, two individuals employ both of their hands to communicate through gestures.",
+      "split": "test",
+      "action": "029",
+      "file": "episodes/G031T006A029R019.npz",
+      "source_rotation_max_error": 2.682209014892578e-07
+    },
+    {
+      "record_id": "G007T003A019R014_aP2_rP1",
+      "episode": "G007T003A019R014",
+      "actor_person": "P2",
+      "reactor_person": "P1",
+      "target_text": "The first person sits. The second person bends over and uses both hands to support the right arm of the first person, helping him stand up. The first person is assisted and lifts his right foot, then takes two slow hops forward with his left foot.",
+      "split": "test",
+      "action": "019",
+      "file": "episodes/G007T003A019R014.npz",
+      "source_rotation_max_error": 2.384185791015625e-07
+    },
+    {
+      "record_id": "G022T000A001R009_aP2_rP1",
+      "episode": "G022T000A001R009",
+      "actor_person": "P2",
+      "reactor_person": "P1",
+      "target_text": "The two people sit facing each other and shake hands.",
+      "split": "test",
+      "action": "001",
+      "file": "episodes/G022T000A001R009.npz",
+      "source_rotation_max_error": 2.5331974029541016e-07
+    },
+    {
+      "record_id": "G048T002A013R019_aP2_rP1",
+      "episode": "G048T002A013R019",
+      "actor_person": "P2",
+      "reactor_person": "P1",
+      "target_text": "Two people walk towards each other, make eye contact, and then continue walking past each other.",
+      "split": "test",
+      "action": "013",
+      "file": "episodes/G048T002A013R019.npz",
+      "source_rotation_max_error": 1.7881393432617188e-07
+    },
+    {
+      "record_id": "G042T006A027R014_aP1_rP2",
+      "episode": "G042T006A027R014",
+      "actor_person": "P1",
+      "reactor_person": "P2",
+      "target_text": "One human crouches down and uses both hands to assist the other person in moving his/her legs up and down, while the other person raises his/her right hand and bends forward.",
+      "split": "test",
+      "action": "027",
+      "file": "episodes/G042T006A027R014.npz",
+      "source_rotation_max_error": 2.384185791015625e-07
+    },
+    {
+      "record_id": "G057T004A024R026_aP2_rP1",
+      "episode": "G057T004A024R026",
+      "actor_person": "P2",
+      "reactor_person": "P1",
+      "target_text": "The first guy stands there and bends over, while the second guy raises his hand and claps.",
+      "split": "test",
+      "action": "024",
+      "file": "episodes/G057T004A024R026.npz",
+      "source_rotation_max_error": 2.384185791015625e-07
+    },
+    {
+      "record_id": "G037T006A033R019_aP2_rP1",
+      "episode": "G037T006A033R019",
+      "actor_person": "P2",
+      "reactor_person": "P1",
+      "target_text": "One person pulls one leg to bend, the other leg is extended, and both hands are angled to the top right. At the same time, the other person also points his hands up to the right, with one leg bent and the other straight.",
+      "split": "test",
+      "action": "033",
+      "file": "episodes/G037T006A033R019.npz",
+      "source_rotation_max_error": 2.0116567611694336e-07
+    },
+    {
+      "record_id": "G016T007A037R012_aP2_rP1",
+      "episode": "G016T007A037R012",
+      "actor_person": "P2",
+      "reactor_person": "P1",
+      "target_text": "One person stands behind the other and pats the second person's left shoulder with his/her right hand. They crouch to the right to avoid being seen. The second person continues turning left while the first person moves right to stay hidden. Eventually, the second person turns right and spots the first person.",
+      "split": "test",
+      "action": "037",
+      "file": "episodes/G016T007A037R012.npz",
+      "source_rotation_max_error": 2.384185791015625e-07
+    },
+    {
+      "record_id": "G001T001A006R009_aP2_rP1",
+      "episode": "G001T001A006R009",
+      "actor_person": "P2",
+      "reactor_person": "P1",
+      "target_text": "Two people are standing in a line. The first person walks behind the other person, while the second person partially crouches down, placing his/her hands on his/her knees. Afterward, the first person raises both hands to form V-signs, posing for a photo.",
+      "split": "test",
+      "action": "006",
+      "file": "episodes/G001T001A006R009.npz",
+      "source_rotation_max_error": 2.384185791015625e-07
+    },
+    {
+      "record_id": "G028T003A017R015_aP2_rP1",
+      "episode": "G028T003A017R015",
+      "actor_person": "P2",
+      "reactor_person": "P1",
+      "target_text": "Two people are running, with one person running in circles while chasing the other.",
+      "split": "test",
+      "action": "017",
+      "file": "episodes/G028T003A017R015.npz",
+      "source_rotation_max_error": 1.7881393432617188e-07
+    },
+    {
+      "record_id": "G025T002A011R008_aP1_rP2",
+      "episode": "G025T002A011R008",
+      "actor_person": "P1",
+      "reactor_person": "P2",
+      "target_text": "One person walks up to another person and pats his/her left back with his/her right hand, and then the other person taps the person's left back with his/her right hand.",
+      "split": "test",
+      "action": "011",
+      "file": "episodes/G025T002A011R008.npz",
+      "source_rotation_max_error": 1.7881393432617188e-07
+    },
+    {
+      "record_id": "G029T007A034R025_aP2_rP1",
+      "episode": "G029T007A034R025",
+      "actor_person": "P2",
+      "reactor_person": "P1",
+      "target_text": "One person sits down, pulls the other person with his/her left hand, and kisses his/her cheek. The other person moves closer, kisses his/her cheek, bends down, and stands back up.",
+      "split": "test",
+      "action": "034",
+      "file": "episodes/G029T007A034R025.npz",
+      "source_rotation_max_error": 1.7881393432617188e-07
+    }
+  ]
+}

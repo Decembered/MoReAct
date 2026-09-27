@@ -1,0 +1,72 @@
+{
+  "train": {
+    "episode": "G001T000A000R001",
+    "source": {
+      "teacher": {
+        "root_ade_m": 0.008063657519718012,
+        "root_fde_m": 0.01226310400913159,
+        "root_aligned_mpjpe_m": 0.01164882443845272,
+        "pair_root_distance_error_m": 0.005098546234269937,
+        "boundary_velocity_jump_mps": 0.8193641106287638
+      },
+      "feedback": {
+        "root_ade_m": 0.20308675865332285,
+        "root_fde_m": 0.2951367149750392,
+        "root_aligned_mpjpe_m": 0.10077827920516332,
+        "pair_root_distance_error_m": 0.09578370302915573,
+        "boundary_velocity_jump_mps": 4.82114506761233
+      }
+    },
+    "overfit_300": {
+      "teacher": {
+        "root_ade_m": 0.01983565092086792,
+        "root_fde_m": 0.1427644540866216,
+        "root_aligned_mpjpe_m": 0.019427296395103138,
+        "pair_root_distance_error_m": 0.011559552202622095,
+        "boundary_velocity_jump_mps": 1.2577895720799763
+      },
+      "feedback": {
+        "root_ade_m": 0.18582531809806824,
+        "root_fde_m": 0.245405783255895,
+        "root_aligned_mpjpe_m": 0.06192998091379801,
+        "pair_root_distance_error_m": 0.04534413293004036,
+        "boundary_velocity_jump_mps": 0.11396996925274532
+      }
+    }
+  },
+  "val": {
+    "episode": "G002T001A006R009",
+    "source": {
+      "teacher": {
+        "root_ade_m": 0.006682372962435086,
+        "root_fde_m": 0.007789398077875376,
+        "root_aligned_mpjpe_m": 0.015580730823179087,
+        "pair_root_distance_error_m": 0.0028228821077694497,
+        "boundary_velocity_jump_mps": 0.9554476340611776
+      },
+      "feedback": {
+        "root_ade_m": 0.09249150256315868,
+        "root_fde_m": 0.1319321244955063,
+        "root_aligned_mpjpe_m": 0.08730895568927129,
+        "pair_root_distance_error_m": 0.011459798241655031,
+        "boundary_velocity_jump_mps": 0.2832121402025223
+      }
+    },
+    "overfit_300": {
+      "teacher": {
+        "root_ade_m": 0.06718002756436665,
+        "root_fde_m": 0.11710349470376968,
+        "root_aligned_mpjpe_m": 0.0603166272242864,
+        "pair_root_distance_error_m": 0.04002585510412852,
+        "boundary_velocity_jump_mps": 3.568966786066691
+      },
+      "feedback": {
+        "root_ade_m": 0.6126087506612142,
+        "root_fde_m": 1.1051877935727437,
+        "root_aligned_mpjpe_m": 0.20845212042331696,
+        "pair_root_distance_error_m": 0.3031481107076009,
+        "boundary_velocity_jump_mps": 0.3419677217801412
+      }
+    }
+  }
+}

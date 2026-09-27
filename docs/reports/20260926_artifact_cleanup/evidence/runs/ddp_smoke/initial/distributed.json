@@ -1,0 +1,8 @@
+{
+  "world_size": 2,
+  "global_batch_size": 8,
+  "local_batch_size": 4,
+  "resumed_from": "None",
+  "start_step": 0,
+  "note": "Rank RNG changes when migrating from single GPU; optimizer/EMA/step preserved."
+}

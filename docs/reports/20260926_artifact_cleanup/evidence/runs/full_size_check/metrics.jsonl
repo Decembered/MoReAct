@@ -1,0 +1,1 @@
+{"step": 1, "rollout_probability": 0.0, "loss": 1.059377908706665, "reconstruction": 1.0593500137329102, "kl": 0.279712051153183, "grad_norm": 1.9573204517364502, "val_loss": 1.2493256330490112, "val_reconstruction": 1.2493000030517578, "val_kl": 0.25588518381118774, "elapsed_seconds": 0.8277407099958509}

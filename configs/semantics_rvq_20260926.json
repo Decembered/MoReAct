@@ -1,0 +1,11 @@
+{
+  "run": "runs/semantics_rvq_20260926",
+  "data": "data/semantics_rvq_20260926",
+  "cache_pid": 2210915,
+  "device": "cuda:5",
+  "min_free_mib": 18000,
+  "rvq_epochs": 20,
+  "steps": 5000,
+  "base_model": "/data/autovla/projects/models/flan-t5-large",
+  "comparison": "outputs/semantics_rvq_20260926/comparison"
+}

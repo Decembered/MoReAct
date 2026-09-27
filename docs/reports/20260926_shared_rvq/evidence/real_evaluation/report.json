@@ -1,0 +1,191 @@
+{
+  "task": "complete_pair_interaction_description",
+  "split": "test",
+  "limit": 1,
+  "seed": 0,
+  "summary": {
+    "normal": {
+      "word_f1": 0.0,
+      "rouge_l_f1": 0.0,
+      "valid_fraction": 0.0
+    },
+    "shuffle": {
+      "word_f1": 0.0,
+      "rouge_l_f1": 0.0,
+      "valid_fraction": 0.0
+    },
+    "remove_actor": {
+      "word_f1": 0.0,
+      "rouge_l_f1": 0.0,
+      "valid_fraction": 0.0
+    },
+    "remove_reactor": {
+      "word_f1": 0.0,
+      "rouge_l_f1": 0.0,
+      "valid_fraction": 0.0
+    },
+    "base_only": {
+      "word_f1": 0.0,
+      "rouge_l_f1": 0.0,
+      "valid_fraction": 0.0
+    }
+  },
+  "samples": [
+    {
+      "episode": "G001T000A000R004",
+      "mode": "normal",
+      "prediction": {
+        "text": "răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni",
+        "complete": false,
+        "valid": false
+      },
+      "references": [
+        "Two people walk towards each other. After they meet, the first person hugs the second person with his/her right hand on the left shoulder, and the second person hugs back around the waist with his/her right hand. As a result, the first person softly pats the second person on his/her back with the right hand while the second person pats the first person's waist with his/her right hand.",
+        "Two people walk towards each other, simultaneously extend their right hands, pat the other person's left arm first, then embrace each other's backs, and pat a few times.",
+        "Both people step forward at the same time, with one person raising his/her right hand to embrace the shoulders of the other person, while the other person embraces his/her waist and lightly pats it with his/her left hand."
+      ],
+      "metrics": {
+        "word_f1": 0.0,
+        "rouge_l_f1": 0.0
+      },
+      "review": {
+        "action_error": null,
+        "role_error": null,
+        "temporal_error": null,
+        "notes": ""
+      }
+    },
+    {
+      "episode": "G001T000A000R004",
+      "mode": "shuffle",
+      "prediction": {
+        "text": "răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni",
+        "complete": false,
+        "valid": false
+      },
+      "references": [
+        "Two people walk towards each other. After they meet, the first person hugs the second person with his/her right hand on the left shoulder, and the second person hugs back around the waist with his/her right hand. As a result, the first person softly pats the second person on his/her back with the right hand while the second person pats the first person's waist with his/her right hand.",
+        "Two people walk towards each other, simultaneously extend their right hands, pat the other person's left arm first, then embrace each other's backs, and pat a few times.",
+        "Both people step forward at the same time, with one person raising his/her right hand to embrace the shoulders of the other person, while the other person embraces his/her waist and lightly pats it with his/her left hand."
+      ],
+      "metrics": {
+        "word_f1": 0.0,
+        "rouge_l_f1": 0.0
+      },
+      "review": {
+        "action_error": null,
+        "role_error": null,
+        "temporal_error": null,
+        "notes": ""
+      }
+    },
+    {
+      "episode": "G001T000A000R004",
+      "mode": "remove_actor",
+      "prediction": {
+        "text": "răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni",
+        "complete": false,
+        "valid": false
+      },
+      "references": [
+        "Two people walk towards each other. After they meet, the first person hugs the second person with his/her right hand on the left shoulder, and the second person hugs back around the waist with his/her right hand. As a result, the first person softly pats the second person on his/her back with the right hand while the second person pats the first person's waist with his/her right hand.",
+        "Two people walk towards each other, simultaneously extend their right hands, pat the other person's left arm first, then embrace each other's backs, and pat a few times.",
+        "Both people step forward at the same time, with one person raising his/her right hand to embrace the shoulders of the other person, while the other person embraces his/her waist and lightly pats it with his/her left hand."
+      ],
+      "metrics": {
+        "word_f1": 0.0,
+        "rouge_l_f1": 0.0
+      },
+      "review": {
+        "action_error": null,
+        "role_error": null,
+        "temporal_error": null,
+        "notes": ""
+      }
+    },
+    {
+      "episode": "G001T000A000R004",
+      "mode": "remove_reactor",
+      "prediction": {
+        "text": "răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni",
+        "complete": false,
+        "valid": false
+      },
+      "references": [
+        "Two people walk towards each other. After they meet, the first person hugs the second person with his/her right hand on the left shoulder, and the second person hugs back around the waist with his/her right hand. As a result, the first person softly pats the second person on his/her back with the right hand while the second person pats the first person's waist with his/her right hand.",
+        "Two people walk towards each other, simultaneously extend their right hands, pat the other person's left arm first, then embrace each other's backs, and pat a few times.",
+        "Both people step forward at the same time, with one person raising his/her right hand to embrace the shoulders of the other person, while the other person embraces his/her waist and lightly pats it with his/her left hand."
+      ],
+      "metrics": {
+        "word_f1": 0.0,
+        "rouge_l_f1": 0.0
+      },
+      "review": {
+        "action_error": null,
+        "role_error": null,
+        "temporal_error": null,
+        "notes": ""
+      }
+    },
+    {
+      "episode": "G001T000A000R004",
+      "mode": "base_only",
+      "prediction": {
+        "text": "răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni",
+        "complete": false,
+        "valid": false
+      },
+      "references": [
+        "Two people walk towards each other. After they meet, the first person hugs the second person with his/her right hand on the left shoulder, and the second person hugs back around the waist with his/her right hand. As a result, the first person softly pats the second person on his/her back with the right hand while the second person pats the first person's waist with his/her right hand.",
+        "Two people walk towards each other, simultaneously extend their right hands, pat the other person's left arm first, then embrace each other's backs, and pat a few times.",
+        "Both people step forward at the same time, with one person raising his/her right hand to embrace the shoulders of the other person, while the other person embraces his/her waist and lightly pats it with his/her left hand."
+      ],
+      "metrics": {
+        "word_f1": 0.0,
+        "rouge_l_f1": 0.0
+      },
+      "review": {
+        "action_error": null,
+        "role_error": null,
+        "temporal_error": null,
+        "notes": ""
+      }
+    }
+  ],
+  "contract": {
+    "version": "shared_cvae_mean_rvq_v1",
+    "identity": {
+      "version": "shared_cvae_mean_rvq_v1",
+      "vae": "a67fb8295e257b05a9dc6fcdce4c27cc92b8f7f92a22433d08d0e64bc57f7c4a",
+      "stats": "bffa89b764b726615b0dc1e89554c2ca7278e07cfc554dc5de60c3736b08d99e",
+      "data_digest": "32893a39105b183275d36b61d72f2e4d5b7fe1a999c382906e0277b4557ca048",
+      "fps": 30,
+      "history": 2,
+      "future": 8,
+      "latent_dim": 128,
+      "feature_dim": 276,
+      "roles": [
+        "actor",
+        "reactor"
+      ]
+    },
+    "rvq_id": "8706065fae9a3b624bf64acac5163c6130e33e7abfdccdccdd0eb20ecc4e6568",
+    "rvq_config": {
+      "dim": 128,
+      "size": 256,
+      "levels": 2,
+      "decay": 0.99
+    },
+    "tokenizer_id": "409dd7bd22e1ef3a1c41bd2e62e4d6b486ea558cf4f80e49b5bca1159dd6d7ed",
+    "prompt": "Describe the overall interaction between the actor and the reactor in these complete motions.\n",
+    "max_input": 4096,
+    "max_target": 512,
+    "base_model": "tmp/shared_rvq_validation/tiny_language_base",
+    "task": "complete_pair_interaction_description"
+  },
+  "notes": [
+    "Metrics are lexical multi-reference proxies, not semantic correctness.",
+    "Review fields require human annotation; they are not automatic error-rate measurements.",
+    "base_only removes residual symbols from a K=2 captioner; a matched K=1 baseline requires separate RVQ/T5 training."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "models": {
+    "gpu467": "/data/autovla/projects/MoReAct/runs/diffusion_scratch_b768_root30_20260926/step_008500.pt",
+    "gpu0123": "/data/autovla/projects/MoReAct/runs/diffusion_stage2_b512_stratified_20260926/step_021000.pt"
+  },
+  "seed": 0,
+  "selection_seed": 20260927,
+  "frames": 120,
+  "history": 2,
+  "actions": [
+    "010",
+    "026",
+    "012",
+    "022",
+    "036",
+    "018",
+    "039",
+    "016",
+    "029",
+    "019",
+    "001",
+    "013",
+    "027",
+    "024",
+    "033",
+    "037",
+    "006",
+    "017",
+    "011",
+    "034"
+  ],
+  "eligible": {
+    "train": 6456,
+    "test": 1187
+  },
+  "data_digest": "32893a39105b183275d36b61d72f2e4d5b7fe1a999c382906e0277b4557ca048"
+}

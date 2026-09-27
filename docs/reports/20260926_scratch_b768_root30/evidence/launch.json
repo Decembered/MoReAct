@@ -1,0 +1,55 @@
+{
+  "launcher_pid": 2279616,
+  "command": [
+    "/data/users/autovla/.envs/remogen-motion-only/bin/python",
+    "-m",
+    "torch.distributed.run",
+    "--standalone",
+    "--nproc_per_node=3",
+    "-m",
+    "moreact.train_distributed",
+    "--config",
+    "/data/autovla/projects/MoReAct/runs/diffusion_scratch_b768_root30_20260926/launch.yaml",
+    "--output",
+    "/data/autovla/projects/MoReAct/runs/diffusion_scratch_b768_root30_20260926",
+    "--vae",
+    "/data/autovla/projects/MoReAct/runs/diffusion_scratch_b768_root30_20260926/frozen_vae.pt",
+    "--devices",
+    "4,6,7",
+    "--validate-at-start"
+  ],
+  "initialization": "from scratch (no --resume); frozen CVAE attached with --vae",
+  "frozen_vae": "/data/autovla/projects/MoReAct/runs/diffusion_scratch_b768_root30_20260926/frozen_vae.pt",
+  "frozen_vae_sha256": "6093da86e8522df2741a4b9fc346fdb437037fb92ccc799fe81110c37447591f",
+  "frozen_vae_source": "/data/autovla/projects/MoReAct/runs/diffusion_h2_f8_equal_roles_20260925_120415/frozen_vae.pt",
+  "frozen_vae_step": 50000,
+  "devices": [
+    4,
+    6,
+    7
+  ],
+  "world_size": 3,
+  "global_batch": 768,
+  "local_batch": 256,
+  "total_steps": 36000,
+  "stage_steps": [
+    2000,
+    17000,
+    17000
+  ],
+  "learning_rate": 0.0001,
+  "lr_schedule_start_step": 0,
+  "root_position_weight": 30,
+  "log_interval": 10,
+  "val_interval": 250,
+  "save_interval": 500,
+  "validation_windows": 768,
+  "val_sampling": "stratified_action",
+  "validate_at_start": true,
+  "sample_exposure": "27.6M vs 27.1M for 3000/25000/25000 at batch 512",
+  "replaces": {
+    "stopped_run": "runs/diffusion_root30_b512_20260926",
+    "stopped_at_step": 10865
+  },
+  "started_unix": 1790441897.7252328
+}

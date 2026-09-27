@@ -1,0 +1,39 @@
+{
+  "source": "/data/autovla/projects/MoReAct/runs/diffusion_stage2_b512_stratified_20260926/step_027000.pt",
+  "episode": "G001T000A000R000",
+  "window_indices": [
+    0,
+    8,
+    16,
+    24,
+    32,
+    40,
+    48,
+    56,
+    64,
+    72,
+    80,
+    88
+  ],
+  "window_starts": [
+    0,
+    8,
+    16,
+    24,
+    32,
+    40,
+    48,
+    56,
+    64,
+    72,
+    80,
+    88
+  ],
+  "batch_size": 2,
+  "updates": 300,
+  "device": "cuda:0",
+  "seed": 20260927,
+  "learning_rate": 0.0001,
+  "ema": 0.95,
+  "evaluations": {}
+}

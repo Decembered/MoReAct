@@ -1,0 +1,158 @@
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+{
+  "text": "răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni răni",
+  "complete": false,
+  "valid": false,
+  "identity": {
+    "version": "shared_cvae_mean_rvq_v1",
+    "vae": "a67fb8295e257b05a9dc6fcdce4c27cc92b8f7f92a22433d08d0e64bc57f7c4a",
+    "stats": "bffa89b764b726615b0dc1e89554c2ca7278e07cfc554dc5de60c3736b08d99e",
+    "data_digest": "32893a39105b183275d36b61d72f2e4d5b7fe1a999c382906e0277b4557ca048",
+    "fps": 30,
+    "history": 2,
+    "future": 8,
+    "latent_dim": 128,
+    "feature_dim": 276,
+    "roles": [
+      "actor",
+      "reactor"
+    ]
+  },
+  "rvq_id": "8706065fae9a3b624bf64acac5163c6130e33e7abfdccdccdd0eb20ecc4e6568",
+  "frames": 206,
+  "fps": 30,
+  "windows": 26,
+  "spans": [
+    [
+      2,
+      10,
+      8
+    ],
+    [
+      10,
+      18,
+      8
+    ],
+    [
+      18,
+      26,
+      8
+    ],
+    [
+      26,
+      34,
+      8
+    ],
+    [
+      34,
+      42,
+      8
+    ],
+    [
+      42,
+      50,
+      8
+    ],
+    [
+      50,
+      58,
+      8
+    ],
+    [
+      58,
+      66,
+      8
+    ],
+    [
+      66,
+      74,
+      8
+    ],
+    [
+      74,
+      82,
+      8
+    ],
+    [
+      82,
+      90,
+      8
+    ],
+    [
+      90,
+      98,
+      8
+    ],
+    [
+      98,
+      106,
+      8
+    ],
+    [
+      106,
+      114,
+      8
+    ],
+    [
+      114,
+      122,
+      8
+    ],
+    [
+      122,
+      130,
+      8
+    ],
+    [
+      130,
+      138,
+      8
+    ],
+    [
+      138,
+      146,
+      8
+    ],
+    [
+      146,
+      154,
+      8
+    ],
+    [
+      154,
+      162,
+      8
+    ],
+    [
+      162,
+      170,
+      8
+    ],
+    [
+      170,
+      178,
+      8
+    ],
+    [
+      178,
+      186,
+      8
+    ],
+    [
+      186,
+      194,
+      8
+    ],
+    [
+      194,
+      202,
+      8
+    ],
+    [
+      198,
+      206,
+      4
+    ]
+  ],
+  "task": "offline_complete_pair_description"
+}

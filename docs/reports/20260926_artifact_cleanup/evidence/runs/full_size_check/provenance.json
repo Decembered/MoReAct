@@ -1,0 +1,7 @@
+{
+  "kind": "vae",
+  "data_digest": "513cab34e518110ec6e4b2acd3191539544e686662b841c789a0eb8337bc595c",
+  "parameters": 8776852,
+  "vae_checkpoint": null,
+  "overfit": false
+}

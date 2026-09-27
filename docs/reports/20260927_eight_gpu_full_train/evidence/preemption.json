@@ -1,0 +1,36 @@
+{
+  "time_utc": "2026-09-27T13:45:42Z",
+  "reason": "User directed full eight-GPU training; preserve existing checkpoints and release devices.",
+  "jobs": [
+    {
+      "name": "cvae",
+      "pid": 1539748,
+      "run": "/data/autovla/projects/MoReAct/runs/cvae_h2_f8_equal_roles_20260924_163259",
+      "last_logged_step": 147500,
+      "checkpoint_step": 140000,
+      "uncheckpointed_logged_updates": 7500,
+      "checkpoint": "/data/autovla/projects/MoReAct/runs/cvae_h2_f8_equal_roles_20260924_163259/last.pt",
+      "cmdline": "/data/users/autovla/.envs/remogen-motion-only/bin/python -u -m moreact train_vae --config /data/autovla/projects/MoReAct/runs/cvae_h2_f8_equal_roles_20260924_163259/launch.yaml --output /data/autovla/projects/MoReAct/runs/cvae_h2_f8_equal_roles_20260924_163259 "
+    },
+    {
+      "name": "legacy_diffusion",
+      "pid": 1917259,
+      "run": "/data/autovla/projects/MoReAct/runs/diffusion_h2_f8_equal_roles_20260925_120415",
+      "last_logged_step": 159000,
+      "checkpoint_step": 150000,
+      "uncheckpointed_logged_updates": 9000,
+      "checkpoint": "/data/autovla/projects/MoReAct/runs/diffusion_h2_f8_equal_roles_20260925_120415/last.pt",
+      "cmdline": "/data/users/autovla/.envs/remogen-motion-only/bin/python -u -m moreact train_diffusion --config /data/autovla/projects/MoReAct/runs/diffusion_h2_f8_equal_roles_20260925_120415/launch.yaml --vae /data/autovla/projects/MoReAct/runs/diffusion_h2_f8_equal_roles_20260925_120415/frozen_vae.pt --output /data/autovla/projects/MoReAct/runs/diffusion_h2_f8_equal_roles_20260925_120415 "
+    },
+    {
+      "name": "geometry_long_4gpu",
+      "pid": 2614014,
+      "run": "/data/autovla/projects/MoReAct/runs/diffusion_geometry_long_b512_20260927",
+      "last_logged_step": 32500,
+      "checkpoint_step": 32500,
+      "uncheckpointed_logged_updates": 0,
+      "checkpoint": "/data/autovla/projects/MoReAct/runs/diffusion_geometry_long_b512_20260927/last.pt",
+      "cmdline": "/data/users/autovla/.envs/remogen-motion-only/bin/python -m torch.distributed.run --standalone --nproc_per_node=4 -m moreact.train_distributed --config runs/diffusion_geometry_long_b512_20260927/launch.yaml --output runs/diffusion_geometry_long_b512_20260927 --resume runs/root_drift_short_20260927/A/step_027500.pt --kind diffusion --devices 0,1,2,3 --steps 53000 --validate-at-start "
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moreact"
+version = "0.1.0"
+description = "Causal actor-conditioned reaction motion generation on Inter-X"
+requires-python = ">=3.8"
+dependencies = ["torch>=2.0", "numpy", "scipy", "smplx", "PyYAML", "matplotlib", "tqdm"]
+
+[project.optional-dependencies]
+text = ["openai-clip"]
+test = ["pytest"]
+semantics = ["transformers>=4.38,<4.43", "sentencepiece", "tokenizers>=0.15,<0.20"]
+tracking = ["wandb>=0.16,<0.17"]
+
+[project.scripts]
+moreact = "moreact.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["moreact*"]
+
+[tool.setuptools.package-data]
+"moreact.semantics" = ["TTR_LICENSE"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

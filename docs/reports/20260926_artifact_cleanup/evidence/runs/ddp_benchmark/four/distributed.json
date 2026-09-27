@@ -1,0 +1,8 @@
+{
+  "world_size": 4,
+  "global_batch_size": 128,
+  "local_batch_size": 32,
+  "resumed_from": "runs/ddp_benchmark/seed/last.pt",
+  "start_step": 0,
+  "note": "Rank RNG changes when migrating from single GPU; optimizer/EMA/step preserved."
+}

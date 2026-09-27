@@ -1,0 +1,8 @@
+{
+  "deleted": "/data/autovla/projects/MoReAct/tmp/root_overfit_visual_20260927",
+  "files": [
+    "make_rollout.py"
+  ],
+  "logical_bytes": 3740,
+  "kept_video": "/data/autovla/projects/MoReAct/outputs/root_overfit_probe_20260927/visual/seed0/comparison.mp4"
+}

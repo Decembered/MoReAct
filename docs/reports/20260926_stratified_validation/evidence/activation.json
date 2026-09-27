@@ -1,0 +1,38 @@
+{
+  "reason": "Enable per-validation action-stratified sampling",
+  "old_run": "/data/autovla/projects/MoReAct/runs/diffusion_stage2_b512_20260926_084433",
+  "new_run": "/data/autovla/projects/MoReAct/runs/diffusion_stage2_b512_stratified_20260926",
+  "source_checkpoint": "/data/autovla/projects/MoReAct/runs/diffusion_stage2_b512_20260926_084433/best_rollout.pt",
+  "resume_step": 10250,
+  "old_last_logged_step": 10350,
+  "launcher_pid": 2252047,
+  "command": [
+    "/data/users/autovla/.envs/remogen-motion-only/bin/python",
+    "-m",
+    "torch.distributed.run",
+    "--standalone",
+    "--nproc_per_node=4",
+    "-m",
+    "moreact.train_distributed",
+    "--config",
+    "/data/autovla/projects/MoReAct/runs/diffusion_stage2_b512_stratified_20260926/launch.yaml",
+    "--output",
+    "/data/autovla/projects/MoReAct/runs/diffusion_stage2_b512_stratified_20260926",
+    "--resume",
+    "/data/autovla/projects/MoReAct/runs/diffusion_stage2_b512_stratified_20260926/resume_source.pt",
+    "--devices",
+    "0,1,2,3"
+  ],
+  "changed_training_keys": [
+    "val_sampling"
+  ],
+  "old_best_preserved": true,
+  "new_best_reset": true,
+  "unix_time": 1790437372.5675325,
+  "initial_failed_launcher_pid": 2251701,
+  "initial_failure": "JSON scientific notation interpreted as YAML string; reserialized with yaml.safe_dump and config roundtrip verified",
+  "state": "running",
+  "verified_step": 10300,
+  "verified_loss": 0.16396792232990265,
+  "verified_unix": 1790437743.7149277
+}

@@ -1,0 +1,23 @@
+{
+  "output": "tmp/shared_rvq_validation/real_latents",
+  "counts": {
+    "train": 1,
+    "val": 1,
+    "test": 1
+  },
+  "identity": {
+    "version": "shared_cvae_mean_rvq_v1",
+    "vae": "a67fb8295e257b05a9dc6fcdce4c27cc92b8f7f92a22433d08d0e64bc57f7c4a",
+    "stats": "bffa89b764b726615b0dc1e89554c2ca7278e07cfc554dc5de60c3736b08d99e",
+    "data_digest": "32893a39105b183275d36b61d72f2e4d5b7fe1a999c382906e0277b4557ca048",
+    "fps": 30,
+    "history": 2,
+    "future": 8,
+    "latent_dim": 128,
+    "feature_dim": 276,
+    "roles": [
+      "actor",
+      "reactor"
+    ]
+  }
+}

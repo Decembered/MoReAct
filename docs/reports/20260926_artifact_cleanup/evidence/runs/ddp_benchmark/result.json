@@ -1,0 +1,20 @@
+{
+  "single": {
+    "median_step_seconds": 1.8605150959920138,
+    "mean_step_seconds": 1.852839014946336,
+    "global_batch": 128,
+    "measured_steps": 19
+  },
+  "four": {
+    "median_step_seconds": 0.7032375949202105,
+    "mean_step_seconds": 0.7115948387899583,
+    "global_batch": 128,
+    "measured_steps": 19
+  },
+  "speedup": 2.6456422543836102,
+  "notes": [
+    "FP32, production architecture and all geometry losses; teacher-forcing stage.",
+    "Single GPU5; four GPUs 2,5,6,7 to avoid interrupting GPU4 production.",
+    "Warmup and final validation/checkpoint excluded; concurrent training jobs remain active."
+  ]
+}

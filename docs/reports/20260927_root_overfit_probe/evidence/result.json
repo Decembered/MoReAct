@@ -1,0 +1,169 @@
+{
+  "source": "/data/autovla/projects/MoReAct/runs/diffusion_stage2_b512_stratified_20260926/step_027000.pt",
+  "episode": "G001T000A000R000",
+  "window_indices": [
+    0,
+    8,
+    16,
+    24,
+    32,
+    40,
+    48,
+    56,
+    64,
+    72,
+    80,
+    88
+  ],
+  "window_starts": [
+    0,
+    8,
+    16,
+    24,
+    32,
+    40,
+    48,
+    56,
+    64,
+    72,
+    80,
+    88
+  ],
+  "batch_size": 2,
+  "updates": 300,
+  "device": "cuda:0",
+  "seed": 20260927,
+  "learning_rate": 0.0001,
+  "ema": 0.95,
+  "config": {
+    "data": {
+      "source": "/data/autovla/projects/interx_ardy_mvp/full_data",
+      "cache": "/data/autovla/projects/MoReAct/data/interx_h2_f8",
+      "body_models": "/data/autovla/projects/remogen_official_release/smpl_models",
+      "role_overrides": "/data/autovla/projects/MoReAct/assets/role_overrides.json",
+      "raw_fps": 120,
+      "fps": 30,
+      "history": 2,
+      "future": 8,
+      "stride": 1,
+      "primitives": 4,
+      "clip_model": "/home/autovla/.cache/clip/ViT-B-32.pt"
+    },
+    "model": {
+      "latent_dim": 128,
+      "vae_hidden": 256,
+      "vae_layers": 5,
+      "denoiser_hidden": 512,
+      "denoiser_layers": 8,
+      "heads": 4,
+      "ff_size": 1024,
+      "dropout": 0.1,
+      "diffusion_steps": 10,
+      "text_dropout": 0.1
+    },
+    "train": {
+      "seed": 0,
+      "batch_size": 2,
+      "learning_rate": 0.0001,
+      "kl_weight": 1e-06,
+      "ema": 0.95,
+      "grad_clip": 1.0,
+      "stage1_steps": 3000,
+      "stage2_steps": 25000,
+      "stage3_steps": 25000,
+      "log_interval": 50,
+      "save_interval": 1000,
+      "val_interval": 250,
+      "val_batches": 1,
+      "latent_scale_batches": 8,
+      "device": "cuda:0",
+      "threads": 1,
+      "validate_rollout": true,
+      "lr_schedule_start_step": 3000,
+      "val_sampling": "stratified_action"
+    },
+    "loss": {
+      "feature_rec": 1.0,
+      "smpl_joints_rec": 10.0,
+      "joint_fk_consistency": 10.0,
+      "transl_delta": 100.0,
+      "joints_delta": 100.0,
+      "orient_delta": 100.0,
+      "bone_length": 10.0,
+      "foot_contact": 30.0
+    },
+    "diffusion_loss": {
+      "latent_mse": 1.0,
+      "feature_rec": 1.0,
+      "smpl_joints_rec": 10.0,
+      "joint_fk_consistency": 10.0,
+      "joint_velocity": 100.0,
+      "bone_length": 10.0,
+      "foot_contact": 30.0,
+      "root_orientation": 1.0,
+      "root_angular_velocity": 10.0,
+      "distance_map": 1.0,
+      "joint_contact": 10.0
+    },
+    "history_augmentation": {
+      "probability": 0.0,
+      "std_m": 0.0,
+      "max_m": 0.05
+    },
+    "diffusion_loss_options": {
+      "feature_root_weight": 5.0,
+      "distance_map_threshold_m": 1.5,
+      "recompute_target_deltas": true
+    }
+  },
+  "evaluations": {
+    "source": {
+      "teacher": {
+        "root_ade_m": 0.007091672935833533,
+        "root_fde_m": 0.0049278826142350836,
+        "root_aligned_mpjpe_m": 0.010755618413289389,
+        "pair_root_distance_error_m": 0.004643838386982679,
+        "boundary_velocity_jump_mps": 0.8104891379674276
+      },
+      "feedback": {
+        "root_ade_m": 0.22852611045042673,
+        "root_fde_m": 0.2329949140548706,
+        "root_aligned_mpjpe_m": 0.11389776567618053,
+        "pair_root_distance_error_m": 0.1771969199180603,
+        "boundary_velocity_jump_mps": 5.729801416397095
+      }
+    },
+    "100": {
+      "teacher": {
+        "root_ade_m": 0.022772911936044693,
+        "root_fde_m": 0.03106634443004926,
+        "root_aligned_mpjpe_m": 0.018217506508032482,
+        "pair_root_distance_error_m": 0.013437342830002308,
+        "boundary_velocity_jump_mps": 1.5820640325546265
+      },
+      "feedback": {
+        "root_ade_m": 0.11647464583317439,
+        "root_fde_m": 0.07991011813282967,
+        "root_aligned_mpjpe_m": 0.04866048817833265,
+        "pair_root_distance_error_m": 0.08372930313150088,
+        "boundary_velocity_jump_mps": 0.4676326811313629
+      }
+    },
+    "300": {
+      "teacher": {
+        "root_ade_m": 0.002854061701024572,
+        "root_fde_m": 0.008550697627166906,
+        "root_aligned_mpjpe_m": 0.0032222120401759944,
+        "pair_root_distance_error_m": 0.0019278090524797638,
+        "boundary_velocity_jump_mps": 0.21195669968922934
+      },
+      "feedback": {
+        "root_ade_m": 0.007829491514712572,
+        "root_fde_m": 0.024580304821332295,
+        "root_aligned_mpjpe_m": 0.0052899993024766445,
+        "pair_root_distance_error_m": 0.00626705897351106,
+        "boundary_velocity_jump_mps": 0.10123799244562785
+      }
+    }
+  }
+}

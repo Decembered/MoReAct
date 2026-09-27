@@ -1,0 +1,78 @@
+{
+  "kind": "latents",
+  "identity": {
+    "version": "shared_cvae_mean_rvq_v1",
+    "vae": "a67fb8295e257b05a9dc6fcdce4c27cc92b8f7f92a22433d08d0e64bc57f7c4a",
+    "stats": "bffa89b764b726615b0dc1e89554c2ca7278e07cfc554dc5de60c3736b08d99e",
+    "data_digest": "32893a39105b183275d36b61d72f2e4d5b7fe1a999c382906e0277b4557ca048",
+    "fps": 30,
+    "history": 2,
+    "future": 8,
+    "latent_dim": 128,
+    "feature_dim": 276,
+    "roles": [
+      "actor",
+      "reactor"
+    ]
+  },
+  "records": [
+    {
+      "episode": "G001T000A000R000",
+      "split": "train",
+      "file": "000000.npz",
+      "sha256": "a5e1010f3a1158c7e385406e685cf837b49351afc6faab68905dbd7dcafe5dbb",
+      "captions": [
+        "The first person walks up to the second person and gives him/her a hug around the shoulders, while the second person puts his/her arms around the first person's waist. Then the first person pats the second person softly on his/her back with his/her right hand.",
+        "A person takes a few steps forward towards the other person and reaches out both hands to embrace the other person's shoulders, while the other person hugs the person's waist.",
+        "One person opens his/her arms, leans forward at the waist, hugs the shoulders of the other person, and lightly pats his/her shoulders twice with his/her right hand. Then, the other person embraces his/her waist."
+      ],
+      "frames": 206,
+      "actor_id": "P1",
+      "reactor_id": "P2",
+      "source_file": "episodes/G001T000A000R000.npz",
+      "source_sha256": "221883420f97ad116f643aae2fb8ac2869b288c3b27e23363950999e51be2f37"
+    },
+    {
+      "episode": "G001T003A016R005",
+      "split": "val",
+      "file": "000001.npz",
+      "sha256": "f7261938051e70d2d9392ef95dafa67a050760081cb17db41311b2a445d59893",
+      "captions": [
+        "The first person raises his right hand, followed by the second person raising his right hand, and they give each other a high-five in the air.",
+        "Two people stand facing each other and raise their right hands above their heads. They both extend their hands and give each other a high-five.",
+        "Two people face each other, simultaneously raise their right hands, and clap their hands in front of their heads."
+      ],
+      "frames": 115,
+      "actor_id": "P1",
+      "reactor_id": "P2",
+      "source_file": "episodes/G001T003A016R005.npz",
+      "source_sha256": "0ffa2982820511524782f56cc74967fd7b8cc37f9e513649c8f1d9715097162d"
+    },
+    {
+      "episode": "G001T000A000R004",
+      "split": "test",
+      "file": "000002.npz",
+      "sha256": "492f3e62a0d6ea0d773185fba494dd5c53662be8a1610737ae34fdb255df01de",
+      "captions": [
+        "Two people walk towards each other. After they meet, the first person hugs the second person with his/her right hand on the left shoulder, and the second person hugs back around the waist with his/her right hand. As a result, the first person softly pats the second person on his/her back with the right hand while the second person pats the first person's waist with his/her right hand.",
+        "Two people walk towards each other, simultaneously extend their right hands, pat the other person's left arm first, then embrace each other's backs, and pat a few times.",
+        "Both people step forward at the same time, with one person raising his/her right hand to embrace the shoulders of the other person, while the other person embraces his/her waist and lightly pats it with his/her left hand."
+      ],
+      "frames": 194,
+      "actor_id": "P2",
+      "reactor_id": "P1",
+      "source_file": "episodes/G001T000A000R004.npz",
+      "source_sha256": "d99b7c412b6d17ba096c413b7e4dc241b16d1f93271fe25e714e120e886248d4"
+    }
+  ],
+  "source_cache": "/data/autovla/projects/MoReAct/data/interx_h2_f8",
+  "counts": {
+    "train": 1,
+    "val": 1,
+    "test": 1
+  },
+  "limit_per_split": 1,
+  "snapshot_sha256": "d4e09e2c84792f98e13e9d72e2f0074b941656c752d447d90c5fa350f787d985",
+  "version": "shared_cvae_mean_rvq_v1",
+  "manifest_id": "eaac2fad56d0b7d2aa65a86fa68024edb6548ba62b478cc3989013bc420e899a"
+}

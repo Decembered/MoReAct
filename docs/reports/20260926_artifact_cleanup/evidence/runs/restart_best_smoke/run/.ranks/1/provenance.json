@@ -1,0 +1,7 @@
+{
+  "kind": "diffusion",
+  "data_digest": "32893a39105b183275d36b61d72f2e4d5b7fe1a999c382906e0277b4557ca048",
+  "parameters": 18027648,
+  "vae_checkpoint": "runs/diffusion_geometry_20260925_122644/frozen_vae.pt",
+  "overfit": false
+}

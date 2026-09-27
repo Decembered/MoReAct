@@ -1,0 +1,9 @@
+{
+  "reason": "User requested stopping old geometry diffusion; preserve checkpoints",
+  "signal": "SIGTERM",
+  "launcher_pid": 2005004,
+  "unix_time": 1790436422.1231825,
+  "last_logged_step": 109800,
+  "last_saved_step": 109000,
+  "verified_all_workers_exited": true
+}

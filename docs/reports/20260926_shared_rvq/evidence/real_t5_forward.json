@@ -1,0 +1,8 @@
+{
+  "model": "local FLAN-T5-large",
+  "loss": 5.911960601806641,
+  "input_tokens": 227,
+  "target_tokens": 63,
+  "updated_parameters": false,
+  "purpose": "asset and wiring check, not semantic quality"
+}

@@ -1,0 +1,3122 @@
+{
+  "mode": "stratified_action",
+  "seed": 19251,
+  "step": 10250,
+  "class_counts": {
+    "A000": 12,
+    "A001": 13,
+    "A002": 13,
+    "A003": 13,
+    "A004": 13,
+    "A005": 12,
+    "A006": 13,
+    "A007": 13,
+    "A008": 12,
+    "A009": 12,
+    "A010": 12,
+    "A011": 13,
+    "A012": 12,
+    "A013": 13,
+    "A014": 13,
+    "A015": 13,
+    "A016": 13,
+    "A017": 13,
+    "A018": 13,
+    "A019": 13,
+    "A020": 13,
+    "A021": 13,
+    "A022": 13,
+    "A023": 13,
+    "A024": 13,
+    "A025": 13,
+    "A026": 13,
+    "A027": 13,
+    "A028": 12,
+    "A029": 13,
+    "A030": 13,
+    "A031": 13,
+    "A032": 12,
+    "A033": 13,
+    "A034": 13,
+    "A035": 13,
+    "A036": 13,
+    "A037": 13,
+    "A038": 13,
+    "A039": 13
+  },
+  "unique_episodes": 477,
+  "windows": [
+    {
+      "index": 34230,
+      "episode": "G026T006A031R007",
+      "start": 40,
+      "action": "A031"
+    },
+    {
+      "index": 57138,
+      "episode": "G039T008A030R000",
+      "start": 14,
+      "action": "A030"
+    },
+    {
+      "index": 50836,
+      "episode": "G035T007A038R020",
+      "start": 103,
+      "action": "A038"
+    },
+    {
+      "index": 4399,
+      "episode": "G004T013A039R028",
+      "start": 69,
+      "action": "A039"
+    },
+    {
+      "index": 43096,
+      "episode": "G032T002A012R008",
+      "start": 30,
+      "action": "A012"
+    },
+    {
+      "index": 45169,
+      "episode": "G033T006A030R002",
+      "start": 110,
+      "action": "A030"
+    },
+    {
+      "index": 11570,
+      "episode": "G013T008A037R014",
+      "start": 6,
+      "action": "A037"
+    },
+    {
+      "index": 34762,
+      "episode": "G027T001A008R016",
+      "start": 36,
+      "action": "A008"
+    },
+    {
+      "index": 60626,
+      "episode": "G042T005A022R005",
+      "start": 96,
+      "action": "A022"
+    },
+    {
+      "index": 48008,
+      "episode": "G035T004A020R003",
+      "start": 235,
+      "action": "A020"
+    },
+    {
+      "index": 62279,
+      "episode": "G044T002A012R015",
+      "start": 19,
+      "action": "A012"
+    },
+    {
+      "index": 63759,
+      "episode": "G046T000A001R006",
+      "start": 65,
+      "action": "A001"
+    },
+    {
+      "index": 66008,
+      "episode": "G048T003A015R003",
+      "start": 54,
+      "action": "A015"
+    },
+    {
+      "index": 10289,
+      "episode": "G012T006A034R022",
+      "start": 12,
+      "action": "A034"
+    },
+    {
+      "index": 19121,
+      "episode": "G017T005A026R007",
+      "start": 230,
+      "action": "A026"
+    },
+    {
+      "index": 71865,
+      "episode": "G052T005A028R022",
+      "start": 196,
+      "action": "A028"
+    },
+    {
+      "index": 31991,
+      "episode": "G025T006A032R011",
+      "start": 137,
+      "action": "A032"
+    },
+    {
+      "index": 39396,
+      "episode": "G030T001A002R000",
+      "start": 63,
+      "action": "A002"
+    },
+    {
+      "index": 1749,
+      "episode": "G002T009A038R002",
+      "start": 30,
+      "action": "A038"
+    },
+    {
+      "index": 66310,
+      "episode": "G048T006A030R018",
+      "start": 21,
+      "action": "A030"
+    },
+    {
+      "index": 64767,
+      "episode": "G047T004A020R001",
+      "start": 75,
+      "action": "A020"
+    },
+    {
+      "index": 19861,
+      "episode": "G017T007A036R005",
+      "start": 146,
+      "action": "A036"
+    },
+    {
+      "index": 59175,
+      "episode": "G041T004A005R004",
+      "start": 30,
+      "action": "A005"
+    },
+    {
+      "index": 68505,
+      "episode": "G051T002A012R015",
+      "start": 85,
+      "action": "A012"
+    },
+    {
+      "index": 58225,
+      "episode": "G040T004A021R010",
+      "start": 44,
+      "action": "A021"
+    },
+    {
+      "index": 15511,
+      "episode": "G016T001A005R005",
+      "start": 71,
+      "action": "A005"
+    },
+    {
+      "index": 54266,
+      "episode": "G038T000A003R020",
+      "start": 66,
+      "action": "A003"
+    },
+    {
+      "index": 55419,
+      "episode": "G039T004A016R005",
+      "start": 43,
+      "action": "A016"
+    },
+    {
+      "index": 10570,
+      "episode": "G013T000A001R009",
+      "start": 182,
+      "action": "A001"
+    },
+    {
+      "index": 63500,
+      "episode": "G045T007A031R011",
+      "start": 43,
+      "action": "A031"
+    },
+    {
+      "index": 80515,
+      "episode": "G058T001A006R008",
+      "start": 27,
+      "action": "A006"
+    },
+    {
+      "index": 79406,
+      "episode": "G056T005A026R005",
+      "start": 166,
+      "action": "A026"
+    },
+    {
+      "index": 62929,
+      "episode": "G045T002A013R018",
+      "start": 26,
+      "action": "A013"
+    },
+    {
+      "index": 24195,
+      "episode": "G021T001A006R008",
+      "start": 80,
+      "action": "A006"
+    },
+    {
+      "index": 16461,
+      "episode": "G016T004A020R003",
+      "start": 131,
+      "action": "A020"
+    },
+    {
+      "index": 21812,
+      "episode": "G019T004A024R018",
+      "start": 51,
+      "action": "A024"
+    },
+    {
+      "index": 78414,
+      "episode": "G056T000A000R001",
+      "start": 5,
+      "action": "A000"
+    },
+    {
+      "index": 21915,
+      "episode": "G019T006A032R013",
+      "start": 75,
+      "action": "A032"
+    },
+    {
+      "index": 33836,
+      "episode": "G026T005A027R013",
+      "start": 130,
+      "action": "A027"
+    },
+    {
+      "index": 43688,
+      "episode": "G033T000A004R019",
+      "start": 84,
+      "action": "A004"
+    },
+    {
+      "index": 54585,
+      "episode": "G038T006A034R018",
+      "start": 12,
+      "action": "A034"
+    },
+    {
+      "index": 76722,
+      "episode": "G055T003A015R002",
+      "start": 66,
+      "action": "A015"
+    },
+    {
+      "index": 35692,
+      "episode": "G027T008A038R014",
+      "start": 63,
+      "action": "A038"
+    },
+    {
+      "index": 25424,
+      "episode": "G022T000A000R001",
+      "start": 79,
+      "action": "A000"
+    },
+    {
+      "index": 54857,
+      "episode": "G039T001A003R011",
+      "start": 27,
+      "action": "A003"
+    },
+    {
+      "index": 39824,
+      "episode": "G030T004A009R010",
+      "start": 154,
+      "action": "A009"
+    },
+    {
+      "index": 15200,
+      "episode": "G016T000A000R005",
+      "start": 20,
+      "action": "A000"
+    },
+    {
+      "index": 57518,
+      "episode": "G040T001A008R017",
+      "start": 8,
+      "action": "A008"
+    },
+    {
+      "index": 21275,
+      "episode": "G019T001A008R016",
+      "start": 27,
+      "action": "A008"
+    },
+    {
+      "index": 19588,
+      "episode": "G017T006A034R024",
+      "start": 1,
+      "action": "A034"
+    },
+    {
+      "index": 74187,
+      "episode": "G054T000A003R023",
+      "start": 71,
+      "action": "A003"
+    },
+    {
+      "index": 8161,
+      "episode": "G011T000A003R011",
+      "start": 17,
+      "action": "A003"
+    },
+    {
+      "index": 47139,
+      "episode": "G035T000A004R026",
+      "start": 182,
+      "action": "A004"
+    },
+    {
+      "index": 57499,
+      "episode": "G040T000A004R024",
+      "start": 106,
+      "action": "A004"
+    },
+    {
+      "index": 21822,
+      "episode": "G019T004A024R018",
+      "start": 61,
+      "action": "A024"
+    },
+    {
+      "index": 43416,
+      "episode": "G033T000A001R005",
+      "start": 4,
+      "action": "A001"
+    },
+    {
+      "index": 38124,
+      "episode": "G029T002A013R016",
+      "start": 23,
+      "action": "A013"
+    },
+    {
+      "index": 50,
+      "episode": "G001T003A016R005",
+      "start": 50,
+      "action": "A016"
+    },
+    {
+      "index": 2264,
+      "episode": "G003T003A018R016",
+      "start": 44,
+      "action": "A018"
+    },
+    {
+      "index": 5977,
+      "episode": "G007T000A002R012",
+      "start": 64,
+      "action": "A002"
+    },
+    {
+      "index": 9122,
+      "episode": "G012T002A013R018",
+      "start": 86,
+      "action": "A013"
+    },
+    {
+      "index": 31717,
+      "episode": "G025T005A028R017",
+      "start": 27,
+      "action": "A028"
+    },
+    {
+      "index": 73471,
+      "episode": "G053T005A022R011",
+      "start": 50,
+      "action": "A022"
+    },
+    {
+      "index": 27064,
+      "episode": "G022T010A037R013",
+      "start": 121,
+      "action": "A037"
+    },
+    {
+      "index": 59836,
+      "episode": "G041T009A032R023",
+      "start": 103,
+      "action": "A032"
+    },
+    {
+      "index": 12844,
+      "episode": "G014T006A032R014",
+      "start": 4,
+      "action": "A032"
+    },
+    {
+      "index": 62734,
+      "episode": "G045T000A002R012",
+      "start": 23,
+      "action": "A002"
+    },
+    {
+      "index": 20562,
+      "episode": "G018T004A021R005",
+      "start": 96,
+      "action": "A021"
+    },
+    {
+      "index": 74302,
+      "episode": "G054T002A010R002",
+      "start": 70,
+      "action": "A010"
+    },
+    {
+      "index": 69516,
+      "episode": "G051T006A033R017",
+      "start": 98,
+      "action": "A033"
+    },
+    {
+      "index": 32758,
+      "episode": "G026T002A014R022",
+      "start": 77,
+      "action": "A014"
+    },
+    {
+      "index": 54609,
+      "episode": "G038T006A034R018",
+      "start": 36,
+      "action": "A034"
+    },
+    {
+      "index": 44565,
+      "episode": "G033T003A019R024",
+      "start": 153,
+      "action": "A019"
+    },
+    {
+      "index": 46569,
+      "episode": "G034T007A036R005",
+      "start": 23,
+      "action": "A036"
+    },
+    {
+      "index": 79485,
+      "episode": "G056T007A036R010",
+      "start": 64,
+      "action": "A036"
+    },
+    {
+      "index": 60761,
+      "episode": "G042T005A024R016",
+      "start": 39,
+      "action": "A024"
+    },
+    {
+      "index": 36880,
+      "episode": "G028T006A028R023",
+      "start": 93,
+      "action": "A028"
+    },
+    {
+      "index": 46791,
+      "episode": "G034T007A038R017",
+      "start": 53,
+      "action": "A038"
+    },
+    {
+      "index": 3969,
+      "episode": "G004T010A025R001",
+      "start": 44,
+      "action": "A025"
+    },
+    {
+      "index": 81635,
+      "episode": "G059T003A021R003",
+      "start": 120,
+      "action": "A021"
+    },
+    {
+      "index": 29240,
+      "episode": "G024T000A004R021",
+      "start": 37,
+      "action": "A004"
+    },
+    {
+      "index": 52921,
+      "episode": "G037T001A009R022",
+      "start": 108,
+      "action": "A009"
+    },
+    {
+      "index": 18711,
+      "episode": "G017T004A023R018",
+      "start": 200,
+      "action": "A023"
+    },
+    {
+      "index": 15990,
+      "episode": "G016T003A016R008",
+      "start": 15,
+      "action": "A016"
+    },
+    {
+      "index": 23696,
+      "episode": "G020T005A028R019",
+      "start": 151,
+      "action": "A028"
+    },
+    {
+      "index": 17251,
+      "episode": "G016T004A023R020",
+      "start": 94,
+      "action": "A023"
+    },
+    {
+      "index": 59192,
+      "episode": "G041T004A007R013",
+      "start": 6,
+      "action": "A007"
+    },
+    {
+      "index": 77438,
+      "episode": "G055T005A027R011",
+      "start": 11,
+      "action": "A027"
+    },
+    {
+      "index": 6396,
+      "episode": "G008T003A016R003",
+      "start": 8,
+      "action": "A016"
+    },
+    {
+      "index": 79618,
+      "episode": "G057T000A000R001",
+      "start": 13,
+      "action": "A000"
+    },
+    {
+      "index": 62244,
+      "episode": "G044T001A009R021",
+      "start": 32,
+      "action": "A009"
+    },
+    {
+      "index": 1142,
+      "episode": "G002T005A028R018",
+      "start": 54,
+      "action": "A028"
+    },
+    {
+      "index": 35626,
+      "episode": "G027T007A034R022",
+      "start": 49,
+      "action": "A034"
+    },
+    {
+      "index": 67684,
+      "episode": "G050T001A005R000",
+      "start": 10,
+      "action": "A005"
+    },
+    {
+      "index": 42730,
+      "episode": "G031T008A034R023",
+      "start": 2,
+      "action": "A034"
+    },
+    {
+      "index": 63823,
+      "episode": "G046T001A005R000",
+      "start": 6,
+      "action": "A005"
+    },
+    {
+      "index": 48506,
+      "episode": "G035T005A026R009",
+      "start": 16,
+      "action": "A026"
+    },
+    {
+      "index": 36750,
+      "episode": "G028T006A026R008",
+      "start": 153,
+      "action": "A026"
+    },
+    {
+      "index": 82042,
+      "episode": "G059T005A037R023",
+      "start": 44,
+      "action": "A037"
+    },
+    {
+      "index": 26624,
+      "episode": "G022T008A029R015",
+      "start": 75,
+      "action": "A029"
+    },
+    {
+      "index": 4270,
+      "episode": "G004T012A031R017",
+      "start": 31,
+      "action": "A031"
+    },
+    {
+      "index": 13623,
+      "episode": "G015T001A006R005",
+      "start": 76,
+      "action": "A006"
+    },
+    {
+      "index": 18158,
+      "episode": "G017T001A006R005",
+      "start": 168,
+      "action": "A006"
+    },
+    {
+      "index": 9924,
+      "episode": "G012T004A023R015",
+      "start": 24,
+      "action": "A023"
+    },
+    {
+      "index": 70703,
+      "episode": "G052T003A017R014",
+      "start": 14,
+      "action": "A017"
+    },
+    {
+      "index": 78605,
+      "episode": "G056T000A001R008",
+      "start": 5,
+      "action": "A001"
+    },
+    {
+      "index": 78891,
+      "episode": "G056T001A005R001",
+      "start": 87,
+      "action": "A005"
+    },
+    {
+      "index": 69773,
+      "episode": "G052T000A000R004",
+      "start": 248,
+      "action": "A000"
+    },
+    {
+      "index": 69091,
+      "episode": "G051T005A028R015",
+      "start": 118,
+      "action": "A028"
+    },
+    {
+      "index": 63421,
+      "episode": "G045T005A025R005",
+      "start": 29,
+      "action": "A025"
+    },
+    {
+      "index": 25287,
+      "episode": "G021T007A039R020",
+      "start": 37,
+      "action": "A039"
+    },
+    {
+      "index": 12664,
+      "episode": "G014T005A029R024",
+      "start": 198,
+      "action": "A029"
+    },
+    {
+      "index": 42959,
+      "episode": "G032T001A006R009",
+      "start": 11,
+      "action": "A006"
+    },
+    {
+      "index": 14825,
+      "episode": "G015T006A032R019",
+      "start": 198,
+      "action": "A032"
+    },
+    {
+      "index": 63689,
+      "episode": "G045T009A037R010",
+      "start": 65,
+      "action": "A037"
+    },
+    {
+      "index": 45762,
+      "episode": "G034T002A009R027",
+      "start": 25,
+      "action": "A009"
+    },
+    {
+      "index": 67496,
+      "episode": "G049T007A033R019",
+      "start": 168,
+      "action": "A033"
+    },
+    {
+      "index": 69521,
+      "episode": "G051T006A033R017",
+      "start": 103,
+      "action": "A033"
+    },
+    {
+      "index": 53061,
+      "episode": "G037T002A010R003",
+      "start": 79,
+      "action": "A010"
+    },
+    {
+      "index": 67553,
+      "episode": "G049T008A035R005",
+      "start": 26,
+      "action": "A035"
+    },
+    {
+      "index": 39428,
+      "episode": "G030T003A005R002",
+      "start": 4,
+      "action": "A005"
+    },
+    {
+      "index": 53691,
+      "episode": "G037T004A020R003",
+      "start": 54,
+      "action": "A020"
+    },
+    {
+      "index": 17685,
+      "episode": "G016T007A037R013",
+      "start": 40,
+      "action": "A037"
+    },
+    {
+      "index": 43533,
+      "episode": "G033T000A002R009",
+      "start": 28,
+      "action": "A002"
+    },
+    {
+      "index": 61359,
+      "episode": "G043T002A011R010",
+      "start": 48,
+      "action": "A011"
+    },
+    {
+      "index": 14561,
+      "episode": "G015T004A024R025",
+      "start": 124,
+      "action": "A024"
+    },
+    {
+      "index": 73955,
+      "episode": "G053T007A031R008",
+      "start": 27,
+      "action": "A031"
+    },
+    {
+      "index": 22965,
+      "episode": "G020T004A020R000",
+      "start": 216,
+      "action": "A020"
+    },
+    {
+      "index": 34406,
+      "episode": "G027T000A000R000",
+      "start": 79,
+      "action": "A000"
+    },
+    {
+      "index": 11546,
+      "episode": "G013T007A034R023",
+      "start": 40,
+      "action": "A034"
+    },
+    {
+      "index": 5715,
+      "episode": "G006T006A026R006",
+      "start": 31,
+      "action": "A026"
+    },
+    {
+      "index": 76828,
+      "episode": "G055T003A018R018",
+      "start": 50,
+      "action": "A018"
+    },
+    {
+      "index": 14230,
+      "episode": "G015T002A011R006",
+      "start": 349,
+      "action": "A011"
+    },
+    {
+      "index": 67036,
+      "episode": "G049T004A015R005",
+      "start": 10,
+      "action": "A015"
+    },
+    {
+      "index": 9778,
+      "episode": "G012T004A022R010",
+      "start": 34,
+      "action": "A022"
+    },
+    {
+      "index": 73205,
+      "episode": "G053T004A020R001",
+      "start": 22,
+      "action": "A020"
+    },
+    {
+      "index": 17489,
+      "episode": "G016T006A033R016",
+      "start": 37,
+      "action": "A033"
+    },
+    {
+      "index": 23341,
+      "episode": "G020T005A027R010",
+      "start": 119,
+      "action": "A027"
+    },
+    {
+      "index": 64612,
+      "episode": "G047T002A012R011",
+      "start": 22,
+      "action": "A012"
+    },
+    {
+      "index": 68566,
+      "episode": "G051T003A017R011",
+      "start": 28,
+      "action": "A017"
+    },
+    {
+      "index": 30686,
+      "episode": "G025T000A004R023",
+      "start": 45,
+      "action": "A004"
+    },
+    {
+      "index": 80183,
+      "episode": "G057T003A015R007",
+      "start": 16,
+      "action": "A015"
+    },
+    {
+      "index": 65168,
+      "episode": "G048T000A002R014",
+      "start": 61,
+      "action": "A002"
+    },
+    {
+      "index": 28917,
+      "episode": "G023T006A031R006",
+      "start": 174,
+      "action": "A031"
+    },
+    {
+      "index": 14905,
+      "episode": "G015T007A036R001",
+      "start": 0,
+      "action": "A036"
+    },
+    {
+      "index": 34368,
+      "episode": "G027T000A000R000",
+      "start": 41,
+      "action": "A000"
+    },
+    {
+      "index": 52791,
+      "episode": "G037T001A009R019",
+      "start": 145,
+      "action": "A009"
+    },
+    {
+      "index": 78307,
+      "episode": "G055T007A039R019",
+      "start": 35,
+      "action": "A039"
+    },
+    {
+      "index": 73127,
+      "episode": "G053T003A016R005",
+      "start": 63,
+      "action": "A016"
+    },
+    {
+      "index": 51758,
+      "episode": "G036T007A035R004",
+      "start": 208,
+      "action": "A035"
+    },
+    {
+      "index": 45991,
+      "episode": "G034T005A025R004",
+      "start": 106,
+      "action": "A025"
+    },
+    {
+      "index": 40053,
+      "episode": "G030T006A016R001",
+      "start": 57,
+      "action": "A016"
+    },
+    {
+      "index": 31009,
+      "episode": "G025T003A017R010",
+      "start": 95,
+      "action": "A017"
+    },
+    {
+      "index": 41780,
+      "episode": "G031T006A025R003",
+      "start": 57,
+      "action": "A025"
+    },
+    {
+      "index": 10346,
+      "episode": "G012T006A034R023",
+      "start": 48,
+      "action": "A034"
+    },
+    {
+      "index": 40432,
+      "episode": "G031T001A008R016",
+      "start": 111,
+      "action": "A008"
+    },
+    {
+      "index": 2707,
+      "episode": "G003T005A027R010",
+      "start": 61,
+      "action": "A027"
+    },
+    {
+      "index": 6758,
+      "episode": "G008T008A039R007",
+      "start": 63,
+      "action": "A039"
+    },
+    {
+      "index": 41178,
+      "episode": "G031T005A022R011",
+      "start": 9,
+      "action": "A022"
+    },
+    {
+      "index": 55160,
+      "episode": "G039T003A012R016",
+      "start": 120,
+      "action": "A012"
+    },
+    {
+      "index": 79931,
+      "episode": "G057T001A005R004",
+      "start": 17,
+      "action": "A005"
+    },
+    {
+      "index": 54485,
+      "episode": "G038T002A011R007",
+      "start": 75,
+      "action": "A011"
+    },
+    {
+      "index": 56312,
+      "episode": "G039T004A019R026",
+      "start": 99,
+      "action": "A019"
+    },
+    {
+      "index": 75150,
+      "episode": "G054T006A022R008",
+      "start": 280,
+      "action": "A022"
+    },
+    {
+      "index": 4509,
+      "episode": "G005T003A015R002",
+      "start": 13,
+      "action": "A015"
+    },
+    {
+      "index": 37288,
+      "episode": "G028T007A033R019",
+      "start": 123,
+      "action": "A033"
+    },
+    {
+      "index": 39542,
+      "episode": "G030T004A008R006",
+      "start": 47,
+      "action": "A008"
+    },
+    {
+      "index": 15409,
+      "episode": "G016T000A004R028",
+      "start": 94,
+      "action": "A004"
+    },
+    {
+      "index": 3807,
+      "episode": "G004T009A023R009",
+      "start": 90,
+      "action": "A023"
+    },
+    {
+      "index": 67880,
+      "episode": "G050T001A007R010",
+      "start": 154,
+      "action": "A007"
+    },
+    {
+      "index": 41654,
+      "episode": "G031T005A023R017",
+      "start": 330,
+      "action": "A023"
+    },
+    {
+      "index": 19659,
+      "episode": "G017T006A034R024",
+      "start": 72,
+      "action": "A034"
+    },
+    {
+      "index": 58527,
+      "episode": "G040T005A028R016",
+      "start": 116,
+      "action": "A028"
+    },
+    {
+      "index": 71649,
+      "episode": "G052T005A027R014",
+      "start": 123,
+      "action": "A027"
+    },
+    {
+      "index": 67196,
+      "episode": "G049T004A017R013",
+      "start": 4,
+      "action": "A017"
+    },
+    {
+      "index": 7248,
+      "episode": "G009T004A027R011",
+      "start": 1,
+      "action": "A027"
+    },
+    {
+      "index": 6509,
+      "episode": "G008T005A022R010",
+      "start": 15,
+      "action": "A022"
+    },
+    {
+      "index": 39024,
+      "episode": "G029T008A036R009",
+      "start": 23,
+      "action": "A036"
+    },
+    {
+      "index": 66330,
+      "episode": "G048T006A030R018",
+      "start": 41,
+      "action": "A030"
+    },
+    {
+      "index": 5231,
+      "episode": "G006T001A005R002",
+      "start": 19,
+      "action": "A005"
+    },
+    {
+      "index": 34523,
+      "episode": "G027T000A003R014",
+      "start": 69,
+      "action": "A003"
+    },
+    {
+      "index": 33139,
+      "episode": "G026T004A021R005",
+      "start": 94,
+      "action": "A021"
+    },
+    {
+      "index": 13014,
+      "episode": "G014T007A036R006",
+      "start": 7,
+      "action": "A036"
+    },
+    {
+      "index": 5871,
+      "episode": "G006T008A036R001",
+      "start": 16,
+      "action": "A036"
+    },
+    {
+      "index": 57370,
+      "episode": "G039T008A032R011",
+      "start": 62,
+      "action": "A032"
+    },
+    {
+      "index": 65825,
+      "episode": "G048T001A009R025",
+      "start": 79,
+      "action": "A009"
+    },
+    {
+      "index": 22368,
+      "episode": "G020T000A002R013",
+      "start": 38,
+      "action": "A002"
+    },
+    {
+      "index": 60348,
+      "episode": "G042T003A019R026",
+      "start": 5,
+      "action": "A019"
+    },
+    {
+      "index": 72076,
+      "episode": "G053T000A001R015",
+      "start": 49,
+      "action": "A001"
+    },
+    {
+      "index": 21100,
+      "episode": "G019T000A001R008",
+      "start": 194,
+      "action": "A001"
+    },
+    {
+      "index": 60820,
+      "episode": "G042T007A031R006",
+      "start": 13,
+      "action": "A031"
+    },
+    {
+      "index": 30795,
+      "episode": "G025T002A010R001",
+      "start": 45,
+      "action": "A010"
+    },
+    {
+      "index": 21656,
+      "episode": "G019T004A022R013",
+      "start": 117,
+      "action": "A022"
+    },
+    {
+      "index": 48470,
+      "episode": "G035T005A026R008",
+      "start": 231,
+      "action": "A026"
+    },
+    {
+      "index": 67904,
+      "episode": "G050T002A014R020",
+      "start": 9,
+      "action": "A014"
+    },
+    {
+      "index": 50533,
+      "episode": "G035T007A035R000",
+      "start": 677,
+      "action": "A035"
+    },
+    {
+      "index": 19892,
+      "episode": "G017T007A038R016",
+      "start": 29,
+      "action": "A038"
+    },
+    {
+      "index": 66059,
+      "episode": "G048T005A026R010",
+      "start": 30,
+      "action": "A026"
+    },
+    {
+      "index": 59639,
+      "episode": "G041T007A022R011",
+      "start": 116,
+      "action": "A022"
+    },
+    {
+      "index": 54921,
+      "episode": "G039T003A011R009",
+      "start": 13,
+      "action": "A011"
+    },
+    {
+      "index": 854,
+      "episode": "G002T005A025R003",
+      "start": 170,
+      "action": "A025"
+    },
+    {
+      "index": 68404,
+      "episode": "G051T002A011R007",
+      "start": 93,
+      "action": "A011"
+    },
+    {
+      "index": 20707,
+      "episode": "G018T008A037R009",
+      "start": 12,
+      "action": "A037"
+    },
+    {
+      "index": 2777,
+      "episode": "G003T007A035R004",
+      "start": 57,
+      "action": "A035"
+    },
+    {
+      "index": 52484,
+      "episode": "G037T000A003R020",
+      "start": 1,
+      "action": "A003"
+    },
+    {
+      "index": 68843,
+      "episode": "G051T005A025R004",
+      "start": 25,
+      "action": "A025"
+    },
+    {
+      "index": 12126,
+      "episode": "G014T002A013R021",
+      "start": 123,
+      "action": "A013"
+    },
+    {
+      "index": 80653,
+      "episode": "G058T003A019R027",
+      "start": 60,
+      "action": "A019"
+    },
+    {
+      "index": 19466,
+      "episode": "G017T006A031R008",
+      "start": 229,
+      "action": "A031"
+    },
+    {
+      "index": 68886,
+      "episode": "G051T005A025R004",
+      "start": 68,
+      "action": "A025"
+    },
+    {
+      "index": 40682,
+      "episode": "G031T003A011R006",
+      "start": 60,
+      "action": "A011"
+    },
+    {
+      "index": 65521,
+      "episode": "G048T001A009R021",
+      "start": 27,
+      "action": "A009"
+    },
+    {
+      "index": 60948,
+      "episode": "G042T008A037R015",
+      "start": 0,
+      "action": "A037"
+    },
+    {
+      "index": 38465,
+      "episode": "G029T005A021R006",
+      "start": 87,
+      "action": "A021"
+    },
+    {
+      "index": 53155,
+      "episode": "G037T002A012R013",
+      "start": 85,
+      "action": "A012"
+    },
+    {
+      "index": 58000,
+      "episode": "G040T002A012R017",
+      "start": 123,
+      "action": "A012"
+    },
+    {
+      "index": 43158,
+      "episode": "G032T007A039R021",
+      "start": 3,
+      "action": "A039"
+    },
+    {
+      "index": 78037,
+      "episode": "G055T007A039R016",
+      "start": 110,
+      "action": "A039"
+    },
+    {
+      "index": 29456,
+      "episode": "G024T001A007R014",
+      "start": 36,
+      "action": "A007"
+    },
+    {
+      "index": 60879,
+      "episode": "G042T008A035R000",
+      "start": 38,
+      "action": "A035"
+    },
+    {
+      "index": 60160,
+      "episode": "G042T000A003R016",
+      "start": 45,
+      "action": "A003"
+    },
+    {
+      "index": 25841,
+      "episode": "G022T000A002R013",
+      "start": 71,
+      "action": "A002"
+    },
+    {
+      "index": 48065,
+      "episode": "G035T004A024R023",
+      "start": 22,
+      "action": "A024"
+    },
+    {
+      "index": 70686,
+      "episode": "G052T002A010R001",
+      "start": 113,
+      "action": "A010"
+    },
+    {
+      "index": 9243,
+      "episode": "G012T002A014R021",
+      "start": 67,
+      "action": "A014"
+    },
+    {
+      "index": 58403,
+      "episode": "G040T004A024R022",
+      "start": 35,
+      "action": "A024"
+    },
+    {
+      "index": 8682,
+      "episode": "G011T007A039R010",
+      "start": 6,
+      "action": "A039"
+    },
+    {
+      "index": 12766,
+      "episode": "G014T006A031R008",
+      "start": 0,
+      "action": "A031"
+    },
+    {
+      "index": 80597,
+      "episode": "G058T003A019R027",
+      "start": 4,
+      "action": "A019"
+    },
+    {
+      "index": 66764,
+      "episode": "G049T002A007R003",
+      "start": 105,
+      "action": "A007"
+    },
+    {
+      "index": 53383,
+      "episode": "G037T002A014R024",
+      "start": 77,
+      "action": "A014"
+    },
+    {
+      "index": 4833,
+      "episode": "G005T006A030R003",
+      "start": 60,
+      "action": "A030"
+    },
+    {
+      "index": 66426,
+      "episode": "G048T006A030R019",
+      "start": 25,
+      "action": "A030"
+    },
+    {
+      "index": 66266,
+      "episode": "G048T006A029R010",
+      "start": 112,
+      "action": "A029"
+    },
+    {
+      "index": 45083,
+      "episode": "G033T006A030R002",
+      "start": 24,
+      "action": "A030"
+    },
+    {
+      "index": 53212,
+      "episode": "G037T002A014R023",
+      "start": 50,
+      "action": "A014"
+    },
+    {
+      "index": 56832,
+      "episode": "G039T007A026R007",
+      "start": 28,
+      "action": "A026"
+    },
+    {
+      "index": 51184,
+      "episode": "G036T002A012R012",
+      "start": 111,
+      "action": "A012"
+    },
+    {
+      "index": 76151,
+      "episode": "G055T000A001R010",
+      "start": 45,
+      "action": "A001"
+    },
+    {
+      "index": 12236,
+      "episode": "G014T004A021R007",
+      "start": 91,
+      "action": "A021"
+    },
+    {
+      "index": 40262,
+      "episode": "G031T001A005R001",
+      "start": 30,
+      "action": "A005"
+    },
+    {
+      "index": 75264,
+      "episode": "G054T006A023R015",
+      "start": 41,
+      "action": "A023"
+    },
+    {
+      "index": 7764,
+      "episode": "G010T003A018R013",
+      "start": 46,
+      "action": "A018"
+    },
+    {
+      "index": 24291,
+      "episode": "G021T001A007R012",
+      "start": 45,
+      "action": "A007"
+    },
+    {
+      "index": 54669,
+      "episode": "G038T007A038R014",
+      "start": 32,
+      "action": "A038"
+    },
+    {
+      "index": 11854,
+      "episode": "G014T002A012R016",
+      "start": 6,
+      "action": "A012"
+    },
+    {
+      "index": 66850,
+      "episode": "G049T002A008R005",
+      "start": 73,
+      "action": "A008"
+    },
+    {
+      "index": 44304,
+      "episode": "G033T003A017R015",
+      "start": 83,
+      "action": "A017"
+    },
+    {
+      "index": 22747,
+      "episode": "G020T003A016R009",
+      "start": 76,
+      "action": "A016"
+    },
+    {
+      "index": 10949,
+      "episode": "G013T004A015R002",
+      "start": 96,
+      "action": "A015"
+    },
+    {
+      "index": 69249,
+      "episode": "G051T006A031R008",
+      "start": 28,
+      "action": "A031"
+    },
+    {
+      "index": 22407,
+      "episode": "G020T000A003R019",
+      "start": 6,
+      "action": "A003"
+    },
+    {
+      "index": 29900,
+      "episode": "G024T002A012R011",
+      "start": 75,
+      "action": "A012"
+    },
+    {
+      "index": 17899,
+      "episode": "G017T000A000R003",
+      "start": 69,
+      "action": "A000"
+    },
+    {
+      "index": 33527,
+      "episode": "G026T005A026R007",
+      "start": 37,
+      "action": "A026"
+    },
+    {
+      "index": 5275,
+      "episode": "G006T004A018R014",
+      "start": 32,
+      "action": "A018"
+    },
+    {
+      "index": 25125,
+      "episode": "G021T007A037R010",
+      "start": 136,
+      "action": "A037"
+    },
+    {
+      "index": 57867,
+      "episode": "G040T002A012R015",
+      "start": 69,
+      "action": "A012"
+    },
+    {
+      "index": 64298,
+      "episode": "G046T005A029R025",
+      "start": 21,
+      "action": "A029"
+    },
+    {
+      "index": 16204,
+      "episode": "G016T003A017R015",
+      "start": 14,
+      "action": "A017"
+    },
+    {
+      "index": 12351,
+      "episode": "G014T005A028R019",
+      "start": 64,
+      "action": "A028"
+    },
+    {
+      "index": 11474,
+      "episode": "G013T007A033R021",
+      "start": 161,
+      "action": "A033"
+    },
+    {
+      "index": 33908,
+      "episode": "G026T005A029R024",
+      "start": 36,
+      "action": "A029"
+    },
+    {
+      "index": 55537,
+      "episode": "G039T004A016R007",
+      "start": 109,
+      "action": "A016"
+    },
+    {
+      "index": 7208,
+      "episode": "G009T002A011R005",
+      "start": 40,
+      "action": "A011"
+    },
+    {
+      "index": 54797,
+      "episode": "G039T001A002R005",
+      "start": 64,
+      "action": "A002"
+    },
+    {
+      "index": 5817,
+      "episode": "G006T006A028R015",
+      "start": 80,
+      "action": "A028"
+    },
+    {
+      "index": 43345,
+      "episode": "G032T007A039R024",
+      "start": 89,
+      "action": "A039"
+    },
+    {
+      "index": 1934,
+      "episode": "G002T009A039R009",
+      "start": 106,
+      "action": "A039"
+    },
+    {
+      "index": 57229,
+      "episode": "G039T008A030R000",
+      "start": 105,
+      "action": "A030"
+    },
+    {
+      "index": 74510,
+      "episode": "G054T002A014R028",
+      "start": 11,
+      "action": "A014"
+    },
+    {
+      "index": 61446,
+      "episode": "G043T003A018R020",
+      "start": 20,
+      "action": "A018"
+    },
+    {
+      "index": 24454,
+      "episode": "G021T003A018R017",
+      "start": 11,
+      "action": "A018"
+    },
+    {
+      "index": 36586,
+      "episode": "G028T004A020R003",
+      "start": 87,
+      "action": "A020"
+    },
+    {
+      "index": 2534,
+      "episode": "G003T004A022R011",
+      "start": 74,
+      "action": "A022"
+    },
+    {
+      "index": 113,
+      "episode": "G001T006A031R011",
+      "start": 31,
+      "action": "A031"
+    },
+    {
+      "index": 7525,
+      "episode": "G009T007A037R004",
+      "start": 67,
+      "action": "A037"
+    },
+    {
+      "index": 71241,
+      "episode": "G052T003A019R032",
+      "start": 150,
+      "action": "A019"
+    },
+    {
+      "index": 58870,
+      "episode": "G040T007A035R003",
+      "start": 33,
+      "action": "A035"
+    },
+    {
+      "index": 31124,
+      "episode": "G025T003A018R016",
+      "start": 34,
+      "action": "A018"
+    },
+    {
+      "index": 6110,
+      "episode": "G007T004A024R015",
+      "start": 19,
+      "action": "A024"
+    },
+    {
+      "index": 12903,
+      "episode": "G014T007A035R000",
+      "start": 16,
+      "action": "A035"
+    },
+    {
+      "index": 70180,
+      "episode": "G052T000A003R022",
+      "start": 181,
+      "action": "A003"
+    },
+    {
+      "index": 37592,
+      "episode": "G029T000A003R019",
+      "start": 78,
+      "action": "A003"
+    },
+    {
+      "index": 8327,
+      "episode": "G011T003A018R010",
+      "start": 55,
+      "action": "A018"
+    },
+    {
+      "index": 42901,
+      "episode": "G032T000A002R014",
+      "start": 81,
+      "action": "A002"
+    },
+    {
+      "index": 50727,
+      "episode": "G035T007A036R008",
+      "start": 162,
+      "action": "A036"
+    },
+    {
+      "index": 8541,
+      "episode": "G011T005A027R006",
+      "start": 79,
+      "action": "A027"
+    },
+    {
+      "index": 62393,
+      "episode": "G044T003A017R019",
+      "start": 15,
+      "action": "A017"
+    },
+    {
+      "index": 62811,
+      "episode": "G045T002A013R017",
+      "start": 0,
+      "action": "A013"
+    },
+    {
+      "index": 58039,
+      "episode": "G040T003A016R007",
+      "start": 3,
+      "action": "A016"
+    },
+    {
+      "index": 54566,
+      "episode": "G038T006A034R017",
+      "start": 57,
+      "action": "A034"
+    },
+    {
+      "index": 66936,
+      "episode": "G049T003A013R017",
+      "start": 74,
+      "action": "A013"
+    },
+    {
+      "index": 56608,
+      "episode": "G039T005A020R001",
+      "start": 228,
+      "action": "A020"
+    },
+    {
+      "index": 66026,
+      "episode": "G048T003A015R003",
+      "start": 72,
+      "action": "A015"
+    },
+    {
+      "index": 81267,
+      "episode": "G058T009A030R002",
+      "start": 24,
+      "action": "A030"
+    },
+    {
+      "index": 9020,
+      "episode": "G012T000A003R020",
+      "start": 76,
+      "action": "A003"
+    },
+    {
+      "index": 32787,
+      "episode": "G026T003A017R010",
+      "start": 10,
+      "action": "A017"
+    },
+    {
+      "index": 74456,
+      "episode": "G054T002A013R019",
+      "start": 113,
+      "action": "A013"
+    },
+    {
+      "index": 38974,
+      "episode": "G029T007A031R006",
+      "start": 51,
+      "action": "A031"
+    },
+    {
+      "index": 2144,
+      "episode": "G003T002A014R021",
+      "start": 1,
+      "action": "A014"
+    },
+    {
+      "index": 18233,
+      "episode": "G017T002A012R010",
+      "start": 74,
+      "action": "A012"
+    },
+    {
+      "index": 7972,
+      "episode": "G010T004A021R003",
+      "start": 196,
+      "action": "A021"
+    },
+    {
+      "index": 24774,
+      "episode": "G021T004A023R017",
+      "start": 15,
+      "action": "A023"
+    },
+    {
+      "index": 9717,
+      "episode": "G012T003A018R018",
+      "start": 62,
+      "action": "A018"
+    },
+    {
+      "index": 63269,
+      "episode": "G045T004A022R012",
+      "start": 48,
+      "action": "A022"
+    },
+    {
+      "index": 43795,
+      "episode": "G033T001A008R019",
+      "start": 102,
+      "action": "A008"
+    },
+    {
+      "index": 47676,
+      "episode": "G035T003A019R022",
+      "start": 119,
+      "action": "A019"
+    },
+    {
+      "index": 22609,
+      "episode": "G020T003A015R003",
+      "start": 70,
+      "action": "A015"
+    },
+    {
+      "index": 44584,
+      "episode": "G033T003A019R024",
+      "start": 172,
+      "action": "A019"
+    },
+    {
+      "index": 32114,
+      "episode": "G025T006A033R018",
+      "start": 120,
+      "action": "A033"
+    },
+    {
+      "index": 30025,
+      "episode": "G024T002A013R015",
+      "start": 97,
+      "action": "A013"
+    },
+    {
+      "index": 27142,
+      "episode": "G023T000A002R012",
+      "start": 7,
+      "action": "A002"
+    },
+    {
+      "index": 15516,
+      "episode": "G016T001A006R008",
+      "start": 0,
+      "action": "A006"
+    },
+    {
+      "index": 33544,
+      "episode": "G026T005A026R007",
+      "start": 54,
+      "action": "A026"
+    },
+    {
+      "index": 76411,
+      "episode": "G055T001A006R007",
+      "start": 164,
+      "action": "A006"
+    },
+    {
+      "index": 38912,
+      "episode": "G029T006A027R010",
+      "start": 101,
+      "action": "A027"
+    },
+    {
+      "index": 55863,
+      "episode": "G039T004A017R013",
+      "start": 95,
+      "action": "A017"
+    },
+    {
+      "index": 56704,
+      "episode": "G039T006A021R008",
+      "start": 90,
+      "action": "A021"
+    },
+    {
+      "index": 20385,
+      "episode": "G018T003A016R006",
+      "start": 1,
+      "action": "A016"
+    },
+    {
+      "index": 43593,
+      "episode": "G033T000A004R018",
+      "start": 38,
+      "action": "A004"
+    },
+    {
+      "index": 6830,
+      "episode": "G009T001A009R009",
+      "start": 44,
+      "action": "A009"
+    },
+    {
+      "index": 70248,
+      "episode": "G052T001A007R011",
+      "start": 58,
+      "action": "A007"
+    },
+    {
+      "index": 46839,
+      "episode": "G035T000A002R014",
+      "start": 4,
+      "action": "A002"
+    },
+    {
+      "index": 56092,
+      "episode": "G039T004A017R014",
+      "start": 115,
+      "action": "A017"
+    },
+    {
+      "index": 61372,
+      "episode": "G043T003A015R004",
+      "start": 4,
+      "action": "A015"
+    },
+    {
+      "index": 4872,
+      "episode": "G005T006A032R004",
+      "start": 16,
+      "action": "A032"
+    },
+    {
+      "index": 66058,
+      "episode": "G048T005A026R010",
+      "start": 29,
+      "action": "A026"
+    },
+    {
+      "index": 63031,
+      "episode": "G045T003A018R017",
+      "start": 63,
+      "action": "A018"
+    },
+    {
+      "index": 52196,
+      "episode": "G036T007A039R022",
+      "start": 88,
+      "action": "A039"
+    },
+    {
+      "index": 80091,
+      "episode": "G057T002A014R028",
+      "start": 99,
+      "action": "A014"
+    },
+    {
+      "index": 68059,
+      "episode": "G050T005A025R000",
+      "start": 7,
+      "action": "A025"
+    },
+    {
+      "index": 502,
+      "episode": "G002T002A011R007",
+      "start": 109,
+      "action": "A011"
+    },
+    {
+      "index": 66495,
+      "episode": "G048T006A030R019",
+      "start": 94,
+      "action": "A030"
+    },
+    {
+      "index": 81777,
+      "episode": "G059T003A021R004",
+      "start": 41,
+      "action": "A021"
+    },
+    {
+      "index": 8598,
+      "episode": "G011T007A036R001",
+      "start": 51,
+      "action": "A036"
+    },
+    {
+      "index": 11681,
+      "episode": "G014T000A003R027",
+      "start": 39,
+      "action": "A003"
+    },
+    {
+      "index": 32985,
+      "episode": "G026T003A019R025",
+      "start": 146,
+      "action": "A019"
+    },
+    {
+      "index": 62103,
+      "episode": "G043T008A038R015",
+      "start": 23,
+      "action": "A038"
+    },
+    {
+      "index": 36463,
+      "episode": "G028T002A014R025",
+      "start": 234,
+      "action": "A014"
+    },
+    {
+      "index": 64117,
+      "episode": "G046T003A018R020",
+      "start": 14,
+      "action": "A018"
+    },
+    {
+      "index": 33913,
+      "episode": "G026T005A029R024",
+      "start": 41,
+      "action": "A029"
+    },
+    {
+      "index": 26496,
+      "episode": "G022T006A023R009",
+      "start": 154,
+      "action": "A023"
+    },
+    {
+      "index": 3259,
+      "episode": "G004T005A005R005",
+      "start": 42,
+      "action": "A005"
+    },
+    {
+      "index": 53468,
+      "episode": "G037T003A016R009",
+      "start": 39,
+      "action": "A016"
+    },
+    {
+      "index": 46440,
+      "episode": "G034T007A035R001",
+      "start": 288,
+      "action": "A035"
+    },
+    {
+      "index": 81419,
+      "episode": "G059T000A007R024",
+      "start": 5,
+      "action": "A007"
+    },
+    {
+      "index": 36203,
+      "episode": "G028T001A007R011",
+      "start": 87,
+      "action": "A007"
+    },
+    {
+      "index": 10631,
+      "episode": "G013T002A009R026",
+      "start": 48,
+      "action": "A009"
+    },
+    {
+      "index": 59793,
+      "episode": "G041T009A032R023",
+      "start": 60,
+      "action": "A032"
+    },
+    {
+      "index": 6658,
+      "episode": "G008T006A027R006",
+      "start": 17,
+      "action": "A027"
+    },
+    {
+      "index": 4446,
+      "episode": "G005T002A011R004",
+      "start": 24,
+      "action": "A011"
+    },
+    {
+      "index": 6595,
+      "episode": "G008T005A024R016",
+      "start": 21,
+      "action": "A024"
+    },
+    {
+      "index": 63996,
+      "episode": "G046T002A011R009",
+      "start": 56,
+      "action": "A011"
+    },
+    {
+      "index": 49094,
+      "episode": "G035T005A029R021",
+      "start": 244,
+      "action": "A029"
+    },
+    {
+      "index": 75588,
+      "episode": "G054T006A029R045",
+      "start": 11,
+      "action": "A029"
+    },
+    {
+      "index": 23169,
+      "episode": "G020T004A024R022",
+      "start": 61,
+      "action": "A024"
+    },
+    {
+      "index": 67107,
+      "episode": "G049T004A015R005",
+      "start": 81,
+      "action": "A015"
+    },
+    {
+      "index": 25938,
+      "episode": "G022T000A003R018",
+      "start": 47,
+      "action": "A003"
+    },
+    {
+      "index": 1642,
+      "episode": "G002T006A030R004",
+      "start": 54,
+      "action": "A030"
+    },
+    {
+      "index": 35392,
+      "episode": "G027T007A033R015",
+      "start": 297,
+      "action": "A033"
+    },
+    {
+      "index": 77912,
+      "episode": "G055T007A035R001",
+      "start": 250,
+      "action": "A035"
+    },
+    {
+      "index": 4565,
+      "episode": "G005T004A021R003",
+      "start": 16,
+      "action": "A021"
+    },
+    {
+      "index": 57639,
+      "episode": "G040T001A008R022",
+      "start": 61,
+      "action": "A008"
+    },
+    {
+      "index": 42197,
+      "episode": "G031T006A028R018",
+      "start": 230,
+      "action": "A028"
+    },
+    {
+      "index": 230,
+      "episode": "G002T001A006R009",
+      "start": 27,
+      "action": "A006"
+    },
+    {
+      "index": 42475,
+      "episode": "G031T006A029R022",
+      "start": 259,
+      "action": "A029"
+    },
+    {
+      "index": 34706,
+      "episode": "G027T001A007R014",
+      "start": 49,
+      "action": "A007"
+    },
+    {
+      "index": 29140,
+      "episode": "G024T000A000R000",
+      "start": 210,
+      "action": "A000"
+    },
+    {
+      "index": 30179,
+      "episode": "G024T004A020R001",
+      "start": 147,
+      "action": "A020"
+    },
+    {
+      "index": 65080,
+      "episode": "G047T007A038R020",
+      "start": 55,
+      "action": "A038"
+    },
+    {
+      "index": 34643,
+      "episode": "G027T001A006R006",
+      "start": 107,
+      "action": "A006"
+    },
+    {
+      "index": 62239,
+      "episode": "G044T001A009R021",
+      "start": 27,
+      "action": "A009"
+    },
+    {
+      "index": 29696,
+      "episode": "G024T002A010R003",
+      "start": 10,
+      "action": "A010"
+    },
+    {
+      "index": 25168,
+      "episode": "G021T007A037R011",
+      "start": 35,
+      "action": "A037"
+    },
+    {
+      "index": 13872,
+      "episode": "G015T001A008R019",
+      "start": 148,
+      "action": "A008"
+    },
+    {
+      "index": 78789,
+      "episode": "G056T000A001R010",
+      "start": 106,
+      "action": "A001"
+    },
+    {
+      "index": 45348,
+      "episode": "G033T007A035R002",
+      "start": 178,
+      "action": "A035"
+    },
+    {
+      "index": 17482,
+      "episode": "G016T006A033R016",
+      "start": 30,
+      "action": "A033"
+    },
+    {
+      "index": 17637,
+      "episode": "G016T007A036R004",
+      "start": 75,
+      "action": "A036"
+    },
+    {
+      "index": 8820,
+      "episode": "G012T000A000R003",
+      "start": 89,
+      "action": "A000"
+    },
+    {
+      "index": 61087,
+      "episode": "G043T000A001R011",
+      "start": 110,
+      "action": "A001"
+    },
+    {
+      "index": 3439,
+      "episode": "G004T006A011R006",
+      "start": 41,
+      "action": "A011"
+    },
+    {
+      "index": 63600,
+      "episode": "G045T007A033R022",
+      "start": 92,
+      "action": "A033"
+    },
+    {
+      "index": 21244,
+      "episode": "G019T000A004R026",
+      "start": 111,
+      "action": "A004"
+    },
+    {
+      "index": 20113,
+      "episode": "G018T001A008R016",
+      "start": 18,
+      "action": "A008"
+    },
+    {
+      "index": 32496,
+      "episode": "G025T007A039R018",
+      "start": 51,
+      "action": "A039"
+    },
+    {
+      "index": 13709,
+      "episode": "G015T001A007R014",
+      "start": 81,
+      "action": "A007"
+    },
+    {
+      "index": 30533,
+      "episode": "G025T000A001R007",
+      "start": 90,
+      "action": "A001"
+    },
+    {
+      "index": 31312,
+      "episode": "G025T005A025R002",
+      "start": 47,
+      "action": "A025"
+    },
+    {
+      "index": 59474,
+      "episode": "G041T007A020R002",
+      "start": 41,
+      "action": "A020"
+    },
+    {
+      "index": 59361,
+      "episode": "G041T005A013R015",
+      "start": 107,
+      "action": "A013"
+    },
+    {
+      "index": 61766,
+      "episode": "G043T005A023R014",
+      "start": 167,
+      "action": "A023"
+    },
+    {
+      "index": 31598,
+      "episode": "G025T005A025R003",
+      "start": 130,
+      "action": "A025"
+    },
+    {
+      "index": 51986,
+      "episode": "G036T007A038R015",
+      "start": 14,
+      "action": "A038"
+    },
+    {
+      "index": 81201,
+      "episode": "G058T007A023R007",
+      "start": 167,
+      "action": "A023"
+    },
+    {
+      "index": 78145,
+      "episode": "G055T007A039R018",
+      "start": 13,
+      "action": "A039"
+    },
+    {
+      "index": 37795,
+      "episode": "G029T001A006R010",
+      "start": 176,
+      "action": "A006"
+    },
+    {
+      "index": 9439,
+      "episode": "G012T003A015R002",
+      "start": 154,
+      "action": "A015"
+    },
+    {
+      "index": 11761,
+      "episode": "G014T001A007R015",
+      "start": 8,
+      "action": "A007"
+    },
+    {
+      "index": 3012,
+      "episode": "G003T007A037R012",
+      "start": 68,
+      "action": "A037"
+    },
+    {
+      "index": 60512,
+      "episode": "G042T003A019R026",
+      "start": 169,
+      "action": "A019"
+    },
+    {
+      "index": 28573,
+      "episode": "G023T005A029R022",
+      "start": 100,
+      "action": "A029"
+    },
+    {
+      "index": 34994,
+      "episode": "G027T006A028R003",
+      "start": 87,
+      "action": "A028"
+    },
+    {
+      "index": 37342,
+      "episode": "G028T007A033R019",
+      "start": 177,
+      "action": "A033"
+    },
+    {
+      "index": 38303,
+      "episode": "G029T005A020R005",
+      "start": 7,
+      "action": "A020"
+    },
+    {
+      "index": 65217,
+      "episode": "G048T000A004R022",
+      "start": 0,
+      "action": "A004"
+    },
+    {
+      "index": 52423,
+      "episode": "G037T000A001R006",
+      "start": 61,
+      "action": "A001"
+    },
+    {
+      "index": 3194,
+      "episode": "G004T003A004R030",
+      "start": 145,
+      "action": "A004"
+    },
+    {
+      "index": 5629,
+      "episode": "G006T005A021R006",
+      "start": 22,
+      "action": "A021"
+    },
+    {
+      "index": 8259,
+      "episode": "G011T000A004R014",
+      "start": 47,
+      "action": "A004"
+    },
+    {
+      "index": 943,
+      "episode": "G002T005A027R013",
+      "start": 77,
+      "action": "A027"
+    },
+    {
+      "index": 63350,
+      "episode": "G045T004A024R027",
+      "start": 43,
+      "action": "A024"
+    },
+    {
+      "index": 67598,
+      "episode": "G050T000A002R014",
+      "start": 1,
+      "action": "A002"
+    },
+    {
+      "index": 30338,
+      "episode": "G024T007A037R011",
+      "start": 13,
+      "action": "A037"
+    },
+    {
+      "index": 43874,
+      "episode": "G033T002A010R004",
+      "start": 49,
+      "action": "A010"
+    },
+    {
+      "index": 59213,
+      "episode": "G041T005A004R001",
+      "start": 10,
+      "action": "A004"
+    },
+    {
+      "index": 59708,
+      "episode": "G041T008A027R013",
+      "start": 54,
+      "action": "A027"
+    },
+    {
+      "index": 64257,
+      "episode": "G046T004A024R024",
+      "start": 61,
+      "action": "A024"
+    },
+    {
+      "index": 5552,
+      "episode": "G006T005A021R005",
+      "start": 245,
+      "action": "A021"
+    },
+    {
+      "index": 35767,
+      "episode": "G028T000A000R004",
+      "start": 21,
+      "action": "A000"
+    },
+    {
+      "index": 44194,
+      "episode": "G033T002A014R021",
+      "start": 113,
+      "action": "A014"
+    },
+    {
+      "index": 37478,
+      "episode": "G028T008A038R016",
+      "start": 122,
+      "action": "A038"
+    },
+    {
+      "index": 80223,
+      "episode": "G057T003A019R026",
+      "start": 35,
+      "action": "A019"
+    },
+    {
+      "index": 13200,
+      "episode": "G014T007A038R021",
+      "start": 6,
+      "action": "A038"
+    },
+    {
+      "index": 3531,
+      "episode": "G004T009A023R008",
+      "start": 23,
+      "action": "A023"
+    },
+    {
+      "index": 41088,
+      "episode": "G031T004A017R010",
+      "start": 56,
+      "action": "A017"
+    },
+    {
+      "index": 6176,
+      "episode": "G008T001A006R004",
+      "start": 1,
+      "action": "A006"
+    },
+    {
+      "index": 55554,
+      "episode": "G039T004A017R012",
+      "start": 4,
+      "action": "A017"
+    },
+    {
+      "index": 62019,
+      "episode": "G043T008A035R001",
+      "start": 36,
+      "action": "A035"
+    },
+    {
+      "index": 69299,
+      "episode": "G051T006A032R012",
+      "start": 15,
+      "action": "A032"
+    },
+    {
+      "index": 52000,
+      "episode": "G036T007A038R015",
+      "start": 28,
+      "action": "A038"
+    },
+    {
+      "index": 57313,
+      "episode": "G039T008A032R011",
+      "start": 5,
+      "action": "A032"
+    },
+    {
+      "index": 32903,
+      "episode": "G026T003A019R025",
+      "start": 64,
+      "action": "A019"
+    },
+    {
+      "index": 21503,
+      "episode": "G019T002A014R025",
+      "start": 39,
+      "action": "A014"
+    },
+    {
+      "index": 24660,
+      "episode": "G021T003A018R020",
+      "start": 48,
+      "action": "A018"
+    },
+    {
+      "index": 34906,
+      "episode": "G027T002A010R003",
+      "start": 99,
+      "action": "A010"
+    },
+    {
+      "index": 1546,
+      "episode": "G002T005A029R022",
+      "start": 201,
+      "action": "A029"
+    },
+    {
+      "index": 12856,
+      "episode": "G014T006A032R014",
+      "start": 16,
+      "action": "A032"
+    },
+    {
+      "index": 38071,
+      "episode": "G029T002A011R005",
+      "start": 96,
+      "action": "A011"
+    },
+    {
+      "index": 9266,
+      "episode": "G012T002A014R023",
+      "start": 17,
+      "action": "A014"
+    },
+    {
+      "index": 23824,
+      "episode": "G020T005A029R023",
+      "start": 103,
+      "action": "A029"
+    },
+    {
+      "index": 27311,
+      "episode": "G023T001A005R003",
+      "start": 15,
+      "action": "A005"
+    },
+    {
+      "index": 78995,
+      "episode": "G056T001A008R017",
+      "start": 75,
+      "action": "A008"
+    },
+    {
+      "index": 60258,
+      "episode": "G042T002A011R006",
+      "start": 64,
+      "action": "A011"
+    },
+    {
+      "index": 53920,
+      "episode": "G037T005A026R009",
+      "start": 134,
+      "action": "A026"
+    },
+    {
+      "index": 32511,
+      "episode": "G026T002A010R001",
+      "start": 6,
+      "action": "A010"
+    },
+    {
+      "index": 38181,
+      "episode": "G029T002A013R018",
+      "start": 19,
+      "action": "A013"
+    },
+    {
+      "index": 8628,
+      "episode": "G011T007A039R009",
+      "start": 24,
+      "action": "A039"
+    },
+    {
+      "index": 19542,
+      "episode": "G017T006A034R020",
+      "start": 74,
+      "action": "A034"
+    },
+    {
+      "index": 2332,
+      "episode": "G003T003A019R023",
+      "start": 46,
+      "action": "A019"
+    },
+    {
+      "index": 64475,
+      "episode": "G046T007A035R002",
+      "start": 21,
+      "action": "A035"
+    },
+    {
+      "index": 7417,
+      "episode": "G009T007A036R001",
+      "start": 64,
+      "action": "A036"
+    },
+    {
+      "index": 62693,
+      "episode": "G045T000A001R010",
+      "start": 17,
+      "action": "A001"
+    },
+    {
+      "index": 9570,
+      "episode": "G012T003A015R005",
+      "start": 6,
+      "action": "A015"
+    },
+    {
+      "index": 77570,
+      "episode": "G055T006A030R002",
+      "start": 21,
+      "action": "A030"
+    },
+    {
+      "index": 64413,
+      "episode": "G046T006A031R008",
+      "start": 28,
+      "action": "A031"
+    },
+    {
+      "index": 67970,
+      "episode": "G050T003A015R001",
+      "start": 4,
+      "action": "A015"
+    },
+    {
+      "index": 4732,
+      "episode": "G005T005A028R014",
+      "start": 20,
+      "action": "A028"
+    },
+    {
+      "index": 33436,
+      "episode": "G026T004A023R017",
+      "start": 191,
+      "action": "A023"
+    },
+    {
+      "index": 73014,
+      "episode": "G053T001A007R012",
+      "start": 236,
+      "action": "A007"
+    },
+    {
+      "index": 29360,
+      "episode": "G024T001A006R009",
+      "start": 92,
+      "action": "A006"
+    },
+    {
+      "index": 6171,
+      "episode": "G007T006A032R004",
+      "start": 48,
+      "action": "A032"
+    },
+    {
+      "index": 47257,
+      "episode": "G035T002A014R025",
+      "start": 98,
+      "action": "A014"
+    },
+    {
+      "index": 50634,
+      "episode": "G035T007A036R008",
+      "start": 69,
+      "action": "A036"
+    },
+    {
+      "index": 80805,
+      "episode": "G058T006A021R003",
+      "start": 116,
+      "action": "A021"
+    },
+    {
+      "index": 81367,
+      "episode": "G059T000A000R002",
+      "start": 89,
+      "action": "A000"
+    },
+    {
+      "index": 13114,
+      "episode": "G014T007A038R019",
+      "start": 36,
+      "action": "A038"
+    },
+    {
+      "index": 17323,
+      "episode": "G016T005A025R005",
+      "start": 34,
+      "action": "A025"
+    },
+    {
+      "index": 35550,
+      "episode": "G027T007A034R020",
+      "start": 16,
+      "action": "A034"
+    },
+    {
+      "index": 15740,
+      "episode": "G016T002A010R000",
+      "start": 71,
+      "action": "A010"
+    },
+    {
+      "index": 40225,
+      "episode": "G031T001A005R000",
+      "start": 33,
+      "action": "A005"
+    },
+    {
+      "index": 19582,
+      "episode": "G017T006A034R020",
+      "start": 114,
+      "action": "A034"
+    },
+    {
+      "index": 37959,
+      "episode": "G029T001A007R015",
+      "start": 77,
+      "action": "A007"
+    },
+    {
+      "index": 39254,
+      "episode": "G030T000A001R008",
+      "start": 0,
+      "action": "A001"
+    },
+    {
+      "index": 32358,
+      "episode": "G025T007A036R005",
+      "start": 84,
+      "action": "A036"
+    },
+    {
+      "index": 61526,
+      "episode": "G043T005A022R009",
+      "start": 20,
+      "action": "A022"
+    },
+    {
+      "index": 68521,
+      "episode": "G051T002A013R016",
+      "start": 11,
+      "action": "A013"
+    },
+    {
+      "index": 45002,
+      "episode": "G033T005A025R000",
+      "start": 154,
+      "action": "A025"
+    },
+    {
+      "index": 47446,
+      "episode": "G035T003A016R008",
+      "start": 2,
+      "action": "A016"
+    },
+    {
+      "index": 28367,
+      "episode": "G023T005A027R011",
+      "start": 14,
+      "action": "A027"
+    },
+    {
+      "index": 65873,
+      "episode": "G048T001A009R025",
+      "start": 127,
+      "action": "A009"
+    },
+    {
+      "index": 32679,
+      "episode": "G026T002A010R005",
+      "start": 78,
+      "action": "A010"
+    },
+    {
+      "index": 60803,
+      "episode": "G042T005A024R017",
+      "start": 32,
+      "action": "A024"
+    },
+    {
+      "index": 35213,
+      "episode": "G027T007A033R015",
+      "start": 118,
+      "action": "A033"
+    },
+    {
+      "index": 26228,
+      "episode": "G022T006A022R005",
+      "start": 126,
+      "action": "A022"
+    },
+    {
+      "index": 8411,
+      "episode": "G011T003A018R011",
+      "start": 24,
+      "action": "A018"
+    },
+    {
+      "index": 61274,
+      "episode": "G043T001A006R010",
+      "start": 179,
+      "action": "A006"
+    },
+    {
+      "index": 64976,
+      "episode": "G047T004A022R017",
+      "start": 101,
+      "action": "A022"
+    },
+    {
+      "index": 22056,
+      "episode": "G019T007A035R004",
+      "start": 75,
+      "action": "A035"
+    },
+    {
+      "index": 39850,
+      "episode": "G030T005A010R001",
+      "start": 8,
+      "action": "A010"
+    },
+    {
+      "index": 11335,
+      "episode": "G013T007A033R021",
+      "start": 22,
+      "action": "A033"
+    },
+    {
+      "index": 81978,
+      "episode": "G059T005A037R022",
+      "start": 45,
+      "action": "A037"
+    },
+    {
+      "index": 38753,
+      "episode": "G029T006A024R004",
+      "start": 179,
+      "action": "A024"
+    },
+    {
+      "index": 62790,
+      "episode": "G045T000A004R028",
+      "start": 48,
+      "action": "A004"
+    },
+    {
+      "index": 3297,
+      "episode": "G004T005A008R020",
+      "start": 1,
+      "action": "A008"
+    },
+    {
+      "index": 65709,
+      "episode": "G048T001A009R022",
+      "start": 90,
+      "action": "A009"
+    },
+    {
+      "index": 57744,
+      "episode": "G040T002A010R004",
+      "start": 55,
+      "action": "A010"
+    },
+    {
+      "index": 61861,
+      "episode": "G043T005A023R019",
+      "start": 53,
+      "action": "A023"
+    },
+    {
+      "index": 67245,
+      "episode": "G049T006A027R010",
+      "start": 9,
+      "action": "A027"
+    },
+    {
+      "index": 68098,
+      "episode": "G050T005A025R000",
+      "start": 46,
+      "action": "A025"
+    },
+    {
+      "index": 21422,
+      "episode": "G019T002A013R020",
+      "start": 59,
+      "action": "A013"
+    },
+    {
+      "index": 58154,
+      "episode": "G040T003A017R012",
+      "start": 109,
+      "action": "A017"
+    },
+    {
+      "index": 80450,
+      "episode": "G057T004A020R002",
+      "start": 116,
+      "action": "A020"
+    },
+    {
+      "index": 60330,
+      "episode": "G042T003A016R012",
+      "start": 46,
+      "action": "A016"
+    },
+    {
+      "index": 42658,
+      "episode": "G031T008A031R006",
+      "start": 36,
+      "action": "A031"
+    },
+    {
+      "index": 42612,
+      "episode": "G031T006A029R022",
+      "start": 396,
+      "action": "A029"
+    },
+    {
+      "index": 54180,
+      "episode": "G038T000A002R015",
+      "start": 106,
+      "action": "A002"
+    },
+    {
+      "index": 77617,
+      "episode": "G055T006A030R002",
+      "start": 68,
+      "action": "A030"
+    },
+    {
+      "index": 27487,
+      "episode": "G023T002A013R020",
+      "start": 135,
+      "action": "A013"
+    },
+    {
+      "index": 27691,
+      "episode": "G023T004A020R004",
+      "start": 146,
+      "action": "A020"
+    },
+    {
+      "index": 57032,
+      "episode": "G039T007A026R007",
+      "start": 228,
+      "action": "A026"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{"step": 1, "rollout_probability": 0.0, "loss": 1.2806659936904907, "latent_mse": 1.2806659936904907, "grad_norm": 1.3492692708969116, "elapsed_seconds": 0.14439845993183553}
+{"step": 20, "rollout_probability": 0.0, "loss": 1.260909080505371, "latent_mse": 1.260909080505371, "grad_norm": 1.1814724206924438, "elapsed_seconds": 0.7551396599737927}
+{"step": 40, "rollout_probability": 0.0, "loss": 1.1330053806304932, "latent_mse": 1.1330053806304932, "grad_norm": 1.1111587285995483, "elapsed_seconds": 1.4569488009437919}
+{"step": 60, "rollout_probability": 0.0, "loss": 1.0733767747879028, "latent_mse": 1.0733767747879028, "grad_norm": 0.923788845539093, "elapsed_seconds": 2.167203171993606}
+{"step": 80, "rollout_probability": 0.0, "loss": 1.0982787609100342, "latent_mse": 1.0982787609100342, "grad_norm": 0.9479976892471313, "elapsed_seconds": 2.8773010469740257}
+{"step": 100, "rollout_probability": 0.2375, "loss": 1.0024042129516602, "latent_mse": 1.0024042129516602, "grad_norm": 1.379896879196167, "val_loss": 1.4242538213729858, "val_latent_mse": 1.4242538213729858, "elapsed_seconds": 6.136674636974931}
+{"step": 120, "rollout_probability": 0.4875, "loss": 0.9994441270828247, "latent_mse": 0.9994441270828247, "grad_norm": 2.3474087715148926, "elapsed_seconds": 7.26711516699288}
+{"step": 140, "rollout_probability": 0.7375, "loss": 0.9066891670227051, "latent_mse": 0.9066891670227051, "grad_norm": 0.8756604194641113, "elapsed_seconds": 8.451358697959222}
+{"step": 160, "rollout_probability": 0.9875, "loss": 1.0209300518035889, "latent_mse": 1.0209300518035889, "grad_norm": 1.087464690208435, "elapsed_seconds": 9.6358499659691}
+{"step": 180, "rollout_probability": 1.0, "loss": 0.9375600814819336, "latent_mse": 0.9375600814819336, "grad_norm": 1.4735153913497925, "elapsed_seconds": 10.77360412699636}
+{"step": 200, "rollout_probability": 1.0, "loss": 0.9770907163619995, "latent_mse": 0.9770907163619995, "grad_norm": 1.624830722808838, "val_loss": 1.3854107856750488, "val_latent_mse": 1.3854107856750488, "elapsed_seconds": 12.004932316020131}

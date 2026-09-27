@@ -1,0 +1,6 @@
+{
+  "path": "tmp/20260927_history_noise_tests",
+  "files": 33,
+  "bytes": 7196309,
+  "reason": "Completed isolated synthetic pytest run; no live pytest process, formal asset references or retained experiment dependencies."
+}

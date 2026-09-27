@@ -1,0 +1,12 @@
+{
+  "checkpoint": "/data/autovla/projects/ttr_remogen_bridge/artifacts/interaction_rvq_v5_flan_large/train_4gpu/best_text.pt",
+  "checkpoint_sha256": "9c902ad60a50d16573f1f96c56b4b7325d007f7a4d579652016ae5779ae06ff5",
+  "selection_sha256": "049bb3a35185575ece8ac735f1cac347b629c3e96ae7db73d65b7d3ebc137aa9",
+  "summary": {
+    "normal": {
+      "word_f1": 0.5011734998860725,
+      "rouge_l_f1": 0.4306416002226233,
+      "valid_fraction": 1.0
+    }
+  }
+}

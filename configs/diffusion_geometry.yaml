@@ -1,0 +1,24 @@
+# MoReAct-specific definitions inspired by the screenshot, not copied formulas.
+# Geometry uses metres and per-frame changes at 30 FPS; weights are initial values.
+train:
+  val_sampling: stratified_action
+history_augmentation:
+  probability: 0.25
+  std_m: 0.02
+  max_m: 0.05
+diffusion_loss_options:
+  feature_root_weight: 5.0
+  distance_map_threshold_m: 1.5
+  recompute_target_deltas: true
+diffusion_loss:
+  latent_mse: 1.0
+  feature_rec: 1.0
+  smpl_joints_rec: 20.0
+  joint_fk_consistency: 10.0
+  joint_velocity: 100.0
+  bone_length: 10.0
+  foot_contact: 30.0
+  root_orientation: 1.0
+  root_angular_velocity: 10.0
+  distance_map: 1.0
+  joint_contact: 10.0

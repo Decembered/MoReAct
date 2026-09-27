@@ -1,0 +1,147 @@
+{
+  "summary": {
+    "actor": {
+      "continuous_mu": {
+        "world_mpjpe_m": 0.003704251255840063,
+        "root_aligned_mpjpe_m": 0.003090656129643321,
+        "root_ade_m": 0.0027020086999982595,
+        "root_fde_m": 0.004737066105008125,
+        "pair_root_distance_m": 0.6639453768730164,
+        "pair_root_distance_error_m": 0.0017243862384930253,
+        "nearest_interperson_joint_distance_m": 0.35268473625183105,
+        "foot_sliding_mps": 0.17657339572906494,
+        "foot_contact_fraction": 0.49476439790575916,
+        "boundary_velocity_jump_mps": 0.13934443891048431,
+        "jerk_mps3": 72.9171575512737,
+        "normalized_feature_mse": 0.0036836972073312304
+      },
+      "rvq": {
+        "world_mpjpe_m": 0.029376167804002762,
+        "root_aligned_mpjpe_m": 0.021003810688853264,
+        "root_ade_m": 0.01847109943628311,
+        "root_fde_m": 0.04010162502527237,
+        "pair_root_distance_m": 0.6548954248428345,
+        "pair_root_distance_error_m": 0.012408137321472168,
+        "nearest_interperson_joint_distance_m": 0.3376638889312744,
+        "foot_sliding_mps": 0.4539777338504791,
+        "foot_contact_fraction": 0.5117801047120419,
+        "boundary_velocity_jump_mps": 1.6255451440811157,
+        "jerk_mps3": 709.6865549683571,
+        "normalized_feature_mse": 0.08154861566921075
+      }
+    },
+    "reactor": {
+      "continuous_mu": {
+        "world_mpjpe_m": 0.004904863890260458,
+        "root_aligned_mpjpe_m": 0.003985051065683365,
+        "root_ade_m": 0.003544325940310955,
+        "root_fde_m": 0.009365431033074856,
+        "pair_root_distance_m": 0.663871705532074,
+        "pair_root_distance_error_m": 0.0023025618866086006,
+        "nearest_interperson_joint_distance_m": 0.35122671723365784,
+        "foot_sliding_mps": 0.27585116028785706,
+        "foot_contact_fraction": 0.9162303664921466,
+        "boundary_velocity_jump_mps": 0.20410597324371338,
+        "jerk_mps3": 106.83344537392259,
+        "normalized_feature_mse": 0.0038851326492779967
+      },
+      "rvq": {
+        "world_mpjpe_m": 0.03625369071960449,
+        "root_aligned_mpjpe_m": 0.02473512664437294,
+        "root_ade_m": 0.02710714004933834,
+        "root_fde_m": 0.04553867504000664,
+        "pair_root_distance_m": 0.6627834439277649,
+        "pair_root_distance_error_m": 0.020707450807094574,
+        "nearest_interperson_joint_distance_m": 0.3454798460006714,
+        "foot_sliding_mps": 0.39734625816345215,
+        "foot_contact_fraction": 0.9096858638743456,
+        "boundary_velocity_jump_mps": 1.9484995603561401,
+        "jerk_mps3": 854.535598307848,
+        "normalized_feature_mse": 0.10445241148772766
+      }
+    }
+  },
+  "samples": [
+    {
+      "episode": "G001T000A000R004",
+      "role": "actor",
+      "mode": "continuous_mu",
+      "metrics": {
+        "world_mpjpe_m": 0.003704251255840063,
+        "root_aligned_mpjpe_m": 0.003090656129643321,
+        "root_ade_m": 0.0027020086999982595,
+        "root_fde_m": 0.004737066105008125,
+        "pair_root_distance_m": 0.6639453768730164,
+        "pair_root_distance_error_m": 0.0017243862384930253,
+        "nearest_interperson_joint_distance_m": 0.35268473625183105,
+        "foot_sliding_mps": 0.17657339572906494,
+        "foot_contact_fraction": 0.49476439790575916,
+        "boundary_velocity_jump_mps": 0.13934443891048431,
+        "jerk_mps3": 72.9171575512737,
+        "normalized_feature_mse": 0.0036836972073312304
+      }
+    },
+    {
+      "episode": "G001T000A000R004",
+      "role": "actor",
+      "mode": "rvq",
+      "metrics": {
+        "world_mpjpe_m": 0.029376167804002762,
+        "root_aligned_mpjpe_m": 0.021003810688853264,
+        "root_ade_m": 0.01847109943628311,
+        "root_fde_m": 0.04010162502527237,
+        "pair_root_distance_m": 0.6548954248428345,
+        "pair_root_distance_error_m": 0.012408137321472168,
+        "nearest_interperson_joint_distance_m": 0.3376638889312744,
+        "foot_sliding_mps": 0.4539777338504791,
+        "foot_contact_fraction": 0.5117801047120419,
+        "boundary_velocity_jump_mps": 1.6255451440811157,
+        "jerk_mps3": 709.6865549683571,
+        "normalized_feature_mse": 0.08154861566921075
+      }
+    },
+    {
+      "episode": "G001T000A000R004",
+      "role": "reactor",
+      "mode": "continuous_mu",
+      "metrics": {
+        "world_mpjpe_m": 0.004904863890260458,
+        "root_aligned_mpjpe_m": 0.003985051065683365,
+        "root_ade_m": 0.003544325940310955,
+        "root_fde_m": 0.009365431033074856,
+        "pair_root_distance_m": 0.663871705532074,
+        "pair_root_distance_error_m": 0.0023025618866086006,
+        "nearest_interperson_joint_distance_m": 0.35122671723365784,
+        "foot_sliding_mps": 0.27585116028785706,
+        "foot_contact_fraction": 0.9162303664921466,
+        "boundary_velocity_jump_mps": 0.20410597324371338,
+        "jerk_mps3": 106.83344537392259,
+        "normalized_feature_mse": 0.0038851326492779967
+      }
+    },
+    {
+      "episode": "G001T000A000R004",
+      "role": "reactor",
+      "mode": "rvq",
+      "metrics": {
+        "world_mpjpe_m": 0.03625369071960449,
+        "root_aligned_mpjpe_m": 0.02473512664437294,
+        "root_ade_m": 0.02710714004933834,
+        "root_fde_m": 0.04553867504000664,
+        "pair_root_distance_m": 0.6627834439277649,
+        "pair_root_distance_error_m": 0.020707450807094574,
+        "nearest_interperson_joint_distance_m": 0.3454798460006714,
+        "foot_sliding_mps": 0.39734625816345215,
+        "foot_contact_fraction": 0.9096858638743456,
+        "boundary_velocity_jump_mps": 1.9484995603561401,
+        "jerk_mps3": 854.535598307848,
+        "normalized_feature_mse": 0.10445241148772766
+      }
+    }
+  ],
+  "kind": "teacher_history_reconstruction",
+  "notes": [
+    "Actor target-slot encoding is transfer use, not a symmetrically trained CVAE.",
+    "Quantized decoding is diagnostic only; production generation stays continuous."
+  ]
+}

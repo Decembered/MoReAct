@@ -1,0 +1,48 @@
+{
+  "train": {
+    "gpu467": {
+      "mpjpe_cm": 37.439931873232126,
+      "root_ade_cm": 34.310011505149305,
+      "root_fde_cm": 62.831481881439686,
+      "root_aligned_mpjpe_cm": 11.381963342428207,
+      "pair_distance_error_cm": 19.278652318753302
+    },
+    "gpu0123": {
+      "mpjpe_cm": 27.09979597479105,
+      "root_ade_cm": 22.477141339331865,
+      "root_fde_cm": 33.83374528028071,
+      "root_aligned_mpjpe_cm": 12.570885419845581,
+      "pair_distance_error_cm": 12.83264103345573
+    },
+    "remogen": {
+      "mpjpe_cm": 51.502597108483315,
+      "root_ade_cm": 49.02487479150295,
+      "root_fde_cm": 72.07702852785587,
+      "root_aligned_mpjpe_cm": 13.738362118601799,
+      "pair_distance_error_cm": 25.339009054005146
+    }
+  },
+  "test": {
+    "gpu467": {
+      "mpjpe_cm": 37.92004592716694,
+      "root_ade_cm": 36.793341003358364,
+      "root_fde_cm": 70.81391736865044,
+      "root_aligned_mpjpe_cm": 11.38129573315382,
+      "pair_distance_error_cm": 19.169193271081895
+    },
+    "gpu0123": {
+      "mpjpe_cm": 30.590868517756462,
+      "root_ade_cm": 28.32471431232989,
+      "root_fde_cm": 52.192423064261675,
+      "root_aligned_mpjpe_cm": 12.822147198021412,
+      "pair_distance_error_cm": 16.61213546525687
+    },
+    "remogen": {
+      "mpjpe_cm": 56.40425879508257,
+      "root_ade_cm": 53.97422010079026,
+      "root_fde_cm": 81.73072904348373,
+      "root_aligned_mpjpe_cm": 13.723310194909573,
+      "pair_distance_error_cm": 32.6022785436362
+    }
+  }
+}

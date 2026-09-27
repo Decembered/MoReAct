@@ -1,0 +1,28 @@
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+{
+  "normal": {
+    "word_f1": 0.0,
+    "rouge_l_f1": 0.0,
+    "valid_fraction": 0.0
+  },
+  "shuffle": {
+    "word_f1": 0.0,
+    "rouge_l_f1": 0.0,
+    "valid_fraction": 0.0
+  },
+  "remove_actor": {
+    "word_f1": 0.0,
+    "rouge_l_f1": 0.0,
+    "valid_fraction": 0.0
+  },
+  "remove_reactor": {
+    "word_f1": 0.0,
+    "rouge_l_f1": 0.0,
+    "valid_fraction": 0.0
+  },
+  "base_only": {
+    "word_f1": 0.0,
+    "rouge_l_f1": 0.0,
+    "valid_fraction": 0.0
+  }
+}

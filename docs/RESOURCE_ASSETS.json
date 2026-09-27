@@ -1,0 +1,287 @@
+{
+  "checked_at_utc": "2026-09-27T15:38:04.768375+00:00",
+  "project": "/data/autovla/projects/MoReAct",
+  "scope": "Existing assets; paths only, not copies of model/data files",
+  "assets": [
+    {
+      "name": "项目源码",
+      "path": "/data/autovla/projects/MoReAct",
+      "resolved_path": "/data/autovla/projects/MoReAct",
+      "exists": true,
+      "kind": "directory",
+      "usage": "从此目录执行本文命令"
+    },
+    {
+      "name": "已有 Python 环境",
+      "path": "/data/users/autovla/.envs/remogen-motion-only/bin/python",
+      "resolved_path": "/data/users/autovla/.envs/remogen-motion-only/bin/python3.8",
+      "exists": true,
+      "kind": "file",
+      "usage": "生成、语义模块均使用过的解释器"
+    },
+    {
+      "name": "Inter-X 原始数据根",
+      "path": "/data/autovla/projects/interx_ardy_mvp/full_data",
+      "resolved_path": "/data/autovla/projects/interx_ardy_mvp/full_data",
+      "exists": true,
+      "kind": "directory",
+      "usage": "数据准备输入；不是 bridge 的派生特征"
+    },
+    {
+      "name": "原始动作",
+      "path": "/data/autovla/projects/interx_ardy_mvp/full_data/motions",
+      "resolved_path": "/data/autovla/projects/interx_ardy_mvp/full_data/motions",
+      "exists": true,
+      "kind": "directory",
+      "usage": "每个 episode 下 `P1.npz`、`P2.npz`"
+    },
+    {
+      "name": "整体交互文本",
+      "path": "/data/autovla/projects/interx_ardy_mvp/full_data/texts.zip",
+      "resolved_path": "/data/autovla/projects/interx_ardy_mvp/full_data/texts.zip",
+      "exists": true,
+      "kind": "file",
+      "usage": "生成的可选文本条件、理解的监督文本"
+    },
+    {
+      "name": "官方划分",
+      "path": "/data/autovla/projects/interx_ardy_mvp/full_data/splits",
+      "resolved_path": "/data/autovla/projects/interx_ardy_mvp/full_data/splits",
+      "exists": true,
+      "kind": "directory",
+      "usage": "train/val/test 按 episode 隔离"
+    },
+    {
+      "name": "Actor/Reactor 顺序",
+      "path": "/data/autovla/projects/interx_ardy_mvp/full_data/annots/interaction_order.pkl",
+      "resolved_path": "/data/autovla/projects/interx_ardy_mvp/full_data/annots/interaction_order.pkl",
+      "exists": true,
+      "kind": "file",
+      "usage": "order=0：P1→P2；order=1：P2→P1"
+    },
+    {
+      "name": "已审核角色修正",
+      "path": "/data/autovla/projects/MoReAct/assets/role_overrides.json",
+      "resolved_path": "/data/autovla/projects/MoReAct/assets/role_overrides.json",
+      "exists": true,
+      "kind": "file",
+      "usage": "高于原始 order；保留审查证据"
+    },
+    {
+      "name": "SMPL-X 模型根",
+      "path": "/data/autovla/projects/remogen_official_release/smpl_models",
+      "resolved_path": "/data/autovla/projects/remogen_official_release/smpl_models",
+      "exists": true,
+      "kind": "directory",
+      "usage": "内有 `smplx/SMPLX_MALE.npz`、`SMPLX_FEMALE.npz`、`SMPLX_NEUTRAL.npz`"
+    },
+    {
+      "name": "CLIP ViT-B/32",
+      "path": "/home/autovla/.cache/clip/ViT-B-32.pt",
+      "resolved_path": "/home/autovla/.cache/clip/ViT-B-32.pt",
+      "exists": true,
+      "kind": "file",
+      "usage": "冻结文本编码，512 维条件"
+    },
+    {
+      "name": "原始 FLAN-T5-large",
+      "path": "/data/autovla/projects/models/flan-t5-large",
+      "resolved_path": "/data/autovla/projects/models/flan-t5-large",
+      "exists": true,
+      "kind": "directory",
+      "usage": "理解训练的语言初始化及本地 tokenizer 资产"
+    },
+    {
+      "name": "当前动作缓存",
+      "path": "/data/autovla/projects/MoReAct/data/interx_h2_f8",
+      "resolved_path": "/data/autovla/projects/MoReAct/data/interx_h2_f8",
+      "exists": true,
+      "kind": "directory",
+      "usage": "30 FPS、H=2、F=8、276D"
+    },
+    {
+      "name": "样本文件",
+      "path": "/data/autovla/projects/MoReAct/data/interx_h2_f8/episodes",
+      "resolved_path": "/data/autovla/projects/MoReAct/data/interx_h2_f8/episodes",
+      "exists": true,
+      "kind": "directory",
+      "usage": "单 episode NPZ，供训练和语义 describe 使用"
+    },
+    {
+      "name": "数据身份 / 角色 / 划分",
+      "path": "/data/autovla/projects/MoReAct/data/interx_h2_f8/manifest.json",
+      "resolved_path": "/data/autovla/projects/MoReAct/data/interx_h2_f8/manifest.json",
+      "exists": true,
+      "kind": "file",
+      "usage": "与 checkpoint 的 digest 配套"
+    },
+    {
+      "name": "归一化统计",
+      "path": "/data/autovla/projects/MoReAct/data/interx_h2_f8/stats.npz",
+      "resolved_path": "/data/autovla/projects/MoReAct/data/interx_h2_f8/stats.npz",
+      "exists": true,
+      "kind": "file",
+      "usage": "只由训练集统计，双方等权"
+    },
+    {
+      "name": "准备报告",
+      "path": "/data/autovla/projects/MoReAct/data/interx_h2_f8/preparation_report.json",
+      "resolved_path": "/data/autovla/projects/MoReAct/data/interx_h2_f8/preparation_report.json",
+      "exists": true,
+      "kind": "file",
+      "usage": "样本数量、跳过原因、统计版本"
+    },
+    {
+      "name": "训练窗口核验",
+      "path": "/data/autovla/projects/MoReAct/data/interx_h2_f8/input_validation.json",
+      "resolved_path": "/data/autovla/projects/MoReAct/data/interx_h2_f8/input_validation.json",
+      "exists": true,
+      "kind": "file",
+      "usage": "可用窗口数、双方统计权重"
+    },
+    {
+      "name": "早期缓存",
+      "path": "/data/autovla/projects/MoReAct/data/interx",
+      "resolved_path": "/data/autovla/projects/MoReAct/data/interx",
+      "exists": true,
+      "kind": "directory",
+      "usage": "历史资产，不替换当前 H=2/F=8 缓存"
+    },
+    {
+      "name": "CVAE 原训练目录",
+      "path": "/data/autovla/projects/MoReAct/runs/cvae_h2_f8_equal_roles_20260924_163259",
+      "resolved_path": "/data/autovla/projects/MoReAct/runs/cvae_h2_f8_equal_roles_20260924_163259",
+      "exists": true,
+      "kind": "directory",
+      "usage": "原始训练配置、日志、last；不要把可变 last 当固定基线"
+    },
+    {
+      "name": "固定 CVAE 文件",
+      "path": "/data/autovla/projects/MoReAct/runs/diffusion_geometry_20260925_122644/frozen_vae.pt",
+      "resolved_path": "/data/autovla/projects/MoReAct/runs/diffusion_geometry_20260925_122644/frozen_vae.pt",
+      "exists": true,
+      "kind": "file",
+      "usage": "现有生成实验使用的固定 VAE 资产之一；以各运行 provenance 为准"
+    },
+    {
+      "name": "冻结源 diffusion",
+      "path": "/data/autovla/projects/MoReAct/runs/diffusion_stage2_b512_20260926_084433/step_007000.pt",
+      "resolved_path": "/data/autovla/projects/MoReAct/runs/diffusion_stage2_b512_20260926_084433/step_007000.pt",
+      "exists": true,
+      "kind": "file",
+      "usage": ""
+    },
+    {
+      "name": "独立冻结 CVAE 快照",
+      "path": "/data/autovla/projects/MoReAct/data/semantics_rvq_20260926/latents/vae_snapshot.pt",
+      "resolved_path": "/data/autovla/projects/MoReAct/data/semantics_rvq_20260926/latents/vae_snapshot.pt",
+      "exists": true,
+      "kind": "file",
+      "usage": ""
+    },
+    {
+      "name": "双方向 mu 缓存",
+      "path": "/data/autovla/projects/MoReAct/data/semantics_rvq_20260926/latents",
+      "resolved_path": "/data/autovla/projects/MoReAct/data/semantics_rvq_20260926/latents",
+      "exists": true,
+      "kind": "directory",
+      "usage": ""
+    },
+    {
+      "name": "RVQ 权重",
+      "path": "/data/autovla/projects/MoReAct/runs/semantics_rvq_20260926/rvq/best.pt",
+      "resolved_path": "/data/autovla/projects/MoReAct/runs/semantics_rvq_20260926/rvq/best.pt",
+      "exists": true,
+      "kind": "file",
+      "usage": ""
+    },
+    {
+      "name": "token 缓存",
+      "path": "/data/autovla/projects/MoReAct/data/semantics_rvq_20260926/tokens",
+      "resolved_path": "/data/autovla/projects/MoReAct/data/semantics_rvq_20260926/tokens",
+      "exists": true,
+      "kind": "directory",
+      "usage": ""
+    },
+    {
+      "name": "T5 描述权重",
+      "path": "/data/autovla/projects/MoReAct/runs/semantics_rvq_20260926/captioner/best.pt",
+      "resolved_path": "/data/autovla/projects/MoReAct/runs/semantics_rvq_20260926/captioner/best.pt",
+      "exists": true,
+      "kind": "file",
+      "usage": ""
+    },
+    {
+      "name": "T5 恢复状态",
+      "path": "/data/autovla/projects/MoReAct/runs/semantics_rvq_20260926/captioner/last.pt",
+      "resolved_path": "/data/autovla/projects/MoReAct/runs/semantics_rvq_20260926/captioner/last.pt",
+      "exists": true,
+      "kind": "file",
+      "usage": ""
+    },
+    {
+      "name": "T5 身份契约",
+      "path": "/data/autovla/projects/MoReAct/runs/semantics_rvq_20260926/captioner/contract.json",
+      "resolved_path": "/data/autovla/projects/MoReAct/runs/semantics_rvq_20260926/captioner/contract.json",
+      "exists": true,
+      "kind": "file",
+      "usage": ""
+    },
+    {
+      "name": "流水线状态",
+      "path": "/data/autovla/projects/MoReAct/runs/semantics_rvq_20260926/status.json",
+      "resolved_path": "/data/autovla/projects/MoReAct/runs/semantics_rvq_20260926/status.json",
+      "exists": true,
+      "kind": "file",
+      "usage": ""
+    },
+    {
+      "name": "最终开发集比较",
+      "path": "/data/autovla/projects/MoReAct/outputs/semantics_rvq_20260926/comparison_final/comparison.json",
+      "resolved_path": "/data/autovla/projects/MoReAct/outputs/semantics_rvq_20260926/comparison_final/comparison.json",
+      "exists": true,
+      "kind": "file",
+      "usage": ""
+    },
+    {
+      "name": "current_generation_run",
+      "path": "/data/autovla/projects/MoReAct/runs/diffusion_geometry_8gpu_b1024_20260927",
+      "resolved_path": "/data/autovla/projects/MoReAct/runs/diffusion_geometry_8gpu_b1024_20260927",
+      "exists": true,
+      "kind": "directory",
+      "usage": "Current eight-GPU run; mutable"
+    },
+    {
+      "name": "generation_example",
+      "path": "/data/autovla/projects/MoReAct/runs/diffusion_geometry_8gpu_b1024_20260927/step_034000.pt",
+      "resolved_path": "/data/autovla/projects/MoReAct/runs/diffusion_geometry_8gpu_b1024_20260927/step_034000.pt",
+      "exists": true,
+      "kind": "file",
+      "usage": "Fixed inference example, not a quality recommendation"
+    },
+    {
+      "name": "generation_resume_source",
+      "path": "/data/autovla/projects/MoReAct/runs/diffusion_geometry_long_b512_20260927/step_032500.pt",
+      "resolved_path": "/data/autovla/projects/MoReAct/runs/diffusion_geometry_long_b512_20260927/step_032500.pt",
+      "exists": true,
+      "kind": "file",
+      "usage": "Source checkpoint of current run"
+    },
+    {
+      "name": "generation_config",
+      "path": "/data/autovla/projects/MoReAct/runs/diffusion_geometry_8gpu_b1024_20260927/launch.yaml",
+      "resolved_path": "/data/autovla/projects/MoReAct/runs/diffusion_geometry_8gpu_b1024_20260927/launch.yaml",
+      "exists": true,
+      "kind": "file",
+      "usage": "Actual running configuration"
+    },
+    {
+      "name": "example_episode",
+      "path": "/data/autovla/projects/MoReAct/data/interx_h2_f8/episodes/G001T000A000R004.npz",
+      "resolved_path": "/data/autovla/projects/MoReAct/data/interx_h2_f8/episodes/G001T000A000R004.npz",
+      "exists": true,
+      "kind": "file",
+      "usage": "Test episode with enough frames for 120-frame rollout"
+    }
+  ]
+}

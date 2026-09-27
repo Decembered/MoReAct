@@ -1,0 +1,93 @@
+{
+  "episode": {
+    "episode": "G003T004A023R017",
+    "split": "test",
+    "frames": 198,
+    "file": "episodes/G003T004A023R017.npz",
+    "source_digest": "7e8bebb9b55c0d8e6bce926ed6a6a650e2a65d0bf3472fe530a4f42e158ff2d7",
+    "actor_id": "P2",
+    "reactor_id": "P1",
+    "role_status": "annotation_assumed",
+    "role_evidence": "Inter-X README: 0=P1 actor; 1=P2 actor. Not independently verified.",
+    "original_order": 1
+  },
+  "checkpoint": "runs/smoke_diffusion/last.pt",
+  "checkpoint_step": 200,
+  "seed": 0,
+  "frames": 64,
+  "start_frame": 0,
+  "generation_start": 16,
+  "text": "The first person puts his left hand on the left shoulder of the second person, and they walk forward together one after the other.",
+  "actor_mode": "normal",
+  "guidance": 1.0,
+  "config": {
+    "data": {
+      "source": "/data/autovla/projects/interx_ardy_mvp/full_data",
+      "cache": "/data/autovla/projects/MoReAct/data/interx_smoke",
+      "body_models": "/data/autovla/projects/remogen_official_release/smpl_models",
+      "role_overrides": "/data/autovla/projects/MoReAct/assets/role_overrides.json",
+      "raw_fps": 120,
+      "fps": 30,
+      "history": 16,
+      "future": 8,
+      "primitives": 2,
+      "clip_model": "/home/autovla/.cache/clip/ViT-B-32.pt"
+    },
+    "model": {
+      "latent_dim": 128,
+      "vae_hidden": 64,
+      "vae_layers": 3,
+      "denoiser_hidden": 64,
+      "denoiser_layers": 2,
+      "heads": 4,
+      "ff_size": 128,
+      "dropout": 0.0,
+      "diffusion_steps": 10,
+      "text_dropout": 0.1
+    },
+    "train": {
+      "seed": 0,
+      "batch_size": 4,
+      "learning_rate": 0.0001,
+      "kl_weight": 0.0001,
+      "ema": 0.999,
+      "grad_clip": 1.0,
+      "stage1_steps": 80,
+      "stage2_steps": 80,
+      "stage3_steps": 40,
+      "log_interval": 20,
+      "save_interval": 100,
+      "val_interval": 100,
+      "val_batches": 2,
+      "latent_scale_batches": 8,
+      "device": "cuda:0",
+      "threads": 4
+    }
+  },
+  "segment_seconds": [
+    0.542342355940491,
+    0.17310681496746838,
+    0.12006942904554307,
+    0.16729436290916055,
+    0.16724307101685554,
+    0.16717598994728178,
+    0.16721453401260078,
+    0.1646573959151283
+  ],
+  "mean_segment_seconds": 0.20863799421931617,
+  "p95_segment_seconds": 0.4131099165999329,
+  "latency_excludes": "checkpoint, body-model loading, text encoding, rendering and file I/O",
+  "metrics": {
+    "world_mpjpe_m": 4.426242351531982,
+    "root_aligned_mpjpe_m": 0.19131283462047577,
+    "root_ade_m": 4.295680046081543,
+    "root_fde_m": 7.686176776885986,
+    "pair_root_distance_m": 3.8713998794555664,
+    "pair_root_distance_error_m": 3.323737382888794,
+    "nearest_interperson_joint_distance_m": 3.6152329444885254,
+    "foot_sliding_mps": 4.686339855194092,
+    "foot_contact_fraction": 1.0,
+    "boundary_velocity_jump_mps": 30.90077781677246,
+    "jerk_mps3": 15313.321888446808
+  }
+}

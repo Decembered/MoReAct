@@ -1,0 +1,3962 @@
+[
+  {
+    "model": "gpu467",
+    "record_id": "G046T002A010R004_aP2_rP1",
+    "episode": "G046T002A010R004",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person delivers two back-and-forth slaps to the other person using his/her right hand.",
+    "split": "train",
+    "action": "010",
+    "file": "episodes/G046T002A010R004.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 5.881839990615845,
+      "root_ade_cm": 3.357364982366562,
+      "root_fde_cm": 10.534796118736267,
+      "root_aligned_mpjpe_cm": 4.765119776129723,
+      "pair_distance_error_cm": 2.0439861342310905
+    },
+    "first40": {
+      "mpjpe_cm": 5.912980064749718,
+      "root_ade_cm": 1.4278357848525047,
+      "root_fde_cm": 2.4125974625349045,
+      "root_aligned_mpjpe_cm": 5.920502543449402,
+      "pair_distance_error_cm": 0.7496540434658527
+    },
+    "last40": {
+      "mpjpe_cm": 7.021556794643402,
+      "root_ade_cm": 6.931961327791214,
+      "root_fde_cm": 10.534796118736267,
+      "root_aligned_mpjpe_cm": 3.941226005554199,
+      "pair_distance_error_cm": 4.425216466188431
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G046T002A010R004_aP2_rP1",
+    "episode": "G046T002A010R004",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person delivers two back-and-forth slaps to the other person using his/her right hand.",
+    "split": "train",
+    "action": "010",
+    "file": "episodes/G046T002A010R004.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 7.933630794286728,
+      "root_ade_cm": 4.446640983223915,
+      "root_fde_cm": 4.8942796885967255,
+      "root_aligned_mpjpe_cm": 5.241095647215843,
+      "pair_distance_error_cm": 1.4288360252976418
+    },
+    "first40": {
+      "mpjpe_cm": 8.689140528440475,
+      "root_ade_cm": 2.3105282336473465,
+      "root_fde_cm": 2.5317708030343056,
+      "root_aligned_mpjpe_cm": 7.475116848945618,
+      "pair_distance_error_cm": 1.3713454827666283
+    },
+    "last40": {
+      "mpjpe_cm": 6.818446516990662,
+      "root_ade_cm": 6.090925261378288,
+      "root_fde_cm": 4.8942796885967255,
+      "root_aligned_mpjpe_cm": 2.9734762385487556,
+      "pair_distance_error_cm": 1.3942467980086803
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G046T002A010R004_aP2_rP1",
+    "episode": "G046T002A010R004",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person delivers two back-and-forth slaps to the other person using his/her right hand.",
+    "split": "train",
+    "action": "010",
+    "file": "episodes/G046T002A010R004.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 15.023364126682281,
+      "root_ade_cm": 11.06809452176094,
+      "root_fde_cm": 36.15959286689758,
+      "root_aligned_mpjpe_cm": 7.024610787630081,
+      "pair_distance_error_cm": 5.246468260884285
+    },
+    "first40": {
+      "mpjpe_cm": 6.485942751169205,
+      "root_ade_cm": 1.7307886853814125,
+      "root_fde_cm": 2.0753176882863045,
+      "root_aligned_mpjpe_cm": 6.4600735902786255,
+      "pair_distance_error_cm": 0.7282516453415155
+    },
+    "last40": {
+      "mpjpe_cm": 31.383895874023438,
+      "root_ade_cm": 28.838592767715454,
+      "root_fde_cm": 36.15959286689758,
+      "root_aligned_mpjpe_cm": 8.117351680994034,
+      "pair_distance_error_cm": 13.127389550209045
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G047T005A026R008_aP1_rP2",
+    "episode": "G047T005A026R008",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "One person walks behind another person and raises two hands to tap the other person's shoulders, while the other person moves his/her head.",
+    "split": "train",
+    "action": "026",
+    "file": "episodes/G047T005A026R008.npz",
+    "source_rotation_max_error": 2.086162567138672e-07,
+    "metrics": {
+      "mpjpe_cm": 17.006802558898926,
+      "root_ade_cm": 13.517871499061584,
+      "root_fde_cm": 37.41197884082794,
+      "root_aligned_mpjpe_cm": 6.635958701372147,
+      "pair_distance_error_cm": 7.434742897748947
+    },
+    "first40": {
+      "mpjpe_cm": 7.05501064658165,
+      "root_ade_cm": 5.039116740226746,
+      "root_fde_cm": 7.195301353931427,
+      "root_aligned_mpjpe_cm": 3.3587850630283356,
+      "pair_distance_error_cm": 3.045789524912834
+    },
+    "last40": {
+      "mpjpe_cm": 34.51740741729736,
+      "root_ade_cm": 30.020487308502197,
+      "root_fde_cm": 37.41197884082794,
+      "root_aligned_mpjpe_cm": 11.15659773349762,
+      "pair_distance_error_cm": 15.827231109142303
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G047T005A026R008_aP1_rP2",
+    "episode": "G047T005A026R008",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "One person walks behind another person and raises two hands to tap the other person's shoulders, while the other person moves his/her head.",
+    "split": "train",
+    "action": "026",
+    "file": "episodes/G047T005A026R008.npz",
+    "source_rotation_max_error": 2.086162567138672e-07,
+    "metrics": {
+      "mpjpe_cm": 17.00584441423416,
+      "root_ade_cm": 13.140861690044403,
+      "root_fde_cm": 13.426001369953156,
+      "root_aligned_mpjpe_cm": 6.787803769111633,
+      "pair_distance_error_cm": 11.83568462729454
+    },
+    "first40": {
+      "mpjpe_cm": 15.126058459281921,
+      "root_ade_cm": 10.207400470972061,
+      "root_fde_cm": 15.047693252563477,
+      "root_aligned_mpjpe_cm": 7.518772780895233,
+      "pair_distance_error_cm": 7.318838685750961
+    },
+    "last40": {
+      "mpjpe_cm": 17.29094386100769,
+      "root_ade_cm": 13.76507431268692,
+      "root_fde_cm": 13.426001369953156,
+      "root_aligned_mpjpe_cm": 6.1947982758283615,
+      "pair_distance_error_cm": 13.083121180534363
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G047T005A026R008_aP1_rP2",
+    "episode": "G047T005A026R008",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "One person walks behind another person and raises two hands to tap the other person's shoulders, while the other person moves his/her head.",
+    "split": "train",
+    "action": "026",
+    "file": "episodes/G047T005A026R008.npz",
+    "source_rotation_max_error": 2.086162567138672e-07,
+    "metrics": {
+      "mpjpe_cm": 97.25618362426758,
+      "root_ade_cm": 95.9679901599884,
+      "root_fde_cm": 79.04301285743713,
+      "root_aligned_mpjpe_cm": 11.583079397678375,
+      "pair_distance_error_cm": 93.14900040626526
+    },
+    "first40": {
+      "mpjpe_cm": 8.858256787061691,
+      "root_ade_cm": 8.356374502182007,
+      "root_fde_cm": 12.177765369415283,
+      "root_aligned_mpjpe_cm": 5.033222958445549,
+      "pair_distance_error_cm": 6.066002696752548
+    },
+    "last40": {
+      "mpjpe_cm": 171.4949131011963,
+      "root_ade_cm": 170.58395147323608,
+      "root_fde_cm": 79.04301285743713,
+      "root_aligned_mpjpe_cm": 14.864923059940338,
+      "pair_distance_error_cm": 164.9585485458374
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G048T002A012R013_aP1_rP2",
+    "episode": "G048T002A012R013",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "One person raises one hand to point towards the other person, while the other person raises both hands and crosses them in front of his/her eyes.",
+    "split": "train",
+    "action": "012",
+    "file": "episodes/G048T002A012R013.npz",
+    "source_rotation_max_error": 2.980232238769531e-07,
+    "metrics": {
+      "mpjpe_cm": 40.76445698738098,
+      "root_ade_cm": 38.21344077587128,
+      "root_fde_cm": 76.96644067764282,
+      "root_aligned_mpjpe_cm": 7.403875142335892,
+      "pair_distance_error_cm": 34.17429327964783
+    },
+    "first40": {
+      "mpjpe_cm": 7.393636554479599,
+      "root_ade_cm": 6.015952676534653,
+      "root_fde_cm": 18.66675764322281,
+      "root_aligned_mpjpe_cm": 3.3910151571035385,
+      "pair_distance_error_cm": 3.4481026232242584
+    },
+    "last40": {
+      "mpjpe_cm": 75.16852021217346,
+      "root_ade_cm": 73.19406270980835,
+      "root_fde_cm": 76.96644067764282,
+      "root_aligned_mpjpe_cm": 7.007365673780441,
+      "pair_distance_error_cm": 69.78557109832764
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G048T002A012R013_aP1_rP2",
+    "episode": "G048T002A012R013",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "One person raises one hand to point towards the other person, while the other person raises both hands and crosses them in front of his/her eyes.",
+    "split": "train",
+    "action": "012",
+    "file": "episodes/G048T002A012R013.npz",
+    "source_rotation_max_error": 2.980232238769531e-07,
+    "metrics": {
+      "mpjpe_cm": 13.899973034858704,
+      "root_ade_cm": 11.147472262382507,
+      "root_fde_cm": 10.37539467215538,
+      "root_aligned_mpjpe_cm": 6.565167009830475,
+      "pair_distance_error_cm": 9.262164682149887
+    },
+    "first40": {
+      "mpjpe_cm": 13.371464610099792,
+      "root_ade_cm": 10.292692482471466,
+      "root_fde_cm": 12.256059050559998,
+      "root_aligned_mpjpe_cm": 7.178941369056702,
+      "pair_distance_error_cm": 9.473403543233871
+    },
+    "last40": {
+      "mpjpe_cm": 12.248334288597107,
+      "root_ade_cm": 11.289358139038086,
+      "root_fde_cm": 10.37539467215538,
+      "root_aligned_mpjpe_cm": 4.781421273946762,
+      "pair_distance_error_cm": 8.885305374860764
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G048T002A012R013_aP1_rP2",
+    "episode": "G048T002A012R013",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "One person raises one hand to point towards the other person, while the other person raises both hands and crosses them in front of his/her eyes.",
+    "split": "train",
+    "action": "012",
+    "file": "episodes/G048T002A012R013.npz",
+    "source_rotation_max_error": 2.980232238769531e-07,
+    "metrics": {
+      "mpjpe_cm": 38.04950714111328,
+      "root_ade_cm": 35.19425690174103,
+      "root_fde_cm": 39.67905640602112,
+      "root_aligned_mpjpe_cm": 7.87060409784317,
+      "pair_distance_error_cm": 24.119354784488678
+    },
+    "first40": {
+      "mpjpe_cm": 24.8062863945961,
+      "root_ade_cm": 22.753676772117615,
+      "root_fde_cm": 38.20198178291321,
+      "root_aligned_mpjpe_cm": 5.40168322622776,
+      "pair_distance_error_cm": 11.994342505931854
+    },
+    "last40": {
+      "mpjpe_cm": 44.74985897541046,
+      "root_ade_cm": 41.551440954208374,
+      "root_fde_cm": 39.67905640602112,
+      "root_aligned_mpjpe_cm": 9.502417594194412,
+      "pair_distance_error_cm": 31.297820806503296
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G004T009A022R002_aP1_rP2",
+    "episode": "G004T009A022R002",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "The first person extends his/her right hand, and the second person puts his/her left hand around his/her waist. Then, they walk forward together.",
+    "split": "train",
+    "action": "022",
+    "file": "episodes/G004T009A022R002.npz",
+    "source_rotation_max_error": 2.086162567138672e-07,
+    "metrics": {
+      "mpjpe_cm": 23.5897496342659,
+      "root_ade_cm": 20.637646317481995,
+      "root_fde_cm": 48.31601679325104,
+      "root_aligned_mpjpe_cm": 10.150264203548431,
+      "pair_distance_error_cm": 11.115948855876923
+    },
+    "first40": {
+      "mpjpe_cm": 12.504462897777557,
+      "root_ade_cm": 12.163311243057251,
+      "root_fde_cm": 32.80899524688721,
+      "root_aligned_mpjpe_cm": 5.8799318969249725,
+      "pair_distance_error_cm": 9.777553379535675
+    },
+    "last40": {
+      "mpjpe_cm": 27.18009054660797,
+      "root_ade_cm": 19.166120886802673,
+      "root_fde_cm": 48.31601679325104,
+      "root_aligned_mpjpe_cm": 13.92509639263153,
+      "pair_distance_error_cm": 5.546296760439873
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G004T009A022R002_aP1_rP2",
+    "episode": "G004T009A022R002",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "The first person extends his/her right hand, and the second person puts his/her left hand around his/her waist. Then, they walk forward together.",
+    "split": "train",
+    "action": "022",
+    "file": "episodes/G004T009A022R002.npz",
+    "source_rotation_max_error": 2.086162567138672e-07,
+    "metrics": {
+      "mpjpe_cm": 28.00387144088745,
+      "root_ade_cm": 22.894564270973206,
+      "root_fde_cm": 76.74857378005981,
+      "root_aligned_mpjpe_cm": 14.400945603847504,
+      "pair_distance_error_cm": 11.74527034163475
+    },
+    "first40": {
+      "mpjpe_cm": 20.20520269870758,
+      "root_ade_cm": 14.653542637825012,
+      "root_fde_cm": 31.706488132476807,
+      "root_aligned_mpjpe_cm": 11.555623263120651,
+      "pair_distance_error_cm": 3.71457040309906
+    },
+    "last40": {
+      "mpjpe_cm": 42.59389042854309,
+      "root_ade_cm": 40.61185419559479,
+      "root_fde_cm": 76.74857378005981,
+      "root_aligned_mpjpe_cm": 17.260172963142395,
+      "pair_distance_error_cm": 27.489325404167175
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G004T009A022R002_aP1_rP2",
+    "episode": "G004T009A022R002",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "The first person extends his/her right hand, and the second person puts his/her left hand around his/her waist. Then, they walk forward together.",
+    "split": "train",
+    "action": "022",
+    "file": "episodes/G004T009A022R002.npz",
+    "source_rotation_max_error": 2.086162567138672e-07,
+    "metrics": {
+      "mpjpe_cm": 39.14700448513031,
+      "root_ade_cm": 35.944169759750366,
+      "root_fde_cm": 68.09664368629456,
+      "root_aligned_mpjpe_cm": 13.666307926177979,
+      "pair_distance_error_cm": 24.244394898414612
+    },
+    "first40": {
+      "mpjpe_cm": 19.723312556743622,
+      "root_ade_cm": 16.25875234603882,
+      "root_fde_cm": 24.204973876476288,
+      "root_aligned_mpjpe_cm": 10.366425663232803,
+      "pair_distance_error_cm": 13.527804613113403
+    },
+    "last40": {
+      "mpjpe_cm": 59.99417304992676,
+      "root_ade_cm": 55.3179144859314,
+      "root_fde_cm": 68.09664368629456,
+      "root_aligned_mpjpe_cm": 21.81699126958847,
+      "pair_distance_error_cm": 30.398917198181152
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G013T008A036R010_aP2_rP1",
+    "episode": "G013T008A036R010",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "Two individuals stand facing each other, with one person lifting his/her right hand and wiggling his/her index finger towards the other person. The second person promptly raises his/her right hand to cover the first person's mouth. Eventually, the first person raises his/her right hand again and pushes the second person's hand aside.",
+    "split": "train",
+    "action": "036",
+    "file": "episodes/G013T008A036R010.npz",
+    "source_rotation_max_error": 2.980232238769531e-07,
+    "metrics": {
+      "mpjpe_cm": 42.473819851875305,
+      "root_ade_cm": 39.76605832576752,
+      "root_fde_cm": 64.32808041572571,
+      "root_aligned_mpjpe_cm": 7.771697640419006,
+      "pair_distance_error_cm": 37.810707092285156
+    },
+    "first40": {
+      "mpjpe_cm": 7.053554058074951,
+      "root_ade_cm": 4.086493700742722,
+      "root_fde_cm": 14.883077144622803,
+      "root_aligned_mpjpe_cm": 4.896937310695648,
+      "pair_distance_error_cm": 2.290361002087593
+    },
+    "last40": {
+      "mpjpe_cm": 69.6817934513092,
+      "root_ade_cm": 67.05861687660217,
+      "root_fde_cm": 64.32808041572571,
+      "root_aligned_mpjpe_cm": 7.283777743577957,
+      "pair_distance_error_cm": 65.8258318901062
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G013T008A036R010_aP2_rP1",
+    "episode": "G013T008A036R010",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "Two individuals stand facing each other, with one person lifting his/her right hand and wiggling his/her index finger towards the other person. The second person promptly raises his/her right hand to cover the first person's mouth. Eventually, the first person raises his/her right hand again and pushes the second person's hand aside.",
+    "split": "train",
+    "action": "036",
+    "file": "episodes/G013T008A036R010.npz",
+    "source_rotation_max_error": 2.980232238769531e-07,
+    "metrics": {
+      "mpjpe_cm": 29.978471994400024,
+      "root_ade_cm": 27.611467242240906,
+      "root_fde_cm": 42.24334955215454,
+      "root_aligned_mpjpe_cm": 9.98832955956459,
+      "pair_distance_error_cm": 25.626549124717712
+    },
+    "first40": {
+      "mpjpe_cm": 8.70341882109642,
+      "root_ade_cm": 5.189281702041626,
+      "root_fde_cm": 4.465118795633316,
+      "root_aligned_mpjpe_cm": 5.883225426077843,
+      "pair_distance_error_cm": 4.726826399564743
+    },
+    "last40": {
+      "mpjpe_cm": 45.974308252334595,
+      "root_ade_cm": 45.18808424472809,
+      "root_fde_cm": 42.24334955215454,
+      "root_aligned_mpjpe_cm": 10.684455186128616,
+      "pair_distance_error_cm": 44.581952691078186
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G013T008A036R010_aP2_rP1",
+    "episode": "G013T008A036R010",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "Two individuals stand facing each other, with one person lifting his/her right hand and wiggling his/her index finger towards the other person. The second person promptly raises his/her right hand to cover the first person's mouth. Eventually, the first person raises his/her right hand again and pushes the second person's hand aside.",
+    "split": "train",
+    "action": "036",
+    "file": "episodes/G013T008A036R010.npz",
+    "source_rotation_max_error": 2.980232238769531e-07,
+    "metrics": {
+      "mpjpe_cm": 54.53218221664429,
+      "root_ade_cm": 53.359007835388184,
+      "root_fde_cm": 57.86307454109192,
+      "root_aligned_mpjpe_cm": 14.247225224971771,
+      "pair_distance_error_cm": 32.39494860172272
+    },
+    "first40": {
+      "mpjpe_cm": 26.64521038532257,
+      "root_ade_cm": 23.567962646484375,
+      "root_fde_cm": 33.12699496746063,
+      "root_aligned_mpjpe_cm": 12.399466335773468,
+      "pair_distance_error_cm": 10.75381487607956
+    },
+    "last40": {
+      "mpjpe_cm": 70.91161608695984,
+      "root_ade_cm": 70.65565586090088,
+      "root_fde_cm": 57.86307454109192,
+      "root_aligned_mpjpe_cm": 12.269826233386993,
+      "pair_distance_error_cm": 40.502557158470154
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G026T003A018R019_aP1_rP2",
+    "episode": "G026T003A018R019",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "The standing person speaks into the seated person's right ear with his/her left hand.",
+    "split": "train",
+    "action": "018",
+    "file": "episodes/G026T003A018R019.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 31.19972050189972,
+      "root_ade_cm": 24.591422080993652,
+      "root_fde_cm": 10.010935366153717,
+      "root_aligned_mpjpe_cm": 13.230220973491669,
+      "pair_distance_error_cm": 12.387365847826004
+    },
+    "first40": {
+      "mpjpe_cm": 14.41989541053772,
+      "root_ade_cm": 12.885433435440063,
+      "root_fde_cm": 43.275970220565796,
+      "root_aligned_mpjpe_cm": 5.0034791231155396,
+      "pair_distance_error_cm": 4.2639970779418945
+    },
+    "last40": {
+      "mpjpe_cm": 24.858982861042023,
+      "root_ade_cm": 17.710015177726746,
+      "root_fde_cm": 10.010935366153717,
+      "root_aligned_mpjpe_cm": 15.19281268119812,
+      "pair_distance_error_cm": 6.467995792627335
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G026T003A018R019_aP1_rP2",
+    "episode": "G026T003A018R019",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "The standing person speaks into the seated person's right ear with his/her left hand.",
+    "split": "train",
+    "action": "018",
+    "file": "episodes/G026T003A018R019.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 31.44603967666626,
+      "root_ade_cm": 21.92263901233673,
+      "root_fde_cm": 15.383394062519073,
+      "root_aligned_mpjpe_cm": 16.15579128265381,
+      "pair_distance_error_cm": 6.829417496919632
+    },
+    "first40": {
+      "mpjpe_cm": 17.83010959625244,
+      "root_ade_cm": 16.195213794708252,
+      "root_fde_cm": 37.691619992256165,
+      "root_aligned_mpjpe_cm": 5.312705785036087,
+      "pair_distance_error_cm": 3.984067589044571
+    },
+    "last40": {
+      "mpjpe_cm": 32.337331771850586,
+      "root_ade_cm": 19.01136189699173,
+      "root_fde_cm": 15.383394062519073,
+      "root_aligned_mpjpe_cm": 21.366986632347107,
+      "pair_distance_error_cm": 5.080622434616089
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G026T003A018R019_aP1_rP2",
+    "episode": "G026T003A018R019",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "The standing person speaks into the seated person's right ear with his/her left hand.",
+    "split": "train",
+    "action": "018",
+    "file": "episodes/G026T003A018R019.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 46.1270272731781,
+      "root_ade_cm": 38.18177878856659,
+      "root_fde_cm": 48.379889130592346,
+      "root_aligned_mpjpe_cm": 16.464605927467346,
+      "pair_distance_error_cm": 27.747884392738342
+    },
+    "first40": {
+      "mpjpe_cm": 30.899453163146973,
+      "root_ade_cm": 30.71584403514862,
+      "root_fde_cm": 55.367058515548706,
+      "root_aligned_mpjpe_cm": 13.514252007007599,
+      "pair_distance_error_cm": 12.984852492809296
+    },
+    "last40": {
+      "mpjpe_cm": 51.66173577308655,
+      "root_ade_cm": 39.87378180027008,
+      "root_fde_cm": 48.379889130592346,
+      "root_aligned_mpjpe_cm": 18.09685230255127,
+      "pair_distance_error_cm": 33.07686746120453
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G047T007A039R028_aP2_rP1",
+    "episode": "G047T007A039R028",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "Two people stand face to face. One person raises a hand to his/her mouth and blows a kiss to the other. The other person lifts a hand and waves it away in front of his/her eyes.",
+    "split": "train",
+    "action": "039",
+    "file": "episodes/G047T007A039R028.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 6.158718839287758,
+      "root_ade_cm": 3.423936292529106,
+      "root_fde_cm": 6.738322973251343,
+      "root_aligned_mpjpe_cm": 4.668144881725311,
+      "pair_distance_error_cm": 1.7079269513487816
+    },
+    "first40": {
+      "mpjpe_cm": 3.7343915551900864,
+      "root_ade_cm": 2.7909794822335243,
+      "root_fde_cm": 4.826424270868301,
+      "root_aligned_mpjpe_cm": 2.391691692173481,
+      "pair_distance_error_cm": 1.8969068303704262
+    },
+    "last40": {
+      "mpjpe_cm": 6.506257504224777,
+      "root_ade_cm": 4.038766771554947,
+      "root_fde_cm": 6.738322973251343,
+      "root_aligned_mpjpe_cm": 4.910919442772865,
+      "pair_distance_error_cm": 0.656503438949585
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G047T007A039R028_aP2_rP1",
+    "episode": "G047T007A039R028",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "Two people stand face to face. One person raises a hand to his/her mouth and blows a kiss to the other. The other person lifts a hand and waves it away in front of his/her eyes.",
+    "split": "train",
+    "action": "039",
+    "file": "episodes/G047T007A039R028.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 7.099629193544388,
+      "root_ade_cm": 3.4826628863811493,
+      "root_fde_cm": 4.761545360088348,
+      "root_aligned_mpjpe_cm": 5.493023619055748,
+      "pair_distance_error_cm": 2.209962159395218
+    },
+    "first40": {
+      "mpjpe_cm": 5.412469059228897,
+      "root_ade_cm": 3.6689933389425278,
+      "root_fde_cm": 3.747798874974251,
+      "root_aligned_mpjpe_cm": 3.559314087033272,
+      "pair_distance_error_cm": 1.7736006528139114
+    },
+    "last40": {
+      "mpjpe_cm": 7.571998983621597,
+      "root_ade_cm": 4.523219913244247,
+      "root_fde_cm": 4.761545360088348,
+      "root_aligned_mpjpe_cm": 5.37349097430706,
+      "pair_distance_error_cm": 3.756977990269661
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G047T007A039R028_aP2_rP1",
+    "episode": "G047T007A039R028",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "Two people stand face to face. One person raises a hand to his/her mouth and blows a kiss to the other. The other person lifts a hand and waves it away in front of his/her eyes.",
+    "split": "train",
+    "action": "039",
+    "file": "episodes/G047T007A039R028.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 18.828240036964417,
+      "root_ade_cm": 15.446092188358307,
+      "root_fde_cm": 52.82624363899231,
+      "root_aligned_mpjpe_cm": 7.790052145719528,
+      "pair_distance_error_cm": 13.461710512638092
+    },
+    "first40": {
+      "mpjpe_cm": 6.550635397434235,
+      "root_ade_cm": 2.5855442509055138,
+      "root_fde_cm": 2.8950894251465797,
+      "root_aligned_mpjpe_cm": 6.131250038743019,
+      "pair_distance_error_cm": 0.740090012550354
+    },
+    "last40": {
+      "mpjpe_cm": 40.44962823390961,
+      "root_ade_cm": 38.33744525909424,
+      "root_fde_cm": 52.82624363899231,
+      "root_aligned_mpjpe_cm": 10.181409865617752,
+      "pair_distance_error_cm": 36.0617071390152
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G024T003A016R006_aP2_rP1",
+    "episode": "G024T003A016R006",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person raises his hands in front of him and gives a two-handed high five to the other person who also raises his hands in front of him.",
+    "split": "train",
+    "action": "016",
+    "file": "episodes/G024T003A016R006.npz",
+    "source_rotation_max_error": 2.5331974029541016e-07,
+    "metrics": {
+      "mpjpe_cm": 47.773945331573486,
+      "root_ade_cm": 45.509472489356995,
+      "root_fde_cm": 102.85602807998657,
+      "root_aligned_mpjpe_cm": 10.489369928836823,
+      "pair_distance_error_cm": 25.45439898967743
+    },
+    "first40": {
+      "mpjpe_cm": 16.148245334625244,
+      "root_ade_cm": 12.842001020908356,
+      "root_fde_cm": 25.02308487892151,
+      "root_aligned_mpjpe_cm": 8.474047482013702,
+      "pair_distance_error_cm": 9.632927179336548
+    },
+    "last40": {
+      "mpjpe_cm": 85.35841703414917,
+      "root_ade_cm": 85.12016534805298,
+      "root_fde_cm": 102.85602807998657,
+      "root_aligned_mpjpe_cm": 12.775957584381104,
+      "pair_distance_error_cm": 48.464393615722656
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G024T003A016R006_aP2_rP1",
+    "episode": "G024T003A016R006",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person raises his hands in front of him and gives a two-handed high five to the other person who also raises his hands in front of him.",
+    "split": "train",
+    "action": "016",
+    "file": "episodes/G024T003A016R006.npz",
+    "source_rotation_max_error": 2.5331974029541016e-07,
+    "metrics": {
+      "mpjpe_cm": 24.498873949050903,
+      "root_ade_cm": 21.78822159767151,
+      "root_fde_cm": 24.4122251868248,
+      "root_aligned_mpjpe_cm": 8.94949734210968,
+      "pair_distance_error_cm": 20.566995441913605
+    },
+    "first40": {
+      "mpjpe_cm": 19.505462050437927,
+      "root_ade_cm": 16.132935881614685,
+      "root_fde_cm": 39.07595872879028,
+      "root_aligned_mpjpe_cm": 9.013638645410538,
+      "pair_distance_error_cm": 14.403381943702698
+    },
+    "last40": {
+      "mpjpe_cm": 17.214463651180267,
+      "root_ade_cm": 12.639224529266357,
+      "root_fde_cm": 24.4122251868248,
+      "root_aligned_mpjpe_cm": 10.454709827899933,
+      "pair_distance_error_cm": 11.173520982265472
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G024T003A016R006_aP2_rP1",
+    "episode": "G024T003A016R006",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person raises his hands in front of him and gives a two-handed high five to the other person who also raises his hands in front of him.",
+    "split": "train",
+    "action": "016",
+    "file": "episodes/G024T003A016R006.npz",
+    "source_rotation_max_error": 2.5331974029541016e-07,
+    "metrics": {
+      "mpjpe_cm": 29.526278376579285,
+      "root_ade_cm": 26.78145468235016,
+      "root_fde_cm": 38.00263702869415,
+      "root_aligned_mpjpe_cm": 10.490060597658157,
+      "pair_distance_error_cm": 25.221040844917297
+    },
+    "first40": {
+      "mpjpe_cm": 28.937745094299316,
+      "root_ade_cm": 26.971015334129333,
+      "root_fde_cm": 10.554135590791702,
+      "root_aligned_mpjpe_cm": 10.598988085985184,
+      "pair_distance_error_cm": 25.040748715400696
+    },
+    "last40": {
+      "mpjpe_cm": 22.841373085975647,
+      "root_ade_cm": 18.85879933834076,
+      "root_fde_cm": 38.00263702869415,
+      "root_aligned_mpjpe_cm": 11.71824112534523,
+      "pair_distance_error_cm": 17.447978258132935
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G002T005A029R025_aP2_rP1",
+    "episode": "G002T005A029R025",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "Two people sit facing each other, chatting. The first person continues to make gestures with his/her hands, while the second person remains seated and eventually stands up.",
+    "split": "train",
+    "action": "029",
+    "file": "episodes/G002T005A029R025.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 4.183736443519592,
+      "root_ade_cm": 1.5045120380818844,
+      "root_fde_cm": 6.6453807055950165,
+      "root_aligned_mpjpe_cm": 3.7837784737348557,
+      "pair_distance_error_cm": 0.6191116757690907
+    },
+    "first40": {
+      "mpjpe_cm": 1.5161809511482716,
+      "root_ade_cm": 0.29065695125609636,
+      "root_fde_cm": 0.3749246709048748,
+      "root_aligned_mpjpe_cm": 1.5080947428941727,
+      "pair_distance_error_cm": 0.16380890738219023
+    },
+    "last40": {
+      "mpjpe_cm": 7.73138552904129,
+      "root_ade_cm": 3.364768624305725,
+      "root_fde_cm": 6.6453807055950165,
+      "root_aligned_mpjpe_cm": 6.625895202159882,
+      "pair_distance_error_cm": 1.1289951391518116
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G002T005A029R025_aP2_rP1",
+    "episode": "G002T005A029R025",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "Two people sit facing each other, chatting. The first person continues to make gestures with his/her hands, while the second person remains seated and eventually stands up.",
+    "split": "train",
+    "action": "029",
+    "file": "episodes/G002T005A029R025.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 6.580715626478195,
+      "root_ade_cm": 3.654717653989792,
+      "root_fde_cm": 2.788110263645649,
+      "root_aligned_mpjpe_cm": 5.698235332965851,
+      "pair_distance_error_cm": 1.5060123056173325
+    },
+    "first40": {
+      "mpjpe_cm": 3.2821062952280045,
+      "root_ade_cm": 2.1103424951434135,
+      "root_fde_cm": 2.9109248891472816,
+      "root_aligned_mpjpe_cm": 2.849925123155117,
+      "pair_distance_error_cm": 1.2054918333888054
+    },
+    "last40": {
+      "mpjpe_cm": 10.095753520727158,
+      "root_ade_cm": 4.230976849794388,
+      "root_fde_cm": 2.788110263645649,
+      "root_aligned_mpjpe_cm": 9.03029516339302,
+      "pair_distance_error_cm": 1.2872343882918358
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G002T005A029R025_aP2_rP1",
+    "episode": "G002T005A029R025",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "Two people sit facing each other, chatting. The first person continues to make gestures with his/her hands, while the second person remains seated and eventually stands up.",
+    "split": "train",
+    "action": "029",
+    "file": "episodes/G002T005A029R025.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 7.334506511688232,
+      "root_ade_cm": 6.50344118475914,
+      "root_fde_cm": 9.370353817939758,
+      "root_aligned_mpjpe_cm": 6.915779411792755,
+      "pair_distance_error_cm": 1.5739735215902328
+    },
+    "first40": {
+      "mpjpe_cm": 4.2049020528793335,
+      "root_ade_cm": 3.2081671059131622,
+      "root_fde_cm": 5.66834956407547,
+      "root_aligned_mpjpe_cm": 3.799671307206154,
+      "pair_distance_error_cm": 1.024987269192934
+    },
+    "last40": {
+      "mpjpe_cm": 9.621171653270721,
+      "root_ade_cm": 8.825323730707169,
+      "root_fde_cm": 9.370353817939758,
+      "root_aligned_mpjpe_cm": 9.274733811616898,
+      "pair_distance_error_cm": 1.176881231367588
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G014T003A019R027_aP1_rP2",
+    "episode": "G014T003A019R027",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "One person is seated, and another person bends down, placing his/her hands under the seated person's armpits to assist him/her in standing up. Then, the seated person proceeds to limp forward.",
+    "split": "train",
+    "action": "019",
+    "file": "episodes/G014T003A019R027.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 42.62281060218811,
+      "root_ade_cm": 33.07965099811554,
+      "root_fde_cm": 81.08091950416565,
+      "root_aligned_mpjpe_cm": 17.22879856824875,
+      "pair_distance_error_cm": 20.161232352256775
+    },
+    "first40": {
+      "mpjpe_cm": 14.846798777580261,
+      "root_ade_cm": 8.568962663412094,
+      "root_fde_cm": 17.18732714653015,
+      "root_aligned_mpjpe_cm": 9.881969541311264,
+      "pair_distance_error_cm": 1.441751979291439
+    },
+    "last40": {
+      "mpjpe_cm": 69.58910822868347,
+      "root_ade_cm": 63.51630687713623,
+      "root_fde_cm": 81.08091950416565,
+      "root_aligned_mpjpe_cm": 19.179946184158325,
+      "pair_distance_error_cm": 52.95833349227905
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G014T003A019R027_aP1_rP2",
+    "episode": "G014T003A019R027",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "One person is seated, and another person bends down, placing his/her hands under the seated person's armpits to assist him/her in standing up. Then, the seated person proceeds to limp forward.",
+    "split": "train",
+    "action": "019",
+    "file": "episodes/G014T003A019R027.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 26.58650279045105,
+      "root_ade_cm": 17.89998561143875,
+      "root_fde_cm": 47.81428277492523,
+      "root_aligned_mpjpe_cm": 15.563637018203735,
+      "pair_distance_error_cm": 12.376461923122406
+    },
+    "first40": {
+      "mpjpe_cm": 10.50543263554573,
+      "root_ade_cm": 5.196106433868408,
+      "root_fde_cm": 6.358829140663147,
+      "root_aligned_mpjpe_cm": 7.846145331859589,
+      "pair_distance_error_cm": 2.6135271415114403
+    },
+    "last40": {
+      "mpjpe_cm": 46.80808186531067,
+      "root_ade_cm": 39.28855061531067,
+      "root_fde_cm": 47.81428277492523,
+      "root_aligned_mpjpe_cm": 18.83092075586319,
+      "pair_distance_error_cm": 29.781746864318848
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G014T003A019R027_aP1_rP2",
+    "episode": "G014T003A019R027",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "One person is seated, and another person bends down, placing his/her hands under the seated person's armpits to assist him/her in standing up. Then, the seated person proceeds to limp forward.",
+    "split": "train",
+    "action": "019",
+    "file": "episodes/G014T003A019R027.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 34.84971225261688,
+      "root_ade_cm": 33.19327533245087,
+      "root_fde_cm": 66.29592180252075,
+      "root_aligned_mpjpe_cm": 13.686473667621613,
+      "pair_distance_error_cm": 9.199833124876022
+    },
+    "first40": {
+      "mpjpe_cm": 19.1860631108284,
+      "root_ade_cm": 15.5704066157341,
+      "root_fde_cm": 23.726052045822144,
+      "root_aligned_mpjpe_cm": 13.41484934091568,
+      "pair_distance_error_cm": 7.220572233200073
+    },
+    "last40": {
+      "mpjpe_cm": 53.117209672927856,
+      "root_ade_cm": 56.50309920310974,
+      "root_fde_cm": 66.29592180252075,
+      "root_aligned_mpjpe_cm": 13.076581060886383,
+      "pair_distance_error_cm": 7.379802316427231
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G039T001A001R002_aP2_rP1",
+    "episode": "G039T001A001R002",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person extends his/her left hand to hold the right hand of the other person, and they shake hands up and down a few times before they separate.",
+    "split": "train",
+    "action": "001",
+    "file": "episodes/G039T001A001R002.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 69.08426880836487,
+      "root_ade_cm": 68.56240630149841,
+      "root_fde_cm": 108.65457057952881,
+      "root_aligned_mpjpe_cm": 12.873055040836334,
+      "pair_distance_error_cm": 42.056605219841
+    },
+    "first40": {
+      "mpjpe_cm": 32.8364759683609,
+      "root_ade_cm": 30.95053732395172,
+      "root_fde_cm": 57.60725736618042,
+      "root_aligned_mpjpe_cm": 9.78439524769783,
+      "pair_distance_error_cm": 28.48392128944397
+    },
+    "last40": {
+      "mpjpe_cm": 105.80410957336426,
+      "root_ade_cm": 106.11852407455444,
+      "root_fde_cm": 108.65457057952881,
+      "root_aligned_mpjpe_cm": 15.873804688453674,
+      "pair_distance_error_cm": 50.48627853393555
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G039T001A001R002_aP2_rP1",
+    "episode": "G039T001A001R002",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person extends his/her left hand to hold the right hand of the other person, and they shake hands up and down a few times before they separate.",
+    "split": "train",
+    "action": "001",
+    "file": "episodes/G039T001A001R002.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 26.364809274673462,
+      "root_ade_cm": 21.81556671857834,
+      "root_fde_cm": 24.15548264980316,
+      "root_aligned_mpjpe_cm": 12.68821805715561,
+      "pair_distance_error_cm": 15.44552743434906
+    },
+    "first40": {
+      "mpjpe_cm": 16.971196234226227,
+      "root_ade_cm": 12.300477176904678,
+      "root_fde_cm": 16.375963389873505,
+      "root_aligned_mpjpe_cm": 9.795056283473969,
+      "pair_distance_error_cm": 11.422915756702423
+    },
+    "last40": {
+      "mpjpe_cm": 35.59845983982086,
+      "root_ade_cm": 28.76116633415222,
+      "root_fde_cm": 24.15548264980316,
+      "root_aligned_mpjpe_cm": 15.959018468856812,
+      "pair_distance_error_cm": 19.97493803501129
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G039T001A001R002_aP2_rP1",
+    "episode": "G039T001A001R002",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person extends his/her left hand to hold the right hand of the other person, and they shake hands up and down a few times before they separate.",
+    "split": "train",
+    "action": "001",
+    "file": "episodes/G039T001A001R002.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 15.578067302703857,
+      "root_ade_cm": 14.817747473716736,
+      "root_fde_cm": 30.841341614723206,
+      "root_aligned_mpjpe_cm": 5.201787501573563,
+      "pair_distance_error_cm": 6.074013561010361
+    },
+    "first40": {
+      "mpjpe_cm": 9.141526371240616,
+      "root_ade_cm": 7.390526682138443,
+      "root_fde_cm": 9.292034059762955,
+      "root_aligned_mpjpe_cm": 5.551804602146149,
+      "pair_distance_error_cm": 6.1184365302324295
+    },
+    "last40": {
+      "mpjpe_cm": 22.66385108232498,
+      "root_ade_cm": 23.270542919635773,
+      "root_fde_cm": 30.841341614723206,
+      "root_aligned_mpjpe_cm": 4.8049189150333405,
+      "pair_distance_error_cm": 10.30011922121048
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G021T002A013R019_aP2_rP1",
+    "episode": "G021T002A013R019",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person walks towards the other person, and as he/she gets closer, the other person starts swaying back and forth on the chair.",
+    "split": "train",
+    "action": "013",
+    "file": "episodes/G021T002A013R019.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 66.94941520690918,
+      "root_ade_cm": 67.22769141197205,
+      "root_fde_cm": 125.65090656280518,
+      "root_aligned_mpjpe_cm": 8.397457003593445,
+      "pair_distance_error_cm": 30.632293224334717
+    },
+    "first40": {
+      "mpjpe_cm": 15.788237750530243,
+      "root_ade_cm": 15.754799544811249,
+      "root_fde_cm": 42.30450093746185,
+      "root_aligned_mpjpe_cm": 4.183154925704002,
+      "pair_distance_error_cm": 14.979353547096252
+    },
+    "last40": {
+      "mpjpe_cm": 112.06191778182983,
+      "root_ade_cm": 112.36497163772583,
+      "root_fde_cm": 125.65090656280518,
+      "root_aligned_mpjpe_cm": 12.474123388528824,
+      "pair_distance_error_cm": 27.3337721824646
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G021T002A013R019_aP2_rP1",
+    "episode": "G021T002A013R019",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person walks towards the other person, and as he/she gets closer, the other person starts swaying back and forth on the chair.",
+    "split": "train",
+    "action": "013",
+    "file": "episodes/G021T002A013R019.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 49.2432564496994,
+      "root_ade_cm": 47.76076078414917,
+      "root_fde_cm": 101.60787105560303,
+      "root_aligned_mpjpe_cm": 10.437113791704178,
+      "pair_distance_error_cm": 21.549391746520996
+    },
+    "first40": {
+      "mpjpe_cm": 7.696661353111267,
+      "root_ade_cm": 6.995032727718353,
+      "root_fde_cm": 21.591724455356598,
+      "root_aligned_mpjpe_cm": 2.994791232049465,
+      "pair_distance_error_cm": 5.7334937155246735
+    },
+    "last40": {
+      "mpjpe_cm": 93.81951093673706,
+      "root_ade_cm": 90.03372192382812,
+      "root_fde_cm": 101.60787105560303,
+      "root_aligned_mpjpe_cm": 19.601809978485107,
+      "pair_distance_error_cm": 37.78464496135712
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G021T002A013R019_aP2_rP1",
+    "episode": "G021T002A013R019",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person walks towards the other person, and as he/she gets closer, the other person starts swaying back and forth on the chair.",
+    "split": "train",
+    "action": "013",
+    "file": "episodes/G021T002A013R019.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 111.4285945892334,
+      "root_ade_cm": 109.90595817565918,
+      "root_fde_cm": 55.0225555896759,
+      "root_aligned_mpjpe_cm": 14.053404331207275,
+      "pair_distance_error_cm": 31.598982214927673
+    },
+    "first40": {
+      "mpjpe_cm": 109.7097396850586,
+      "root_ade_cm": 108.6063027381897,
+      "root_fde_cm": 203.6346673965454,
+      "root_aligned_mpjpe_cm": 8.793235570192337,
+      "pair_distance_error_cm": 21.68406993150711
+    },
+    "last40": {
+      "mpjpe_cm": 84.57009196281433,
+      "root_ade_cm": 82.07215070724487,
+      "root_fde_cm": 55.0225555896759,
+      "root_aligned_mpjpe_cm": 13.35083544254303,
+      "pair_distance_error_cm": 9.52412560582161
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G048T006A027R003_aP2_rP1",
+    "episode": "G048T006A027R003",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "Two people sit side by side, and then one of them stands up, raises both hands, bends down, and goes to pat the other person's thigh to massage it.",
+    "split": "train",
+    "action": "027",
+    "file": "episodes/G048T006A027R003.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 31.31926655769348,
+      "root_ade_cm": 34.92425978183746,
+      "root_fde_cm": 48.33689332008362,
+      "root_aligned_mpjpe_cm": 29.43720519542694,
+      "pair_distance_error_cm": 4.218721389770508
+    },
+    "first40": {
+      "mpjpe_cm": 17.433957755565643,
+      "root_ade_cm": 15.24132788181305,
+      "root_fde_cm": 41.01010859012604,
+      "root_aligned_mpjpe_cm": 14.9070605635643,
+      "pair_distance_error_cm": 1.1341986246407032
+    },
+    "last40": {
+      "mpjpe_cm": 38.613176345825195,
+      "root_ade_cm": 44.08921301364899,
+      "root_fde_cm": 48.33689332008362,
+      "root_aligned_mpjpe_cm": 38.27687203884125,
+      "pair_distance_error_cm": 4.983647912740707
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G048T006A027R003_aP2_rP1",
+    "episode": "G048T006A027R003",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "Two people sit side by side, and then one of them stands up, raises both hands, bends down, and goes to pat the other person's thigh to massage it.",
+    "split": "train",
+    "action": "027",
+    "file": "episodes/G048T006A027R003.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 36.53011918067932,
+      "root_ade_cm": 35.915425419807434,
+      "root_fde_cm": 58.1181526184082,
+      "root_aligned_mpjpe_cm": 24.99859482049942,
+      "pair_distance_error_cm": 9.811046719551086
+    },
+    "first40": {
+      "mpjpe_cm": 18.761266767978668,
+      "root_ade_cm": 11.919434368610382,
+      "root_fde_cm": 29.211142659187317,
+      "root_aligned_mpjpe_cm": 15.881137549877167,
+      "pair_distance_error_cm": 4.1100163012743
+    },
+    "last40": {
+      "mpjpe_cm": 53.167539834976196,
+      "root_ade_cm": 52.02474594116211,
+      "root_fde_cm": 58.1181526184082,
+      "root_aligned_mpjpe_cm": 29.58424687385559,
+      "pair_distance_error_cm": 9.67363715171814
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G048T006A027R003_aP2_rP1",
+    "episode": "G048T006A027R003",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "Two people sit side by side, and then one of them stands up, raises both hands, bends down, and goes to pat the other person's thigh to massage it.",
+    "split": "train",
+    "action": "027",
+    "file": "episodes/G048T006A027R003.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 31.423747539520264,
+      "root_ade_cm": 30.535072088241577,
+      "root_fde_cm": 37.967658042907715,
+      "root_aligned_mpjpe_cm": 31.733959913253784,
+      "pair_distance_error_cm": 15.03114402294159
+    },
+    "first40": {
+      "mpjpe_cm": 18.408358097076416,
+      "root_ade_cm": 13.727009296417236,
+      "root_fde_cm": 37.06634342670441,
+      "root_aligned_mpjpe_cm": 16.88084453344345,
+      "pair_distance_error_cm": 4.671957343816757
+    },
+    "last40": {
+      "mpjpe_cm": 39.696094393730164,
+      "root_ade_cm": 37.60598301887512,
+      "root_fde_cm": 37.967658042907715,
+      "root_aligned_mpjpe_cm": 41.49062633514404,
+      "pair_distance_error_cm": 21.53870165348053
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G019T004A024R022_aP1_rP2",
+    "episode": "G019T004A024R022",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "One person bends down to bow to the other person, while the other person places his/her hand on the first person's shoulder and gently presses. Then, both of them raise their hands above their heads.",
+    "split": "train",
+    "action": "024",
+    "file": "episodes/G019T004A024R022.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 16.3047194480896,
+      "root_ade_cm": 16.13425612449646,
+      "root_fde_cm": 47.25343883037567,
+      "root_aligned_mpjpe_cm": 13.376016914844513,
+      "pair_distance_error_cm": 14.694063365459442
+    },
+    "first40": {
+      "mpjpe_cm": 9.728138893842697,
+      "root_ade_cm": 4.964799806475639,
+      "root_fde_cm": 4.688645154237747,
+      "root_aligned_mpjpe_cm": 10.5095773935318,
+      "pair_distance_error_cm": 4.046270251274109
+    },
+    "last40": {
+      "mpjpe_cm": 28.42969000339508,
+      "root_ade_cm": 37.20307946205139,
+      "root_fde_cm": 47.25343883037567,
+      "root_aligned_mpjpe_cm": 19.76117193698883,
+      "pair_distance_error_cm": 35.55516600608826
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G019T004A024R022_aP1_rP2",
+    "episode": "G019T004A024R022",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "One person bends down to bow to the other person, while the other person places his/her hand on the first person's shoulder and gently presses. Then, both of them raise their hands above their heads.",
+    "split": "train",
+    "action": "024",
+    "file": "episodes/G019T004A024R022.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 17.813271284103394,
+      "root_ade_cm": 14.10137563943863,
+      "root_fde_cm": 47.962480783462524,
+      "root_aligned_mpjpe_cm": 12.445982545614243,
+      "pair_distance_error_cm": 12.91244626045227
+    },
+    "first40": {
+      "mpjpe_cm": 8.29060971736908,
+      "root_ade_cm": 4.617613181471825,
+      "root_fde_cm": 5.909890308976173,
+      "root_aligned_mpjpe_cm": 8.960913121700287,
+      "pair_distance_error_cm": 4.029549285769463
+    },
+    "last40": {
+      "mpjpe_cm": 33.554092049598694,
+      "root_ade_cm": 32.222068309783936,
+      "root_fde_cm": 47.962480783462524,
+      "root_aligned_mpjpe_cm": 17.12084263563156,
+      "pair_distance_error_cm": 30.263927578926086
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G019T004A024R022_aP1_rP2",
+    "episode": "G019T004A024R022",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "One person bends down to bow to the other person, while the other person places his/her hand on the first person's shoulder and gently presses. Then, both of them raise their hands above their heads.",
+    "split": "train",
+    "action": "024",
+    "file": "episodes/G019T004A024R022.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 24.212008714675903,
+      "root_ade_cm": 16.243809461593628,
+      "root_fde_cm": 28.452619910240173,
+      "root_aligned_mpjpe_cm": 16.545221209526062,
+      "pair_distance_error_cm": 11.79208904504776
+    },
+    "first40": {
+      "mpjpe_cm": 13.303983211517334,
+      "root_ade_cm": 6.781886518001556,
+      "root_fde_cm": 16.667723655700684,
+      "root_aligned_mpjpe_cm": 13.504640758037567,
+      "pair_distance_error_cm": 6.244533136487007
+    },
+    "last40": {
+      "mpjpe_cm": 30.15056848526001,
+      "root_ade_cm": 25.06544291973114,
+      "root_fde_cm": 28.452619910240173,
+      "root_aligned_mpjpe_cm": 12.452496588230133,
+      "pair_distance_error_cm": 20.76776474714279
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G014T006A033R019_aP2_rP1",
+    "episode": "G014T006A033R019",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "Two people face each other. One person opens his/her arms and raises his/her right foot, and the other person imitates by opening his/her arms and raising his/her left foot.",
+    "split": "train",
+    "action": "033",
+    "file": "episodes/G014T006A033R019.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 71.40432596206665,
+      "root_ade_cm": 62.662142515182495,
+      "root_fde_cm": 140.65215587615967,
+      "root_aligned_mpjpe_cm": 15.304160118103027,
+      "pair_distance_error_cm": 47.46831953525543
+    },
+    "first40": {
+      "mpjpe_cm": 28.099480271339417,
+      "root_ade_cm": 17.634224891662598,
+      "root_fde_cm": 36.12161874771118,
+      "root_aligned_mpjpe_cm": 15.460357069969177,
+      "pair_distance_error_cm": 12.107972800731659
+    },
+    "last40": {
+      "mpjpe_cm": 108.98302793502808,
+      "root_ade_cm": 96.80846929550171,
+      "root_fde_cm": 140.65215587615967,
+      "root_aligned_mpjpe_cm": 19.769543409347534,
+      "pair_distance_error_cm": 67.05077290534973
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G014T006A033R019_aP2_rP1",
+    "episode": "G014T006A033R019",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "Two people face each other. One person opens his/her arms and raises his/her right foot, and the other person imitates by opening his/her arms and raising his/her left foot.",
+    "split": "train",
+    "action": "033",
+    "file": "episodes/G014T006A033R019.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 29.192933440208435,
+      "root_ade_cm": 17.544323205947876,
+      "root_fde_cm": 14.041006565093994,
+      "root_aligned_mpjpe_cm": 19.014135003089905,
+      "pair_distance_error_cm": 14.437443017959595
+    },
+    "first40": {
+      "mpjpe_cm": 20.2475905418396,
+      "root_ade_cm": 6.21306374669075,
+      "root_fde_cm": 7.904788851737976,
+      "root_aligned_mpjpe_cm": 18.60559582710266,
+      "pair_distance_error_cm": 2.582595869898796
+    },
+    "last40": {
+      "mpjpe_cm": 32.28460252285004,
+      "root_ade_cm": 18.885591626167297,
+      "root_fde_cm": 14.041006565093994,
+      "root_aligned_mpjpe_cm": 20.70600688457489,
+      "pair_distance_error_cm": 17.221204936504364
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G014T006A033R019_aP2_rP1",
+    "episode": "G014T006A033R019",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "Two people face each other. One person opens his/her arms and raises his/her right foot, and the other person imitates by opening his/her arms and raising his/her left foot.",
+    "split": "train",
+    "action": "033",
+    "file": "episodes/G014T006A033R019.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 19.806766510009766,
+      "root_ade_cm": 13.815727829933167,
+      "root_fde_cm": 16.675637662410736,
+      "root_aligned_mpjpe_cm": 14.514358341693878,
+      "pair_distance_error_cm": 7.251041382551193
+    },
+    "first40": {
+      "mpjpe_cm": 22.475090622901917,
+      "root_ade_cm": 14.984844624996185,
+      "root_fde_cm": 19.859233498573303,
+      "root_aligned_mpjpe_cm": 16.100917756557465,
+      "pair_distance_error_cm": 2.9136741533875465
+    },
+    "last40": {
+      "mpjpe_cm": 20.39145678281784,
+      "root_ade_cm": 12.989076972007751,
+      "root_fde_cm": 16.675637662410736,
+      "root_aligned_mpjpe_cm": 16.181375086307526,
+      "pair_distance_error_cm": 8.729784190654755
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G016T007A037R011_aP2_rP1",
+    "episode": "G016T007A037R011",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person stands behind the other and gently taps the second person's right shoulder with his/her right hand. His/her intention is to move forward without being noticed by the second person. However, at that precise moment, the second person has already turned around and spotted the first person.",
+    "split": "train",
+    "action": "037",
+    "file": "episodes/G016T007A037R011.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 31.33748471736908,
+      "root_ade_cm": 25.383809208869934,
+      "root_fde_cm": 46.18796706199646,
+      "root_aligned_mpjpe_cm": 17.580188810825348,
+      "pair_distance_error_cm": 14.443781971931458
+    },
+    "first40": {
+      "mpjpe_cm": 11.28414124250412,
+      "root_ade_cm": 5.174943059682846,
+      "root_fde_cm": 10.877496749162674,
+      "root_aligned_mpjpe_cm": 8.987041562795639,
+      "pair_distance_error_cm": 2.0212234929203987
+    },
+    "last40": {
+      "mpjpe_cm": 51.117146015167236,
+      "root_ade_cm": 50.93580484390259,
+      "root_fde_cm": 46.18796706199646,
+      "root_aligned_mpjpe_cm": 19.797463715076447,
+      "pair_distance_error_cm": 28.18732261657715
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G016T007A037R011_aP2_rP1",
+    "episode": "G016T007A037R011",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person stands behind the other and gently taps the second person's right shoulder with his/her right hand. His/her intention is to move forward without being noticed by the second person. However, at that precise moment, the second person has already turned around and spotted the first person.",
+    "split": "train",
+    "action": "037",
+    "file": "episodes/G016T007A037R011.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 33.785536885261536,
+      "root_ade_cm": 25.4823237657547,
+      "root_fde_cm": 23.620669543743134,
+      "root_aligned_mpjpe_cm": 21.16735726594925,
+      "pair_distance_error_cm": 7.992717623710632
+    },
+    "first40": {
+      "mpjpe_cm": 18.5368150472641,
+      "root_ade_cm": 7.234673202037811,
+      "root_fde_cm": 18.810302019119263,
+      "root_aligned_mpjpe_cm": 16.079077124595642,
+      "pair_distance_error_cm": 3.1846128404140472
+    },
+    "last40": {
+      "mpjpe_cm": 40.43968319892883,
+      "root_ade_cm": 37.943634390830994,
+      "root_fde_cm": 23.620669543743134,
+      "root_aligned_mpjpe_cm": 19.697357714176178,
+      "pair_distance_error_cm": 5.839171260595322
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G016T007A037R011_aP2_rP1",
+    "episode": "G016T007A037R011",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person stands behind the other and gently taps the second person's right shoulder with his/her right hand. His/her intention is to move forward without being noticed by the second person. However, at that precise moment, the second person has already turned around and spotted the first person.",
+    "split": "train",
+    "action": "037",
+    "file": "episodes/G016T007A037R011.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 83.08481574058533,
+      "root_ade_cm": 78.63597869873047,
+      "root_fde_cm": 193.11543703079224,
+      "root_aligned_mpjpe_cm": 17.15584099292755,
+      "pair_distance_error_cm": 32.61589705944061
+    },
+    "first40": {
+      "mpjpe_cm": 22.692351043224335,
+      "root_ade_cm": 17.78085231781006,
+      "root_fde_cm": 18.86640042066574,
+      "root_aligned_mpjpe_cm": 17.157796025276184,
+      "pair_distance_error_cm": 9.748610854148865
+    },
+    "last40": {
+      "mpjpe_cm": 142.16413497924805,
+      "root_ade_cm": 140.72860479354858,
+      "root_fde_cm": 193.11543703079224,
+      "root_aligned_mpjpe_cm": 10.838478803634644,
+      "pair_distance_error_cm": 29.01514172554016
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G016T001A006R011_aP1_rP2",
+    "episode": "G016T001A006R011",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "Two people stand facing each other, attempting to push each other while striking a pose.",
+    "split": "train",
+    "action": "006",
+    "file": "episodes/G016T001A006R011.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 39.57647681236267,
+      "root_ade_cm": 34.344419836997986,
+      "root_fde_cm": 61.862266063690186,
+      "root_aligned_mpjpe_cm": 9.663595259189606,
+      "pair_distance_error_cm": 13.568954169750214
+    },
+    "first40": {
+      "mpjpe_cm": 14.580215513706207,
+      "root_ade_cm": 10.756862163543701,
+      "root_fde_cm": 26.58839225769043,
+      "root_aligned_mpjpe_cm": 6.531934440135956,
+      "pair_distance_error_cm": 5.548445135354996
+    },
+    "last40": {
+      "mpjpe_cm": 55.166828632354736,
+      "root_ade_cm": 48.58756959438324,
+      "root_fde_cm": 61.862266063690186,
+      "root_aligned_mpjpe_cm": 12.865333259105682,
+      "pair_distance_error_cm": 15.777289867401123
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G016T001A006R011_aP1_rP2",
+    "episode": "G016T001A006R011",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "Two people stand facing each other, attempting to push each other while striking a pose.",
+    "split": "train",
+    "action": "006",
+    "file": "episodes/G016T001A006R011.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 40.899622440338135,
+      "root_ade_cm": 33.05493891239166,
+      "root_fde_cm": 26.777637004852295,
+      "root_aligned_mpjpe_cm": 17.597346007823944,
+      "pair_distance_error_cm": 14.52014446258545
+    },
+    "first40": {
+      "mpjpe_cm": 20.779024064540863,
+      "root_ade_cm": 16.09041690826416,
+      "root_fde_cm": 33.95346403121948,
+      "root_aligned_mpjpe_cm": 10.112005472183228,
+      "pair_distance_error_cm": 4.828765615820885
+    },
+    "last40": {
+      "mpjpe_cm": 49.576956033706665,
+      "root_ade_cm": 40.6263530254364,
+      "root_fde_cm": 26.777637004852295,
+      "root_aligned_mpjpe_cm": 21.664027869701385,
+      "pair_distance_error_cm": 26.017355918884277
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G016T001A006R011_aP1_rP2",
+    "episode": "G016T001A006R011",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "Two people stand facing each other, attempting to push each other while striking a pose.",
+    "split": "train",
+    "action": "006",
+    "file": "episodes/G016T001A006R011.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 80.36118149757385,
+      "root_ade_cm": 83.32849144935608,
+      "root_fde_cm": 119.92287635803223,
+      "root_aligned_mpjpe_cm": 12.941054999828339,
+      "pair_distance_error_cm": 25.846275687217712
+    },
+    "first40": {
+      "mpjpe_cm": 42.534253001213074,
+      "root_ade_cm": 41.769346594810486,
+      "root_fde_cm": 61.84123754501343,
+      "root_aligned_mpjpe_cm": 9.281808882951736,
+      "pair_distance_error_cm": 39.53137993812561
+    },
+    "last40": {
+      "mpjpe_cm": 113.45267295837402,
+      "root_ade_cm": 119.61430311203003,
+      "root_fde_cm": 119.92287635803223,
+      "root_aligned_mpjpe_cm": 15.8074289560318,
+      "pair_distance_error_cm": 9.526015818119049
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G004T007A017R012_aP1_rP2",
+    "episode": "G004T007A017R012",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "The two people stand face to face at first, then he/she chases after the other person.",
+    "split": "train",
+    "action": "017",
+    "file": "episodes/G004T007A017R012.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 123.53006601333618,
+      "root_ade_cm": 122.42265939712524,
+      "root_fde_cm": 164.2633318901062,
+      "root_aligned_mpjpe_cm": 15.694466233253479,
+      "pair_distance_error_cm": 51.86740159988403
+    },
+    "first40": {
+      "mpjpe_cm": 24.983565509319305,
+      "root_ade_cm": 22.73843288421631,
+      "root_fde_cm": 76.82128548622131,
+      "root_aligned_mpjpe_cm": 7.430857419967651,
+      "pair_distance_error_cm": 19.53313797712326
+    },
+    "last40": {
+      "mpjpe_cm": 184.11900997161865,
+      "root_ade_cm": 186.77871227264404,
+      "root_fde_cm": 164.2633318901062,
+      "root_aligned_mpjpe_cm": 25.452083349227905,
+      "pair_distance_error_cm": 19.202646613121033
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G004T007A017R012_aP1_rP2",
+    "episode": "G004T007A017R012",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "The two people stand face to face at first, then he/she chases after the other person.",
+    "split": "train",
+    "action": "017",
+    "file": "episodes/G004T007A017R012.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 77.14508175849915,
+      "root_ade_cm": 75.40022730827332,
+      "root_fde_cm": 84.24383401870728,
+      "root_aligned_mpjpe_cm": 18.245139718055725,
+      "pair_distance_error_cm": 43.06629300117493
+    },
+    "first40": {
+      "mpjpe_cm": 17.280344665050507,
+      "root_ade_cm": 11.154814064502716,
+      "root_fde_cm": 45.62395215034485,
+      "root_aligned_mpjpe_cm": 9.852328151464462,
+      "pair_distance_error_cm": 6.8092867732048035
+    },
+    "last40": {
+      "mpjpe_cm": 108.82601737976074,
+      "root_ade_cm": 109.48009490966797,
+      "root_fde_cm": 84.24383401870728,
+      "root_aligned_mpjpe_cm": 28.035134077072144,
+      "pair_distance_error_cm": 53.6514937877655
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G004T007A017R012_aP1_rP2",
+    "episode": "G004T007A017R012",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "The two people stand face to face at first, then he/she chases after the other person.",
+    "split": "train",
+    "action": "017",
+    "file": "episodes/G004T007A017R012.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 116.06467962265015,
+      "root_ade_cm": 113.62261772155762,
+      "root_fde_cm": 146.32961750030518,
+      "root_aligned_mpjpe_cm": 19.397102296352386,
+      "pair_distance_error_cm": 56.51023983955383
+    },
+    "first40": {
+      "mpjpe_cm": 120.23283243179321,
+      "root_ade_cm": 118.72450113296509,
+      "root_fde_cm": 163.20180892944336,
+      "root_aligned_mpjpe_cm": 14.381693303585052,
+      "pair_distance_error_cm": 115.45766592025757
+    },
+    "last40": {
+      "mpjpe_cm": 140.59594869613647,
+      "root_ade_cm": 142.79613494873047,
+      "root_fde_cm": 146.32961750030518,
+      "root_aligned_mpjpe_cm": 19.324783980846405,
+      "pair_distance_error_cm": 22.519326210021973
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G004T006A011R009_aP1_rP2",
+    "episode": "G004T006A011R009",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "The first person softly pats the upper right part of the second person's back from behind with his/her right hand, and the second person pats back with his/her left hand.",
+    "split": "train",
+    "action": "011",
+    "file": "episodes/G004T006A011R009.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 13.639885187149048,
+      "root_ade_cm": 10.458531975746155,
+      "root_fde_cm": 15.748074650764465,
+      "root_aligned_mpjpe_cm": 7.303774356842041,
+      "pair_distance_error_cm": 5.394379422068596
+    },
+    "first40": {
+      "mpjpe_cm": 7.395827770233154,
+      "root_ade_cm": 2.26842500269413,
+      "root_fde_cm": 7.018966972827911,
+      "root_aligned_mpjpe_cm": 7.104125618934631,
+      "pair_distance_error_cm": 0.92817647382617
+    },
+    "last40": {
+      "mpjpe_cm": 17.57846027612686,
+      "root_ade_cm": 15.496304631233215,
+      "root_fde_cm": 15.748074650764465,
+      "root_aligned_mpjpe_cm": 6.278754770755768,
+      "pair_distance_error_cm": 6.673689186573029
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G004T006A011R009_aP1_rP2",
+    "episode": "G004T006A011R009",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "The first person softly pats the upper right part of the second person's back from behind with his/her right hand, and the second person pats back with his/her left hand.",
+    "split": "train",
+    "action": "011",
+    "file": "episodes/G004T006A011R009.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 20.980897545814514,
+      "root_ade_cm": 16.95293039083481,
+      "root_fde_cm": 18.61770898103714,
+      "root_aligned_mpjpe_cm": 9.834883362054825,
+      "pair_distance_error_cm": 6.388942152261734
+    },
+    "first40": {
+      "mpjpe_cm": 10.470381379127502,
+      "root_ade_cm": 4.873562604188919,
+      "root_fde_cm": 12.71870881319046,
+      "root_aligned_mpjpe_cm": 8.66021066904068,
+      "pair_distance_error_cm": 2.4624820798635483
+    },
+    "last40": {
+      "mpjpe_cm": 29.28987443447113,
+      "root_ade_cm": 25.81213414669037,
+      "root_fde_cm": 18.61770898103714,
+      "root_aligned_mpjpe_cm": 12.030421197414398,
+      "pair_distance_error_cm": 8.140287548303604
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G004T006A011R009_aP1_rP2",
+    "episode": "G004T006A011R009",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "The first person softly pats the upper right part of the second person's back from behind with his/her right hand, and the second person pats back with his/her left hand.",
+    "split": "train",
+    "action": "011",
+    "file": "episodes/G004T006A011R009.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 76.78764462471008,
+      "root_ade_cm": 74.952632188797,
+      "root_fde_cm": 92.449289560318,
+      "root_aligned_mpjpe_cm": 14.684848487377167,
+      "pair_distance_error_cm": 26.50904953479767
+    },
+    "first40": {
+      "mpjpe_cm": 56.040334701538086,
+      "root_ade_cm": 51.94597840309143,
+      "root_fde_cm": 67.35323667526245,
+      "root_aligned_mpjpe_cm": 10.875993221998215,
+      "pair_distance_error_cm": 44.298067688941956
+    },
+    "last40": {
+      "mpjpe_cm": 93.44868063926697,
+      "root_ade_cm": 94.81412768363953,
+      "root_fde_cm": 92.449289560318,
+      "root_aligned_mpjpe_cm": 18.614231050014496,
+      "pair_distance_error_cm": 14.61975872516632
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G026T007A034R027_aP1_rP2",
+    "episode": "G026T007A034R027",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "The standing person walks towards the seated person, holds his/her shoulders with both hands, kisses his/her cheek, but the other person moves aside.",
+    "split": "train",
+    "action": "034",
+    "file": "episodes/G026T007A034R027.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 23.997128009796143,
+      "root_ade_cm": 20.47867774963379,
+      "root_fde_cm": 53.13113331794739,
+      "root_aligned_mpjpe_cm": 11.882119625806808,
+      "pair_distance_error_cm": 8.318812400102615
+    },
+    "first40": {
+      "mpjpe_cm": 11.111746728420258,
+      "root_ade_cm": 11.556966602802277,
+      "root_fde_cm": 12.695503234863281,
+      "root_aligned_mpjpe_cm": 3.529675677418709,
+      "pair_distance_error_cm": 5.003842711448669
+    },
+    "last40": {
+      "mpjpe_cm": 44.08649206161499,
+      "root_ade_cm": 40.422043204307556,
+      "root_fde_cm": 53.13113331794739,
+      "root_aligned_mpjpe_cm": 20.64119577407837,
+      "pair_distance_error_cm": 13.47849816083908
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G026T007A034R027_aP1_rP2",
+    "episode": "G026T007A034R027",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "The standing person walks towards the seated person, holds his/her shoulders with both hands, kisses his/her cheek, but the other person moves aside.",
+    "split": "train",
+    "action": "034",
+    "file": "episodes/G026T007A034R027.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 17.00683832168579,
+      "root_ade_cm": 13.525721430778503,
+      "root_fde_cm": 34.68290567398071,
+      "root_aligned_mpjpe_cm": 10.145411640405655,
+      "pair_distance_error_cm": 7.1415141224861145
+    },
+    "first40": {
+      "mpjpe_cm": 9.113670140504837,
+      "root_ade_cm": 9.067578613758087,
+      "root_fde_cm": 13.844259083271027,
+      "root_aligned_mpjpe_cm": 2.7537155896425247,
+      "pair_distance_error_cm": 5.382009223103523
+    },
+    "last40": {
+      "mpjpe_cm": 23.305881023406982,
+      "root_ade_cm": 19.918638467788696,
+      "root_fde_cm": 34.68290567398071,
+      "root_aligned_mpjpe_cm": 16.527338325977325,
+      "pair_distance_error_cm": 7.8991517424583435
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G026T007A034R027_aP1_rP2",
+    "episode": "G026T007A034R027",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "The standing person walks towards the seated person, holds his/her shoulders with both hands, kisses his/her cheek, but the other person moves aside.",
+    "split": "train",
+    "action": "034",
+    "file": "episodes/G026T007A034R027.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 90.63042998313904,
+      "root_ade_cm": 92.99989938735962,
+      "root_fde_cm": 225.04711151123047,
+      "root_aligned_mpjpe_cm": 18.8008651137352,
+      "pair_distance_error_cm": 37.19283938407898
+    },
+    "first40": {
+      "mpjpe_cm": 34.60332751274109,
+      "root_ade_cm": 33.489054441452026,
+      "root_fde_cm": 33.820512890815735,
+      "root_aligned_mpjpe_cm": 11.239738762378693,
+      "pair_distance_error_cm": 23.831868171691895
+    },
+    "last40": {
+      "mpjpe_cm": 152.05214023590088,
+      "root_ade_cm": 165.64871072769165,
+      "root_fde_cm": 225.04711151123047,
+      "root_aligned_mpjpe_cm": 29.967352747917175,
+      "pair_distance_error_cm": 67.55485534667969
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G054T002A010R003_aP2_rP1",
+    "episode": "G054T002A010R003",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "The two people stand face to face, with the first person extending his/her left hand to block his/her face, and then lowering it. The second person extends his/her right hand to slap the face of the first person, who blocks with his/her left hand.",
+    "split": "test",
+    "action": "010",
+    "file": "episodes/G054T002A010R003.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 6.127472966909409,
+      "root_ade_cm": 3.8682520389556885,
+      "root_fde_cm": 7.306545227766037,
+      "root_aligned_mpjpe_cm": 4.634178429841995,
+      "pair_distance_error_cm": 1.35413883253932
+    },
+    "first40": {
+      "mpjpe_cm": 4.383582249283791,
+      "root_ade_cm": 1.5945356339216232,
+      "root_fde_cm": 3.3232729882001877,
+      "root_aligned_mpjpe_cm": 4.29772362112999,
+      "pair_distance_error_cm": 1.362648606300354
+    },
+    "last40": {
+      "mpjpe_cm": 7.700611650943756,
+      "root_ade_cm": 6.197042390704155,
+      "root_fde_cm": 7.306545227766037,
+      "root_aligned_mpjpe_cm": 4.5716650784015656,
+      "pair_distance_error_cm": 0.5934067070484161
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G054T002A010R003_aP2_rP1",
+    "episode": "G054T002A010R003",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "The two people stand face to face, with the first person extending his/her left hand to block his/her face, and then lowering it. The second person extends his/her right hand to slap the face of the first person, who blocks with his/her left hand.",
+    "split": "test",
+    "action": "010",
+    "file": "episodes/G054T002A010R003.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 5.383793264627457,
+      "root_ade_cm": 3.5981163382530212,
+      "root_fde_cm": 4.49950248003006,
+      "root_aligned_mpjpe_cm": 3.834177181124687,
+      "pair_distance_error_cm": 2.1952422335743904
+    },
+    "first40": {
+      "mpjpe_cm": 5.417167395353317,
+      "root_ade_cm": 2.4811487644910812,
+      "root_fde_cm": 3.770958259701729,
+      "root_aligned_mpjpe_cm": 5.291809141635895,
+      "pair_distance_error_cm": 2.1810242906212807
+    },
+    "last40": {
+      "mpjpe_cm": 6.2168899923563,
+      "root_ade_cm": 4.209881275892258,
+      "root_fde_cm": 4.49950248003006,
+      "root_aligned_mpjpe_cm": 3.159181773662567,
+      "pair_distance_error_cm": 1.231198012828827
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G054T002A010R003_aP2_rP1",
+    "episode": "G054T002A010R003",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "The two people stand face to face, with the first person extending his/her left hand to block his/her face, and then lowering it. The second person extends his/her right hand to slap the face of the first person, who blocks with his/her left hand.",
+    "split": "test",
+    "action": "010",
+    "file": "episodes/G054T002A010R003.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 14.053618907928467,
+      "root_ade_cm": 10.928591340780258,
+      "root_fde_cm": 18.44804883003235,
+      "root_aligned_mpjpe_cm": 7.0536598563194275,
+      "pair_distance_error_cm": 2.7134325355291367
+    },
+    "first40": {
+      "mpjpe_cm": 7.95527920126915,
+      "root_ade_cm": 4.216200113296509,
+      "root_fde_cm": 9.592604637145996,
+      "root_aligned_mpjpe_cm": 6.477418541908264,
+      "pair_distance_error_cm": 2.452770434319973
+    },
+    "last40": {
+      "mpjpe_cm": 19.906289875507355,
+      "root_ade_cm": 16.11298769712448,
+      "root_fde_cm": 18.44804883003235,
+      "root_aligned_mpjpe_cm": 8.67120623588562,
+      "pair_distance_error_cm": 3.1910933554172516
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G009T004A026R008_aP1_rP2",
+    "episode": "G009T004A026R008",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "One person stands with his/her hands on his/her waist, while the second person stands behind him/her and begins to massage his/her right shoulder and arm by patting him/her with both hands.",
+    "split": "test",
+    "action": "026",
+    "file": "episodes/G009T004A026R008.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 4.437804967164993,
+      "root_ade_cm": 3.020019084215164,
+      "root_fde_cm": 5.225754901766777,
+      "root_aligned_mpjpe_cm": 3.706221282482147,
+      "pair_distance_error_cm": 1.0716901160776615
+    },
+    "first40": {
+      "mpjpe_cm": 2.028721012175083,
+      "root_ade_cm": 1.525634340941906,
+      "root_fde_cm": 1.934853196144104,
+      "root_aligned_mpjpe_cm": 1.8761815503239632,
+      "pair_distance_error_cm": 1.2193755246698856
+    },
+    "last40": {
+      "mpjpe_cm": 6.5306223928928375,
+      "root_ade_cm": 4.68326136469841,
+      "root_fde_cm": 5.225754901766777,
+      "root_aligned_mpjpe_cm": 5.296270176768303,
+      "pair_distance_error_cm": 0.6332681514322758
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G009T004A026R008_aP1_rP2",
+    "episode": "G009T004A026R008",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "One person stands with his/her hands on his/her waist, while the second person stands behind him/her and begins to massage his/her right shoulder and arm by patting him/her with both hands.",
+    "split": "test",
+    "action": "026",
+    "file": "episodes/G009T004A026R008.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 10.387294739484787,
+      "root_ade_cm": 7.3446594178676605,
+      "root_fde_cm": 12.8745898604393,
+      "root_aligned_mpjpe_cm": 7.486138492822647,
+      "pair_distance_error_cm": 2.793464995920658
+    },
+    "first40": {
+      "mpjpe_cm": 2.259892039000988,
+      "root_ade_cm": 1.9805360585451126,
+      "root_fde_cm": 2.6370106264948845,
+      "root_aligned_mpjpe_cm": 1.7768798395991325,
+      "pair_distance_error_cm": 1.5855496749281883
+    },
+    "last40": {
+      "mpjpe_cm": 22.030629217624664,
+      "root_ade_cm": 13.346508145332336,
+      "root_fde_cm": 12.8745898604393,
+      "root_aligned_mpjpe_cm": 16.25625640153885,
+      "pair_distance_error_cm": 3.6234676837921143
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G009T004A026R008_aP1_rP2",
+    "episode": "G009T004A026R008",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "One person stands with his/her hands on his/her waist, while the second person stands behind him/her and begins to massage his/her right shoulder and arm by patting him/her with both hands.",
+    "split": "test",
+    "action": "026",
+    "file": "episodes/G009T004A026R008.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 12.430500984191895,
+      "root_ade_cm": 7.951771467924118,
+      "root_fde_cm": 30.13293147087097,
+      "root_aligned_mpjpe_cm": 7.008133083581924,
+      "pair_distance_error_cm": 7.253902405500412
+    },
+    "first40": {
+      "mpjpe_cm": 5.86601160466671,
+      "root_ade_cm": 2.1412676200270653,
+      "root_fde_cm": 4.318200424313545,
+      "root_aligned_mpjpe_cm": 5.020707845687866,
+      "pair_distance_error_cm": 1.5148431062698364
+    },
+    "last40": {
+      "mpjpe_cm": 19.30612325668335,
+      "root_ade_cm": 13.914504647254944,
+      "root_fde_cm": 30.13293147087097,
+      "root_aligned_mpjpe_cm": 9.104912728071213,
+      "pair_distance_error_cm": 12.794873118400574
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G002T002A012R010_aP1_rP2",
+    "episode": "G002T002A012R010",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "The first person points his finger at the second person, who faces him and holds her right hand up.",
+    "split": "test",
+    "action": "012",
+    "file": "episodes/G002T002A012R010.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 27.81018316745758,
+      "root_ade_cm": 24.65382218360901,
+      "root_fde_cm": 35.80896258354187,
+      "root_aligned_mpjpe_cm": 8.562106639146805,
+      "pair_distance_error_cm": 22.27798104286194
+    },
+    "first40": {
+      "mpjpe_cm": 16.20604395866394,
+      "root_ade_cm": 10.102596133947372,
+      "root_fde_cm": 24.10993129014969,
+      "root_aligned_mpjpe_cm": 8.323616534471512,
+      "pair_distance_error_cm": 9.399175643920898
+    },
+    "last40": {
+      "mpjpe_cm": 34.25025939941406,
+      "root_ade_cm": 34.123024344444275,
+      "root_fde_cm": 35.80896258354187,
+      "root_aligned_mpjpe_cm": 7.791032642126083,
+      "pair_distance_error_cm": 30.40459156036377
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G002T002A012R010_aP1_rP2",
+    "episode": "G002T002A012R010",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "The first person points his finger at the second person, who faces him and holds her right hand up.",
+    "split": "test",
+    "action": "012",
+    "file": "episodes/G002T002A012R010.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 28.523924946784973,
+      "root_ade_cm": 25.33906400203705,
+      "root_fde_cm": 38.80926072597504,
+      "root_aligned_mpjpe_cm": 10.680446028709412,
+      "pair_distance_error_cm": 23.902329802513123
+    },
+    "first40": {
+      "mpjpe_cm": 13.068506121635437,
+      "root_ade_cm": 8.23315605521202,
+      "root_fde_cm": 21.917161345481873,
+      "root_aligned_mpjpe_cm": 6.97837769985199,
+      "pair_distance_error_cm": 7.9132914543151855
+    },
+    "last40": {
+      "mpjpe_cm": 42.10277795791626,
+      "root_ade_cm": 39.845553040504456,
+      "root_fde_cm": 38.80926072597504,
+      "root_aligned_mpjpe_cm": 14.30346816778183,
+      "pair_distance_error_cm": 38.76253962516785
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G002T002A012R010_aP1_rP2",
+    "episode": "G002T002A012R010",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "The first person points his finger at the second person, who faces him and holds her right hand up.",
+    "split": "test",
+    "action": "012",
+    "file": "episodes/G002T002A012R010.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 21.913552284240723,
+      "root_ade_cm": 19.103965163230896,
+      "root_fde_cm": 29.728323221206665,
+      "root_aligned_mpjpe_cm": 10.040536522865295,
+      "pair_distance_error_cm": 18.286463618278503
+    },
+    "first40": {
+      "mpjpe_cm": 12.732969224452972,
+      "root_ade_cm": 6.871494650840759,
+      "root_fde_cm": 8.624722063541412,
+      "root_aligned_mpjpe_cm": 10.360152274370193,
+      "pair_distance_error_cm": 4.998839646577835
+    },
+    "last40": {
+      "mpjpe_cm": 32.62042999267578,
+      "root_ade_cm": 30.700868368148804,
+      "root_fde_cm": 29.728323221206665,
+      "root_aligned_mpjpe_cm": 10.682328045368195,
+      "pair_distance_error_cm": 30.43592870235443
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G055T004A022R011_aP2_rP1",
+    "episode": "G055T004A022R011",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "The first person walks to the left of the second person and embraces the second person's left arm with his/her right arm. They walk together side by side and then they part ways.",
+    "split": "test",
+    "action": "022",
+    "file": "episodes/G055T004A022R011.npz",
+    "source_rotation_max_error": 1.9371509552001953e-07,
+    "metrics": {
+      "mpjpe_cm": 40.72044491767883,
+      "root_ade_cm": 37.397658824920654,
+      "root_fde_cm": 74.82975721359253,
+      "root_aligned_mpjpe_cm": 9.380197525024414,
+      "pair_distance_error_cm": 14.828354120254517
+    },
+    "first40": {
+      "mpjpe_cm": 8.192278444766998,
+      "root_ade_cm": 5.596739053726196,
+      "root_fde_cm": 13.60284835100174,
+      "root_aligned_mpjpe_cm": 5.2270155400037766,
+      "pair_distance_error_cm": 3.660641983151436
+    },
+    "last40": {
+      "mpjpe_cm": 78.84448170661926,
+      "root_ade_cm": 74.00102615356445,
+      "root_fde_cm": 74.82975721359253,
+      "root_aligned_mpjpe_cm": 11.796632409095764,
+      "pair_distance_error_cm": 29.474276304244995
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G055T004A022R011_aP2_rP1",
+    "episode": "G055T004A022R011",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "The first person walks to the left of the second person and embraces the second person's left arm with his/her right arm. They walk together side by side and then they part ways.",
+    "split": "test",
+    "action": "022",
+    "file": "episodes/G055T004A022R011.npz",
+    "source_rotation_max_error": 1.9371509552001953e-07,
+    "metrics": {
+      "mpjpe_cm": 28.716519474983215,
+      "root_ade_cm": 25.484997034072876,
+      "root_fde_cm": 61.015474796295166,
+      "root_aligned_mpjpe_cm": 11.764339357614517,
+      "pair_distance_error_cm": 10.386363416910172
+    },
+    "first40": {
+      "mpjpe_cm": 7.982420176267624,
+      "root_ade_cm": 4.807111993432045,
+      "root_fde_cm": 10.20117774605751,
+      "root_aligned_mpjpe_cm": 5.679410696029663,
+      "pair_distance_error_cm": 2.8725972399115562
+    },
+    "last40": {
+      "mpjpe_cm": 51.75486207008362,
+      "root_ade_cm": 50.32512545585632,
+      "root_fde_cm": 61.015474796295166,
+      "root_aligned_mpjpe_cm": 17.9635152220726,
+      "pair_distance_error_cm": 13.600809872150421
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G055T004A022R011_aP2_rP1",
+    "episode": "G055T004A022R011",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "The first person walks to the left of the second person and embraces the second person's left arm with his/her right arm. They walk together side by side and then they part ways.",
+    "split": "test",
+    "action": "022",
+    "file": "episodes/G055T004A022R011.npz",
+    "source_rotation_max_error": 1.9371509552001953e-07,
+    "metrics": {
+      "mpjpe_cm": 74.87330436706543,
+      "root_ade_cm": 76.67615413665771,
+      "root_fde_cm": 149.35208559036255,
+      "root_aligned_mpjpe_cm": 10.615287721157074,
+      "pair_distance_error_cm": 22.27182537317276
+    },
+    "first40": {
+      "mpjpe_cm": 39.77644741535187,
+      "root_ade_cm": 40.576171875,
+      "root_fde_cm": 33.08646380901337,
+      "root_aligned_mpjpe_cm": 9.492040425539017,
+      "pair_distance_error_cm": 26.673907041549683
+    },
+    "last40": {
+      "mpjpe_cm": 119.62109804153442,
+      "root_ade_cm": 122.5512146949768,
+      "root_fde_cm": 149.35208559036255,
+      "root_aligned_mpjpe_cm": 11.785222589969635,
+      "pair_distance_error_cm": 19.344088435173035
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G035T007A036R009_aP2_rP1",
+    "episode": "G035T007A036R009",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "A person sits and the person standing in front of him extends his right hand to cover his mouth.",
+    "split": "test",
+    "action": "036",
+    "file": "episodes/G035T007A036R009.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 9.22393873333931,
+      "root_ade_cm": 6.717555969953537,
+      "root_fde_cm": 23.131293058395386,
+      "root_aligned_mpjpe_cm": 5.9802331030368805,
+      "pair_distance_error_cm": 2.7339335530996323
+    },
+    "first40": {
+      "mpjpe_cm": 5.604163184762001,
+      "root_ade_cm": 2.2494282573461533,
+      "root_fde_cm": 3.5151906311511993,
+      "root_aligned_mpjpe_cm": 5.666239559650421,
+      "pair_distance_error_cm": 1.0505041107535362
+    },
+    "last40": {
+      "mpjpe_cm": 16.219723224639893,
+      "root_ade_cm": 14.943379163742065,
+      "root_fde_cm": 23.131293058395386,
+      "root_aligned_mpjpe_cm": 7.129333168268204,
+      "pair_distance_error_cm": 4.904227331280708
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G035T007A036R009_aP2_rP1",
+    "episode": "G035T007A036R009",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "A person sits and the person standing in front of him extends his right hand to cover his mouth.",
+    "split": "test",
+    "action": "036",
+    "file": "episodes/G035T007A036R009.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 16.958583891391754,
+      "root_ade_cm": 12.628646194934845,
+      "root_fde_cm": 14.188113808631897,
+      "root_aligned_mpjpe_cm": 7.620269060134888,
+      "pair_distance_error_cm": 9.8485067486763
+    },
+    "first40": {
+      "mpjpe_cm": 13.366271555423737,
+      "root_ade_cm": 7.973805069923401,
+      "root_fde_cm": 10.905727744102478,
+      "root_aligned_mpjpe_cm": 6.229567155241966,
+      "pair_distance_error_cm": 5.2976153790950775
+    },
+    "last40": {
+      "mpjpe_cm": 18.834000825881958,
+      "root_ade_cm": 15.429957211017609,
+      "root_fde_cm": 14.188113808631897,
+      "root_aligned_mpjpe_cm": 9.35213416814804,
+      "pair_distance_error_cm": 10.978670418262482
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G035T007A036R009_aP2_rP1",
+    "episode": "G035T007A036R009",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "A person sits and the person standing in front of him extends his right hand to cover his mouth.",
+    "split": "test",
+    "action": "036",
+    "file": "episodes/G035T007A036R009.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 33.58024060726166,
+      "root_ade_cm": 31.563201546669006,
+      "root_fde_cm": 45.72654366493225,
+      "root_aligned_mpjpe_cm": 8.880624175071716,
+      "pair_distance_error_cm": 18.629948794841766
+    },
+    "first40": {
+      "mpjpe_cm": 13.561427593231201,
+      "root_ade_cm": 12.101070582866669,
+      "root_fde_cm": 8.804025501012802,
+      "root_aligned_mpjpe_cm": 9.569713473320007,
+      "pair_distance_error_cm": 7.542110234498978
+    },
+    "last40": {
+      "mpjpe_cm": 57.17296004295349,
+      "root_ade_cm": 54.51642870903015,
+      "root_fde_cm": 45.72654366493225,
+      "root_aligned_mpjpe_cm": 10.132645070552826,
+      "pair_distance_error_cm": 31.775397062301636
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G017T003A018R019_aP2_rP1",
+    "episode": "G017T003A018R019",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person sits while the other person walks towards the left side of the seated person. The standing person bends down and whispers near the seated person's left ear using his/her right hand. Upon hearing this, the seated person nods in surprise and covers his/her mouth with his/her right hand.",
+    "split": "test",
+    "action": "018",
+    "file": "episodes/G017T003A018R019.npz",
+    "source_rotation_max_error": 1.9371509552001953e-07,
+    "metrics": {
+      "mpjpe_cm": 27.068740129470825,
+      "root_ade_cm": 25.292864441871643,
+      "root_fde_cm": 28.938013315200806,
+      "root_aligned_mpjpe_cm": 24.89914447069168,
+      "pair_distance_error_cm": 4.250519722700119
+    },
+    "first40": {
+      "mpjpe_cm": 16.66828691959381,
+      "root_ade_cm": 17.524543404579163,
+      "root_fde_cm": 30.26224374771118,
+      "root_aligned_mpjpe_cm": 15.821593999862671,
+      "pair_distance_error_cm": 6.20448999106884
+    },
+    "last40": {
+      "mpjpe_cm": 33.459317684173584,
+      "root_ade_cm": 28.91186773777008,
+      "root_fde_cm": 28.938013315200806,
+      "root_aligned_mpjpe_cm": 30.65870702266693,
+      "pair_distance_error_cm": 1.266302727162838
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G017T003A018R019_aP2_rP1",
+    "episode": "G017T003A018R019",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person sits while the other person walks towards the left side of the seated person. The standing person bends down and whispers near the seated person's left ear using his/her right hand. Upon hearing this, the seated person nods in surprise and covers his/her mouth with his/her right hand.",
+    "split": "test",
+    "action": "018",
+    "file": "episodes/G017T003A018R019.npz",
+    "source_rotation_max_error": 1.9371509552001953e-07,
+    "metrics": {
+      "mpjpe_cm": 29.083412885665894,
+      "root_ade_cm": 26.797765493392944,
+      "root_fde_cm": 32.130029797554016,
+      "root_aligned_mpjpe_cm": 22.867991030216217,
+      "pair_distance_error_cm": 7.855548709630966
+    },
+    "first40": {
+      "mpjpe_cm": 17.279449105262756,
+      "root_ade_cm": 19.758328795433044,
+      "root_fde_cm": 35.387519001960754,
+      "root_aligned_mpjpe_cm": 13.875371217727661,
+      "pair_distance_error_cm": 7.800452411174774
+    },
+    "last40": {
+      "mpjpe_cm": 37.224167585372925,
+      "root_ade_cm": 29.37498688697815,
+      "root_fde_cm": 32.130029797554016,
+      "root_aligned_mpjpe_cm": 27.1700382232666,
+      "pair_distance_error_cm": 6.368310749530792
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G017T003A018R019_aP2_rP1",
+    "episode": "G017T003A018R019",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person sits while the other person walks towards the left side of the seated person. The standing person bends down and whispers near the seated person's left ear using his/her right hand. Upon hearing this, the seated person nods in surprise and covers his/her mouth with his/her right hand.",
+    "split": "test",
+    "action": "018",
+    "file": "episodes/G017T003A018R019.npz",
+    "source_rotation_max_error": 1.9371509552001953e-07,
+    "metrics": {
+      "mpjpe_cm": 60.59677004814148,
+      "root_ade_cm": 68.74598264694214,
+      "root_fde_cm": 141.89568758010864,
+      "root_aligned_mpjpe_cm": 24.967113137245178,
+      "pair_distance_error_cm": 11.501432955265045
+    },
+    "first40": {
+      "mpjpe_cm": 18.95173490047455,
+      "root_ade_cm": 17.655622959136963,
+      "root_fde_cm": 58.51679444313049,
+      "root_aligned_mpjpe_cm": 13.078519701957703,
+      "pair_distance_error_cm": 9.98302698135376
+    },
+    "last40": {
+      "mpjpe_cm": 94.05018091201782,
+      "root_ade_cm": 107.52347707748413,
+      "root_fde_cm": 141.89568758010864,
+      "root_aligned_mpjpe_cm": 34.73665416240692,
+      "pair_distance_error_cm": 11.630158126354218
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G034T007A039R022_aP1_rP2",
+    "episode": "G034T007A039R022",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "A person stands, waving his right hand as if facing the person on whom he is sitting.",
+    "split": "test",
+    "action": "039",
+    "file": "episodes/G034T007A039R022.npz",
+    "source_rotation_max_error": 2.086162567138672e-07,
+    "metrics": {
+      "mpjpe_cm": 150.309157371521,
+      "root_ade_cm": 155.9731125831604,
+      "root_fde_cm": 194.86464262008667,
+      "root_aligned_mpjpe_cm": 24.330827593803406,
+      "pair_distance_error_cm": 109.37286615371704
+    },
+    "first40": {
+      "mpjpe_cm": 76.04783773422241,
+      "root_ade_cm": 79.62015271186829,
+      "root_fde_cm": 103.77664566040039,
+      "root_aligned_mpjpe_cm": 17.940084636211395,
+      "pair_distance_error_cm": 70.68973779678345
+    },
+    "last40": {
+      "mpjpe_cm": 197.09606170654297,
+      "root_ade_cm": 205.7962417602539,
+      "root_fde_cm": 194.86464262008667,
+      "root_aligned_mpjpe_cm": 28.725478053092957,
+      "pair_distance_error_cm": 112.02839612960815
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G034T007A039R022_aP1_rP2",
+    "episode": "G034T007A039R022",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "A person stands, waving his right hand as if facing the person on whom he is sitting.",
+    "split": "test",
+    "action": "039",
+    "file": "episodes/G034T007A039R022.npz",
+    "source_rotation_max_error": 2.086162567138672e-07,
+    "metrics": {
+      "mpjpe_cm": 44.25687491893768,
+      "root_ade_cm": 48.56992959976196,
+      "root_fde_cm": 45.99373936653137,
+      "root_aligned_mpjpe_cm": 22.047226130962372,
+      "pair_distance_error_cm": 36.567384004592896
+    },
+    "first40": {
+      "mpjpe_cm": 32.45824575424194,
+      "root_ade_cm": 36.48152947425842,
+      "root_fde_cm": 56.77887797355652,
+      "root_aligned_mpjpe_cm": 14.649617671966553,
+      "pair_distance_error_cm": 27.617371082305908
+    },
+    "last40": {
+      "mpjpe_cm": 50.269901752471924,
+      "root_ade_cm": 53.23975682258606,
+      "root_fde_cm": 45.99373936653137,
+      "root_aligned_mpjpe_cm": 27.75369882583618,
+      "pair_distance_error_cm": 40.278974175453186
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G034T007A039R022_aP1_rP2",
+    "episode": "G034T007A039R022",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "A person stands, waving his right hand as if facing the person on whom he is sitting.",
+    "split": "test",
+    "action": "039",
+    "file": "episodes/G034T007A039R022.npz",
+    "source_rotation_max_error": 2.086162567138672e-07,
+    "metrics": {
+      "mpjpe_cm": 25.454047322273254,
+      "root_ade_cm": 18.97171586751938,
+      "root_fde_cm": 25.868600606918335,
+      "root_aligned_mpjpe_cm": 15.692371129989624,
+      "pair_distance_error_cm": 13.501697778701782
+    },
+    "first40": {
+      "mpjpe_cm": 17.684853076934814,
+      "root_ade_cm": 12.02271431684494,
+      "root_fde_cm": 17.727749049663544,
+      "root_aligned_mpjpe_cm": 11.845504492521286,
+      "pair_distance_error_cm": 8.147963881492615
+    },
+    "last40": {
+      "mpjpe_cm": 31.33918046951294,
+      "root_ade_cm": 23.493126034736633,
+      "root_fde_cm": 25.868600606918335,
+      "root_aligned_mpjpe_cm": 19.582685828208923,
+      "pair_distance_error_cm": 16.41257107257843
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G004T007A016R007_aP1_rP2",
+    "episode": "G004T007A016R007",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "The first person raises his right hand, followed by the second person raising his right hand, and they give each other a high-five in the air.",
+    "split": "test",
+    "action": "016",
+    "file": "episodes/G004T007A016R007.npz",
+    "source_rotation_max_error": 2.086162567138672e-07,
+    "metrics": {
+      "mpjpe_cm": 64.14254903793335,
+      "root_ade_cm": 63.89569044113159,
+      "root_fde_cm": 150.12813806533813,
+      "root_aligned_mpjpe_cm": 15.792019665241241,
+      "pair_distance_error_cm": 13.234224915504456
+    },
+    "first40": {
+      "mpjpe_cm": 13.391618430614471,
+      "root_ade_cm": 13.59035074710846,
+      "root_fde_cm": 37.76237070560455,
+      "root_aligned_mpjpe_cm": 8.231363445520401,
+      "pair_distance_error_cm": 1.2581470422446728
+    },
+    "last40": {
+      "mpjpe_cm": 115.46012163162231,
+      "root_ade_cm": 116.75221920013428,
+      "root_fde_cm": 150.12813806533813,
+      "root_aligned_mpjpe_cm": 20.569175481796265,
+      "pair_distance_error_cm": 15.649232268333435
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G004T007A016R007_aP1_rP2",
+    "episode": "G004T007A016R007",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "The first person raises his right hand, followed by the second person raising his right hand, and they give each other a high-five in the air.",
+    "split": "test",
+    "action": "016",
+    "file": "episodes/G004T007A016R007.npz",
+    "source_rotation_max_error": 2.086162567138672e-07,
+    "metrics": {
+      "mpjpe_cm": 66.70033931732178,
+      "root_ade_cm": 64.18636441230774,
+      "root_fde_cm": 145.22582292556763,
+      "root_aligned_mpjpe_cm": 14.423179626464844,
+      "pair_distance_error_cm": 36.60707473754883
+    },
+    "first40": {
+      "mpjpe_cm": 17.82781481742859,
+      "root_ade_cm": 15.366241335868835,
+      "root_fde_cm": 34.65602695941925,
+      "root_aligned_mpjpe_cm": 8.719678223133087,
+      "pair_distance_error_cm": 5.462811514735222
+    },
+    "last40": {
+      "mpjpe_cm": 117.5412654876709,
+      "root_ade_cm": 115.74382781982422,
+      "root_fde_cm": 145.22582292556763,
+      "root_aligned_mpjpe_cm": 18.805833160877228,
+      "pair_distance_error_cm": 64.62585926055908
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G004T007A016R007_aP1_rP2",
+    "episode": "G004T007A016R007",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "The first person raises his right hand, followed by the second person raising his right hand, and they give each other a high-five in the air.",
+    "split": "test",
+    "action": "016",
+    "file": "episodes/G004T007A016R007.npz",
+    "source_rotation_max_error": 2.086162567138672e-07,
+    "metrics": {
+      "mpjpe_cm": 88.60849738121033,
+      "root_ade_cm": 86.89034581184387,
+      "root_fde_cm": 192.84517765045166,
+      "root_aligned_mpjpe_cm": 14.697623252868652,
+      "pair_distance_error_cm": 42.52841770648956
+    },
+    "first40": {
+      "mpjpe_cm": 32.8126460313797,
+      "root_ade_cm": 30.744710564613342,
+      "root_fde_cm": 63.687664270401,
+      "root_aligned_mpjpe_cm": 9.693872928619385,
+      "pair_distance_error_cm": 17.08160936832428
+    },
+    "last40": {
+      "mpjpe_cm": 156.70851469039917,
+      "root_ade_cm": 155.22866249084473,
+      "root_fde_cm": 192.84517765045166,
+      "root_aligned_mpjpe_cm": 21.215373277664185,
+      "pair_distance_error_cm": 82.34307169914246
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G031T006A029R019_aP2_rP1",
+    "episode": "G031T006A029R019",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "During a conversation, two individuals employ both of their hands to communicate through gestures.",
+    "split": "test",
+    "action": "029",
+    "file": "episodes/G031T006A029R019.npz",
+    "source_rotation_max_error": 2.682209014892578e-07,
+    "metrics": {
+      "mpjpe_cm": 18.199340999126434,
+      "root_ade_cm": 15.520225465297699,
+      "root_fde_cm": 46.37552201747894,
+      "root_aligned_mpjpe_cm": 6.775741279125214,
+      "pair_distance_error_cm": 9.071122854948044
+    },
+    "first40": {
+      "mpjpe_cm": 1.863769255578518,
+      "root_ade_cm": 0.8745774626731873,
+      "root_fde_cm": 2.2756023332476616,
+      "root_aligned_mpjpe_cm": 1.552096102386713,
+      "pair_distance_error_cm": 0.3415921237319708
+    },
+    "last40": {
+      "mpjpe_cm": 44.64469254016876,
+      "root_ade_cm": 42.35960841178894,
+      "root_fde_cm": 46.37552201747894,
+      "root_aligned_mpjpe_cm": 11.991210281848907,
+      "pair_distance_error_cm": 24.86618012189865
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G031T006A029R019_aP2_rP1",
+    "episode": "G031T006A029R019",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "During a conversation, two individuals employ both of their hands to communicate through gestures.",
+    "split": "test",
+    "action": "029",
+    "file": "episodes/G031T006A029R019.npz",
+    "source_rotation_max_error": 2.682209014892578e-07,
+    "metrics": {
+      "mpjpe_cm": 6.441556662321091,
+      "root_ade_cm": 2.989833615720272,
+      "root_fde_cm": 6.269827485084534,
+      "root_aligned_mpjpe_cm": 5.112370476126671,
+      "pair_distance_error_cm": 1.5442260541021824
+    },
+    "first40": {
+      "mpjpe_cm": 3.5704702138900757,
+      "root_ade_cm": 2.55972258746624,
+      "root_fde_cm": 4.813813045620918,
+      "root_aligned_mpjpe_cm": 2.3230738937854767,
+      "pair_distance_error_cm": 2.0835768431425095
+    },
+    "last40": {
+      "mpjpe_cm": 8.144313097000122,
+      "root_ade_cm": 3.8120288401842117,
+      "root_fde_cm": 6.269827485084534,
+      "root_aligned_mpjpe_cm": 6.089229509234428,
+      "pair_distance_error_cm": 0.44873086735606194
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G031T006A029R019_aP2_rP1",
+    "episode": "G031T006A029R019",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "During a conversation, two individuals employ both of their hands to communicate through gestures.",
+    "split": "test",
+    "action": "029",
+    "file": "episodes/G031T006A029R019.npz",
+    "source_rotation_max_error": 2.682209014892578e-07,
+    "metrics": {
+      "mpjpe_cm": 18.831847608089447,
+      "root_ade_cm": 13.540798425674438,
+      "root_fde_cm": 19.975461065769196,
+      "root_aligned_mpjpe_cm": 12.206655740737915,
+      "pair_distance_error_cm": 2.8946124017238617
+    },
+    "first40": {
+      "mpjpe_cm": 15.476976335048676,
+      "root_ade_cm": 8.85639637708664,
+      "root_fde_cm": 10.657110810279846,
+      "root_aligned_mpjpe_cm": 11.571341753005981,
+      "pair_distance_error_cm": 2.7626147493720055
+    },
+    "last40": {
+      "mpjpe_cm": 24.481213092803955,
+      "root_ade_cm": 20.845456421375275,
+      "root_fde_cm": 19.975461065769196,
+      "root_aligned_mpjpe_cm": 13.349947333335876,
+      "pair_distance_error_cm": 3.759678453207016
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G007T003A019R014_aP2_rP1",
+    "episode": "G007T003A019R014",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "The first person sits. The second person bends over and uses both hands to support the right arm of the first person, helping him stand up. The first person is assisted and lifts his right foot, then takes two slow hops forward with his left foot.",
+    "split": "test",
+    "action": "019",
+    "file": "episodes/G007T003A019R014.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 26.311373710632324,
+      "root_ade_cm": 21.78240418434143,
+      "root_fde_cm": 80.95181584358215,
+      "root_aligned_mpjpe_cm": 10.317092388868332,
+      "pair_distance_error_cm": 14.392003417015076
+    },
+    "first40": {
+      "mpjpe_cm": 4.218877851963043,
+      "root_ade_cm": 1.9373457878828049,
+      "root_fde_cm": 5.683951824903488,
+      "root_aligned_mpjpe_cm": 3.8685381412506104,
+      "pair_distance_error_cm": 1.3345755636692047
+    },
+    "last40": {
+      "mpjpe_cm": 59.343916177749634,
+      "root_ade_cm": 52.6009202003479,
+      "root_fde_cm": 80.95181584358215,
+      "root_aligned_mpjpe_cm": 17.07334816455841,
+      "pair_distance_error_cm": 32.64833092689514
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G007T003A019R014_aP2_rP1",
+    "episode": "G007T003A019R014",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "The first person sits. The second person bends over and uses both hands to support the right arm of the first person, helping him stand up. The first person is assisted and lifts his right foot, then takes two slow hops forward with his left foot.",
+    "split": "test",
+    "action": "019",
+    "file": "episodes/G007T003A019R014.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 16.275988519191742,
+      "root_ade_cm": 8.894839137792587,
+      "root_fde_cm": 28.799912333488464,
+      "root_aligned_mpjpe_cm": 11.698922514915466,
+      "pair_distance_error_cm": 3.8957715034484863
+    },
+    "first40": {
+      "mpjpe_cm": 4.398953542113304,
+      "root_ade_cm": 2.1975375711917877,
+      "root_fde_cm": 4.893941432237625,
+      "root_aligned_mpjpe_cm": 4.1130539029836655,
+      "pair_distance_error_cm": 1.079611200839281
+    },
+    "last40": {
+      "mpjpe_cm": 30.258968472480774,
+      "root_ade_cm": 16.562393307685852,
+      "root_fde_cm": 28.799912333488464,
+      "root_aligned_mpjpe_cm": 19.298560917377472,
+      "pair_distance_error_cm": 6.402037292718887
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G007T003A019R014_aP2_rP1",
+    "episode": "G007T003A019R014",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "The first person sits. The second person bends over and uses both hands to support the right arm of the first person, helping him stand up. The first person is assisted and lifts his right foot, then takes two slow hops forward with his left foot.",
+    "split": "test",
+    "action": "019",
+    "file": "episodes/G007T003A019R014.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 130.53585290908813,
+      "root_ade_cm": 118.68807077407837,
+      "root_fde_cm": 314.6080732345581,
+      "root_aligned_mpjpe_cm": 18.683183193206787,
+      "pair_distance_error_cm": 108.34106206893921
+    },
+    "first40": {
+      "mpjpe_cm": 33.84226858615875,
+      "root_ade_cm": 22.517578303813934,
+      "root_fde_cm": 37.60617971420288,
+      "root_aligned_mpjpe_cm": 15.06769210100174,
+      "pair_distance_error_cm": 20.913097262382507
+    },
+    "last40": {
+      "mpjpe_cm": 270.87926864624023,
+      "root_ade_cm": 261.1860752105713,
+      "root_fde_cm": 314.6080732345581,
+      "root_aligned_mpjpe_cm": 19.8981910943985,
+      "pair_distance_error_cm": 237.35358715057373
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G022T000A001R009_aP2_rP1",
+    "episode": "G022T000A001R009",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "The two people sit facing each other and shake hands.",
+    "split": "test",
+    "action": "001",
+    "file": "episodes/G022T000A001R009.npz",
+    "source_rotation_max_error": 2.5331974029541016e-07,
+    "metrics": {
+      "mpjpe_cm": 9.75545048713684,
+      "root_ade_cm": 4.424108564853668,
+      "root_fde_cm": 6.138191744685173,
+      "root_aligned_mpjpe_cm": 9.85167995095253,
+      "pair_distance_error_cm": 0.7797698955982924
+    },
+    "first40": {
+      "mpjpe_cm": 7.444220781326294,
+      "root_ade_cm": 3.0464638024568558,
+      "root_fde_cm": 3.1364448368549347,
+      "root_aligned_mpjpe_cm": 7.247760146856308,
+      "pair_distance_error_cm": 0.8492295630276203
+    },
+    "last40": {
+      "mpjpe_cm": 12.011750042438507,
+      "root_ade_cm": 5.739782005548477,
+      "root_fde_cm": 6.138191744685173,
+      "root_aligned_mpjpe_cm": 12.157022953033447,
+      "pair_distance_error_cm": 0.7101212628185749
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G022T000A001R009_aP2_rP1",
+    "episode": "G022T000A001R009",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "The two people sit facing each other and shake hands.",
+    "split": "test",
+    "action": "001",
+    "file": "episodes/G022T000A001R009.npz",
+    "source_rotation_max_error": 2.5331974029541016e-07,
+    "metrics": {
+      "mpjpe_cm": 10.044007748365402,
+      "root_ade_cm": 4.061086103320122,
+      "root_fde_cm": 4.6940091997385025,
+      "root_aligned_mpjpe_cm": 8.864329755306244,
+      "pair_distance_error_cm": 1.96318868547678
+    },
+    "first40": {
+      "mpjpe_cm": 7.420792430639267,
+      "root_ade_cm": 3.3340319991111755,
+      "root_fde_cm": 3.7525638937950134,
+      "root_aligned_mpjpe_cm": 6.996370851993561,
+      "pair_distance_error_cm": 1.182760763913393
+    },
+    "last40": {
+      "mpjpe_cm": 12.566451728343964,
+      "root_ade_cm": 4.7957319766283035,
+      "root_fde_cm": 4.6940091997385025,
+      "root_aligned_mpjpe_cm": 10.608381032943726,
+      "pair_distance_error_cm": 3.032124973833561
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G022T000A001R009_aP2_rP1",
+    "episode": "G022T000A001R009",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "The two people sit facing each other and shake hands.",
+    "split": "test",
+    "action": "001",
+    "file": "episodes/G022T000A001R009.npz",
+    "source_rotation_max_error": 2.5331974029541016e-07,
+    "metrics": {
+      "mpjpe_cm": 9.356442838907242,
+      "root_ade_cm": 5.691193416714668,
+      "root_fde_cm": 8.60670953989029,
+      "root_aligned_mpjpe_cm": 7.559786736965179,
+      "pair_distance_error_cm": 3.1058015301823616
+    },
+    "first40": {
+      "mpjpe_cm": 7.8600481152534485,
+      "root_ade_cm": 4.995846748352051,
+      "root_fde_cm": 6.46933913230896,
+      "root_aligned_mpjpe_cm": 7.107300311326981,
+      "pair_distance_error_cm": 0.7264435291290283
+    },
+    "last40": {
+      "mpjpe_cm": 10.62040850520134,
+      "root_ade_cm": 6.671948730945587,
+      "root_fde_cm": 8.60670953989029,
+      "root_aligned_mpjpe_cm": 6.882200390100479,
+      "pair_distance_error_cm": 6.226743385195732
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G048T002A013R019_aP2_rP1",
+    "episode": "G048T002A013R019",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "Two people walk towards each other, make eye contact, and then continue walking past each other.",
+    "split": "test",
+    "action": "013",
+    "file": "episodes/G048T002A013R019.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 82.50304460525513,
+      "root_ade_cm": 82.49358534812927,
+      "root_fde_cm": 182.77603387832642,
+      "root_aligned_mpjpe_cm": 7.3327407240867615,
+      "pair_distance_error_cm": 53.71244549751282
+    },
+    "first40": {
+      "mpjpe_cm": 17.83766597509384,
+      "root_ade_cm": 17.05249845981598,
+      "root_fde_cm": 44.77466940879822,
+      "root_aligned_mpjpe_cm": 5.191478133201599,
+      "pair_distance_error_cm": 13.917028903961182
+    },
+    "last40": {
+      "mpjpe_cm": 152.6642918586731,
+      "root_ade_cm": 152.9254674911499,
+      "root_fde_cm": 182.77603387832642,
+      "root_aligned_mpjpe_cm": 6.027074903249741,
+      "pair_distance_error_cm": 115.43035507202148
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G048T002A013R019_aP2_rP1",
+    "episode": "G048T002A013R019",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "Two people walk towards each other, make eye contact, and then continue walking past each other.",
+    "split": "test",
+    "action": "013",
+    "file": "episodes/G048T002A013R019.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 78.93271446228027,
+      "root_ade_cm": 77.35979557037354,
+      "root_fde_cm": 196.87604904174805,
+      "root_aligned_mpjpe_cm": 11.42750158905983,
+      "pair_distance_error_cm": 56.50545954704285
+    },
+    "first40": {
+      "mpjpe_cm": 16.238947212696075,
+      "root_ade_cm": 15.110526978969574,
+      "root_fde_cm": 37.27571368217468,
+      "root_aligned_mpjpe_cm": 5.395827814936638,
+      "pair_distance_error_cm": 11.604785919189453
+    },
+    "last40": {
+      "mpjpe_cm": 157.62004852294922,
+      "root_ade_cm": 154.0995478630066,
+      "root_fde_cm": 196.87604904174805,
+      "root_aligned_mpjpe_cm": 17.709465324878693,
+      "pair_distance_error_cm": 135.7704758644104
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G048T002A013R019_aP2_rP1",
+    "episode": "G048T002A013R019",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "Two people walk towards each other, make eye contact, and then continue walking past each other.",
+    "split": "test",
+    "action": "013",
+    "file": "episodes/G048T002A013R019.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 204.19487953186035,
+      "root_ade_cm": 204.62071895599365,
+      "root_fde_cm": 226.4554262161255,
+      "root_aligned_mpjpe_cm": 15.485534071922302,
+      "pair_distance_error_cm": 112.89043426513672
+    },
+    "first40": {
+      "mpjpe_cm": 128.75101566314697,
+      "root_ade_cm": 128.72923612594604,
+      "root_fde_cm": 255.02831935882568,
+      "root_aligned_mpjpe_cm": 7.4302829802036285,
+      "pair_distance_error_cm": 122.94000387191772
+    },
+    "last40": {
+      "mpjpe_cm": 177.50204801559448,
+      "root_ade_cm": 177.17835903167725,
+      "root_fde_cm": 226.4554262161255,
+      "root_aligned_mpjpe_cm": 21.117624640464783,
+      "pair_distance_error_cm": 104.40318584442139
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G042T006A027R014_aP1_rP2",
+    "episode": "G042T006A027R014",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "One human crouches down and uses both hands to assist the other person in moving his/her legs up and down, while the other person raises his/her right hand and bends forward.",
+    "split": "test",
+    "action": "027",
+    "file": "episodes/G042T006A027R014.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 33.00561606884003,
+      "root_ade_cm": 41.36359095573425,
+      "root_fde_cm": 47.77531325817108,
+      "root_aligned_mpjpe_cm": 18.189889192581177,
+      "pair_distance_error_cm": 13.169187307357788
+    },
+    "first40": {
+      "mpjpe_cm": 22.783328592777252,
+      "root_ade_cm": 24.80505406856537,
+      "root_fde_cm": 48.604556918144226,
+      "root_aligned_mpjpe_cm": 11.835803091526031,
+      "pair_distance_error_cm": 9.419020265340805
+    },
+    "last40": {
+      "mpjpe_cm": 35.89911162853241,
+      "root_ade_cm": 47.887906432151794,
+      "root_fde_cm": 47.77531325817108,
+      "root_aligned_mpjpe_cm": 22.44715839624405,
+      "pair_distance_error_cm": 13.681660592556
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G042T006A027R014_aP1_rP2",
+    "episode": "G042T006A027R014",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "One human crouches down and uses both hands to assist the other person in moving his/her legs up and down, while the other person raises his/her right hand and bends forward.",
+    "split": "test",
+    "action": "027",
+    "file": "episodes/G042T006A027R014.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 44.70382630825043,
+      "root_ade_cm": 49.99663531780243,
+      "root_fde_cm": 65.51865339279175,
+      "root_aligned_mpjpe_cm": 28.24215590953827,
+      "pair_distance_error_cm": 15.189619362354279
+    },
+    "first40": {
+      "mpjpe_cm": 30.807623267173767,
+      "root_ade_cm": 31.262317299842834,
+      "root_fde_cm": 56.49382472038269,
+      "root_aligned_mpjpe_cm": 20.848946273326874,
+      "pair_distance_error_cm": 15.7509446144104
+    },
+    "last40": {
+      "mpjpe_cm": 55.63192963600159,
+      "root_ade_cm": 61.794549226760864,
+      "root_fde_cm": 65.51865339279175,
+      "root_aligned_mpjpe_cm": 33.11742544174194,
+      "pair_distance_error_cm": 8.945288509130478
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G042T006A027R014_aP1_rP2",
+    "episode": "G042T006A027R014",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "One human crouches down and uses both hands to assist the other person in moving his/her legs up and down, while the other person raises his/her right hand and bends forward.",
+    "split": "test",
+    "action": "027",
+    "file": "episodes/G042T006A027R014.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 40.74070751667023,
+      "root_ade_cm": 45.4355925321579,
+      "root_fde_cm": 77.84329652786255,
+      "root_aligned_mpjpe_cm": 18.78223717212677,
+      "pair_distance_error_cm": 21.638379991054535
+    },
+    "first40": {
+      "mpjpe_cm": 25.292178988456726,
+      "root_ade_cm": 30.63538670539856,
+      "root_fde_cm": 28.188133239746094,
+      "root_aligned_mpjpe_cm": 16.469380259513855,
+      "pair_distance_error_cm": 8.613254129886627
+    },
+    "last40": {
+      "mpjpe_cm": 57.31549859046936,
+      "root_ade_cm": 64.20482993125916,
+      "root_fde_cm": 77.84329652786255,
+      "root_aligned_mpjpe_cm": 24.014262855052948,
+      "pair_distance_error_cm": 38.43248784542084
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G057T004A024R026_aP2_rP1",
+    "episode": "G057T004A024R026",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "The first guy stands there and bends over, while the second guy raises his hand and claps.",
+    "split": "test",
+    "action": "024",
+    "file": "episodes/G057T004A024R026.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 30.95344305038452,
+      "root_ade_cm": 25.438934564590454,
+      "root_fde_cm": 40.71262776851654,
+      "root_aligned_mpjpe_cm": 13.841675221920013,
+      "pair_distance_error_cm": 22.92953133583069
+    },
+    "first40": {
+      "mpjpe_cm": 6.344135105609894,
+      "root_ade_cm": 6.16963617503643,
+      "root_fde_cm": 10.597500950098038,
+      "root_aligned_mpjpe_cm": 3.890617936849594,
+      "pair_distance_error_cm": 2.464936673641205
+    },
+    "last40": {
+      "mpjpe_cm": 48.28879535198212,
+      "root_ade_cm": 41.3171112537384,
+      "root_fde_cm": 40.71262776851654,
+      "root_aligned_mpjpe_cm": 19.339008629322052,
+      "pair_distance_error_cm": 39.96625542640686
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G057T004A024R026_aP2_rP1",
+    "episode": "G057T004A024R026",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "The first guy stands there and bends over, while the second guy raises his hand and claps.",
+    "split": "test",
+    "action": "024",
+    "file": "episodes/G057T004A024R026.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 31.464320421218872,
+      "root_ade_cm": 30.774962902069092,
+      "root_fde_cm": 54.78571653366089,
+      "root_aligned_mpjpe_cm": 16.20194911956787,
+      "pair_distance_error_cm": 28.760430216789246
+    },
+    "first40": {
+      "mpjpe_cm": 8.481665700674057,
+      "root_ade_cm": 5.880372598767281,
+      "root_fde_cm": 8.970262855291367,
+      "root_aligned_mpjpe_cm": 5.711925774812698,
+      "pair_distance_error_cm": 2.4844473227858543
+    },
+    "last40": {
+      "mpjpe_cm": 48.3675092458725,
+      "root_ade_cm": 55.07018566131592,
+      "root_fde_cm": 54.78571653366089,
+      "root_aligned_mpjpe_cm": 25.933703780174255,
+      "pair_distance_error_cm": 54.13483381271362
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G057T004A024R026_aP2_rP1",
+    "episode": "G057T004A024R026",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "The first guy stands there and bends over, while the second guy raises his hand and claps.",
+    "split": "test",
+    "action": "024",
+    "file": "episodes/G057T004A024R026.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 43.20559501647949,
+      "root_ade_cm": 38.79278898239136,
+      "root_fde_cm": 63.254594802856445,
+      "root_aligned_mpjpe_cm": 18.92099827528,
+      "pair_distance_error_cm": 36.49909198284149
+    },
+    "first40": {
+      "mpjpe_cm": 14.191965758800507,
+      "root_ade_cm": 8.237117528915405,
+      "root_fde_cm": 16.00978970527649,
+      "root_aligned_mpjpe_cm": 14.170689880847931,
+      "pair_distance_error_cm": 5.966091156005859
+    },
+    "last40": {
+      "mpjpe_cm": 68.90987157821655,
+      "root_ade_cm": 63.19275498390198,
+      "root_fde_cm": 63.254594802856445,
+      "root_aligned_mpjpe_cm": 20.45259326696396,
+      "pair_distance_error_cm": 60.337746143341064
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G037T006A033R019_aP2_rP1",
+    "episode": "G037T006A033R019",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person pulls one leg to bend, the other leg is extended, and both hands are angled to the top right. At the same time, the other person also points his hands up to the right, with one leg bent and the other straight.",
+    "split": "test",
+    "action": "033",
+    "file": "episodes/G037T006A033R019.npz",
+    "source_rotation_max_error": 2.0116567611694336e-07,
+    "metrics": {
+      "mpjpe_cm": 9.190589934587479,
+      "root_ade_cm": 6.276526302099228,
+      "root_fde_cm": 25.92838704586029,
+      "root_aligned_mpjpe_cm": 8.25384110212326,
+      "pair_distance_error_cm": 1.4295676723122597
+    },
+    "first40": {
+      "mpjpe_cm": 1.2631515972316265,
+      "root_ade_cm": 1.1466000229120255,
+      "root_fde_cm": 1.511391717940569,
+      "root_aligned_mpjpe_cm": 1.3290674425661564,
+      "pair_distance_error_cm": 1.0811182670295238
+    },
+    "last40": {
+      "mpjpe_cm": 22.50799387693405,
+      "root_ade_cm": 14.132082462310791,
+      "root_fde_cm": 25.92838704586029,
+      "root_aligned_mpjpe_cm": 20.40126472711563,
+      "pair_distance_error_cm": 2.6452595368027687
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G037T006A033R019_aP2_rP1",
+    "episode": "G037T006A033R019",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person pulls one leg to bend, the other leg is extended, and both hands are angled to the top right. At the same time, the other person also points his hands up to the right, with one leg bent and the other straight.",
+    "split": "test",
+    "action": "033",
+    "file": "episodes/G037T006A033R019.npz",
+    "source_rotation_max_error": 2.0116567611694336e-07,
+    "metrics": {
+      "mpjpe_cm": 19.74501460790634,
+      "root_ade_cm": 16.590815782546997,
+      "root_fde_cm": 40.15219807624817,
+      "root_aligned_mpjpe_cm": 12.720771133899689,
+      "pair_distance_error_cm": 13.825275003910065
+    },
+    "first40": {
+      "mpjpe_cm": 3.20197194814682,
+      "root_ade_cm": 2.9111599549651146,
+      "root_fde_cm": 4.241738468408585,
+      "root_aligned_mpjpe_cm": 2.304738201200962,
+      "pair_distance_error_cm": 1.4826762489974499
+    },
+    "last40": {
+      "mpjpe_cm": 34.34365093708038,
+      "root_ade_cm": 32.25427567958832,
+      "root_fde_cm": 40.15219807624817,
+      "root_aligned_mpjpe_cm": 19.998736679553986,
+      "pair_distance_error_cm": 29.206562042236328
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G037T006A033R019_aP2_rP1",
+    "episode": "G037T006A033R019",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person pulls one leg to bend, the other leg is extended, and both hands are angled to the top right. At the same time, the other person also points his hands up to the right, with one leg bent and the other straight.",
+    "split": "test",
+    "action": "033",
+    "file": "episodes/G037T006A033R019.npz",
+    "source_rotation_max_error": 2.0116567611694336e-07,
+    "metrics": {
+      "mpjpe_cm": 22.159187495708466,
+      "root_ade_cm": 12.613201141357422,
+      "root_fde_cm": 34.1048538684845,
+      "root_aligned_mpjpe_cm": 15.796905755996704,
+      "pair_distance_error_cm": 7.873738557100296
+    },
+    "first40": {
+      "mpjpe_cm": 14.5948126912117,
+      "root_ade_cm": 6.909605115652084,
+      "root_fde_cm": 6.002509966492653,
+      "root_aligned_mpjpe_cm": 10.98899394273758,
+      "pair_distance_error_cm": 2.941291406750679
+    },
+    "last40": {
+      "mpjpe_cm": 32.08887279033661,
+      "root_ade_cm": 22.12950885295868,
+      "root_fde_cm": 34.1048538684845,
+      "root_aligned_mpjpe_cm": 22.282983362674713,
+      "pair_distance_error_cm": 13.033752143383026
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G016T007A037R012_aP2_rP1",
+    "episode": "G016T007A037R012",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person stands behind the other and pats the second person's left shoulder with his/her right hand. They crouch to the right to avoid being seen. The second person continues turning left while the first person moves right to stay hidden. Eventually, the second person turns right and spots the first person.",
+    "split": "test",
+    "action": "037",
+    "file": "episodes/G016T007A037R012.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 58.80528688430786,
+      "root_ade_cm": 58.1873893737793,
+      "root_fde_cm": 102.66743898391724,
+      "root_aligned_mpjpe_cm": 14.398433268070221,
+      "pair_distance_error_cm": 21.233101189136505
+    },
+    "first40": {
+      "mpjpe_cm": 14.601191878318787,
+      "root_ade_cm": 13.090373575687408,
+      "root_fde_cm": 37.5129371881485,
+      "root_aligned_mpjpe_cm": 5.490642786026001,
+      "pair_distance_error_cm": 5.360222607851028
+    },
+    "last40": {
+      "mpjpe_cm": 90.25471806526184,
+      "root_ade_cm": 89.311283826828,
+      "root_fde_cm": 102.66743898391724,
+      "root_aligned_mpjpe_cm": 22.59857803583145,
+      "pair_distance_error_cm": 31.469205021858215
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G016T007A037R012_aP2_rP1",
+    "episode": "G016T007A037R012",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person stands behind the other and pats the second person's left shoulder with his/her right hand. They crouch to the right to avoid being seen. The second person continues turning left while the first person moves right to stay hidden. Eventually, the second person turns right and spots the first person.",
+    "split": "test",
+    "action": "037",
+    "file": "episodes/G016T007A037R012.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 34.36017036437988,
+      "root_ade_cm": 30.787217617034912,
+      "root_fde_cm": 45.5905556678772,
+      "root_aligned_mpjpe_cm": 19.005362689495087,
+      "pair_distance_error_cm": 11.773326992988586
+    },
+    "first40": {
+      "mpjpe_cm": 12.084418535232544,
+      "root_ade_cm": 10.718721151351929,
+      "root_fde_cm": 28.77761423587799,
+      "root_aligned_mpjpe_cm": 5.742696300148964,
+      "pair_distance_error_cm": 2.3467468097805977
+    },
+    "last40": {
+      "mpjpe_cm": 41.520726680755615,
+      "root_ade_cm": 39.861512184143066,
+      "root_fde_cm": 45.5905556678772,
+      "root_aligned_mpjpe_cm": 27.157774567604065,
+      "pair_distance_error_cm": 18.872833251953125
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G016T007A037R012_aP2_rP1",
+    "episode": "G016T007A037R012",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person stands behind the other and pats the second person's left shoulder with his/her right hand. They crouch to the right to avoid being seen. The second person continues turning left while the first person moves right to stay hidden. Eventually, the second person turns right and spots the first person.",
+    "split": "test",
+    "action": "037",
+    "file": "episodes/G016T007A037R012.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 51.401716470718384,
+      "root_ade_cm": 50.31677484512329,
+      "root_fde_cm": 63.25727701187134,
+      "root_aligned_mpjpe_cm": 19.586102664470673,
+      "pair_distance_error_cm": 35.16656756401062
+    },
+    "first40": {
+      "mpjpe_cm": 23.298685252666473,
+      "root_ade_cm": 20.502081513404846,
+      "root_fde_cm": 44.81939077377319,
+      "root_aligned_mpjpe_cm": 12.186682224273682,
+      "pair_distance_error_cm": 13.36958110332489
+    },
+    "last40": {
+      "mpjpe_cm": 65.74859619140625,
+      "root_ade_cm": 64.72082734107971,
+      "root_fde_cm": 63.25727701187134,
+      "root_aligned_mpjpe_cm": 22.155670821666718,
+      "pair_distance_error_cm": 54.18604612350464
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G001T001A006R009_aP2_rP1",
+    "episode": "G001T001A006R009",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "Two people are standing in a line. The first person walks behind the other person, while the second person partially crouches down, placing his/her hands on his/her knees. Afterward, the first person raises both hands to form V-signs, posing for a photo.",
+    "split": "test",
+    "action": "006",
+    "file": "episodes/G001T001A006R009.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 43.6470091342926,
+      "root_ade_cm": 42.58253276348114,
+      "root_fde_cm": 73.57631325721741,
+      "root_aligned_mpjpe_cm": 10.518436133861542,
+      "pair_distance_error_cm": 15.161590278148651
+    },
+    "first40": {
+      "mpjpe_cm": 4.4892653822898865,
+      "root_ade_cm": 3.911510854959488,
+      "root_fde_cm": 12.078004330396652,
+      "root_aligned_mpjpe_cm": 2.8518369421362877,
+      "pair_distance_error_cm": 3.2905548810958862
+    },
+    "last40": {
+      "mpjpe_cm": 78.79337668418884,
+      "root_ade_cm": 76.94824934005737,
+      "root_fde_cm": 73.57631325721741,
+      "root_aligned_mpjpe_cm": 20.18800526857376,
+      "pair_distance_error_cm": 18.197350203990936
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G001T001A006R009_aP2_rP1",
+    "episode": "G001T001A006R009",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "Two people are standing in a line. The first person walks behind the other person, while the second person partially crouches down, placing his/her hands on his/her knees. Afterward, the first person raises both hands to form V-signs, posing for a photo.",
+    "split": "test",
+    "action": "006",
+    "file": "episodes/G001T001A006R009.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 50.67241191864014,
+      "root_ade_cm": 49.690282344818115,
+      "root_fde_cm": 86.96608543395996,
+      "root_aligned_mpjpe_cm": 10.60958132147789,
+      "pair_distance_error_cm": 20.773427188396454
+    },
+    "first40": {
+      "mpjpe_cm": 7.991985976696014,
+      "root_ade_cm": 7.83039927482605,
+      "root_fde_cm": 17.9268017411232,
+      "root_aligned_mpjpe_cm": 2.363453060388565,
+      "pair_distance_error_cm": 6.466867029666901
+    },
+    "last40": {
+      "mpjpe_cm": 92.40518808364868,
+      "root_ade_cm": 89.93316888809204,
+      "root_fde_cm": 86.96608543395996,
+      "root_aligned_mpjpe_cm": 21.012327075004578,
+      "pair_distance_error_cm": 29.84876036643982
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G001T001A006R009_aP2_rP1",
+    "episode": "G001T001A006R009",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "Two people are standing in a line. The first person walks behind the other person, while the second person partially crouches down, placing his/her hands on his/her knees. Afterward, the first person raises both hands to form V-signs, posing for a photo.",
+    "split": "test",
+    "action": "006",
+    "file": "episodes/G001T001A006R009.npz",
+    "source_rotation_max_error": 2.384185791015625e-07,
+    "metrics": {
+      "mpjpe_cm": 29.092836380004883,
+      "root_ade_cm": 26.354750990867615,
+      "root_fde_cm": 49.69034194946289,
+      "root_aligned_mpjpe_cm": 10.178272426128387,
+      "pair_distance_error_cm": 3.5614967346191406
+    },
+    "first40": {
+      "mpjpe_cm": 6.188720092177391,
+      "root_ade_cm": 3.0830925330519676,
+      "root_fde_cm": 8.215715736150742,
+      "root_aligned_mpjpe_cm": 5.684192478656769,
+      "pair_distance_error_cm": 1.1353326961398125
+    },
+    "last40": {
+      "mpjpe_cm": 52.79538035392761,
+      "root_ade_cm": 51.70198678970337,
+      "root_fde_cm": 49.69034194946289,
+      "root_aligned_mpjpe_cm": 13.778117299079895,
+      "pair_distance_error_cm": 2.9131969437003136
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G028T003A017R015_aP2_rP1",
+    "episode": "G028T003A017R015",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "Two people are running, with one person running in circles while chasing the other.",
+    "split": "test",
+    "action": "017",
+    "file": "episodes/G028T003A017R015.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 53.30147743225098,
+      "root_ade_cm": 52.66178846359253,
+      "root_fde_cm": 153.84052991867065,
+      "root_aligned_mpjpe_cm": 9.146106243133545,
+      "pair_distance_error_cm": 9.47641059756279
+    },
+    "first40": {
+      "mpjpe_cm": 11.124086380004883,
+      "root_ade_cm": 10.684211552143097,
+      "root_fde_cm": 22.31494039297104,
+      "root_aligned_mpjpe_cm": 5.450393632054329,
+      "pair_distance_error_cm": 6.2873974442481995
+    },
+    "last40": {
+      "mpjpe_cm": 111.41923666000366,
+      "root_ade_cm": 109.86225605010986,
+      "root_fde_cm": 153.84052991867065,
+      "root_aligned_mpjpe_cm": 15.686723589897156,
+      "pair_distance_error_cm": 10.728219896554947
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G028T003A017R015_aP2_rP1",
+    "episode": "G028T003A017R015",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "Two people are running, with one person running in circles while chasing the other.",
+    "split": "test",
+    "action": "017",
+    "file": "episodes/G028T003A017R015.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 34.89566743373871,
+      "root_ade_cm": 31.753596663475037,
+      "root_fde_cm": 64.57381844520569,
+      "root_aligned_mpjpe_cm": 10.829093307256699,
+      "pair_distance_error_cm": 22.382377088069916
+    },
+    "first40": {
+      "mpjpe_cm": 8.38031992316246,
+      "root_ade_cm": 8.667194843292236,
+      "root_fde_cm": 17.76116043329239,
+      "root_aligned_mpjpe_cm": 3.7264660000801086,
+      "pair_distance_error_cm": 6.242568418383598
+    },
+    "last40": {
+      "mpjpe_cm": 62.273770570755005,
+      "root_ade_cm": 53.41826677322388,
+      "root_fde_cm": 64.57381844520569,
+      "root_aligned_mpjpe_cm": 22.202950716018677,
+      "pair_distance_error_cm": 44.98860836029053
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G028T003A017R015_aP2_rP1",
+    "episode": "G028T003A017R015",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "Two people are running, with one person running in circles while chasing the other.",
+    "split": "test",
+    "action": "017",
+    "file": "episodes/G028T003A017R015.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 106.2059760093689,
+      "root_ade_cm": 104.50812578201294,
+      "root_fde_cm": 46.374475955963135,
+      "root_aligned_mpjpe_cm": 15.281613171100616,
+      "pair_distance_error_cm": 69.51306462287903
+    },
+    "first40": {
+      "mpjpe_cm": 112.66469955444336,
+      "root_ade_cm": 111.29519939422607,
+      "root_fde_cm": 183.1987738609314,
+      "root_aligned_mpjpe_cm": 10.377956181764603,
+      "pair_distance_error_cm": 90.79312086105347
+    },
+    "last40": {
+      "mpjpe_cm": 90.20733833312988,
+      "root_ade_cm": 87.97118067741394,
+      "root_fde_cm": 46.374475955963135,
+      "root_aligned_mpjpe_cm": 17.60418266057968,
+      "pair_distance_error_cm": 35.63448488712311
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G025T002A011R008_aP1_rP2",
+    "episode": "G025T002A011R008",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "One person walks up to another person and pats his/her left back with his/her right hand, and then the other person taps the person's left back with his/her right hand.",
+    "split": "test",
+    "action": "011",
+    "file": "episodes/G025T002A011R008.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 17.103470861911774,
+      "root_ade_cm": 14.356780052185059,
+      "root_fde_cm": 10.350500047206879,
+      "root_aligned_mpjpe_cm": 8.383053541183472,
+      "pair_distance_error_cm": 13.771586120128632
+    },
+    "first40": {
+      "mpjpe_cm": 8.600977063179016,
+      "root_ade_cm": 3.8975365459918976,
+      "root_fde_cm": 12.576614320278168,
+      "root_aligned_mpjpe_cm": 7.202273607254028,
+      "pair_distance_error_cm": 3.5472754389047623
+    },
+    "last40": {
+      "mpjpe_cm": 17.275430262088776,
+      "root_ade_cm": 14.729347825050354,
+      "root_fde_cm": 10.350500047206879,
+      "root_aligned_mpjpe_cm": 8.010651171207428,
+      "pair_distance_error_cm": 13.45703899860382
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G025T002A011R008_aP1_rP2",
+    "episode": "G025T002A011R008",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "One person walks up to another person and pats his/her left back with his/her right hand, and then the other person taps the person's left back with his/her right hand.",
+    "split": "test",
+    "action": "011",
+    "file": "episodes/G025T002A011R008.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 23.295290768146515,
+      "root_ade_cm": 19.467230141162872,
+      "root_fde_cm": 56.650835275650024,
+      "root_aligned_mpjpe_cm": 11.559098958969116,
+      "pair_distance_error_cm": 9.789197146892548
+    },
+    "first40": {
+      "mpjpe_cm": 10.156235098838806,
+      "root_ade_cm": 6.20923824608326,
+      "root_fde_cm": 10.529432445764542,
+      "root_aligned_mpjpe_cm": 6.806643307209015,
+      "pair_distance_error_cm": 5.543003231287003
+    },
+    "last40": {
+      "mpjpe_cm": 33.98451507091522,
+      "root_ade_cm": 32.428693771362305,
+      "root_fde_cm": 56.650835275650024,
+      "root_aligned_mpjpe_cm": 12.03659251332283,
+      "pair_distance_error_cm": 9.254783391952515
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G025T002A011R008_aP1_rP2",
+    "episode": "G025T002A011R008",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "One person walks up to another person and pats his/her left back with his/her right hand, and then the other person taps the person's left back with his/her right hand.",
+    "split": "test",
+    "action": "011",
+    "file": "episodes/G025T002A011R008.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 74.27961826324463,
+      "root_ade_cm": 73.18686842918396,
+      "root_fde_cm": 52.285605669021606,
+      "root_aligned_mpjpe_cm": 10.742338001728058,
+      "pair_distance_error_cm": 70.4452395439148
+    },
+    "first40": {
+      "mpjpe_cm": 54.314589500427246,
+      "root_ade_cm": 53.00389528274536,
+      "root_fde_cm": 16.64343923330307,
+      "root_aligned_mpjpe_cm": 9.750229120254517,
+      "pair_distance_error_cm": 52.65771150588989
+    },
+    "last40": {
+      "mpjpe_cm": 41.64322316646576,
+      "root_ade_cm": 39.31423723697662,
+      "root_fde_cm": 52.285605669021606,
+      "root_aligned_mpjpe_cm": 8.852991461753845,
+      "pair_distance_error_cm": 37.20336556434631
+    }
+  },
+  {
+    "model": "gpu467",
+    "record_id": "G029T007A034R025_aP2_rP1",
+    "episode": "G029T007A034R025",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person sits down, pulls the other person with his/her left hand, and kisses his/her cheek. The other person moves closer, kisses his/her cheek, bends down, and stands back up.",
+    "split": "test",
+    "action": "034",
+    "file": "episodes/G029T007A034R025.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 45.78452408313751,
+      "root_ade_cm": 49.959978461265564,
+      "root_fde_cm": 124.95256662368774,
+      "root_aligned_mpjpe_cm": 13.332296907901764,
+      "pair_distance_error_cm": 39.133840799331665
+    },
+    "first40": {
+      "mpjpe_cm": 8.841746300458908,
+      "root_ade_cm": 7.007499039173126,
+      "root_fde_cm": 13.558834791183472,
+      "root_aligned_mpjpe_cm": 4.998143017292023,
+      "pair_distance_error_cm": 6.154737621545792
+    },
+    "last40": {
+      "mpjpe_cm": 83.88358354568481,
+      "root_ade_cm": 98.4353244304657,
+      "root_fde_cm": 124.95256662368774,
+      "root_aligned_mpjpe_cm": 26.3773113489151,
+      "pair_distance_error_cm": 71.0408866405487
+    }
+  },
+  {
+    "model": "gpu0123",
+    "record_id": "G029T007A034R025_aP2_rP1",
+    "episode": "G029T007A034R025",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person sits down, pulls the other person with his/her left hand, and kisses his/her cheek. The other person moves closer, kisses his/her cheek, bends down, and stands back up.",
+    "split": "test",
+    "action": "034",
+    "file": "episodes/G029T007A034R025.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 30.97565770149231,
+      "root_ade_cm": 30.1784485578537,
+      "root_fde_cm": 38.2342666387558,
+      "root_aligned_mpjpe_cm": 9.448040276765823,
+      "pair_distance_error_cm": 15.684495866298676
+    },
+    "first40": {
+      "mpjpe_cm": 10.120084881782532,
+      "root_ade_cm": 9.215621650218964,
+      "root_fde_cm": 22.19664454460144,
+      "root_aligned_mpjpe_cm": 3.670657053589821,
+      "pair_distance_error_cm": 1.962360367178917
+    },
+    "last40": {
+      "mpjpe_cm": 42.498594522476196,
+      "root_ade_cm": 42.32426583766937,
+      "root_fde_cm": 38.2342666387558,
+      "root_aligned_mpjpe_cm": 15.264973044395447,
+      "pair_distance_error_cm": 19.78605091571808
+    }
+  },
+  {
+    "model": "remogen",
+    "record_id": "G029T007A034R025_aP2_rP1",
+    "episode": "G029T007A034R025",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "One person sits down, pulls the other person with his/her left hand, and kisses his/her cheek. The other person moves closer, kisses his/her cheek, bends down, and stands back up.",
+    "split": "test",
+    "action": "034",
+    "file": "episodes/G029T007A034R025.npz",
+    "source_rotation_max_error": 1.7881393432617188e-07,
+    "metrics": {
+      "mpjpe_cm": 66.569983959198,
+      "root_ade_cm": 64.90378975868225,
+      "root_fde_cm": 44.16106641292572,
+      "root_aligned_mpjpe_cm": 12.287227809429169,
+      "pair_distance_error_cm": 43.42896044254303
+    },
+    "first40": {
+      "mpjpe_cm": 65.86859822273254,
+      "root_ade_cm": 62.69884705543518,
+      "root_fde_cm": 106.88124895095825,
+      "root_aligned_mpjpe_cm": 8.673886209726334,
+      "pair_distance_error_cm": 42.543965578079224
+    },
+    "last40": {
+      "mpjpe_cm": 72.7429211139679,
+      "root_ade_cm": 72.24050760269165,
+      "root_fde_cm": 44.16106641292572,
+      "root_aligned_mpjpe_cm": 11.674615740776062,
+      "pair_distance_error_cm": 65.24208784103394
+    }
+  }
+]

@@ -1,0 +1,532 @@
+{
+  "kind": "diffusion",
+  "checkpoint_step": 200,
+  "split": "val",
+  "data_digest": "513cab34e518110ec6e4b2acd3191539544e686662b841c789a0eb8337bc595c",
+  "seed": 0,
+  "groups": {
+    "text_actor_normal": {
+      "episodes": [
+        {
+          "episode": "G006T001A005R002",
+          "metrics": {
+            "world_mpjpe_m": 2.8255910873413086,
+            "root_aligned_mpjpe_m": 0.11299512535333633,
+            "root_ade_m": 2.742114543914795,
+            "root_fde_m": 4.4901933670043945,
+            "pair_root_distance_m": 1.8550100326538086,
+            "pair_root_distance_error_m": 0.9152846932411194,
+            "nearest_interperson_joint_distance_m": 1.5255334377288818,
+            "foot_sliding_mps": 4.168950080871582,
+            "foot_contact_fraction": 1.0,
+            "boundary_velocity_jump_mps": 33.014278411865234,
+            "jerk_mps3": 14404.746651649475
+          },
+          "mean_segment_seconds": 0.10472985621890984
+        },
+        {
+          "episode": "G012T003A018R018",
+          "metrics": {
+            "world_mpjpe_m": 2.3645966053009033,
+            "root_aligned_mpjpe_m": 0.15076880156993866,
+            "root_ade_m": 2.2438957691192627,
+            "root_fde_m": 3.6335020065307617,
+            "pair_root_distance_m": 1.6033575534820557,
+            "pair_root_distance_error_m": 1.1823923587799072,
+            "nearest_interperson_joint_distance_m": 1.4713852405548096,
+            "foot_sliding_mps": 4.376158237457275,
+            "foot_contact_fraction": 1.0,
+            "boundary_velocity_jump_mps": 33.20744705200195,
+            "jerk_mps3": 14715.46071767807
+          },
+          "mean_segment_seconds": 0.024488206778187305
+        }
+      ],
+      "aggregate": {
+        "boundary_velocity_jump_mps": {
+          "mean": 33.110862731933594,
+          "episodes": 2
+        },
+        "foot_contact_fraction": {
+          "mean": 1.0,
+          "episodes": 2
+        },
+        "foot_sliding_mps": {
+          "mean": 4.272554159164429,
+          "episodes": 2
+        },
+        "jerk_mps3": {
+          "mean": 14560.103684663773,
+          "episodes": 2
+        },
+        "nearest_interperson_joint_distance_m": {
+          "mean": 1.4984593391418457,
+          "episodes": 2
+        },
+        "pair_root_distance_error_m": {
+          "mean": 1.0488385260105133,
+          "episodes": 2
+        },
+        "pair_root_distance_m": {
+          "mean": 1.7291837930679321,
+          "episodes": 2
+        },
+        "root_ade_m": {
+          "mean": 2.493005156517029,
+          "episodes": 2
+        },
+        "root_aligned_mpjpe_m": {
+          "mean": 0.1318819634616375,
+          "episodes": 2
+        },
+        "root_fde_m": {
+          "mean": 4.061847686767578,
+          "episodes": 2
+        },
+        "world_mpjpe_m": {
+          "mean": 2.595093846321106,
+          "episodes": 2
+        }
+      },
+      "mean_segment_seconds": 0.06460903149854857,
+      "paired_output_change_m": 0.0
+    },
+    "text_actor_shuffle": {
+      "episodes": [
+        {
+          "episode": "G006T001A005R002",
+          "metrics": {
+            "world_mpjpe_m": 2.832736015319824,
+            "root_aligned_mpjpe_m": 0.11333556473255157,
+            "root_ade_m": 2.7489616870880127,
+            "root_fde_m": 4.503897666931152,
+            "pair_root_distance_m": 1.859910488128662,
+            "pair_root_distance_error_m": 0.919734001159668,
+            "nearest_interperson_joint_distance_m": 1.5308988094329834,
+            "foot_sliding_mps": 4.183976173400879,
+            "foot_contact_fraction": 1.0,
+            "boundary_velocity_jump_mps": 33.12332534790039,
+            "jerk_mps3": 14442.21818447113
+          },
+          "mean_segment_seconds": 0.024091070488793775
+        },
+        {
+          "episode": "G012T003A018R018",
+          "metrics": {
+            "world_mpjpe_m": 2.3643808364868164,
+            "root_aligned_mpjpe_m": 0.15062259137630463,
+            "root_ade_m": 2.2438554763793945,
+            "root_fde_m": 3.630261182785034,
+            "pair_root_distance_m": 1.6033458709716797,
+            "pair_root_distance_error_m": 1.1819944381713867,
+            "nearest_interperson_joint_distance_m": 1.471171498298645,
+            "foot_sliding_mps": 4.375373363494873,
+            "foot_contact_fraction": 1.0,
+            "boundary_velocity_jump_mps": 33.18284606933594,
+            "jerk_mps3": 14704.871356487274
+          },
+          "mean_segment_seconds": 0.024119486508425325
+        }
+      ],
+      "aggregate": {
+        "boundary_velocity_jump_mps": {
+          "mean": 33.153085708618164,
+          "episodes": 2
+        },
+        "foot_contact_fraction": {
+          "mean": 1.0,
+          "episodes": 2
+        },
+        "foot_sliding_mps": {
+          "mean": 4.279674768447876,
+          "episodes": 2
+        },
+        "jerk_mps3": {
+          "mean": 14573.544770479202,
+          "episodes": 2
+        },
+        "nearest_interperson_joint_distance_m": {
+          "mean": 1.5010351538658142,
+          "episodes": 2
+        },
+        "pair_root_distance_error_m": {
+          "mean": 1.0508642196655273,
+          "episodes": 2
+        },
+        "pair_root_distance_m": {
+          "mean": 1.731628179550171,
+          "episodes": 2
+        },
+        "root_ade_m": {
+          "mean": 2.4964085817337036,
+          "episodes": 2
+        },
+        "root_aligned_mpjpe_m": {
+          "mean": 0.1319790780544281,
+          "episodes": 2
+        },
+        "root_fde_m": {
+          "mean": 4.067079424858093,
+          "episodes": 2
+        },
+        "world_mpjpe_m": {
+          "mean": 2.5985584259033203,
+          "episodes": 2
+        }
+      },
+      "mean_segment_seconds": 0.02410527849860955,
+      "paired_output_change_m": 0.007052441011182964
+    },
+    "text_actor_remove": {
+      "episodes": [
+        {
+          "episode": "G006T001A005R002",
+          "metrics": {
+            "world_mpjpe_m": 2.8684961795806885,
+            "root_aligned_mpjpe_m": 0.12106886506080627,
+            "root_ade_m": 2.778456211090088,
+            "root_fde_m": 4.549948692321777,
+            "pair_root_distance_m": 2.0070018768310547,
+            "pair_root_distance_error_m": 1.0515615940093994,
+            "nearest_interperson_joint_distance_m": 1.6491426229476929,
+            "foot_sliding_mps": 4.408055305480957,
+            "foot_contact_fraction": 1.0,
+            "boundary_velocity_jump_mps": 34.75555419921875,
+            "jerk_mps3": 15081.434190273285
+          },
+          "mean_segment_seconds": 0.024391626269789413
+        },
+        {
+          "episode": "G012T003A018R018",
+          "metrics": {
+            "world_mpjpe_m": 2.402078866958618,
+            "root_aligned_mpjpe_m": 0.14210818707942963,
+            "root_ade_m": 2.2862539291381836,
+            "root_fde_m": 3.7380666732788086,
+            "pair_root_distance_m": 1.6473687887191772,
+            "pair_root_distance_error_m": 1.2339740991592407,
+            "nearest_interperson_joint_distance_m": 1.518367886543274,
+            "foot_sliding_mps": 4.544610977172852,
+            "foot_contact_fraction": 1.0,
+            "boundary_velocity_jump_mps": 34.674827575683594,
+            "jerk_mps3": 15196.084141731262
+          },
+          "mean_segment_seconds": 0.024031537264818326
+        }
+      ],
+      "aggregate": {
+        "boundary_velocity_jump_mps": {
+          "mean": 34.71519088745117,
+          "episodes": 2
+        },
+        "foot_contact_fraction": {
+          "mean": 1.0,
+          "episodes": 2
+        },
+        "foot_sliding_mps": {
+          "mean": 4.476333141326904,
+          "episodes": 2
+        },
+        "jerk_mps3": {
+          "mean": 15138.759166002274,
+          "episodes": 2
+        },
+        "nearest_interperson_joint_distance_m": {
+          "mean": 1.5837552547454834,
+          "episodes": 2
+        },
+        "pair_root_distance_error_m": {
+          "mean": 1.14276784658432,
+          "episodes": 2
+        },
+        "pair_root_distance_m": {
+          "mean": 1.827185332775116,
+          "episodes": 2
+        },
+        "root_ade_m": {
+          "mean": 2.5323550701141357,
+          "episodes": 2
+        },
+        "root_aligned_mpjpe_m": {
+          "mean": 0.13158852607011795,
+          "episodes": 2
+        },
+        "root_fde_m": {
+          "mean": 4.144007682800293,
+          "episodes": 2
+        },
+        "world_mpjpe_m": {
+          "mean": 2.6352875232696533,
+          "episodes": 2
+        }
+      },
+      "mean_segment_seconds": 0.02421158176730387,
+      "paired_output_change_m": 0.3593481332063675
+    },
+    "no_text_actor_normal": {
+      "episodes": [
+        {
+          "episode": "G006T001A005R002",
+          "metrics": {
+            "world_mpjpe_m": 2.8255889415740967,
+            "root_aligned_mpjpe_m": 0.11299831420183182,
+            "root_ade_m": 2.7421092987060547,
+            "root_fde_m": 4.490139961242676,
+            "pair_root_distance_m": 1.855004906654358,
+            "pair_root_distance_error_m": 0.9152765274047852,
+            "nearest_interperson_joint_distance_m": 1.5255340337753296,
+            "foot_sliding_mps": 4.168778896331787,
+            "foot_contact_fraction": 1.0,
+            "boundary_velocity_jump_mps": 33.01310729980469,
+            "jerk_mps3": 14404.307305812836
+          },
+          "mean_segment_seconds": 0.024035902024479583
+        },
+        {
+          "episode": "G012T003A018R018",
+          "metrics": {
+            "world_mpjpe_m": 2.3647301197052,
+            "root_aligned_mpjpe_m": 0.1507786363363266,
+            "root_ade_m": 2.2440173625946045,
+            "root_fde_m": 3.633652687072754,
+            "pair_root_distance_m": 1.6034423112869263,
+            "pair_root_distance_error_m": 1.1824944019317627,
+            "nearest_interperson_joint_distance_m": 1.4714906215667725,
+            "foot_sliding_mps": 4.376168251037598,
+            "foot_contact_fraction": 1.0,
+            "boundary_velocity_jump_mps": 33.207523345947266,
+            "jerk_mps3": 14715.710163116455
+          },
+          "mean_segment_seconds": 0.024032751767663285
+        }
+      ],
+      "aggregate": {
+        "boundary_velocity_jump_mps": {
+          "mean": 33.11031532287598,
+          "episodes": 2
+        },
+        "foot_contact_fraction": {
+          "mean": 1.0,
+          "episodes": 2
+        },
+        "foot_sliding_mps": {
+          "mean": 4.272473573684692,
+          "episodes": 2
+        },
+        "jerk_mps3": {
+          "mean": 14560.008734464645,
+          "episodes": 2
+        },
+        "nearest_interperson_joint_distance_m": {
+          "mean": 1.498512327671051,
+          "episodes": 2
+        },
+        "pair_root_distance_error_m": {
+          "mean": 1.048885464668274,
+          "episodes": 2
+        },
+        "pair_root_distance_m": {
+          "mean": 1.729223608970642,
+          "episodes": 2
+        },
+        "root_ade_m": {
+          "mean": 2.4930633306503296,
+          "episodes": 2
+        },
+        "root_aligned_mpjpe_m": {
+          "mean": 0.1318884752690792,
+          "episodes": 2
+        },
+        "root_fde_m": {
+          "mean": 4.061896324157715,
+          "episodes": 2
+        },
+        "world_mpjpe_m": {
+          "mean": 2.5951595306396484,
+          "episodes": 2
+        }
+      },
+      "mean_segment_seconds": 0.024034326896071434,
+      "paired_output_change_m": 0.0002506018463463988
+    },
+    "no_text_actor_shuffle": {
+      "episodes": [
+        {
+          "episode": "G006T001A005R002",
+          "metrics": {
+            "world_mpjpe_m": 2.8327271938323975,
+            "root_aligned_mpjpe_m": 0.1133386641740799,
+            "root_ade_m": 2.7489500045776367,
+            "root_fde_m": 4.5038323402404785,
+            "pair_root_distance_m": 1.8598986864089966,
+            "pair_root_distance_error_m": 0.9197198748588562,
+            "nearest_interperson_joint_distance_m": 1.5308923721313477,
+            "foot_sliding_mps": 4.183810234069824,
+            "foot_contact_fraction": 1.0,
+            "boundary_velocity_jump_mps": 33.12208938598633,
+            "jerk_mps3": 14441.76596403122
+          },
+          "mean_segment_seconds": 0.024245665001217276
+        },
+        {
+          "episode": "G012T003A018R018",
+          "metrics": {
+            "world_mpjpe_m": 2.3645453453063965,
+            "root_aligned_mpjpe_m": 0.15063324570655823,
+            "root_ade_m": 2.244007110595703,
+            "root_fde_m": 3.6304738521575928,
+            "pair_root_distance_m": 1.6034603118896484,
+            "pair_root_distance_error_m": 1.1821262836456299,
+            "nearest_interperson_joint_distance_m": 1.4713058471679688,
+            "foot_sliding_mps": 4.3754496574401855,
+            "foot_contact_fraction": 1.0,
+            "boundary_velocity_jump_mps": 33.183475494384766,
+            "jerk_mps3": 14705.397605895996
+          },
+          "mean_segment_seconds": 0.02405811077915132
+        }
+      ],
+      "aggregate": {
+        "boundary_velocity_jump_mps": {
+          "mean": 33.15278244018555,
+          "episodes": 2
+        },
+        "foot_contact_fraction": {
+          "mean": 1.0,
+          "episodes": 2
+        },
+        "foot_sliding_mps": {
+          "mean": 4.279629945755005,
+          "episodes": 2
+        },
+        "jerk_mps3": {
+          "mean": 14573.581784963608,
+          "episodes": 2
+        },
+        "nearest_interperson_joint_distance_m": {
+          "mean": 1.5010991096496582,
+          "episodes": 2
+        },
+        "pair_root_distance_error_m": {
+          "mean": 1.050923079252243,
+          "episodes": 2
+        },
+        "pair_root_distance_m": {
+          "mean": 1.7316794991493225,
+          "episodes": 2
+        },
+        "root_ade_m": {
+          "mean": 2.49647855758667,
+          "episodes": 2
+        },
+        "root_aligned_mpjpe_m": {
+          "mean": 0.13198595494031906,
+          "episodes": 2
+        },
+        "root_fde_m": {
+          "mean": 4.067153096199036,
+          "episodes": 2
+        },
+        "world_mpjpe_m": {
+          "mean": 2.598636269569397,
+          "episodes": 2
+        }
+      },
+      "mean_segment_seconds": 0.024151887890184298,
+      "paired_output_change_m": 0.006942555890418589
+    },
+    "no_text_actor_remove": {
+      "episodes": [
+        {
+          "episode": "G006T001A005R002",
+          "metrics": {
+            "world_mpjpe_m": 2.868412733078003,
+            "root_aligned_mpjpe_m": 0.12107773125171661,
+            "root_ade_m": 2.7783713340759277,
+            "root_fde_m": 4.549834728240967,
+            "pair_root_distance_m": 2.006927967071533,
+            "pair_root_distance_error_m": 1.0515044927597046,
+            "nearest_interperson_joint_distance_m": 1.6490705013275146,
+            "foot_sliding_mps": 4.407703876495361,
+            "foot_contact_fraction": 1.0,
+            "boundary_velocity_jump_mps": 34.75447463989258,
+            "jerk_mps3": 15080.981969833374
+          },
+          "mean_segment_seconds": 0.024051584536209702
+        },
+        {
+          "episode": "G012T003A018R018",
+          "metrics": {
+            "world_mpjpe_m": 2.4022438526153564,
+            "root_aligned_mpjpe_m": 0.14212027192115784,
+            "root_ade_m": 2.286407709121704,
+            "root_fde_m": 3.738312244415283,
+            "pair_root_distance_m": 1.6474862098693848,
+            "pair_root_distance_error_m": 1.2341177463531494,
+            "nearest_interperson_joint_distance_m": 1.5184979438781738,
+            "foot_sliding_mps": 4.544593334197998,
+            "foot_contact_fraction": 1.0,
+            "boundary_velocity_jump_mps": 34.675933837890625,
+            "jerk_mps3": 15196.529924869537
+          },
+          "mean_segment_seconds": 0.02404561050934717
+        }
+      ],
+      "aggregate": {
+        "boundary_velocity_jump_mps": {
+          "mean": 34.7152042388916,
+          "episodes": 2
+        },
+        "foot_contact_fraction": {
+          "mean": 1.0,
+          "episodes": 2
+        },
+        "foot_sliding_mps": {
+          "mean": 4.47614860534668,
+          "episodes": 2
+        },
+        "jerk_mps3": {
+          "mean": 15138.755947351456,
+          "episodes": 2
+        },
+        "nearest_interperson_joint_distance_m": {
+          "mean": 1.5837842226028442,
+          "episodes": 2
+        },
+        "pair_root_distance_error_m": {
+          "mean": 1.142811119556427,
+          "episodes": 2
+        },
+        "pair_root_distance_m": {
+          "mean": 1.827207088470459,
+          "episodes": 2
+        },
+        "root_ade_m": {
+          "mean": 2.532389521598816,
+          "episodes": 2
+        },
+        "root_aligned_mpjpe_m": {
+          "mean": 0.13159900158643723,
+          "episodes": 2
+        },
+        "root_fde_m": {
+          "mean": 4.144073486328125,
+          "episodes": 2
+        },
+        "world_mpjpe_m": {
+          "mean": 2.6353282928466797,
+          "episodes": 2
+        }
+      },
+      "mean_segment_seconds": 0.024048597522778437,
+      "paired_output_change_m": 0.3595300391316414
+    }
+  },
+  "notes": [
+    "Prediction errors are reference metrics, not complete generative quality scores.",
+    "Foot sliding uses predicted feet below 8 cm above the original common floor.",
+    "Nearest joint distance is a proximity proxy, not mesh penetration or contact accuracy.",
+    "shuffle means reversing the temporal order of observed actor frames.",
+    "VAE reconstruction uses ground-truth future and posterior mean; diffusion does not."
+  ]
+}

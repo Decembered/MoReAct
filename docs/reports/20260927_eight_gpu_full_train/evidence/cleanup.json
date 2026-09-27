@@ -1,0 +1,19 @@
+{
+  "deleted": "/data/autovla/projects/MoReAct/tmp/eight_gpu_scale_20260927",
+  "logical_bytes": 2916914650,
+  "file_count": 133,
+  "large_checkpoints_removed": [
+    "bench_1536/step_032508.pt",
+    "bench_1536/last.pt",
+    "bench_2048/step_032508.pt",
+    "bench_2048/last.pt",
+    "bench_1024/step_032508.pt",
+    "bench_1024/last.pt",
+    "bench_1024/best_rollout.pt",
+    "bench_512/step_032508.pt",
+    "bench_512/last.pt"
+  ],
+  "retained_formal_run": "/data/autovla/projects/MoReAct/runs/diffusion_geometry_8gpu_b1024_20260927",
+  "retained_evidence": "/data/autovla/projects/MoReAct/docs/reports/20260927_eight_gpu_full_train/evidence",
+  "process_check": "Benchmark and source-val commands completed; no matching active processes."
+}

@@ -1,0 +1,183 @@
+{
+  "steps": [
+    27000,
+    27500,
+    28000,
+    28500,
+    29000,
+    29500,
+    30000,
+    30500,
+    31000,
+    31500,
+    32000,
+    32500,
+    33000,
+    33500,
+    34000
+  ],
+  "comparisons": {
+    "27000_to_34000": {
+      "train": {
+        "root_ade_m": {
+          "delta_cm": -3.534013376726458,
+          "bootstrap_95_ci_cm": [
+            -5.009358618738284,
+            -2.1204512543044984
+          ],
+          "improved_episodes": 32
+        },
+        "root_fde_m": {
+          "delta_cm": -8.719570949518433,
+          "bootstrap_95_ci_cm": [
+            -12.131562202062923,
+            -5.571974002115898
+          ],
+          "improved_episodes": 30
+        },
+        "root_aligned_mpjpe_m": {
+          "delta_cm": -1.8051728854576745,
+          "bootstrap_95_ci_cm": [
+            -2.5185479765447476,
+            -1.2220234845299276
+          ],
+          "improved_episodes": 36
+        }
+      },
+      "val": {
+        "root_ade_m": {
+          "delta_cm": -0.029507161428531034,
+          "bootstrap_95_ci_cm": [
+            -1.8434729768584173,
+            1.6359647448795533
+          ],
+          "improved_episodes": 18
+        },
+        "root_fde_m": {
+          "delta_cm": 1.1386246404921017,
+          "bootstrap_95_ci_cm": [
+            -3.885930947416152,
+            6.454312953632324
+          ],
+          "improved_episodes": 18
+        },
+        "root_aligned_mpjpe_m": {
+          "delta_cm": -1.2699085598190627,
+          "bootstrap_95_ci_cm": [
+            -1.6396007208774483,
+            -0.8963814886907737
+          ],
+          "improved_episodes": 34
+        }
+      }
+    },
+    "32500_to_34000": {
+      "train": {
+        "root_ade_m": {
+          "delta_cm": -0.9631136292591691,
+          "bootstrap_95_ci_cm": [
+            -1.6179812700332457,
+            -0.26258039043750625
+          ],
+          "improved_episodes": 29
+        },
+        "root_fde_m": {
+          "delta_cm": -1.4830534237747393,
+          "bootstrap_95_ci_cm": [
+            -3.912196225603111,
+            1.1291687084982782
+          ],
+          "improved_episodes": 27
+        },
+        "root_aligned_mpjpe_m": {
+          "delta_cm": -0.2759996708482504,
+          "bootstrap_95_ci_cm": [
+            -0.4677954088741293,
+            -0.09861107449978596
+          ],
+          "improved_episodes": 32
+        }
+      },
+      "val": {
+        "root_ade_m": {
+          "delta_cm": -0.4416055884212256,
+          "bootstrap_95_ci_cm": [
+            -1.2904265265290935,
+            0.2722888325030604
+          ],
+          "improved_episodes": 25
+        },
+        "root_fde_m": {
+          "delta_cm": -1.4259755549331505,
+          "bootstrap_95_ci_cm": [
+            -3.50907093542628,
+            0.5237433979442961
+          ],
+          "improved_episodes": 26
+        },
+        "root_aligned_mpjpe_m": {
+          "delta_cm": -0.11388080505033335,
+          "bootstrap_95_ci_cm": [
+            -0.24782436853274697,
+            0.026735740015283088
+          ],
+          "improved_episodes": 29
+        }
+      }
+    },
+    "27500_to_34000": {
+      "train": {
+        "root_ade_m": {
+          "delta_cm": -2.7545457224672045,
+          "bootstrap_95_ci_cm": [
+            -4.266653105286725,
+            -1.2835861205045764
+          ],
+          "improved_episodes": 28
+        },
+        "root_fde_m": {
+          "delta_cm": -6.541825987709064,
+          "bootstrap_95_ci_cm": [
+            -9.996747586876156,
+            -3.4004465981076226
+          ],
+          "improved_episodes": 29
+        },
+        "root_aligned_mpjpe_m": {
+          "delta_cm": -1.6514195967465637,
+          "bootstrap_95_ci_cm": [
+            -2.332209845539182,
+            -1.0764626850529264
+          ],
+          "improved_episodes": 35
+        }
+      },
+      "val": {
+        "root_ade_m": {
+          "delta_cm": -0.15096895862370727,
+          "bootstrap_95_ci_cm": [
+            -1.582424988582109,
+            1.0486571724371354
+          ],
+          "improved_episodes": 18
+        },
+        "root_fde_m": {
+          "delta_cm": -0.7365142445390425,
+          "bootstrap_95_ci_cm": [
+            -4.998326661918933,
+            3.3906953060844227
+          ],
+          "improved_episodes": 21
+        },
+        "root_aligned_mpjpe_m": {
+          "delta_cm": -1.2050313409417868,
+          "bootstrap_95_ci_cm": [
+            -1.5490394433339436,
+            -0.8813987159325432
+          ],
+          "improved_episodes": 37
+        }
+      }
+    }
+  }
+}

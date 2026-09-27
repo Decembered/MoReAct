@@ -1,0 +1,10 @@
+{
+  "motion_checkpoint": "runs/diffusion_restart_b512_20260926_013059/step_001000.pt",
+  "checkpoint_sha256": "a424279bd459f6b4ea3d4509be7657359214eacfa1c93241c8440d4649ded817",
+  "cache": "data/interx_h2_f8",
+  "validation_device": "cpu",
+  "threads": 4,
+  "long_training_launched": false,
+  "real_t5_forward_only": true,
+  "tiny_captioner": "random 1-layer d_model=16 T5 with original FLAN-T5-large tokenizer; 2 updates"
+}

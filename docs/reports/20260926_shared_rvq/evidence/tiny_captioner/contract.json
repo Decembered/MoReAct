@@ -1,0 +1,31 @@
+{
+  "version": "shared_cvae_mean_rvq_v1",
+  "identity": {
+    "version": "shared_cvae_mean_rvq_v1",
+    "vae": "a67fb8295e257b05a9dc6fcdce4c27cc92b8f7f92a22433d08d0e64bc57f7c4a",
+    "stats": "bffa89b764b726615b0dc1e89554c2ca7278e07cfc554dc5de60c3736b08d99e",
+    "data_digest": "32893a39105b183275d36b61d72f2e4d5b7fe1a999c382906e0277b4557ca048",
+    "fps": 30,
+    "history": 2,
+    "future": 8,
+    "latent_dim": 128,
+    "feature_dim": 276,
+    "roles": [
+      "actor",
+      "reactor"
+    ]
+  },
+  "rvq_id": "8706065fae9a3b624bf64acac5163c6130e33e7abfdccdccdd0eb20ecc4e6568",
+  "rvq_config": {
+    "dim": 128,
+    "size": 256,
+    "levels": 2,
+    "decay": 0.99
+  },
+  "tokenizer_id": "409dd7bd22e1ef3a1c41bd2e62e4d6b486ea558cf4f80e49b5bca1159dd6d7ed",
+  "prompt": "Describe the overall interaction between the actor and the reactor in these complete motions.\n",
+  "max_input": 4096,
+  "max_target": 512,
+  "base_model": "tmp/shared_rvq_validation/tiny_language_base",
+  "task": "complete_pair_interaction_description"
+}

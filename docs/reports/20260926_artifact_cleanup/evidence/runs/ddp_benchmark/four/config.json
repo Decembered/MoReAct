@@ -1,0 +1,68 @@
+{
+  "data": {
+    "source": "/data/autovla/projects/interx_ardy_mvp/full_data",
+    "cache": "/data/autovla/projects/MoReAct/data/interx_h2_f8",
+    "body_models": "/data/autovla/projects/remogen_official_release/smpl_models",
+    "role_overrides": "/data/autovla/projects/MoReAct/assets/role_overrides.json",
+    "raw_fps": 120,
+    "fps": 30,
+    "history": 2,
+    "future": 8,
+    "stride": 1,
+    "primitives": 4,
+    "clip_model": "/home/autovla/.cache/clip/ViT-B-32.pt"
+  },
+  "model": {
+    "latent_dim": 128,
+    "vae_hidden": 256,
+    "vae_layers": 5,
+    "denoiser_hidden": 512,
+    "denoiser_layers": 8,
+    "heads": 4,
+    "ff_size": 1024,
+    "dropout": 0.1,
+    "diffusion_steps": 10,
+    "text_dropout": 0.1
+  },
+  "train": {
+    "seed": 0,
+    "batch_size": 128,
+    "learning_rate": 0.0001,
+    "kl_weight": 1e-06,
+    "ema": 0.999,
+    "grad_clip": 1.0,
+    "stage1_steps": 100000,
+    "stage2_steps": 100000,
+    "stage3_steps": 100000,
+    "log_interval": 1,
+    "save_interval": 10000,
+    "val_interval": 1000,
+    "val_batches": 1,
+    "latent_scale_batches": 32,
+    "device": "cuda:2",
+    "threads": 1
+  },
+  "loss": {
+    "feature_rec": 1.0,
+    "smpl_joints_rec": 10.0,
+    "joint_fk_consistency": 10.0,
+    "transl_delta": 100.0,
+    "joints_delta": 100.0,
+    "orient_delta": 100.0,
+    "bone_length": 10.0,
+    "foot_contact": 30.0
+  },
+  "diffusion_loss": {
+    "latent_mse": 1.0,
+    "feature_rec": 1.0,
+    "smpl_joints_rec": 10.0,
+    "joint_fk_consistency": 10.0,
+    "joint_velocity": 100.0,
+    "bone_length": 10.0,
+    "foot_contact": 30.0,
+    "root_orientation": 1.0,
+    "root_angular_velocity": 10.0,
+    "distance_map": 1.0,
+    "joint_contact": 10.0
+  }
+}

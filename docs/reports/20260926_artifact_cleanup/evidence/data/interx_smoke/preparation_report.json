@@ -1,0 +1,17 @@
+{
+  "digest": "513cab34e518110ec6e4b2acd3191539544e686662b841c789a0eb8337bc595c",
+  "feature_version": "dart276_backward_deltas_shared_zup_v1",
+  "counts": {
+    "train": 8,
+    "val": 8,
+    "test": 8
+  },
+  "role_counts": {
+    "annotation_assumed": 24,
+    "motion_verified": 0
+  },
+  "skipped": [],
+  "normalization_split": "train",
+  "limit_per_split": 8,
+  "note": "Direction follows README plus verified overrides; unreviewed roles are assumptions."
+}

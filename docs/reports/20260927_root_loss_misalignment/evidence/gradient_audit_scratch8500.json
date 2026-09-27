@@ -1,0 +1,1375 @@
+{
+  "checkpoint": "/data/autovla/projects/MoReAct/runs/diffusion_scratch_b768_root30_20260926/step_008500.pt",
+  "step": 8500,
+  "weights": {
+    "latent_mse": 1.0,
+    "feature_rec": 1.0,
+    "smpl_joints_rec": 10.0,
+    "joint_fk_consistency": 10.0,
+    "joint_velocity": 100.0,
+    "bone_length": 10.0,
+    "foot_contact": 30.0,
+    "root_orientation": 1.0,
+    "root_angular_velocity": 10.0,
+    "distance_map": 1.0,
+    "joint_contact": 10.0,
+    "root_position": 30.0
+  },
+  "batch_size": 16,
+  "batches": 4,
+  "train_indices": [
+    [
+      1269009,
+      203581,
+      964492,
+      1166000,
+      1091719,
+      907788,
+      1306680,
+      496022,
+      477353,
+      755968,
+      448439,
+      239344,
+      344540,
+      1269329,
+      859861,
+      232914
+    ],
+    [
+      250614,
+      641640,
+      617327,
+      488723,
+      1386,
+      420907,
+      1084184,
+      1069418,
+      1302191,
+      1079064,
+      1061027,
+      1143028,
+      762707,
+      1043755,
+      800606,
+      52131
+    ],
+    [
+      405869,
+      1278916,
+      839634,
+      927719,
+      1041681,
+      347046,
+      2834,
+      175717,
+      611650,
+      309350,
+      48426,
+      913030,
+      1282797,
+      833340,
+      1149612,
+      461732
+    ],
+    [
+      684903,
+      845806,
+      928630,
+      639893,
+      1325612,
+      535970,
+      884925,
+      465649,
+      113045,
+      677586,
+      13103,
+      954293,
+      509765,
+      145750,
+      672207,
+      1248644
+    ]
+  ],
+  "records": [
+    {
+      "history": "teacher",
+      "probability": 0.0,
+      "batch": 0,
+      "loss": 0.1621449589729309,
+      "total_gradient_norm": 0.5499305725097656,
+      "gradient_sum_max_abs_error": 3.725290298461914e-09,
+      "terms": {
+        "latent_mse": {
+          "raw": 0.13390888273715973,
+          "weighted": 0.13390888273715973,
+          "weighted_gradient_norm": 0.4654025733470917,
+          "cosine_total": 0.9723120927810669,
+          "cosine_latent": 1.0,
+          "projection_total": 0.8228612542152405
+        },
+        "feature_rec": {
+          "raw": 0.02392417937517166,
+          "weighted": 0.02392417937517166,
+          "weighted_gradient_norm": 0.11500664055347443,
+          "cosine_total": 0.6863852143287659,
+          "cosine_latent": 0.520828366279602,
+          "projection_total": 0.1435433328151703
+        },
+        "smpl_joints_rec": {
+          "raw": 6.882676825625822e-05,
+          "weighted": 0.0006882676971144974,
+          "weighted_gradient_norm": 0.006370729301124811,
+          "cosine_total": 0.4434201717376709,
+          "cosine_latent": 0.3241027891635895,
+          "projection_total": 0.0051368484273552895
+        },
+        "joint_fk_consistency": {
+          "raw": 1.0770784683700185e-05,
+          "weighted": 0.00010770784865599126,
+          "weighted_gradient_norm": 0.0011479577515274286,
+          "cosine_total": 0.027931131422519684,
+          "cosine_latent": 0.028252167627215385,
+          "projection_total": 5.830510417581536e-05
+        },
+        "joint_velocity": {
+          "raw": 7.007101885392331e-06,
+          "weighted": 0.0007007102249190211,
+          "weighted_gradient_norm": 0.004161600023508072,
+          "cosine_total": 0.5343648195266724,
+          "cosine_latent": 0.3883376121520996,
+          "projection_total": 0.004043806344270706
+        },
+        "bone_length": {
+          "raw": 4.129699846089352e-06,
+          "weighted": 4.1296996641904116e-05,
+          "weighted_gradient_norm": 0.0004840807232540101,
+          "cosine_total": 0.04172308370471001,
+          "cosine_latent": 0.025461329147219658,
+          "projection_total": 3.672707316582091e-05
+        },
+        "foot_contact": {
+          "raw": 6.180638138175709e-06,
+          "weighted": 0.00018541913595981896,
+          "weighted_gradient_norm": 0.0016942026559263468,
+          "cosine_total": 0.09560906141996384,
+          "cosine_latent": 0.0989544689655304,
+          "projection_total": 0.0002945483138319105
+        },
+        "root_orientation": {
+          "raw": 0.00034692580811679363,
+          "weighted": 0.00034692580811679363,
+          "weighted_gradient_norm": 0.006859146989881992,
+          "cosine_total": 0.22146426141262054,
+          "cosine_latent": 0.18158581852912903,
+          "projection_total": 0.002762268530204892
+        },
+        "root_angular_velocity": {
+          "raw": 2.8746773750754073e-05,
+          "weighted": 0.0002874677302315831,
+          "weighted_gradient_norm": 0.0034307721070945263,
+          "cosine_total": 0.2502346634864807,
+          "cosine_latent": 0.20148518681526184,
+          "projection_total": 0.0015611028065904975
+        },
+        "distance_map": {
+          "raw": 7.572489994345233e-05,
+          "weighted": 7.572489994345233e-05,
+          "weighted_gradient_norm": 0.0009222702938131988,
+          "cosine_total": 0.35089612007141113,
+          "cosine_latent": 0.2641391158103943,
+          "projection_total": 0.0005884762504138052
+        },
+        "joint_contact": {
+          "raw": 6.411322829080746e-05,
+          "weighted": 0.0006411323556676507,
+          "weighted_gradient_norm": 0.04755126312375069,
+          "cosine_total": 0.10069108009338379,
+          "cosine_latent": 0.0023109177127480507,
+          "projection_total": 0.008706532418727875
+        },
+        "root_position": {
+          "raw": 4.124175029573962e-05,
+          "weighted": 0.0012372524943202734,
+          "weighted_gradient_norm": 0.02431212179362774,
+          "cosine_total": 0.23533602058887482,
+          "cosine_latent": 0.13241542875766754,
+          "projection_total": 0.010404073633253574
+        }
+      }
+    },
+    {
+      "history": "teacher",
+      "probability": 0.0,
+      "batch": 1,
+      "loss": 0.11517833173274994,
+      "total_gradient_norm": 0.4986669421195984,
+      "gradient_sum_max_abs_error": 2.7939677238464355e-09,
+      "terms": {
+        "latent_mse": {
+          "raw": 0.09402482211589813,
+          "weighted": 0.09402482211589813,
+          "weighted_gradient_norm": 0.406635582447052,
+          "cosine_total": 0.9732140302658081,
+          "cosine_latent": 1.0,
+          "projection_total": 0.793602705001831
+        },
+        "feature_rec": {
+          "raw": 0.01800384745001793,
+          "weighted": 0.01800384745001793,
+          "weighted_gradient_norm": 0.11325453966856003,
+          "cosine_total": 0.7177397608757019,
+          "cosine_latent": 0.5496237874031067,
+          "projection_total": 0.1630091816186905
+        },
+        "smpl_joints_rec": {
+          "raw": 5.43176029168535e-05,
+          "weighted": 0.0005431760801002383,
+          "weighted_gradient_norm": 0.0073832557536661625,
+          "cosine_total": 0.5223338603973389,
+          "cosine_latent": 0.419258177280426,
+          "projection_total": 0.00773366866633296
+        },
+        "joint_fk_consistency": {
+          "raw": 9.69745815382339e-06,
+          "weighted": 9.697457426227629e-05,
+          "weighted_gradient_norm": 0.0007439283654093742,
+          "cosine_total": 0.056202322244644165,
+          "cosine_latent": 0.06983209401369095,
+          "projection_total": 8.38445412227884e-05
+        },
+        "joint_velocity": {
+          "raw": 5.9076505749544594e-06,
+          "weighted": 0.0005907650338485837,
+          "weighted_gradient_norm": 0.0038700951263308525,
+          "cosine_total": 0.5238591432571411,
+          "cosine_latent": 0.43225225806236267,
+          "projection_total": 0.004065609071403742
+        },
+        "bone_length": {
+          "raw": 2.9903967515565455e-06,
+          "weighted": 2.9903967515565455e-05,
+          "weighted_gradient_norm": 0.0004087500274181366,
+          "cosine_total": 0.04571646824479103,
+          "cosine_latent": 0.047257985919713974,
+          "projection_total": 3.747312439372763e-05
+        },
+        "foot_contact": {
+          "raw": 8.761885510466527e-06,
+          "weighted": 0.000262856570770964,
+          "weighted_gradient_norm": 0.0029882167000323534,
+          "cosine_total": 0.05744979903101921,
+          "cosine_latent": 0.047086384147405624,
+          "projection_total": 0.0003442627494223416
+        },
+        "root_orientation": {
+          "raw": 0.0002557727275416255,
+          "weighted": 0.0002557727275416255,
+          "weighted_gradient_norm": 0.007598040625452995,
+          "cosine_total": 0.266036719083786,
+          "cosine_latent": 0.24445390701293945,
+          "projection_total": 0.0040535228326916695
+        },
+        "root_angular_velocity": {
+          "raw": 2.4739470973145217e-05,
+          "weighted": 0.00024739469517953694,
+          "weighted_gradient_norm": 0.004189790692180395,
+          "cosine_total": 0.2998928129673004,
+          "cosine_latent": 0.26970982551574707,
+          "projection_total": 0.0025196941569447517
+        },
+        "distance_map": {
+          "raw": 5.7733970606932417e-05,
+          "weighted": 5.7733970606932417e-05,
+          "weighted_gradient_norm": 0.0012129592942073941,
+          "cosine_total": 0.3547346293926239,
+          "cosine_latent": 0.2984742522239685,
+          "projection_total": 0.0008628578507341444
+        },
+        "joint_contact": {
+          "raw": 1.2129153219575528e-06,
+          "weighted": 1.2129153219575528e-05,
+          "weighted_gradient_norm": 0.003191961208358407,
+          "cosine_total": 0.012525960803031921,
+          "cosine_latent": 0.014773640781641006,
+          "projection_total": 8.017852815100923e-05
+        },
+        "root_position": {
+          "raw": 3.509823727654293e-05,
+          "weighted": 0.0010529470164328814,
+          "weighted_gradient_norm": 0.030093112960457802,
+          "cosine_total": 0.3911454975605011,
+          "cosine_latent": 0.2674958407878876,
+          "projection_total": 0.0236045029014349
+        }
+      }
+    },
+    {
+      "history": "teacher",
+      "probability": 0.0,
+      "batch": 2,
+      "loss": 0.11126631498336792,
+      "total_gradient_norm": 0.45310741662979126,
+      "gradient_sum_max_abs_error": 2.7939677238464355e-09,
+      "terms": {
+        "latent_mse": {
+          "raw": 0.09335896372795105,
+          "weighted": 0.09335896372795105,
+          "weighted_gradient_norm": 0.36414629220962524,
+          "cosine_total": 0.9218537211418152,
+          "cosine_latent": 1.0,
+          "projection_total": 0.7408609986305237
+        },
+        "feature_rec": {
+          "raw": 0.013384868390858173,
+          "weighted": 0.013384868390858173,
+          "weighted_gradient_norm": 0.05715459957718849,
+          "cosine_total": 0.7061184048652649,
+          "cosine_latent": 0.6345924735069275,
+          "projection_total": 0.0890691950917244
+        },
+        "smpl_joints_rec": {
+          "raw": 3.873189052683301e-05,
+          "weighted": 0.0003873188979923725,
+          "weighted_gradient_norm": 0.003810348454862833,
+          "cosine_total": 0.49212801456451416,
+          "cosine_latent": 0.36404821276664734,
+          "projection_total": 0.004138486925512552
+        },
+        "joint_fk_consistency": {
+          "raw": 9.177351785183419e-06,
+          "weighted": 9.177351603284478e-05,
+          "weighted_gradient_norm": 0.0004615791258402169,
+          "cosine_total": -0.08184222877025604,
+          "cosine_latent": 0.013271566480398178,
+          "projection_total": -8.337242616107687e-05
+        },
+        "joint_velocity": {
+          "raw": 3.861227924062405e-06,
+          "weighted": 0.00038612278876826167,
+          "weighted_gradient_norm": 0.0022470196709036827,
+          "cosine_total": 0.48187974095344543,
+          "cosine_latent": 0.36947616934776306,
+          "projection_total": 0.0023897055070847273
+        },
+        "bone_length": {
+          "raw": 3.2714488042984158e-06,
+          "weighted": 3.271448804298416e-05,
+          "weighted_gradient_norm": 0.0003243330284021795,
+          "cosine_total": 0.00926670990884304,
+          "cosine_latent": 0.015969542786478996,
+          "projection_total": 6.633084922214039e-06
+        },
+        "foot_contact": {
+          "raw": 7.1786221269576345e-06,
+          "weighted": 0.00021535866835620254,
+          "weighted_gradient_norm": 0.0023413843009620905,
+          "cosine_total": 0.17305125296115875,
+          "cosine_latent": 0.17040075361728668,
+          "projection_total": 0.000894223980139941
+        },
+        "root_orientation": {
+          "raw": 0.000246262876316905,
+          "weighted": 0.000246262876316905,
+          "weighted_gradient_norm": 0.005029134452342987,
+          "cosine_total": 0.3137179911136627,
+          "cosine_latent": 0.2777916491031647,
+          "projection_total": 0.0034820218570530415
+        },
+        "root_angular_velocity": {
+          "raw": 2.087631764879916e-05,
+          "weighted": 0.000208763187401928,
+          "weighted_gradient_norm": 0.0024106421042233706,
+          "cosine_total": 0.37439554929733276,
+          "cosine_latent": 0.33947044610977173,
+          "projection_total": 0.0019918757025152445
+        },
+        "distance_map": {
+          "raw": 3.9537993870908394e-05,
+          "weighted": 3.9537993870908394e-05,
+          "weighted_gradient_norm": 0.00042177338036708534,
+          "cosine_total": 0.43938353657722473,
+          "cosine_latent": 0.31685933470726013,
+          "projection_total": 0.00040899854502640665
+        },
+        "joint_contact": {
+          "raw": 0.00022169199655763805,
+          "weighted": 0.0022169197909533978,
+          "weighted_gradient_norm": 0.16105438768863678,
+          "cosine_total": 0.4246952533721924,
+          "cosine_latent": 0.06379254162311554,
+          "projection_total": 0.1509554386138916
+        },
+        "root_position": {
+          "raw": 2.325703826500103e-05,
+          "weighted": 0.0006977111916057765,
+          "weighted_gradient_norm": 0.015199851244688034,
+          "cosine_total": 0.17537821829319,
+          "cosine_latent": 0.13367456197738647,
+          "projection_total": 0.005883202888071537
+        }
+      }
+    },
+    {
+      "history": "teacher",
+      "probability": 0.0,
+      "batch": 3,
+      "loss": 0.2545960545539856,
+      "total_gradient_norm": 1.443783164024353,
+      "gradient_sum_max_abs_error": 2.60770320892334e-08,
+      "terms": {
+        "latent_mse": {
+          "raw": 0.15198320150375366,
+          "weighted": 0.15198320150375366,
+          "weighted_gradient_norm": 0.5377386808395386,
+          "cosine_total": 0.5019119381904602,
+          "cosine_latent": 1.0,
+          "projection_total": 0.18693765997886658
+        },
+        "feature_rec": {
+          "raw": 0.0465969480574131,
+          "weighted": 0.0465969480574131,
+          "weighted_gradient_norm": 0.14119388163089752,
+          "cosine_total": 0.36495062708854675,
+          "cosine_latent": 0.6213271617889404,
+          "projection_total": 0.03569012135267258
+        },
+        "smpl_joints_rec": {
+          "raw": 0.00019318285922054201,
+          "weighted": 0.0019318286795169115,
+          "weighted_gradient_norm": 0.02242833934724331,
+          "cosine_total": 0.2662190794944763,
+          "cosine_latent": 0.38259655237197876,
+          "projection_total": 0.004135559778660536
+        },
+        "joint_fk_consistency": {
+          "raw": 1.720910586300306e-05,
+          "weighted": 0.00017209106590598822,
+          "weighted_gradient_norm": 0.00119517941493541,
+          "cosine_total": 0.06503883004188538,
+          "cosine_latent": 0.11545880138874054,
+          "projection_total": 5.38398526259698e-05
+        },
+        "joint_velocity": {
+          "raw": 5.094819061923772e-05,
+          "weighted": 0.005094819236546755,
+          "weighted_gradient_norm": 0.010977741330862045,
+          "cosine_total": 0.2812747657299042,
+          "cosine_latent": 0.3915906250476837,
+          "projection_total": 0.002138660056516528
+        },
+        "bone_length": {
+          "raw": 8.155424438882619e-06,
+          "weighted": 8.155424438882619e-05,
+          "weighted_gradient_norm": 0.0015895722899585962,
+          "cosine_total": -0.024158619344234467,
+          "cosine_latent": -0.004649929236620665,
+          "projection_total": -2.659808706084732e-05
+        },
+        "foot_contact": {
+          "raw": 9.011628208099864e-06,
+          "weighted": 0.00027034885715693235,
+          "weighted_gradient_norm": 0.002938625169917941,
+          "cosine_total": 0.09739044308662415,
+          "cosine_latent": 0.22896501421928406,
+          "projection_total": 0.00019822506874334067
+        },
+        "root_orientation": {
+          "raw": 0.0006592102581635118,
+          "weighted": 0.0006592102581635118,
+          "weighted_gradient_norm": 0.01130685955286026,
+          "cosine_total": 0.11823289841413498,
+          "cosine_latent": 0.23563583195209503,
+          "projection_total": 0.0009259305079467595
+        },
+        "root_angular_velocity": {
+          "raw": 6.795137596782297e-05,
+          "weighted": 0.0006795137887820601,
+          "weighted_gradient_norm": 0.004965153522789478,
+          "cosine_total": 0.13017715513706207,
+          "cosine_latent": 0.26352715492248535,
+          "projection_total": 0.0004476777103263885
+        },
+        "distance_map": {
+          "raw": 0.00018291149172000587,
+          "weighted": 0.00018291149172000587,
+          "weighted_gradient_norm": 0.002230209531262517,
+          "cosine_total": 0.1890350729227066,
+          "cosine_latent": 0.3274736702442169,
+          "projection_total": 0.00029200216522440314
+        },
+        "joint_contact": {
+          "raw": 0.004367163870483637,
+          "weighted": 0.043671637773513794,
+          "weighted_gradient_norm": 1.242366909980774,
+          "cosine_total": 0.8694794178009033,
+          "cosine_latent": 0.03731884807348251,
+          "projection_total": 0.748181939125061
+        },
+        "root_position": {
+          "raw": 0.00010906650277320296,
+          "weighted": 0.003271995112299919,
+          "weighted_gradient_norm": 0.12571676075458527,
+          "cosine_total": 0.24138376116752625,
+          "cosine_latent": 0.27391472458839417,
+          "projection_total": 0.02101838029921055
+        }
+      }
+    },
+    {
+      "history": "current_curriculum",
+      "probability": 0.38235294117647056,
+      "batch": 0,
+      "loss": 0.29508817195892334,
+      "total_gradient_norm": 1.116976022720337,
+      "gradient_sum_max_abs_error": 1.4901161193847656e-08,
+      "terms": {
+        "latent_mse": {
+          "raw": 0.16966359317302704,
+          "weighted": 0.16966359317302704,
+          "weighted_gradient_norm": 0.5865282416343689,
+          "cosine_total": 0.6123452186584473,
+          "cosine_latent": 1.0,
+          "projection_total": 0.32154473662376404
+        },
+        "feature_rec": {
+          "raw": 0.039050668478012085,
+          "weighted": 0.039050668478012085,
+          "weighted_gradient_norm": 0.11643347889184952,
+          "cosine_total": 0.5096685290336609,
+          "cosine_latent": 0.5882660150527954,
+          "projection_total": 0.053127799183130264
+        },
+        "smpl_joints_rec": {
+          "raw": 0.0005065298173576593,
+          "weighted": 0.005065297707915306,
+          "weighted_gradient_norm": 0.020960349589586258,
+          "cosine_total": 0.5094031095504761,
+          "cosine_latent": 0.2541132867336273,
+          "projection_total": 0.009559082798659801
+        },
+        "joint_fk_consistency": {
+          "raw": 1.1966238162131049e-05,
+          "weighted": 0.00011966237798333168,
+          "weighted_gradient_norm": 0.0023863643873482943,
+          "cosine_total": -0.10007663071155548,
+          "cosine_latent": 0.019858915358781815,
+          "projection_total": -0.00021380878752097487
+        },
+        "joint_velocity": {
+          "raw": 6.544453935930505e-05,
+          "weighted": 0.006544454023241997,
+          "weighted_gradient_norm": 0.00960578117519617,
+          "cosine_total": 0.5428943037986755,
+          "cosine_latent": 0.2512403726577759,
+          "projection_total": 0.004668787587434053
+        },
+        "bone_length": {
+          "raw": 4.590752723743208e-06,
+          "weighted": 4.590752359945327e-05,
+          "weighted_gradient_norm": 0.0008503979770466685,
+          "cosine_total": -0.27458810806274414,
+          "cosine_latent": 0.0017861879896372557,
+          "projection_total": -0.00020905477867927402
+        },
+        "foot_contact": {
+          "raw": 7.79812762630172e-06,
+          "weighted": 0.000233943821513094,
+          "weighted_gradient_norm": 0.00258635520003736,
+          "cosine_total": 0.07372543960809708,
+          "cosine_latent": 0.18012972176074982,
+          "projection_total": 0.0001707110641291365
+        },
+        "root_orientation": {
+          "raw": 0.003038632683455944,
+          "weighted": 0.003038632683455944,
+          "weighted_gradient_norm": 0.021304074674844742,
+          "cosine_total": 0.19233812391757965,
+          "cosine_latent": 0.15878362953662872,
+          "projection_total": 0.0036684635560959578
+        },
+        "root_angular_velocity": {
+          "raw": 0.00045481871347874403,
+          "weighted": 0.004548187367618084,
+          "weighted_gradient_norm": 0.007466627284884453,
+          "cosine_total": 0.33205369114875793,
+          "cosine_latent": 0.1404421180486679,
+          "projection_total": 0.002219672780483961
+        },
+        "distance_map": {
+          "raw": 0.00040098701720125973,
+          "weighted": 0.00040098701720125973,
+          "weighted_gradient_norm": 0.0020245646592229605,
+          "cosine_total": 0.5894448161125183,
+          "cosine_latent": 0.21172913908958435,
+          "projection_total": 0.0010683927685022354
+        },
+        "joint_contact": {
+          "raw": 0.004996340721845627,
+          "weighted": 0.04996340721845627,
+          "weighted_gradient_norm": 0.8456069231033325,
+          "cosine_total": 0.7755297422409058,
+          "cosine_latent": 0.0011940394761040807,
+          "projection_total": 0.5871149301528931
+        },
+        "root_position": {
+          "raw": 0.0005471140029840171,
+          "weighted": 0.01641342043876648,
+          "weighted_gradient_norm": 0.10346759110689163,
+          "cosine_total": 0.1865111142396927,
+          "cosine_latent": 0.14331655204296112,
+          "projection_total": 0.01727687567472458
+        }
+      }
+    },
+    {
+      "history": "current_curriculum",
+      "probability": 0.38235294117647056,
+      "batch": 1,
+      "loss": 0.36829131841659546,
+      "total_gradient_norm": 0.7143434286117554,
+      "gradient_sum_max_abs_error": 6.51925802230835e-09,
+      "terms": {
+        "latent_mse": {
+          "raw": 0.13286229968070984,
+          "weighted": 0.13286229968070984,
+          "weighted_gradient_norm": 0.4775310158729553,
+          "cosine_total": 0.77735435962677,
+          "cosine_latent": 1.0,
+          "projection_total": 0.5196532011032104
+        },
+        "feature_rec": {
+          "raw": 0.0386354923248291,
+          "weighted": 0.0386354923248291,
+          "weighted_gradient_norm": 0.13294997811317444,
+          "cosine_total": 0.5131895542144775,
+          "cosine_latent": 0.46290165185928345,
+          "projection_total": 0.09551223367452621
+        },
+        "smpl_joints_rec": {
+          "raw": 0.0023112816270440817,
+          "weighted": 0.023112816736102104,
+          "weighted_gradient_norm": 0.06812037527561188,
+          "cosine_total": 0.4507487416267395,
+          "cosine_latent": 0.059814758598804474,
+          "projection_total": 0.0429837740957737
+        },
+        "joint_fk_consistency": {
+          "raw": 3.30497496179305e-05,
+          "weighted": 0.00033049751073122025,
+          "weighted_gradient_norm": 0.006882478017359972,
+          "cosine_total": -0.14666005969047546,
+          "cosine_latent": 0.0253714919090271,
+          "projection_total": -0.0014130243798717856
+        },
+        "joint_velocity": {
+          "raw": 0.0002709986874833703,
+          "weighted": 0.027099866420030594,
+          "weighted_gradient_norm": 0.10879769921302795,
+          "cosine_total": 0.18800242245197296,
+          "cosine_latent": -0.005980025976896286,
+          "projection_total": 0.028633611276745796
+        },
+        "bone_length": {
+          "raw": 1.0214281246589962e-05,
+          "weighted": 0.00010214281792286783,
+          "weighted_gradient_norm": 0.0029345720540732145,
+          "cosine_total": -0.2088691145181656,
+          "cosine_latent": 0.016189396381378174,
+          "projection_total": -0.0008580487919971347
+        },
+        "foot_contact": {
+          "raw": 8.970686394604854e-06,
+          "weighted": 0.00026912055909633636,
+          "weighted_gradient_norm": 0.0028091222047805786,
+          "cosine_total": 0.02401736006140709,
+          "cosine_latent": 0.025754142552614212,
+          "projection_total": 9.444714669371024e-05
+        },
+        "root_orientation": {
+          "raw": 0.0015369000611826777,
+          "weighted": 0.0015369000611826777,
+          "weighted_gradient_norm": 0.02940327487885952,
+          "cosine_total": 0.4190540015697479,
+          "cosine_latent": 0.05480199307203293,
+          "projection_total": 0.017248790711164474
+        },
+        "root_angular_velocity": {
+          "raw": 0.0002227377990493551,
+          "weighted": 0.0022273778449743986,
+          "weighted_gradient_norm": 0.04125364497303963,
+          "cosine_total": 0.3895288109779358,
+          "cosine_latent": 0.031067129224538803,
+          "projection_total": 0.022495459765195847
+        },
+        "distance_map": {
+          "raw": 0.0021315242629498243,
+          "weighted": 0.0021315242629498243,
+          "weighted_gradient_norm": 0.010417822748422623,
+          "cosine_total": -0.09232155978679657,
+          "cosine_latent": -0.05612790212035179,
+          "projection_total": -0.0013463967479765415
+        },
+        "joint_contact": {
+          "raw": 1.2129153219575528e-06,
+          "weighted": 1.2129153219575528e-05,
+          "weighted_gradient_norm": 0.003191961208358407,
+          "cosine_total": 0.007906034588813782,
+          "cosine_latent": 0.012441504746675491,
+          "projection_total": 3.532720438670367e-05
+        },
+        "root_position": {
+          "raw": 0.004665704909712076,
+          "weighted": 0.13997115194797516,
+          "weighted_gradient_norm": 0.365948885679245,
+          "cosine_total": 0.5406279563903809,
+          "cosine_latent": 0.02775716409087181,
+          "projection_total": 0.276956707239151
+        }
+      }
+    },
+    {
+      "history": "current_curriculum",
+      "probability": 0.38235294117647056,
+      "batch": 2,
+      "loss": 0.2531619668006897,
+      "total_gradient_norm": 0.8721170425415039,
+      "gradient_sum_max_abs_error": 3.725290298461914e-09,
+      "terms": {
+        "latent_mse": {
+          "raw": 0.17827759683132172,
+          "weighted": 0.17827759683132172,
+          "weighted_gradient_norm": 0.6605817079544067,
+          "cosine_total": 0.9686895608901978,
+          "cosine_latent": 1.0000001192092896,
+          "projection_total": 0.7337302565574646
+        },
+        "feature_rec": {
+          "raw": 0.03847247734665871,
+          "weighted": 0.03847247734665871,
+          "weighted_gradient_norm": 0.16167789697647095,
+          "cosine_total": 0.6339775919914246,
+          "cosine_latent": 0.5893162488937378,
+          "projection_total": 0.11753027886152267
+        },
+        "smpl_joints_rec": {
+          "raw": 0.0005086461897008121,
+          "weighted": 0.005086462013423443,
+          "weighted_gradient_norm": 0.03173622861504555,
+          "cosine_total": 0.6399786472320557,
+          "cosine_latent": 0.5037458539009094,
+          "projection_total": 0.02328874170780182
+        },
+        "joint_fk_consistency": {
+          "raw": 2.71001918008551e-05,
+          "weighted": 0.000271001918008551,
+          "weighted_gradient_norm": 0.00528883608058095,
+          "cosine_total": 0.10955023765563965,
+          "cosine_latent": 0.12744680047035217,
+          "projection_total": 0.0006643526721745729
+        },
+        "joint_velocity": {
+          "raw": 7.701616414124146e-05,
+          "weighted": 0.007701616734266281,
+          "weighted_gradient_norm": 0.03741278499364853,
+          "cosine_total": 0.15854784846305847,
+          "cosine_latent": 0.04328673332929611,
+          "projection_total": 0.006801514886319637
+        },
+        "bone_length": {
+          "raw": 7.672186256968416e-06,
+          "weighted": 7.672185893170536e-05,
+          "weighted_gradient_norm": 0.0012622324284166098,
+          "cosine_total": 0.0761733204126358,
+          "cosine_latent": 0.09696809947490692,
+          "projection_total": 0.0001102471724152565
+        },
+        "foot_contact": {
+          "raw": 1.074015108315507e-05,
+          "weighted": 0.0003222044906578958,
+          "weighted_gradient_norm": 0.00391277763992548,
+          "cosine_total": 0.34498903155326843,
+          "cosine_latent": 0.28378552198410034,
+          "projection_total": 0.0015478030545637012
+        },
+        "root_orientation": {
+          "raw": 0.0022791894152760506,
+          "weighted": 0.0022791894152760506,
+          "weighted_gradient_norm": 0.023069238290190697,
+          "cosine_total": 0.28924837708473206,
+          "cosine_latent": 0.2684133052825928,
+          "projection_total": 0.007651197724044323
+        },
+        "root_angular_velocity": {
+          "raw": 0.00027474373928271234,
+          "weighted": 0.0027474374510347843,
+          "weighted_gradient_norm": 0.017271051183342934,
+          "cosine_total": 0.12789548933506012,
+          "cosine_latent": 0.1181240901350975,
+          "projection_total": 0.002532790182158351
+        },
+        "distance_map": {
+          "raw": 0.0005704808863811195,
+          "weighted": 0.0005704808863811195,
+          "weighted_gradient_norm": 0.004322361201047897,
+          "cosine_total": 0.6508694887161255,
+          "cosine_latent": 0.5386948585510254,
+          "projection_total": 0.0032258208375424147
+        },
+        "joint_contact": {
+          "raw": 0.00016285099263768643,
+          "weighted": 0.0016285099554806948,
+          "weighted_gradient_norm": 0.08638850599527359,
+          "cosine_total": 0.0935286283493042,
+          "cosine_latent": 0.00022315837850328535,
+          "projection_total": 0.00926458090543747
+        },
+        "root_position": {
+          "raw": 0.0005242758779786527,
+          "weighted": 0.01572827622294426,
+          "weighted_gradient_norm": 0.1616169512271881,
+          "cosine_total": 0.5053521394729614,
+          "cosine_latent": 0.3641713857650757,
+          "projection_total": 0.09364967048168182
+        }
+      }
+    },
+    {
+      "history": "current_curriculum",
+      "probability": 0.38235294117647056,
+      "batch": 3,
+      "loss": 0.49043184518814087,
+      "total_gradient_norm": 6.811093330383301,
+      "gradient_sum_max_abs_error": 6.705522537231445e-08,
+      "terms": {
+        "latent_mse": {
+          "raw": 0.18760062754154205,
+          "weighted": 0.18760062754154205,
+          "weighted_gradient_norm": 0.48934412002563477,
+          "cosine_total": 0.01086189690977335,
+          "cosine_latent": 1.0,
+          "projection_total": 0.0007803748012520373
+        },
+        "feature_rec": {
+          "raw": 0.0817905142903328,
+          "weighted": 0.0817905142903328,
+          "weighted_gradient_norm": 0.24530735611915588,
+          "cosine_total": 0.057902272790670395,
+          "cosine_latent": 0.510023295879364,
+          "projection_total": 0.0020854000467807055
+        },
+        "smpl_joints_rec": {
+          "raw": 0.0013229558244347572,
+          "weighted": 0.013229557313024998,
+          "weighted_gradient_norm": 0.11607564985752106,
+          "cosine_total": 0.32418662309646606,
+          "cosine_latent": 0.04650689661502838,
+          "projection_total": 0.005524836014956236
+        },
+        "joint_fk_consistency": {
+          "raw": 0.0003303296980448067,
+          "weighted": 0.003303297096863389,
+          "weighted_gradient_norm": 0.06754574924707413,
+          "cosine_total": 0.0354277528822422,
+          "cosine_latent": 0.10166320204734802,
+          "projection_total": 0.0003513377159833908
+        },
+        "joint_velocity": {
+          "raw": 0.0002181276067858562,
+          "weighted": 0.021812761202454567,
+          "weighted_gradient_norm": 0.10105738043785095,
+          "cosine_total": 0.3402913808822632,
+          "cosine_latent": -0.06250327080488205,
+          "projection_total": 0.005048962775617838
+        },
+        "bone_length": {
+          "raw": 4.9780108383856714e-05,
+          "weighted": 0.0004978011129423976,
+          "weighted_gradient_norm": 0.005931616295129061,
+          "cosine_total": -0.02792540192604065,
+          "cosine_latent": 0.10614106804132462,
+          "projection_total": -2.4319557269336656e-05
+        },
+        "foot_contact": {
+          "raw": 1.0702980944188312e-05,
+          "weighted": 0.0003210894064977765,
+          "weighted_gradient_norm": 0.003867500461637974,
+          "cosine_total": -0.07711496204137802,
+          "cosine_latent": 0.09355676919221878,
+          "projection_total": -4.378770609037019e-05
+        },
+        "root_orientation": {
+          "raw": 0.004188184626400471,
+          "weighted": 0.004188184626400471,
+          "weighted_gradient_norm": 0.0347684845328331,
+          "cosine_total": 0.04498109221458435,
+          "cosine_latent": 0.032725125551223755,
+          "projection_total": 0.00022961430659051985
+        },
+        "root_angular_velocity": {
+          "raw": 0.0006808724137954414,
+          "weighted": 0.006808724254369736,
+          "weighted_gradient_norm": 0.034735605120658875,
+          "cosine_total": 0.06231627240777016,
+          "cosine_latent": -0.008610909804701805,
+          "projection_total": 0.0003178041079081595
+        },
+        "distance_map": {
+          "raw": 0.001353361178189516,
+          "weighted": 0.001353361178189516,
+          "weighted_gradient_norm": 0.013453755527734756,
+          "cosine_total": 0.29691603779792786,
+          "cosine_latent": 0.06643573939800262,
+          "projection_total": 0.0005864896811544895
+        },
+        "joint_contact": {
+          "raw": 0.011472703889012337,
+          "weighted": 0.11472704261541367,
+          "weighted_gradient_norm": 6.604741096496582,
+          "cosine_total": 0.9888827800750732,
+          "cosine_latent": -0.07758360356092453,
+          "projection_total": 0.9589231014251709
+        },
+        "root_position": {
+          "raw": 0.0018266295082867146,
+          "weighted": 0.05479888245463371,
+          "weighted_gradient_norm": 0.5551971793174744,
+          "cosine_total": 0.32159000635147095,
+          "cosine_latent": -0.0661536306142807,
+          "projection_total": 0.026213981211185455
+        }
+      }
+    },
+    {
+      "history": "full_feedback",
+      "probability": 1.0,
+      "batch": 0,
+      "loss": 0.5530074238777161,
+      "total_gradient_norm": 1.5668553113937378,
+      "gradient_sum_max_abs_error": 1.862645149230957e-08,
+      "terms": {
+        "latent_mse": {
+          "raw": 0.27368345856666565,
+          "weighted": 0.27368345856666565,
+          "weighted_gradient_norm": 0.8834714293479919,
+          "cosine_total": 0.7133581042289734,
+          "cosine_latent": 1.0,
+          "projection_total": 0.402226984500885
+        },
+        "feature_rec": {
+          "raw": 0.08229243010282516,
+          "weighted": 0.08229243010282516,
+          "weighted_gradient_norm": 0.19868971407413483,
+          "cosine_total": 0.4005255401134491,
+          "cosine_latent": 0.5787404775619507,
+          "projection_total": 0.05078982561826706
+        },
+        "smpl_joints_rec": {
+          "raw": 0.0017996885580942035,
+          "weighted": 0.017996886745095253,
+          "weighted_gradient_norm": 0.07313486933708191,
+          "cosine_total": 0.5676502585411072,
+          "cosine_latent": 0.21580424904823303,
+          "projection_total": 0.026495764032006264
+        },
+        "joint_fk_consistency": {
+          "raw": 3.615416426328011e-05,
+          "weighted": 0.00036154163535684347,
+          "weighted_gradient_norm": 0.009453283622860909,
+          "cosine_total": -0.2780769169330597,
+          "cosine_latent": 0.0200407262891531,
+          "projection_total": -0.0016777171986177564
+        },
+        "joint_velocity": {
+          "raw": 0.0002578443381935358,
+          "weighted": 0.025784432888031006,
+          "weighted_gradient_norm": 0.13818787038326263,
+          "cosine_total": 0.32300835847854614,
+          "cosine_latent": -0.03141498938202858,
+          "projection_total": 0.02848753146827221
+        },
+        "bone_length": {
+          "raw": 1.3453774954541586e-05,
+          "weighted": 0.00013453775318339467,
+          "weighted_gradient_norm": 0.004236730746924877,
+          "cosine_total": -0.2965672016143799,
+          "cosine_latent": -0.023692788556218147,
+          "projection_total": -0.0008019090164452791
+        },
+        "foot_contact": {
+          "raw": 1.5842795619391836e-05,
+          "weighted": 0.00047528385766781867,
+          "weighted_gradient_norm": 0.005917100235819817,
+          "cosine_total": 0.15703408420085907,
+          "cosine_latent": 0.33795660734176636,
+          "projection_total": 0.0005930262850597501
+        },
+        "root_orientation": {
+          "raw": 0.010651239193975925,
+          "weighted": 0.010651239193975925,
+          "weighted_gradient_norm": 0.05414827913045883,
+          "cosine_total": 0.32075732946395874,
+          "cosine_latent": 0.3151901662349701,
+          "projection_total": 0.011084914207458496
+        },
+        "root_angular_velocity": {
+          "raw": 0.0013661986449733377,
+          "weighted": 0.013661985285580158,
+          "weighted_gradient_norm": 0.029866693541407585,
+          "cosine_total": 0.3296872675418854,
+          "cosine_latent": 0.13246771693229675,
+          "projection_total": 0.006284351460635662
+        },
+        "distance_map": {
+          "raw": 0.001654965803027153,
+          "weighted": 0.001654965803027153,
+          "weighted_gradient_norm": 0.009411520324647427,
+          "cosine_total": 0.3637230396270752,
+          "cosine_latent": 0.20699015259742737,
+          "projection_total": 0.0021847498137503862
+        },
+        "joint_contact": {
+          "raw": 0.005928263533860445,
+          "weighted": 0.05928263068199158,
+          "weighted_gradient_norm": 0.881723165512085,
+          "cosine_total": 0.6367981433868408,
+          "cosine_latent": 0.0644737035036087,
+          "projection_total": 0.35834816098213196
+        },
+        "root_position": {
+          "raw": 0.002234267769381404,
+          "weighted": 0.06702803075313568,
+          "weighted_gradient_norm": 0.4355652332305908,
+          "cosine_total": 0.41721880435943604,
+          "cosine_latent": 0.05950387567281723,
+          "projection_total": 0.11598136276006699
+        }
+      }
+    },
+    {
+      "history": "full_feedback",
+      "probability": 1.0,
+      "batch": 1,
+      "loss": 0.45007503032684326,
+      "total_gradient_norm": 1.073228120803833,
+      "gradient_sum_max_abs_error": 4.6566128730773926e-09,
+      "terms": {
+        "latent_mse": {
+          "raw": 0.2078976035118103,
+          "weighted": 0.2078976035118103,
+          "weighted_gradient_norm": 0.5971487760543823,
+          "cosine_total": 0.7466373443603516,
+          "cosine_latent": 1.0,
+          "projection_total": 0.4154322147369385
+        },
+        "feature_rec": {
+          "raw": 0.06286326795816422,
+          "weighted": 0.06286326795816422,
+          "weighted_gradient_norm": 0.16239355504512787,
+          "cosine_total": 0.7357063293457031,
+          "cosine_latent": 0.6046188473701477,
+          "projection_total": 0.1113220602273941
+        },
+        "smpl_joints_rec": {
+          "raw": 0.0023360392078757286,
+          "weighted": 0.023360392078757286,
+          "weighted_gradient_norm": 0.09205573052167892,
+          "cosine_total": 0.7648564577102661,
+          "cosine_latent": 0.1941414177417755,
+          "projection_total": 0.0656052678823471
+        },
+        "joint_fk_consistency": {
+          "raw": 1.3057429896434769e-05,
+          "weighted": 0.00013057429168839008,
+          "weighted_gradient_norm": 0.0015818203100934625,
+          "cosine_total": -0.04896249994635582,
+          "cosine_latent": 0.09218595176935196,
+          "projection_total": -7.216534140752628e-05
+        },
+        "joint_velocity": {
+          "raw": 0.00029497971991077065,
+          "weighted": 0.029497971758246422,
+          "weighted_gradient_norm": 0.05119487643241882,
+          "cosine_total": 0.5139939785003662,
+          "cosine_latent": 0.027457421645522118,
+          "projection_total": 0.024518419057130814
+        },
+        "bone_length": {
+          "raw": 4.28478597314097e-06,
+          "weighted": 4.28478597314097e-05,
+          "weighted_gradient_norm": 0.000816849060356617,
+          "cosine_total": -0.16128459572792053,
+          "cosine_latent": 0.0037012160755693913,
+          "projection_total": -0.00012275598419364542
+        },
+        "foot_contact": {
+          "raw": 1.2843685908592306e-05,
+          "weighted": 0.00038531055906787515,
+          "weighted_gradient_norm": 0.004569144919514656,
+          "cosine_total": 0.19471868872642517,
+          "cosine_latent": 0.13764822483062744,
+          "projection_total": 0.0008289922843687236
+        },
+        "root_orientation": {
+          "raw": 0.0037540190387517214,
+          "weighted": 0.0037540190387517214,
+          "weighted_gradient_norm": 0.02874460257589817,
+          "cosine_total": 0.45108070969581604,
+          "cosine_latent": 0.19391769170761108,
+          "projection_total": 0.012081434950232506
+        },
+        "root_angular_velocity": {
+          "raw": 0.0005454799393191934,
+          "weighted": 0.005454799626022577,
+          "weighted_gradient_norm": 0.010626456700265408,
+          "cosine_total": 0.44656771421432495,
+          "cosine_latent": 0.16980549693107605,
+          "projection_total": 0.0044216434471309185
+        },
+        "distance_map": {
+          "raw": 0.0036111436784267426,
+          "weighted": 0.0036111436784267426,
+          "weighted_gradient_norm": 0.016163019463419914,
+          "cosine_total": 0.6996319890022278,
+          "cosine_latent": 0.15481895208358765,
+          "projection_total": 0.010536590591073036
+        },
+        "joint_contact": {
+          "raw": 1.2129153219575528e-06,
+          "weighted": 1.2129153219575528e-05,
+          "weighted_gradient_norm": 0.003191961208358407,
+          "cosine_total": -0.010387668386101723,
+          "cosine_latent": 0.008853724226355553,
+          "projection_total": -3.089467281824909e-05
+        },
+        "root_position": {
+          "raw": 0.003768832655623555,
+          "weighted": 0.1130649745464325,
+          "weighted_gradient_norm": 0.5049147009849548,
+          "cosine_total": 0.7555881142616272,
+          "cosine_latent": 0.15054582059383392,
+          "projection_total": 0.35547664761543274
+        }
+      }
+    },
+    {
+      "history": "full_feedback",
+      "probability": 1.0,
+      "batch": 2,
+      "loss": 0.45425575971603394,
+      "total_gradient_norm": 1.2849133014678955,
+      "gradient_sum_max_abs_error": 1.30385160446167e-08,
+      "terms": {
+        "latent_mse": {
+          "raw": 0.2786894142627716,
+          "weighted": 0.2786894142627716,
+          "weighted_gradient_norm": 0.8460288643836975,
+          "cosine_total": 0.8214592933654785,
+          "cosine_latent": 1.0000001192092896,
+          "projection_total": 0.5408756136894226
+        },
+        "feature_rec": {
+          "raw": 0.06814055144786835,
+          "weighted": 0.06814055144786835,
+          "weighted_gradient_norm": 0.19095343351364136,
+          "cosine_total": 0.5490539073944092,
+          "cosine_latent": 0.5928974151611328,
+          "projection_total": 0.08159594982862473
+        },
+        "smpl_joints_rec": {
+          "raw": 0.0012936177663505077,
+          "weighted": 0.012936176732182503,
+          "weighted_gradient_norm": 0.045566607266664505,
+          "cosine_total": 0.4918759763240814,
+          "cosine_latent": 0.2826196849346161,
+          "projection_total": 0.01744329370558262
+        },
+        "joint_fk_consistency": {
+          "raw": 2.8442735128919594e-05,
+          "weighted": 0.0002844273403752595,
+          "weighted_gradient_norm": 0.005405797623097897,
+          "cosine_total": 0.05725700408220291,
+          "cosine_latent": 0.1284952461719513,
+          "projection_total": 0.00024088767531793565
+        },
+        "joint_velocity": {
+          "raw": 0.0001879857009043917,
+          "weighted": 0.018798571079969406,
+          "weighted_gradient_norm": 0.04289504513144493,
+          "cosine_total": 0.18106478452682495,
+          "cosine_latent": 0.001288669416680932,
+          "projection_total": 0.006044596433639526
+        },
+        "bone_length": {
+          "raw": 8.788946615823079e-06,
+          "weighted": 8.788945706328377e-05,
+          "weighted_gradient_norm": 0.0013502732617780566,
+          "cosine_total": 0.011529339477419853,
+          "cosine_latent": 0.06926896423101425,
+          "projection_total": 1.2115805475332309e-05
+        },
+        "foot_contact": {
+          "raw": 1.674029408604838e-05,
+          "weighted": 0.000502208829857409,
+          "weighted_gradient_norm": 0.00542184803634882,
+          "cosine_total": 0.255814790725708,
+          "cosine_latent": 0.25961366295814514,
+          "projection_total": 0.0010794417466968298
+        },
+        "root_orientation": {
+          "raw": 0.007210006006062031,
+          "weighted": 0.007210006006062031,
+          "weighted_gradient_norm": 0.040182650089263916,
+          "cosine_total": 0.243705615401268,
+          "cosine_latent": 0.2715941071510315,
+          "projection_total": 0.007621321827173233
+        },
+        "root_angular_velocity": {
+          "raw": 0.0009280284866690636,
+          "weighted": 0.009280283935368061,
+          "weighted_gradient_norm": 0.021686740219593048,
+          "cosine_total": 0.1763821691274643,
+          "cosine_latent": 0.20459027588367462,
+          "projection_total": 0.00297697470523417
+        },
+        "distance_map": {
+          "raw": 0.0015043298481032252,
+          "weighted": 0.0015043298481032252,
+          "weighted_gradient_norm": 0.008103292435407639,
+          "cosine_total": 0.3181983232498169,
+          "cosine_latent": 0.12116998434066772,
+          "projection_total": 0.0020067142322659492
+        },
+        "joint_contact": {
+          "raw": 0.0013904033694416285,
+          "weighted": 0.013904034160077572,
+          "weighted_gradient_norm": 0.6225890517234802,
+          "cosine_total": 0.5847630500793457,
+          "cosine_latent": 0.08625836670398712,
+          "projection_total": 0.28333979845046997
+        },
+        "root_position": {
+          "raw": 0.0014305957593023777,
+          "weighted": 0.042917873710393906,
+          "weighted_gradient_norm": 0.2437819093465805,
+          "cosine_total": 0.2991691529750824,
+          "cosine_latent": 0.045510027557611465,
+          "projection_total": 0.0567602701485157
+        }
+      }
+    },
+    {
+      "history": "full_feedback",
+      "probability": 1.0,
+      "batch": 3,
+      "loss": 0.8211340308189392,
+      "total_gradient_norm": 6.958718776702881,
+      "gradient_sum_max_abs_error": 8.195638656616211e-08,
+      "terms": {
+        "latent_mse": {
+          "raw": 0.2885163426399231,
+          "weighted": 0.2885163426399231,
+          "weighted_gradient_norm": 0.6870540976524353,
+          "cosine_total": 0.07627397030591965,
+          "cosine_latent": 1.0,
+          "projection_total": 0.007530746050179005
+        },
+        "feature_rec": {
+          "raw": 0.13294272124767303,
+          "weighted": 0.13294272124767303,
+          "weighted_gradient_norm": 0.3558882772922516,
+          "cosine_total": 0.042094092816114426,
+          "cosine_latent": 0.49383798241615295,
+          "projection_total": 0.0021528094075620174
+        },
+        "smpl_joints_rec": {
+          "raw": 0.0035825828090310097,
+          "weighted": 0.03582582622766495,
+          "weighted_gradient_norm": 0.16120052337646484,
+          "cosine_total": 0.3836674094200134,
+          "cosine_latent": 0.16122129559516907,
+          "projection_total": 0.008887754753232002
+        },
+        "joint_fk_consistency": {
+          "raw": 0.00033710210118442774,
+          "weighted": 0.003371021244674921,
+          "weighted_gradient_norm": 0.0599231943488121,
+          "cosine_total": -0.060919128358364105,
+          "cosine_latent": 0.11082825064659119,
+          "projection_total": -0.0005245892098173499
+        },
+        "joint_velocity": {
+          "raw": 0.0005059893010184169,
+          "weighted": 0.05059892684221268,
+          "weighted_gradient_norm": 0.1492290049791336,
+          "cosine_total": 0.3355012536048889,
+          "cosine_latent": -0.021653862670063972,
+          "projection_total": 0.007194790057837963
+        },
+        "bone_length": {
+          "raw": 5.332154250936583e-05,
+          "weighted": 0.000533215468749404,
+          "weighted_gradient_norm": 0.00722383102402091,
+          "cosine_total": -0.10286491364240646,
+          "cosine_latent": 0.13294881582260132,
+          "projection_total": -0.00010678384569473565
+        },
+        "foot_contact": {
+          "raw": 1.634839463804383e-05,
+          "weighted": 0.0004904518136754632,
+          "weighted_gradient_norm": 0.005537615157663822,
+          "cosine_total": -0.03149491548538208,
+          "cosine_latent": 0.1134914681315422,
+          "projection_total": -2.5063052817131393e-05
+        },
+        "root_orientation": {
+          "raw": 0.00765638891607523,
+          "weighted": 0.00765638891607523,
+          "weighted_gradient_norm": 0.040853504091501236,
+          "cosine_total": 0.060574181377887726,
+          "cosine_latent": 0.16884015500545502,
+          "projection_total": 0.00035562115954235196
+        },
+        "root_angular_velocity": {
+          "raw": 0.0012625925010070205,
+          "weighted": 0.012625925242900848,
+          "weighted_gradient_norm": 0.0426492765545845,
+          "cosine_total": 0.03919655829668045,
+          "cosine_latent": 0.04036012664437294,
+          "projection_total": 0.0002402316895313561
+        },
+        "distance_map": {
+          "raw": 0.003770995419472456,
+          "weighted": 0.003770995419472456,
+          "weighted_gradient_norm": 0.025865595787763596,
+          "cosine_total": 0.2847054600715637,
+          "cosine_latent": 0.13886761665344238,
+          "projection_total": 0.0010582517134025693
+        },
+        "joint_contact": {
+          "raw": 0.011472703889012337,
+          "weighted": 0.11472704261541367,
+          "weighted_gradient_norm": 6.604741096496582,
+          "cosine_total": 0.9776864647865295,
+          "cosine_latent": -0.06234695017337799,
+          "projection_total": 0.92795330286026
+        },
+        "root_position": {
+          "raw": 0.00566917285323143,
+          "weighted": 0.1700751781463623,
+          "weighted_gradient_norm": 0.9297220706939697,
+          "cosine_total": 0.338886022567749,
+          "cosine_latent": 0.03931362181901932,
+          "projection_total": 0.045276984572410583
+        }
+      }
+    }
+  ],
+  "notes": [
+    "Raw parameter gradients of weighted terms; no optimizer step, no live run mutation.",
+    "Train weights and train-mode dropout; paired seeds across history settings.",
+    "Gradient norms are not loss shares or causal quality contributions.",
+    "Cosines/projections refer to raw summed gradients, not Adam preconditioned updates.",
+    "Full objective averages four primitives, including detached sampled history feedback."
+  ]
+}

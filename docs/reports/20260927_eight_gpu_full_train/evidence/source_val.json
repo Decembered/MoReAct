@@ -1,0 +1,26 @@
+{
+  "rows": 240,
+  "split": "val",
+  "episodes": 40,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "checkpoints": {
+    "30500": {
+      "root_ade_m": 0.23128716163337232,
+      "root_fde_m": 0.42385742763678225,
+      "root_aligned_mpjpe_m": 0.11350387474521995,
+      "pair_root_distance_error_m": 0.13478409372425326,
+      "boundary_velocity_jump_mps": 4.751221946254373
+    },
+    "32500": {
+      "root_ade_m": 0.22701981347054243,
+      "root_fde_m": 0.41470336608278247,
+      "root_aligned_mpjpe_m": 0.11045761921753486,
+      "pair_root_distance_error_m": 0.13195870312241217,
+      "boundary_velocity_jump_mps": 4.368434208507339
+    }
+  }
+}

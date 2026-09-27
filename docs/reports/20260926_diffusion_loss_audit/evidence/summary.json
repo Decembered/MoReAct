@@ -1,0 +1,178 @@
+{
+  "latent_mse": {
+    "teacher": {
+      "early": 0.12354017794132233,
+      "late": 0.11190823465585709,
+      "change_percent": -9.415514433684924
+    },
+    "full_feedback": {
+      "early": 0.31748630106449127,
+      "late": 0.2668638825416565,
+      "change_percent": -15.944756782608959
+    },
+    "gradient_norm_mean": 0.48836980760097504,
+    "gradient_norm_min": 0.3991240859031677,
+    "gradient_norm_max": 0.5649243593215942,
+    "cosine_total_mean": 0.8550346046686172
+  },
+  "feature_rec": {
+    "teacher": {
+      "early": 0.021396619733422995,
+      "late": 0.019964422564953566,
+      "change_percent": -6.693567424728486
+    },
+    "full_feedback": {
+      "early": 0.08687832206487656,
+      "late": 0.07497590407729149,
+      "change_percent": -13.700101135352172
+    },
+    "gradient_norm_mean": 0.11089488118886948,
+    "gradient_norm_min": 0.0806952565908432,
+    "gradient_norm_max": 0.15254710614681244,
+    "cosine_total_mean": 0.6871695965528488
+  },
+  "smpl_joints_rec": {
+    "teacher": {
+      "early": 6.71829311613692e-05,
+      "late": 6.0732099882443435e-05,
+      "change_percent": -9.601890193554175
+    },
+    "full_feedback": {
+      "early": 0.0024664860393386334,
+      "late": 0.0019641451945062727,
+      "change_percent": -20.366660780575874
+    },
+    "gradient_norm_mean": 0.016986051574349403,
+    "gradient_norm_min": 0.014871343970298767,
+    "gradient_norm_max": 0.020267298445105553,
+    "cosine_total_mean": 0.4170450419187546
+  },
+  "joint_fk_consistency": {
+    "teacher": {
+      "early": 1.2818652521673357e-05,
+      "late": 1.27309535855602e-05,
+      "change_percent": -0.6841509742531615
+    },
+    "full_feedback": {
+      "early": 1.4891601267663646e-05,
+      "late": 1.781996979843825e-05,
+      "change_percent": 19.664564462475976
+    },
+    "gradient_norm_mean": 0.0017548427276778966,
+    "gradient_norm_min": 0.0005091260536573827,
+    "gradient_norm_max": 0.004790098872035742,
+    "cosine_total_mean": -0.0035344630014151335
+  },
+  "joint_velocity": {
+    "teacher": {
+      "early": 6.086514417802391e-06,
+      "late": 5.8793517609956325e-06,
+      "change_percent": -3.4036337152316687
+    },
+    "full_feedback": {
+      "early": 0.00026599460034049116,
+      "late": 0.0002465505494910758,
+      "change_percent": -7.309941940372344
+    },
+    "gradient_norm_mean": 0.00653958460316062,
+    "gradient_norm_min": 0.0047879694029688835,
+    "gradient_norm_max": 0.008628830313682556,
+    "cosine_total_mean": 0.47014595568180084
+  },
+  "bone_length": {
+    "teacher": {
+      "early": 4.588065962707333e-06,
+      "late": 4.521901132648054e-06,
+      "change_percent": -1.442107210251098
+    },
+    "full_feedback": {
+      "early": 7.4304488748566655e-06,
+      "late": 8.596176712671877e-06,
+      "change_percent": 15.68852511400529
+    },
+    "gradient_norm_mean": 0.0005349947459762916,
+    "gradient_norm_min": 0.00027971339295618236,
+    "gradient_norm_max": 0.0009870829526335,
+    "cosine_total_mean": -0.01282815044396557
+  },
+  "foot_contact": {
+    "teacher": {
+      "early": 6.4384353208879475e-06,
+      "late": 6.667759635092807e-06,
+      "change_percent": 3.561801940618592
+    },
+    "full_feedback": {
+      "early": 8.27562473659782e-06,
+      "late": 1.155354561888089e-05,
+      "change_percent": 39.60934656433746
+    },
+    "gradient_norm_mean": 0.0029661497101187706,
+    "gradient_norm_min": 0.002859464380890131,
+    "gradient_norm_max": 0.003077032743021846,
+    "cosine_total_mean": 0.13390773301944137
+  },
+  "root_orientation": {
+    "teacher": {
+      "early": 0.00030108102509984747,
+      "late": 0.0002824352814059239,
+      "change_percent": -6.1929321808772535
+    },
+    "full_feedback": {
+      "early": 0.011317082913592458,
+      "late": 0.008975829812698066,
+      "change_percent": -20.68777898660099
+    },
+    "gradient_norm_mean": 0.013792375335469842,
+    "gradient_norm_min": 0.010833597742021084,
+    "gradient_norm_max": 0.01949564553797245,
+    "cosine_total_mean": 0.19761985167860985
+  },
+  "root_angular_velocity": {
+    "teacher": {
+      "early": 2.6108836664207047e-05,
+      "late": 2.468341290295939e-05,
+      "change_percent": -5.45954528568402
+    },
+    "full_feedback": {
+      "early": 0.0013589917216449976,
+      "late": 0.001201861072331667,
+      "change_percent": -11.562296282653673
+    },
+    "gradient_norm_mean": 0.0049177370965480804,
+    "gradient_norm_min": 0.0034548724070191383,
+    "gradient_norm_max": 0.0065974025055766106,
+    "cosine_total_mean": 0.25462456792593
+  },
+  "distance_map": {
+    "teacher": {
+      "early": 7.266029842867283e-05,
+      "late": 6.406693319149781e-05,
+      "change_percent": -11.826768432021673
+    },
+    "full_feedback": {
+      "early": 0.00232371233869344,
+      "late": 0.0020250994712114334,
+      "change_percent": -12.85068132185021
+    },
+    "gradient_norm_mean": 0.001838295313064009,
+    "gradient_norm_min": 0.0013616924406960607,
+    "gradient_norm_max": 0.0029146173037588596,
+    "cosine_total_mean": 0.32907750457525253
+  },
+  "joint_contact": {
+    "teacher": {
+      "early": 0.00012982699263375252,
+      "late": 8.098148850876896e-05,
+      "change_percent": -37.62353508625037
+    },
+    "full_feedback": {
+      "early": 0.006888240171974758,
+      "late": 0.003864522288495209,
+      "change_percent": -43.89681265443875
+    },
+    "gradient_norm_mean": 0.3218481011572294,
+    "gradient_norm_min": 0.002878878964111209,
+    "gradient_norm_max": 0.7918553352355957,
+    "cosine_total_mean": 0.38722485466860235
+  }
+}

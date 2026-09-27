@@ -1,0 +1,104 @@
+{
+  "kind": "vae",
+  "checkpoint_step": 200,
+  "split": "val",
+  "data_digest": "513cab34e518110ec6e4b2acd3191539544e686662b841c789a0eb8337bc595c",
+  "seed": 0,
+  "groups": {
+    "posterior_reconstruction": {
+      "episodes": [
+        {
+          "episode": "G006T001A005R002",
+          "metrics": {
+            "world_mpjpe_m": 1.077410340309143,
+            "root_aligned_mpjpe_m": 0.10037565231323242,
+            "root_ade_m": 1.0320374965667725,
+            "root_fde_m": 1.0649248361587524,
+            "pair_root_distance_m": 0.5391432046890259,
+            "pair_root_distance_error_m": 0.5138208270072937,
+            "nearest_interperson_joint_distance_m": 0.13784603774547577,
+            "foot_sliding_mps": 1.2817130088806152,
+            "foot_contact_fraction": 1.0,
+            "boundary_velocity_jump_mps": 3.4040584564208984,
+            "jerk_mps3": 4335.497707128525,
+            "normalized_feature_mse": 1.096958577632904
+          }
+        },
+        {
+          "episode": "G012T003A018R018",
+          "metrics": {
+            "world_mpjpe_m": 1.1006276607513428,
+            "root_aligned_mpjpe_m": 0.13222159445285797,
+            "root_ade_m": 1.003298282623291,
+            "root_fde_m": 1.0912268161773682,
+            "pair_root_distance_m": 0.3992685079574585,
+            "pair_root_distance_error_m": 0.3300146162509918,
+            "nearest_interperson_joint_distance_m": 0.20416706800460815,
+            "foot_sliding_mps": 1.4035719633102417,
+            "foot_contact_fraction": 1.0,
+            "boundary_velocity_jump_mps": 6.395513534545898,
+            "jerk_mps3": 5138.364404439926,
+            "normalized_feature_mse": 1.2944290935993195
+          }
+        }
+      ],
+      "aggregate": {
+        "boundary_velocity_jump_mps": {
+          "mean": 4.899785995483398,
+          "episodes": 2
+        },
+        "foot_contact_fraction": {
+          "mean": 1.0,
+          "episodes": 2
+        },
+        "foot_sliding_mps": {
+          "mean": 1.3426424860954285,
+          "episodes": 2
+        },
+        "jerk_mps3": {
+          "mean": 4736.9310557842255,
+          "episodes": 2
+        },
+        "nearest_interperson_joint_distance_m": {
+          "mean": 0.17100655287504196,
+          "episodes": 2
+        },
+        "normalized_feature_mse": {
+          "mean": 1.1956938356161118,
+          "episodes": 2
+        },
+        "pair_root_distance_error_m": {
+          "mean": 0.42191772162914276,
+          "episodes": 2
+        },
+        "pair_root_distance_m": {
+          "mean": 0.4692058563232422,
+          "episodes": 2
+        },
+        "root_ade_m": {
+          "mean": 1.0176678895950317,
+          "episodes": 2
+        },
+        "root_aligned_mpjpe_m": {
+          "mean": 0.1162986233830452,
+          "episodes": 2
+        },
+        "root_fde_m": {
+          "mean": 1.0780758261680603,
+          "episodes": 2
+        },
+        "world_mpjpe_m": {
+          "mean": 1.089019000530243,
+          "episodes": 2
+        }
+      }
+    }
+  },
+  "notes": [
+    "Prediction errors are reference metrics, not complete generative quality scores.",
+    "Foot sliding uses predicted feet below 8 cm above the original common floor.",
+    "Nearest joint distance is a proximity proxy, not mesh penetration or contact accuracy.",
+    "shuffle means reversing the temporal order of observed actor frames.",
+    "VAE reconstruction uses ground-truth future and posterior mean; diffusion does not."
+  ]
+}

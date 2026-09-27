@@ -1,0 +1,7 @@
+{
+  "kind": "diffusion",
+  "data_digest": "513cab34e518110ec6e4b2acd3191539544e686662b841c789a0eb8337bc595c",
+  "parameters": 18027648,
+  "vae_checkpoint": "runs/full_size_check/last.pt",
+  "overfit": false
+}

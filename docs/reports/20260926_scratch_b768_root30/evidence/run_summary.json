@@ -1,0 +1,50 @@
+{
+  "preflight": {
+    "dir": "tmp/scratch_b768_preflight_20260926 (deleted after archiving)",
+    "steps": 2,
+    "rollout_override": 1.0,
+    "peak_total_MiB_3_ranks": 52158,
+    "peak_per_rank_MiB": 17386,
+    "errors": 0,
+    "latent_scale_per_rank": [
+      1.2877082824707031,
+      1.2877082824707031,
+      1.2877082824707031
+    ],
+    "train_loss_step1": 4.374434947967529,
+    "train_loss_step2": 3.5274579524993896,
+    "val_loss_step2": 1.8650730848312378,
+    "val_rollout_loss_step2": 4.280190944671631,
+    "val_root_position_step2": 0.0020106290467083454
+  },
+  "run": {
+    "last_train_step": 350,
+    "seconds_per_step": 3.768885256564458,
+    "first_val": {
+      "step": 0,
+      "val_loss": 1.861820936203003,
+      "val_rollout_loss": 4.2262043952941895,
+      "val_root_position": 0.0020483694970607758
+    },
+    "latest_val": {
+      "step": 250,
+      "val_loss": 0.8726812601089478,
+      "val_rollout_loss": 1.772282361984253,
+      "val_root_position": 0.0003841976576950401
+    },
+    "train_loss_at_init": 1.8973106145858765,
+    "train_loss_latest": 0.2271851748228073,
+    "rollout_probability": 0.0
+  },
+  "validation_selection": {
+    "mode": "stratified_action",
+    "classes": 40,
+    "windows": 768,
+    "per_class": [
+      19,
+      20
+    ],
+    "unique_episodes": 565
+  },
+  "frozen_vae_sha256": "6093da86e8522df2741a4b9fc346fdb437037fb92ccc799fe81110c37447591f"
+}

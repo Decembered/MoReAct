@@ -1,0 +1,21 @@
+{
+  "deleted": "/data/autovla/projects/MoReAct/tmp/root_overfit_probe_20260927",
+  "files": [
+    "__pycache__/run.cpython-38.pyc",
+    "config.json",
+    "holdout.json",
+    "losses.jsonl",
+    "overfit_100.pt",
+    "overfit_300.pt",
+    "provenance.json",
+    "result.json",
+    "run.py",
+    "selection.json",
+    "validation_split_audit.json"
+  ],
+  "logical_bytes": 647634802,
+  "kept_checkpoint": "/data/autovla/projects/MoReAct/outputs/root_overfit_probe_20260927/overfit_300.pt",
+  "kept_checkpoint_bytes": 323804076,
+  "process_check": "No active root_overfit_probe process in ps; only ps and rg commands matched.",
+  "reference_check": "No external run/config/script references; archived report contains reproduction path."
+}

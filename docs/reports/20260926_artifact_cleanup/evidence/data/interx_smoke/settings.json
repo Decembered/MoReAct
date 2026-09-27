@@ -1,0 +1,24 @@
+{
+  "feature_version": "dart276_backward_deltas_shared_zup_v1",
+  "source": "/data/autovla/projects/interx_ardy_mvp/full_data",
+  "fps": 30,
+  "raw_fps": 120,
+  "history": 16,
+  "future": 8,
+  "body_models": "/data/autovla/projects/remogen_official_release/smpl_models",
+  "role_overrides": {
+    "G013T002A005R001": {
+      "actor": "P1",
+      "status": "motion_verified",
+      "evidence": "interx_annotation_audit_20260922/REPORT.md: raw skeleton review identifies P1 as kicker and P2 as recipient."
+    },
+    "G056T001A005R001": {
+      "actor": "P1",
+      "status": "motion_verified",
+      "evidence": "interx_annotation_audit_20260922/REPORT.md: raw skeleton review identifies P1 as kicker and P2 as recipient; overrides README order=1."
+    }
+  },
+  "clip_model": "/home/autovla/.cache/clip/ViT-B-32.pt",
+  "limit_per_split": 8,
+  "selection_seed": 0
+}

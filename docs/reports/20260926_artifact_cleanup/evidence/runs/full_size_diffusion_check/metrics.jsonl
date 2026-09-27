@@ -1,0 +1,1 @@
+{"step": 1, "rollout_probability": 0.0, "loss": 1.35105562210083, "latent_mse": 1.35105562210083, "grad_norm": 3.242680311203003, "val_loss": 1.3256707191467285, "val_latent_mse": 1.3256707191467285, "elapsed_seconds": 0.6713125159731135}

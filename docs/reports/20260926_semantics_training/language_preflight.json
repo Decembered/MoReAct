@@ -1,0 +1,8 @@
+{
+  "input_tokens": 3491,
+  "target_tokens": 208,
+  "loss": 4.548086166381836,
+  "max_memory_allocated": 17760094208,
+  "updates": 2,
+  "note": "Capacity-only model discarded; no preflight weights enter formal training."
+}

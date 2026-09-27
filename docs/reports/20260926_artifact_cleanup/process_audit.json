@@ -1,0 +1,71 @@
+{
+  "checked_utc": "2026-09-26T08:39:42.579258+00:00",
+  "active_moreact_processes": [
+    {
+      "pid": 561424,
+      "command": "/data/users/autovla/.envs/remogen-motion-only/bin/python -u /data/autovla/projects/MoReAct/scripts/run_pipeline.py --device cuda:0"
+    },
+    {
+      "pid": 569179,
+      "command": "/data/users/autovla/.envs/remogen-motion-only/bin/python -u -m moreact train_vae --config /data/autovla/projects/MoReAct/configs/default.yaml --output /data/autovla/projects/MoReAct/runs/full/vae --device cuda:0"
+    },
+    {
+      "pid": 1539748,
+      "command": "/data/users/autovla/.envs/remogen-motion-only/bin/python -u -m moreact train_vae --config /data/autovla/projects/MoReAct/runs/cvae_h2_f8_equal_roles_20260924_163259/launch.yaml --output /data/autovla/projects/MoReAct/runs/cvae_h2_f8_equal_roles_20260924_163259"
+    },
+    {
+      "pid": 1786569,
+      "command": "/data/users/autovla/.envs/remogen-motion-only/bin/python -u scripts/evaluate_after_training.py --run /data/autovla/projects/MoReAct/runs/cvae_h2_f8_equal_roles_20260924_163259 --pid 1539748 --device cuda:2"
+    },
+    {
+      "pid": 1917259,
+      "command": "/data/users/autovla/.envs/remogen-motion-only/bin/python -u -m moreact train_diffusion --config /data/autovla/projects/MoReAct/runs/diffusion_h2_f8_equal_roles_20260925_120415/launch.yaml --vae /data/autovla/projects/MoReAct/runs/diffusion_h2_f8_equal_roles_20260925_120415/frozen_vae.pt --output /data/autovla/projects/MoReAct/runs/diffusion_h2_f8_equal_roles_20260925_120415"
+    },
+    {
+      "pid": 1966714,
+      "command": "/data/users/autovla/.envs/remogen-motion-only/bin/python -u scripts/migrate_to_ddp.py --source /data/autovla/projects/MoReAct/runs/diffusion_geometry_20260925_122644 --pid 1921751 --output /data/autovla/projects/MoReAct/runs/diffusion_geometry_ddp_20260925_152817 --devices 4,5,6,7 --min-step 10000"
+    },
+    {
+      "pid": 2005004,
+      "command": "/data/users/autovla/.envs/remogen-motion-only/bin/python -m torch.distributed.run --standalone --nproc_per_node=4 -m moreact.train_distributed --config /data/autovla/projects/MoReAct/runs/diffusion_geometry_ddp_20260925_152817/launch.yaml --output /data/autovla/projects/MoReAct/runs/diffusion_geometry_ddp_20260925_152817 --resume /data/autovla/projects/MoReAct/runs/diffusion_geometry_ddp_20260925_152817/resume_source.pt --devices 4,5,6,7"
+    },
+    {
+      "pid": 2005075,
+      "command": "/data/users/autovla/.envs/remogen-motion-only/bin/python -u -m moreact.train_distributed --config /data/autovla/projects/MoReAct/runs/diffusion_geometry_ddp_20260925_152817/launch.yaml --output /data/autovla/projects/MoReAct/runs/diffusion_geometry_ddp_20260925_152817 --resume /data/autovla/projects/MoReAct/runs/diffusion_geometry_ddp_20260925_152817/resume_source.pt --devices 4,5,6,7"
+    },
+    {
+      "pid": 2005076,
+      "command": "/data/users/autovla/.envs/remogen-motion-only/bin/python -u -m moreact.train_distributed --config /data/autovla/projects/MoReAct/runs/diffusion_geometry_ddp_20260925_152817/launch.yaml --output /data/autovla/projects/MoReAct/runs/diffusion_geometry_ddp_20260925_152817 --resume /data/autovla/projects/MoReAct/runs/diffusion_geometry_ddp_20260925_152817/resume_source.pt --devices 4,5,6,7"
+    },
+    {
+      "pid": 2005077,
+      "command": "/data/users/autovla/.envs/remogen-motion-only/bin/python -u -m moreact.train_distributed --config /data/autovla/projects/MoReAct/runs/diffusion_geometry_ddp_20260925_152817/launch.yaml --output /data/autovla/projects/MoReAct/runs/diffusion_geometry_ddp_20260925_152817 --resume /data/autovla/projects/MoReAct/runs/diffusion_geometry_ddp_20260925_152817/resume_source.pt --devices 4,5,6,7"
+    },
+    {
+      "pid": 2005078,
+      "command": "/data/users/autovla/.envs/remogen-motion-only/bin/python -u -m moreact.train_distributed --config /data/autovla/projects/MoReAct/runs/diffusion_geometry_ddp_20260925_152817/launch.yaml --output /data/autovla/projects/MoReAct/runs/diffusion_geometry_ddp_20260925_152817 --resume /data/autovla/projects/MoReAct/runs/diffusion_geometry_ddp_20260925_152817/resume_source.pt --devices 4,5,6,7"
+    },
+    {
+      "pid": 2094052,
+      "command": "/data/users/autovla/.envs/remogen-motion-only/bin/python -m torch.distributed.run --standalone --nproc_per_node=4 -m moreact.train_distributed --config /data/autovla/projects/MoReAct/runs/diffusion_restart_b512_20260926_013059/launch.yaml --output /data/autovla/projects/MoReAct/runs/diffusion_restart_b512_20260926_013059 --vae /data/autovla/projects/MoReAct/runs/diffusion_restart_b512_20260926_013059/frozen_vae.pt --devices 0,1,2,3"
+    },
+    {
+      "pid": 2094120,
+      "command": "/data/users/autovla/.envs/remogen-motion-only/bin/python -u -m moreact.train_distributed --config /data/autovla/projects/MoReAct/runs/diffusion_restart_b512_20260926_013059/launch.yaml --output /data/autovla/projects/MoReAct/runs/diffusion_restart_b512_20260926_013059 --vae /data/autovla/projects/MoReAct/runs/diffusion_restart_b512_20260926_013059/frozen_vae.pt --devices 0,1,2,3"
+    },
+    {
+      "pid": 2094121,
+      "command": "/data/users/autovla/.envs/remogen-motion-only/bin/python -u -m moreact.train_distributed --config /data/autovla/projects/MoReAct/runs/diffusion_restart_b512_20260926_013059/launch.yaml --output /data/autovla/projects/MoReAct/runs/diffusion_restart_b512_20260926_013059 --vae /data/autovla/projects/MoReAct/runs/diffusion_restart_b512_20260926_013059/frozen_vae.pt --devices 0,1,2,3"
+    },
+    {
+      "pid": 2094122,
+      "command": "/data/users/autovla/.envs/remogen-motion-only/bin/python -u -m moreact.train_distributed --config /data/autovla/projects/MoReAct/runs/diffusion_restart_b512_20260926_013059/launch.yaml --output /data/autovla/projects/MoReAct/runs/diffusion_restart_b512_20260926_013059 --vae /data/autovla/projects/MoReAct/runs/diffusion_restart_b512_20260926_013059/frozen_vae.pt --devices 0,1,2,3"
+    },
+    {
+      "pid": 2094123,
+      "command": "/data/users/autovla/.envs/remogen-motion-only/bin/python -u -m moreact.train_distributed --config /data/autovla/projects/MoReAct/runs/diffusion_restart_b512_20260926_013059/launch.yaml --output /data/autovla/projects/MoReAct/runs/diffusion_restart_b512_20260926_013059 --vae /data/autovla/projects/MoReAct/runs/diffusion_restart_b512_20260926_013059/frozen_vae.pt --devices 0,1,2,3"
+    }
+  ],
+  "blocking_processes": [],
+  "retained_metadata_references": []
+}

@@ -1,0 +1,37 @@
+{
+  "max_input": 4096,
+  "max_target": 512,
+  "records": [
+    {
+      "episode": "G001T000A000R000",
+      "split": "train",
+      "input_tokens": 227,
+      "target_tokens": [
+        63,
+        40,
+        54
+      ]
+    },
+    {
+      "episode": "G001T003A016R005",
+      "split": "val",
+      "input_tokens": 139,
+      "target_tokens": [
+        34,
+        31,
+        25
+      ]
+    },
+    {
+      "episode": "G001T000A000R004",
+      "split": "test",
+      "input_tokens": 211,
+      "target_tokens": [
+        91,
+        40,
+        50
+      ]
+    }
+  ],
+  "errors": []
+}

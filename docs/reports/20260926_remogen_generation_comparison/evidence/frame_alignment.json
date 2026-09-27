@@ -1,0 +1,12 @@
+[
+  {
+    "episode": "G001T000A000R004",
+    "frames": 194,
+    "max_actor_body_rotation_difference": 1.7881393432617188e-07
+  },
+  {
+    "episode": "G001T000A001R005",
+    "frames": 135,
+    "max_actor_body_rotation_difference": 1.7881393432617188e-07
+  }
+]

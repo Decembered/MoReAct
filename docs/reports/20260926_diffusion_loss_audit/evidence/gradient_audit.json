@@ -1,0 +1,1914 @@
+{
+  "checkpoint": "/data/autovla/projects/MoReAct/runs/diffusion_stage2_b512_20260926_084433/step_010000.pt",
+  "step": 10000,
+  "weights": {
+    "latent_mse": 1.0,
+    "feature_rec": 1.0,
+    "smpl_joints_rec": 10.0,
+    "joint_fk_consistency": 10.0,
+    "joint_velocity": 100.0,
+    "bone_length": 10.0,
+    "foot_contact": 30.0,
+    "root_orientation": 1.0,
+    "root_angular_velocity": 10.0,
+    "distance_map": 1.0,
+    "joint_contact": 10.0
+  },
+  "batch_size": 16,
+  "batches": 4,
+  "train_indices": [
+    [
+      1269009,
+      203581,
+      964492,
+      1166000,
+      1091719,
+      907788,
+      1306680,
+      496022,
+      477353,
+      755968,
+      448439,
+      239344,
+      344540,
+      1269329,
+      859861,
+      232914
+    ],
+    [
+      250614,
+      641640,
+      617327,
+      488723,
+      1386,
+      420907,
+      1084184,
+      1069418,
+      1302191,
+      1079064,
+      1061027,
+      1143028,
+      762707,
+      1043755,
+      800606,
+      52131
+    ],
+    [
+      405869,
+      1278916,
+      839634,
+      927719,
+      1041681,
+      347046,
+      2834,
+      175717,
+      611650,
+      309350,
+      48426,
+      913030,
+      1282797,
+      833340,
+      1149612,
+      461732
+    ],
+    [
+      684903,
+      845806,
+      928630,
+      639893,
+      1325612,
+      535970,
+      884925,
+      465649,
+      113045,
+      677586,
+      13103,
+      954293,
+      509765,
+      145750,
+      672207,
+      1248644
+    ]
+  ],
+  "records": [
+    {
+      "history": "teacher",
+      "probability": 0.0,
+      "batch": 0,
+      "loss": 0.15630985796451569,
+      "total_gradient_norm": 0.5497496724128723,
+      "gradient_sum_max_abs_error": 2.7939677238464355e-09,
+      "terms": {
+        "latent_mse": {
+          "raw": 0.1296892762184143,
+          "weighted": 0.1296892762184143,
+          "weighted_gradient_norm": 0.47564175724983215,
+          "cosine_total": 0.9788308143615723,
+          "cosine_latent": 1.0000001192092896,
+          "projection_total": 0.8468815088272095
+        },
+        "feature_rec": {
+          "raw": 0.023572582751512527,
+          "weighted": 0.023572582751512527,
+          "weighted_gradient_norm": 0.10899395495653152,
+          "cosine_total": 0.6723928451538086,
+          "cosine_latent": 0.5259560346603394,
+          "projection_total": 0.13330931961536407
+        },
+        "smpl_joints_rec": {
+          "raw": 6.96692441124469e-05,
+          "weighted": 0.0006966923829168081,
+          "weighted_gradient_norm": 0.006827956065535545,
+          "cosine_total": 0.4518405497074127,
+          "cosine_latent": 0.36255979537963867,
+          "projection_total": 0.005611913278698921
+        },
+        "joint_fk_consistency": {
+          "raw": 1.013750079437159e-05,
+          "weighted": 0.00010137500066775829,
+          "weighted_gradient_norm": 0.000952425820287317,
+          "cosine_total": 0.022083653137087822,
+          "cosine_latent": 0.0299590565264225,
+          "projection_total": 3.825930616585538e-05
+        },
+        "joint_velocity": {
+          "raw": 6.882146408315748e-06,
+          "weighted": 0.0006882146699354053,
+          "weighted_gradient_norm": 0.003919977229088545,
+          "cosine_total": 0.5200170278549194,
+          "cosine_latent": 0.4018552005290985,
+          "projection_total": 0.003707969095557928
+        },
+        "bone_length": {
+          "raw": 4.206216999591561e-06,
+          "weighted": 4.206216908642091e-05,
+          "weighted_gradient_norm": 0.0005168652860447764,
+          "cosine_total": 0.028140787035226822,
+          "cosine_latent": 0.017201265320181847,
+          "projection_total": 2.6457488274900243e-05
+        },
+        "foot_contact": {
+          "raw": 6.407899491023272e-06,
+          "weighted": 0.00019223697017878294,
+          "weighted_gradient_norm": 0.0017044639680534601,
+          "cosine_total": 0.10747046768665314,
+          "cosine_latent": 0.1119241937994957,
+          "projection_total": 0.0003332053602207452
+        },
+        "root_orientation": {
+          "raw": 0.0003410030039958656,
+          "weighted": 0.0003410030039958656,
+          "weighted_gradient_norm": 0.0067801401019096375,
+          "cosine_total": 0.22540728747844696,
+          "cosine_latent": 0.17677780985832214,
+          "projection_total": 0.002779979957267642
+        },
+        "root_angular_velocity": {
+          "raw": 3.0309649446280673e-05,
+          "weighted": 0.0003030964871868491,
+          "weighted_gradient_norm": 0.0035509776789695024,
+          "cosine_total": 0.2646128833293915,
+          "cosine_latent": 0.2065429836511612,
+          "projection_total": 0.0017092041671276093
+        },
+        "distance_map": {
+          "raw": 7.825435022823513e-05,
+          "weighted": 7.825435022823513e-05,
+          "weighted_gradient_norm": 0.001034679589793086,
+          "cosine_total": 0.3625473082065582,
+          "cosine_latent": 0.2766557037830353,
+          "projection_total": 0.0006823475123383105
+        },
+        "joint_contact": {
+          "raw": 6.05055465712212e-05,
+          "weighted": 0.0006050554802641273,
+          "weighted_gradient_norm": 0.04623236507177353,
+          "cosine_total": 0.0584724135696888,
+          "cosine_latent": -0.02926809713244438,
+          "projection_total": 0.00491736177355051
+        }
+      }
+    },
+    {
+      "history": "teacher",
+      "probability": 0.0,
+      "batch": 1,
+      "loss": 0.10977950692176819,
+      "total_gradient_norm": 0.4588480293750763,
+      "gradient_sum_max_abs_error": 3.026798367500305e-09,
+      "terms": {
+        "latent_mse": {
+          "raw": 0.08977940678596497,
+          "weighted": 0.08977940678596497,
+          "weighted_gradient_norm": 0.3601571023464203,
+          "cosine_total": 0.9752299189567566,
+          "cosine_latent": 1.0,
+          "projection_total": 0.7654734253883362
+        },
+        "feature_rec": {
+          "raw": 0.01792101562023163,
+          "weighted": 0.01792101562023163,
+          "weighted_gradient_norm": 0.12202484905719757,
+          "cosine_total": 0.7892780900001526,
+          "cosine_latent": 0.6372848749160767,
+          "projection_total": 0.20989854633808136
+        },
+        "smpl_joints_rec": {
+          "raw": 5.021480319555849e-05,
+          "weighted": 0.0005021480028517544,
+          "weighted_gradient_norm": 0.0062768044881522655,
+          "cosine_total": 0.5406618714332581,
+          "cosine_latent": 0.4360363781452179,
+          "projection_total": 0.007395975757390261
+        },
+        "joint_fk_consistency": {
+          "raw": 9.601633792044595e-06,
+          "weighted": 9.601634519640356e-05,
+          "weighted_gradient_norm": 0.0006889505893923342,
+          "cosine_total": 0.06937698274850845,
+          "cosine_latent": 0.09454646706581116,
+          "projection_total": 0.00010416806617286056
+        },
+        "joint_velocity": {
+          "raw": 5.707463969883975e-06,
+          "weighted": 0.0005707463715225458,
+          "weighted_gradient_norm": 0.0037385243922472,
+          "cosine_total": 0.5513903498649597,
+          "cosine_latent": 0.4479391574859619,
+          "projection_total": 0.004492525476962328
+        },
+        "bone_length": {
+          "raw": 2.9253897082526237e-06,
+          "weighted": 2.9253897082526237e-05,
+          "weighted_gradient_norm": 0.00035661578294821084,
+          "cosine_total": 0.06938374787569046,
+          "cosine_latent": 0.07290809601545334,
+          "projection_total": 5.392491220845841e-05
+        },
+        "foot_contact": {
+          "raw": 8.523794349457603e-06,
+          "weighted": 0.00025571382138878107,
+          "weighted_gradient_norm": 0.0027293753810226917,
+          "cosine_total": 0.09965445846319199,
+          "cosine_latent": 0.10905075073242188,
+          "projection_total": 0.0005927766906097531
+        },
+        "root_orientation": {
+          "raw": 0.0002980360295623541,
+          "weighted": 0.0002980360295623541,
+          "weighted_gradient_norm": 0.010579708032310009,
+          "cosine_total": 0.3045814633369446,
+          "cosine_latent": 0.2605617940425873,
+          "projection_total": 0.007022767793387175
+        },
+        "root_angular_velocity": {
+          "raw": 2.6763163987197913e-05,
+          "weighted": 0.0002676316362340003,
+          "weighted_gradient_norm": 0.005744555499404669,
+          "cosine_total": 0.3393053412437439,
+          "cosine_latent": 0.29897600412368774,
+          "projection_total": 0.0042479392141103745
+        },
+        "distance_map": {
+          "raw": 4.964556865161285e-05,
+          "weighted": 4.964556865161285e-05,
+          "weighted_gradient_norm": 0.0007757206913083792,
+          "cosine_total": 0.39319974184036255,
+          "cosine_latent": 0.34216007590293884,
+          "projection_total": 0.0006647367845289409
+        },
+        "joint_contact": {
+          "raw": 9.88664396572858e-07,
+          "weighted": 9.886643965728581e-06,
+          "weighted_gradient_norm": 0.002878878964111209,
+          "cosine_total": 0.008043642155826092,
+          "cosine_latent": 0.007208677474409342,
+          "projection_total": 5.0466976972529665e-05
+        }
+      }
+    },
+    {
+      "history": "teacher",
+      "probability": 0.0,
+      "batch": 2,
+      "loss": 0.10241426527500153,
+      "total_gradient_norm": 0.41409212350845337,
+      "gradient_sum_max_abs_error": 2.7939677238464355e-09,
+      "terms": {
+        "latent_mse": {
+          "raw": 0.08620491623878479,
+          "weighted": 0.08620491623878479,
+          "weighted_gradient_norm": 0.3305715024471283,
+          "cosine_total": 0.9108477234840393,
+          "cosine_latent": 0.9999999403953552,
+          "projection_total": 0.7271336913108826
+        },
+        "feature_rec": {
+          "raw": 0.012436064891517162,
+          "weighted": 0.012436064891517162,
+          "weighted_gradient_norm": 0.052191585302352905,
+          "cosine_total": 0.6866548657417297,
+          "cosine_latent": 0.629304051399231,
+          "projection_total": 0.08654501289129257
+        },
+        "smpl_joints_rec": {
+          "raw": 3.4523120120866224e-05,
+          "weighted": 0.00034523120848461986,
+          "weighted_gradient_norm": 0.0033708412665873766,
+          "cosine_total": 0.4719274044036865,
+          "cosine_latent": 0.3465478718280792,
+          "projection_total": 0.00384163879789412
+        },
+        "joint_fk_consistency": {
+          "raw": 9.132261766353622e-06,
+          "weighted": 9.132261766353622e-05,
+          "weighted_gradient_norm": 0.0004492371226660907,
+          "cosine_total": -0.104399174451828,
+          "cosine_latent": -0.013218066655099392,
+          "projection_total": -0.00011325978994136676
+        },
+        "joint_velocity": {
+          "raw": 3.5258215120848035e-06,
+          "weighted": 0.00035258213756605983,
+          "weighted_gradient_norm": 0.0018832942005246878,
+          "cosine_total": 0.4523736834526062,
+          "cosine_latent": 0.3431726098060608,
+          "projection_total": 0.00205739913508296
+        },
+        "bone_length": {
+          "raw": 3.202938160029589e-06,
+          "weighted": 3.2029383874032646e-05,
+          "weighted_gradient_norm": 0.00029778850148431957,
+          "cosine_total": 0.036299776285886765,
+          "cosine_latent": 0.03490588441491127,
+          "projection_total": 2.6104471544385888e-05
+        },
+        "foot_contact": {
+          "raw": 6.433554062823532e-06,
+          "weighted": 0.00019300662097521126,
+          "weighted_gradient_norm": 0.002041405299678445,
+          "cosine_total": 0.19533094763755798,
+          "cosine_latent": 0.19787003099918365,
+          "projection_total": 0.0009629491250962019
+        },
+        "root_orientation": {
+          "raw": 0.00022897275630384684,
+          "weighted": 0.00022897275630384684,
+          "weighted_gradient_norm": 0.004371916875243187,
+          "cosine_total": 0.28830036520957947,
+          "cosine_latent": 0.2678130567073822,
+          "projection_total": 0.0030438280664384365
+        },
+        "root_angular_velocity": {
+          "raw": 1.8977576473844238e-05,
+          "weighted": 0.00018977576110046357,
+          "weighted_gradient_norm": 0.0020536906085908413,
+          "cosine_total": 0.3386690318584442,
+          "cosine_latent": 0.32517895102500916,
+          "projection_total": 0.0016796296695247293
+        },
+        "distance_map": {
+          "raw": 3.594331064959988e-05,
+          "weighted": 3.594331064959988e-05,
+          "weighted_gradient_norm": 0.000408235820941627,
+          "cosine_total": 0.4194576144218445,
+          "cosine_latent": 0.3044714629650116,
+          "projection_total": 0.0004135254421271384
+        },
+        "joint_contact": {
+          "raw": 0.00023044165573082864,
+          "weighted": 0.0023044166155159473,
+          "weighted_gradient_norm": 0.1596754491329193,
+          "cosine_total": 0.45229557156562805,
+          "cosine_latent": 0.05995440110564232,
+          "projection_total": 0.17440685629844666
+        }
+      }
+    },
+    {
+      "history": "teacher",
+      "probability": 0.0,
+      "batch": 3,
+      "loss": 0.24161289632320404,
+      "total_gradient_norm": 1.4193259477615356,
+      "gradient_sum_max_abs_error": 2.7939677238464355e-08,
+      "terms": {
+        "latent_mse": {
+          "raw": 0.14206835627555847,
+          "weighted": 0.14206835627555847,
+          "weighted_gradient_norm": 0.4898555278778076,
+          "cosine_total": 0.41348549723625183,
+          "cosine_latent": 1.0,
+          "projection_total": 0.14270728826522827
+        },
+        "feature_rec": {
+          "raw": 0.045042283833026886,
+          "weighted": 0.045042283833026886,
+          "weighted_gradient_norm": 0.1281798779964447,
+          "cosine_total": 0.2585614025592804,
+          "cosine_latent": 0.5965175628662109,
+          "projection_total": 0.023350780829787254
+        },
+        "smpl_joints_rec": {
+          "raw": 0.00016123610839713365,
+          "weighted": 0.001612361054867506,
+          "weighted_gradient_norm": 0.010443263687193394,
+          "cosine_total": 0.13589243590831757,
+          "cosine_latent": 0.35825592279434204,
+          "projection_total": 0.0009998835157603025
+        },
+        "joint_fk_consistency": {
+          "raw": 1.6590605810051784e-05,
+          "weighted": 0.00016590606537647545,
+          "weighted_gradient_norm": 0.0010195574723184109,
+          "cosine_total": 0.04405149072408676,
+          "cosine_latent": 0.03147874027490616,
+          "projection_total": 3.164391455356963e-05
+        },
+        "joint_velocity": {
+          "raw": 5.0008646212518215e-05,
+          "weighted": 0.0050008646212518215,
+          "weighted_gradient_norm": 0.0064140078611671925,
+          "cosine_total": 0.17159728705883026,
+          "cosine_latent": 0.38690081238746643,
+          "projection_total": 0.0007754570106044412
+        },
+        "bone_length": {
+          "raw": 7.467036084563006e-06,
+          "weighted": 7.467035902664065e-05,
+          "weighted_gradient_norm": 0.0011677368311211467,
+          "cosine_total": -0.015986666083335876,
+          "cosine_latent": -0.016415877267718315,
+          "projection_total": -1.315287772740703e-05
+        },
+        "foot_contact": {
+          "raw": 8.413214345637243e-06,
+          "weighted": 0.00025239645037800074,
+          "weighted_gradient_norm": 0.00246873265132308,
+          "cosine_total": 0.0726674273610115,
+          "cosine_latent": 0.17505797743797302,
+          "projection_total": 0.0001263955346075818
+        },
+        "root_orientation": {
+          "raw": 0.0005668560625053942,
+          "weighted": 0.0005668560625053942,
+          "weighted_gradient_norm": 0.008695096708834171,
+          "cosine_total": 0.07237875461578369,
+          "cosine_latent": 0.21882134675979614,
+          "projection_total": 0.0004434078873600811
+        },
+        "root_angular_velocity": {
+          "raw": 6.541360926348716e-05,
+          "weighted": 0.0006541360635310411,
+          "weighted_gradient_norm": 0.003990169148892164,
+          "cosine_total": 0.09134826809167862,
+          "cosine_latent": 0.24986670911312103,
+          "projection_total": 0.0002568085619714111
+        },
+        "distance_map": {
+          "raw": 0.000152567372424528,
+          "weighted": 0.000152567372424528,
+          "weighted_gradient_norm": 0.0012320509413257241,
+          "cosine_total": 0.12150877714157104,
+          "cosine_latent": 0.2899410128593445,
+          "projection_total": 0.00010547613055678084
+        },
+        "joint_contact": {
+          "raw": 0.004602250177413225,
+          "weighted": 0.04602250084280968,
+          "weighted_gradient_norm": 1.2959388494491577,
+          "cosine_total": 0.9103497862815857,
+          "cosine_latent": 0.008201501332223415,
+          "projection_total": 0.8312098383903503
+        }
+      }
+    },
+    {
+      "history": "current_curriculum",
+      "probability": 0.28,
+      "batch": 0,
+      "loss": 0.24052172899246216,
+      "total_gradient_norm": 0.8011290431022644,
+      "gradient_sum_max_abs_error": 6.51925802230835e-09,
+      "terms": {
+        "latent_mse": {
+          "raw": 0.16598348319530487,
+          "weighted": 0.16598348319530487,
+          "weighted_gradient_norm": 0.5649243593215942,
+          "cosine_total": 0.8381284475326538,
+          "cosine_latent": 0.9999998807907104,
+          "projection_total": 0.5910149216651917
+        },
+        "feature_rec": {
+          "raw": 0.03580357879400253,
+          "weighted": 0.03580357879400253,
+          "weighted_gradient_norm": 0.10179225355386734,
+          "cosine_total": 0.657080888748169,
+          "cosine_latent": 0.6500393152236938,
+          "projection_total": 0.08348935097455978
+        },
+        "smpl_joints_rec": {
+          "raw": 0.00034313456853851676,
+          "weighted": 0.003431345336139202,
+          "weighted_gradient_norm": 0.01528223417699337,
+          "cosine_total": 0.41697439551353455,
+          "cosine_latent": 0.29637932777404785,
+          "projection_total": 0.007954149506986141
+        },
+        "joint_fk_consistency": {
+          "raw": 1.3307684639585204e-05,
+          "weighted": 0.00013307684275787324,
+          "weighted_gradient_norm": 0.004790098872035742,
+          "cosine_total": 0.042758695781230927,
+          "cosine_latent": 0.049211885780096054,
+          "projection_total": 0.00025566216208972037
+        },
+        "joint_velocity": {
+          "raw": 4.180424366495572e-05,
+          "weighted": 0.004180424381047487,
+          "weighted_gradient_norm": 0.0057103633880615234,
+          "cosine_total": 0.5474340319633484,
+          "cosine_latent": 0.4824995994567871,
+          "projection_total": 0.0039020520634949207
+        },
+        "bone_length": {
+          "raw": 3.930018465325702e-06,
+          "weighted": 3.930019011022523e-05,
+          "weighted_gradient_norm": 0.000532152596861124,
+          "cosine_total": -0.019560446962714195,
+          "cosine_latent": 0.02377491071820259,
+          "projection_total": -1.2993090422241949e-05
+        },
+        "foot_contact": {
+          "raw": 8.417040589847602e-06,
+          "weighted": 0.0002525112358853221,
+          "weighted_gradient_norm": 0.002859464380890131,
+          "cosine_total": 0.14976337552070618,
+          "cosine_latent": 0.22084832191467285,
+          "projection_total": 0.0005345494137145579
+        },
+        "root_orientation": {
+          "raw": 0.001380115165375173,
+          "weighted": 0.001380115165375173,
+          "weighted_gradient_norm": 0.010833597742021084,
+          "cosine_total": 0.1866369992494583,
+          "cosine_latent": 0.17349787056446075,
+          "projection_total": 0.0025238757953047752
+        },
+        "root_angular_velocity": {
+          "raw": 0.00020091264741495252,
+          "weighted": 0.0020091263577342033,
+          "weighted_gradient_norm": 0.004552334081381559,
+          "cosine_total": 0.32593822479248047,
+          "cosine_latent": 0.29028475284576416,
+          "projection_total": 0.0018521108431741595
+        },
+        "distance_map": {
+          "raw": 0.0002860034874174744,
+          "weighted": 0.0002860034874174744,
+          "weighted_gradient_norm": 0.0016069012926891446,
+          "cosine_total": 0.3872312009334564,
+          "cosine_latent": 0.2075275331735611,
+          "projection_total": 0.0007767067290842533
+        },
+        "joint_contact": {
+          "raw": 0.002702276222407818,
+          "weighted": 0.027022764086723328,
+          "weighted_gradient_norm": 0.4176553189754486,
+          "cosine_total": 0.5902297496795654,
+          "cosine_latent": 0.06861360371112823,
+          "projection_total": 0.30770647525787354
+        }
+      }
+    },
+    {
+      "history": "current_curriculum",
+      "probability": 0.28,
+      "batch": 1,
+      "loss": 0.14752298593521118,
+      "total_gradient_norm": 0.48987653851509094,
+      "gradient_sum_max_abs_error": 2.7939677238464355e-09,
+      "terms": {
+        "latent_mse": {
+          "raw": 0.11097832769155502,
+          "weighted": 0.11097832769155502,
+          "weighted_gradient_norm": 0.3991240859031677,
+          "cosine_total": 0.9789942502975464,
+          "cosine_latent": 1.0,
+          "projection_total": 0.7976298928260803
+        },
+        "feature_rec": {
+          "raw": 0.02837239019572735,
+          "weighted": 0.02837239019572735,
+          "weighted_gradient_norm": 0.10854490846395493,
+          "cosine_total": 0.7744284868240356,
+          "cosine_latent": 0.6356300711631775,
+          "projection_total": 0.1715947985649109
+        },
+        "smpl_joints_rec": {
+          "raw": 0.00030196449370123446,
+          "weighted": 0.0030196451116353273,
+          "weighted_gradient_norm": 0.017523329704999924,
+          "cosine_total": 0.4415550231933594,
+          "cosine_latent": 0.32838043570518494,
+          "projection_total": 0.015794824808835983
+        },
+        "joint_fk_consistency": {
+          "raw": 8.842844181344844e-06,
+          "weighted": 8.842844545142725e-05,
+          "weighted_gradient_norm": 0.0006127199740149081,
+          "cosine_total": -0.030311422422528267,
+          "cosine_latent": 0.006278802640736103,
+          "projection_total": -3.791243943851441e-05
+        },
+        "joint_velocity": {
+          "raw": 3.0264192901086062e-05,
+          "weighted": 0.0030264193192124367,
+          "weighted_gradient_norm": 0.007031175307929516,
+          "cosine_total": 0.5027854442596436,
+          "cosine_latent": 0.38253140449523926,
+          "projection_total": 0.00721645588055253
+        },
+        "bone_length": {
+          "raw": 2.6714030809671385e-06,
+          "weighted": 2.6714031264418736e-05,
+          "weighted_gradient_norm": 0.00027971339295618236,
+          "cosine_total": 0.005472457967698574,
+          "cosine_latent": 0.015426822006702423,
+          "projection_total": 3.1247052447724855e-06
+        },
+        "foot_contact": {
+          "raw": 9.23711559153162e-06,
+          "weighted": 0.00027711346046999097,
+          "weighted_gradient_norm": 0.0029656817205250263,
+          "cosine_total": 0.02883913181722164,
+          "cosine_latent": 0.045005716383457184,
+          "projection_total": 0.0001745902991387993
+        },
+        "root_orientation": {
+          "raw": 0.0007340051233768463,
+          "weighted": 0.0007340051233768463,
+          "weighted_gradient_norm": 0.013781926594674587,
+          "cosine_total": 0.16258056461811066,
+          "cosine_latent": 0.12265854328870773,
+          "projection_total": 0.004573955200612545
+        },
+        "root_angular_velocity": {
+          "raw": 7.905386155471206e-05,
+          "weighted": 0.0007905386737547815,
+          "weighted_gradient_norm": 0.0050663393922150135,
+          "cosine_total": 0.22132107615470886,
+          "cosine_latent": 0.178457573056221,
+          "projection_total": 0.0022889189422130585
+        },
+        "distance_map": {
+          "raw": 0.0001995197671931237,
+          "weighted": 0.0001995197671931237,
+          "weighted_gradient_norm": 0.001469970215111971,
+          "cosine_total": 0.2276909053325653,
+          "cosine_latent": 0.1787276417016983,
+          "projection_total": 0.0006832309882156551
+        },
+        "joint_contact": {
+          "raw": 9.88664396572858e-07,
+          "weighted": 9.886643965728581e-06,
+          "weighted_gradient_norm": 0.002878878964111209,
+          "cosine_total": 0.012869960628449917,
+          "cosine_latent": 0.008654785342514515,
+          "projection_total": 7.563345570815727e-05
+        }
+      }
+    },
+    {
+      "history": "current_curriculum",
+      "probability": 0.28,
+      "batch": 2,
+      "loss": 0.18991637229919434,
+      "total_gradient_norm": 0.5890616774559021,
+      "gradient_sum_max_abs_error": 3.725290298461914e-09,
+      "terms": {
+        "latent_mse": {
+          "raw": 0.15031194686889648,
+          "weighted": 0.15031194686889648,
+          "weighted_gradient_norm": 0.508550226688385,
+          "cosine_total": 0.9847286343574524,
+          "cosine_latent": 1.0000001192092896,
+          "projection_total": 0.8501384854316711
+        },
+        "feature_rec": {
+          "raw": 0.02642955258488655,
+          "weighted": 0.02642955258488655,
+          "weighted_gradient_norm": 0.0806952565908432,
+          "cosine_total": 0.7723820805549622,
+          "cosine_latent": 0.7057720422744751,
+          "projection_total": 0.10580822825431824
+        },
+        "smpl_joints_rec": {
+          "raw": 0.000399712793296203,
+          "weighted": 0.003997127991169691,
+          "weighted_gradient_norm": 0.014871343970298767,
+          "cosine_total": 0.4625505208969116,
+          "cosine_latent": 0.4030422568321228,
+          "projection_total": 0.011677466332912445
+        },
+        "joint_fk_consistency": {
+          "raw": 9.125126780418213e-06,
+          "weighted": 9.125126234721392e-05,
+          "weighted_gradient_norm": 0.0005091260536573827,
+          "cosine_total": -0.03667023032903671,
+          "cosine_latent": -0.02301526628434658,
+          "projection_total": -3.1694082281319425e-05
+        },
+        "joint_velocity": {
+          "raw": 3.888268111040816e-05,
+          "weighted": 0.0038882680237293243,
+          "weighted_gradient_norm": 0.0047879694029688835,
+          "cosine_total": 0.5284947156906128,
+          "cosine_latent": 0.4620944857597351,
+          "projection_total": 0.004295673221349716
+        },
+        "bone_length": {
+          "raw": 3.324500312373857e-06,
+          "weighted": 3.324500357848592e-05,
+          "weighted_gradient_norm": 0.0003410300414543599,
+          "cosine_total": 0.001361511996947229,
+          "cosine_latent": -0.004854890517890453,
+          "projection_total": 7.882307500040042e-07
+        },
+        "foot_contact": {
+          "raw": 8.331478966283612e-06,
+          "weighted": 0.00024994439445436,
+          "weighted_gradient_norm": 0.003077032743021846,
+          "cosine_total": 0.27090123295783997,
+          "cosine_latent": 0.23823793232440948,
+          "projection_total": 0.001415084465406835
+        },
+        "root_orientation": {
+          "raw": 0.001486164634115994,
+          "weighted": 0.001486164634115994,
+          "weighted_gradient_norm": 0.011058331467211246,
+          "cosine_total": 0.2975597083568573,
+          "cosine_latent": 0.2793319821357727,
+          "projection_total": 0.005586025770753622
+        },
+        "root_angular_velocity": {
+          "raw": 0.00015823676949366927,
+          "weighted": 0.0015823675785213709,
+          "weighted_gradient_norm": 0.0034548724070191383,
+          "cosine_total": 0.3198040723800659,
+          "cosine_latent": 0.3095754384994507,
+          "projection_total": 0.0018756648059934378
+        },
+        "distance_map": {
+          "raw": 0.0003474699333310127,
+          "weighted": 0.0003474699333310127,
+          "weighted_gradient_norm": 0.0013616924406960607,
+          "cosine_total": 0.4245169758796692,
+          "cosine_latent": 0.3769729435443878,
+          "projection_total": 0.0009813260985538363
+        },
+        "joint_contact": {
+          "raw": 0.00014990178169682622,
+          "weighted": 0.001499017933383584,
+          "weighted_gradient_norm": 0.07500287145376205,
+          "cosine_total": 0.14333051443099976,
+          "cosine_latent": 0.012871545739471912,
+          "projection_total": 0.01824970357120037
+        }
+      }
+    },
+    {
+      "history": "current_curriculum",
+      "probability": 0.28,
+      "batch": 3,
+      "loss": 0.277217298746109,
+      "total_gradient_norm": 1.0303465127944946,
+      "gradient_sum_max_abs_error": 2.1420419216156006e-08,
+      "terms": {
+        "latent_mse": {
+          "raw": 0.16715210676193237,
+          "weighted": 0.16715210676193237,
+          "weighted_gradient_norm": 0.4808805584907532,
+          "cosine_total": 0.6182870864868164,
+          "cosine_latent": 1.0,
+          "projection_total": 0.2885652780532837
+        },
+        "feature_rec": {
+          "raw": 0.06162761151790619,
+          "weighted": 0.06162761151790619,
+          "weighted_gradient_norm": 0.15254710614681244,
+          "cosine_total": 0.5447869300842285,
+          "cosine_latent": 0.6846747398376465,
+          "projection_total": 0.08065798133611679
+        },
+        "smpl_joints_rec": {
+          "raw": 0.0004956016782671213,
+          "weighted": 0.004956016782671213,
+          "weighted_gradient_norm": 0.020267298445105553,
+          "cosine_total": 0.34710022807121277,
+          "cosine_latent": 0.3508705198764801,
+          "projection_total": 0.006827590521425009
+        },
+        "joint_fk_consistency": {
+          "raw": 1.6731089999666438e-05,
+          "weighted": 0.000167310907272622,
+          "weighted_gradient_norm": 0.0011074260110035539,
+          "cosine_total": 0.01008510496467352,
+          "cosine_latent": 0.03216233104467392,
+          "projection_total": 1.0839564311027061e-05
+        },
+        "joint_velocity": {
+          "raw": 9.577798482496291e-05,
+          "weighted": 0.009577798657119274,
+          "weighted_gradient_norm": 0.008628830313682556,
+          "cosine_total": 0.30186963081359863,
+          "cosine_latent": 0.34154465794563293,
+          "projection_total": 0.002528063952922821
+        },
+        "bone_length": {
+          "raw": 6.962336101423716e-06,
+          "weighted": 6.962336192373186e-05,
+          "weighted_gradient_norm": 0.0009870829526335,
+          "cosine_total": -0.038586124777793884,
+          "cosine_latent": 0.03557771444320679,
+          "projection_total": -3.6965917388442904e-05
+        },
+        "foot_contact": {
+          "raw": 8.40609754959587e-06,
+          "weighted": 0.00025218294467777014,
+          "weighted_gradient_norm": 0.0029624199960380793,
+          "cosine_total": 0.08612719178199768,
+          "cosine_latent": 0.08797083050012589,
+          "projection_total": 0.00024763020337559283
+        },
+        "root_orientation": {
+          "raw": 0.002039605751633644,
+          "weighted": 0.002039605751633644,
+          "weighted_gradient_norm": 0.01949564553797245,
+          "cosine_total": 0.14370213449001312,
+          "cosine_latent": 0.1870286464691162,
+          "projection_total": 0.0027190521359443665
+        },
+        "root_angular_velocity": {
+          "raw": 0.00024474269594065845,
+          "weighted": 0.002447427250444889,
+          "weighted_gradient_norm": 0.0065974025055766106,
+          "cosine_total": 0.15143489837646484,
+          "cosine_latent": 0.1949363797903061,
+          "projection_total": 0.0009696514462120831
+        },
+        "distance_map": {
+          "raw": 0.0005073646316304803,
+          "weighted": 0.0005073646316304803,
+          "weighted_gradient_norm": 0.0029146173037588596,
+          "cosine_total": 0.2768709361553192,
+          "cosine_latent": 0.29752418398857117,
+          "projection_total": 0.0007832052651792765
+        },
+        "joint_contact": {
+          "raw": 0.002842024900019169,
+          "weighted": 0.02842024900019169,
+          "weighted_gradient_norm": 0.7918553352355957,
+          "cosine_total": 0.8024691939353943,
+          "cosine_latent": 0.04487568512558937,
+          "projection_total": 0.6167240738868713
+        }
+      }
+    },
+    {
+      "history": "full_feedback",
+      "probability": 1.0,
+      "batch": 0,
+      "loss": 0.45744556188583374,
+      "total_gradient_norm": 1.1697492599487305,
+      "gradient_sum_max_abs_error": 7.450580596923828e-09,
+      "terms": {
+        "latent_mse": {
+          "raw": 0.28637629747390747,
+          "weighted": 0.28637629747390747,
+          "weighted_gradient_norm": 0.8553193807601929,
+          "cosine_total": 0.9065556526184082,
+          "cosine_latent": 0.9999999403953552,
+          "projection_total": 0.6628725528717041
+        },
+        "feature_rec": {
+          "raw": 0.0768272653222084,
+          "weighted": 0.0768272653222084,
+          "weighted_gradient_norm": 0.14248256385326385,
+          "cosine_total": 0.7461797595024109,
+          "cosine_latent": 0.7169305086135864,
+          "projection_total": 0.09088923037052155
+        },
+        "smpl_joints_rec": {
+          "raw": 0.0016504277009516954,
+          "weighted": 0.016504276543855667,
+          "weighted_gradient_norm": 0.04011588171124458,
+          "cosine_total": 0.4754115641117096,
+          "cosine_latent": 0.3888806700706482,
+          "projection_total": 0.01630396768450737
+        },
+        "joint_fk_consistency": {
+          "raw": 1.2105805581086315e-05,
+          "weighted": 0.00012105805217288435,
+          "weighted_gradient_norm": 0.001898911432363093,
+          "cosine_total": -0.09307556599378586,
+          "cosine_latent": -0.08859322965145111,
+          "projection_total": -0.00015109413652680814
+        },
+        "joint_velocity": {
+          "raw": 0.0002061240084003657,
+          "weighted": 0.020612400025129318,
+          "weighted_gradient_norm": 0.01573634147644043,
+          "cosine_total": 0.48757773637771606,
+          "cosine_latent": 0.4265959560871124,
+          "projection_total": 0.006559260189533234
+        },
+        "bone_length": {
+          "raw": 5.600163149210857e-06,
+          "weighted": 5.6001626944635063e-05,
+          "weighted_gradient_norm": 0.0010684345616027713,
+          "cosine_total": -0.0628674328327179,
+          "cosine_latent": -0.05982663482427597,
+          "projection_total": -5.742233770433813e-05
+        },
+        "foot_contact": {
+          "raw": 1.3209432836447377e-05,
+          "weighted": 0.0003962829941883683,
+          "weighted_gradient_norm": 0.003746065078303218,
+          "cosine_total": 0.18419846892356873,
+          "cosine_latent": 0.22473303973674774,
+          "projection_total": 0.0005898866802453995
+        },
+        "root_orientation": {
+          "raw": 0.007628010120242834,
+          "weighted": 0.007628010120242834,
+          "weighted_gradient_norm": 0.032130688428878784,
+          "cosine_total": 0.3259284198284149,
+          "cosine_latent": 0.31433382630348206,
+          "projection_total": 0.008952605538070202
+        },
+        "root_angular_velocity": {
+          "raw": 0.0009127812227234244,
+          "weighted": 0.009127812460064888,
+          "weighted_gradient_norm": 0.010214252397418022,
+          "cosine_total": 0.37065261602401733,
+          "cosine_latent": 0.34479793906211853,
+          "projection_total": 0.003236539429053664
+        },
+        "distance_map": {
+          "raw": 0.0014097554376348853,
+          "weighted": 0.0014097554376348853,
+          "weighted_gradient_norm": 0.005250066984444857,
+          "cosine_total": 0.41401875019073486,
+          "cosine_latent": 0.3371678590774536,
+          "projection_total": 0.0018581984331831336
+        },
+        "joint_contact": {
+          "raw": 0.003838637610897422,
+          "weighted": 0.038386378437280655,
+          "weighted_gradient_norm": 0.4633808434009552,
+          "cosine_total": 0.5274519324302673,
+          "cosine_latent": 0.13953673839569092,
+          "projection_total": 0.208943173289299
+        }
+      }
+    },
+    {
+      "history": "full_feedback",
+      "probability": 1.0,
+      "batch": 1,
+      "loss": 0.2972610294818878,
+      "total_gradient_norm": 0.6953974962234497,
+      "gradient_sum_max_abs_error": 3.725290298461914e-09,
+      "terms": {
+        "latent_mse": {
+          "raw": 0.19572165608406067,
+          "weighted": 0.19572165608406067,
+          "weighted_gradient_norm": 0.5615968108177185,
+          "cosine_total": 0.9779277443885803,
+          "cosine_latent": 0.9999998807907104,
+          "projection_total": 0.7897657752037048
+        },
+        "feature_rec": {
+          "raw": 0.05465088039636612,
+          "weighted": 0.05465088039636612,
+          "weighted_gradient_norm": 0.1353321224451065,
+          "cosine_total": 0.7981674671173096,
+          "cosine_latent": 0.6732958555221558,
+          "projection_total": 0.1553322970867157
+        },
+        "smpl_joints_rec": {
+          "raw": 0.001663568546064198,
+          "weighted": 0.01663568615913391,
+          "weighted_gradient_norm": 0.043626561760902405,
+          "cosine_total": 0.4488569498062134,
+          "cosine_latent": 0.3057711124420166,
+          "projection_total": 0.028159556910395622
+        },
+        "joint_fk_consistency": {
+          "raw": 8.727220119908452e-06,
+          "weighted": 8.727220119908452e-05,
+          "weighted_gradient_norm": 0.0007020619814284146,
+          "cosine_total": -0.1017911285161972,
+          "cosine_latent": -0.056469131261110306,
+          "projection_total": -0.00010276667308062315
+        },
+        "joint_velocity": {
+          "raw": 0.00019523756054695696,
+          "weighted": 0.019523756578564644,
+          "weighted_gradient_norm": 0.017375001683831215,
+          "cosine_total": 0.4443818926811218,
+          "cosine_latent": 0.30933892726898193,
+          "projection_total": 0.011103198863565922
+        },
+        "bone_length": {
+          "raw": 3.097472927038325e-06,
+          "weighted": 3.097473017987795e-05,
+          "weighted_gradient_norm": 0.00044336714199744165,
+          "cosine_total": -0.03706113621592522,
+          "cosine_latent": -0.02438480779528618,
+          "projection_total": -2.3629205315955915e-05
+        },
+        "foot_contact": {
+          "raw": 1.1948170140385628e-05,
+          "weighted": 0.00035844510421156883,
+          "weighted_gradient_norm": 0.003455827012658119,
+          "cosine_total": 0.06946882605552673,
+          "cosine_latent": 0.04998845234513283,
+          "projection_total": 0.0003452302480582148
+        },
+        "root_orientation": {
+          "raw": 0.0032418142072856426,
+          "weighted": 0.0032418142072856426,
+          "weighted_gradient_norm": 0.020605748519301414,
+          "cosine_total": 0.2653059959411621,
+          "cosine_latent": 0.2256207913160324,
+          "projection_total": 0.007861443795263767
+        },
+        "root_angular_velocity": {
+          "raw": 0.0004398128658067435,
+          "weighted": 0.004398128483444452,
+          "weighted_gradient_norm": 0.006843738257884979,
+          "cosine_total": 0.2761166989803314,
+          "cosine_latent": 0.24174100160598755,
+          "projection_total": 0.0027173960115760565
+        },
+        "distance_map": {
+          "raw": 0.002602539723739028,
+          "weighted": 0.002602539723739028,
+          "weighted_gradient_norm": 0.008250937797129154,
+          "cosine_total": 0.4053537845611572,
+          "cosine_latent": 0.26296234130859375,
+          "projection_total": 0.004809550009667873
+        },
+        "joint_contact": {
+          "raw": 9.88664396572858e-07,
+          "weighted": 9.886643965728581e-06,
+          "weighted_gradient_norm": 0.002878878964111209,
+          "cosine_total": 0.0069810799323022366,
+          "cosine_latent": 0.008066452108323574,
+          "projection_total": 2.8901000405312516e-05
+        }
+      }
+    },
+    {
+      "history": "full_feedback",
+      "probability": 1.0,
+      "batch": 2,
+      "loss": 0.37660160660743713,
+      "total_gradient_norm": 1.3095831871032715,
+      "gradient_sum_max_abs_error": 1.210719347000122e-08,
+      "terms": {
+        "latent_mse": {
+          "raw": 0.2523176074028015,
+          "weighted": 0.2523176074028015,
+          "weighted_gradient_norm": 0.7452358603477478,
+          "cosine_total": 0.7369182109832764,
+          "cosine_latent": 1.0,
+          "projection_total": 0.419353187084198
+        },
+        "feature_rec": {
+          "raw": 0.05284560099244118,
+          "weighted": 0.05284560099244118,
+          "weighted_gradient_norm": 0.12396537512540817,
+          "cosine_total": 0.628749668598175,
+          "cosine_latent": 0.684258222579956,
+          "projection_total": 0.05951755493879318
+        },
+        "smpl_joints_rec": {
+          "raw": 0.0012602184433490038,
+          "weighted": 0.01260218396782875,
+          "weighted_gradient_norm": 0.03313957899808884,
+          "cosine_total": 0.4984694719314575,
+          "cosine_latent": 0.4161975383758545,
+          "projection_total": 0.012613989412784576
+        },
+        "joint_fk_consistency": {
+          "raw": 9.499588486505672e-06,
+          "weighted": 9.499588486505672e-05,
+          "weighted_gradient_norm": 0.0005755165475420654,
+          "cosine_total": -0.12217985838651657,
+          "cosine_latent": -0.09084665030241013,
+          "projection_total": -5.369382779463194e-05
+        },
+        "joint_velocity": {
+          "raw": 0.00014099208055995405,
+          "weighted": 0.01409920770674944,
+          "weighted_gradient_norm": 0.011358711868524551,
+          "cosine_total": 0.42482995986938477,
+          "cosine_latent": 0.38877227902412415,
+          "projection_total": 0.003684776369482279
+        },
+        "bone_length": {
+          "raw": 5.122538823343348e-06,
+          "weighted": 5.122539005242288e-05,
+          "weighted_gradient_norm": 0.0007470682612620294,
+          "cosine_total": -0.02112290821969509,
+          "cosine_latent": -0.05070570483803749,
+          "projection_total": -1.2049829820170999e-05
+        },
+        "foot_contact": {
+          "raw": 1.3421588846540544e-05,
+          "weighted": 0.0004026476526632905,
+          "weighted_gradient_norm": 0.004728689789772034,
+          "cosine_total": 0.2377851903438568,
+          "cosine_latent": 0.26057812571525574,
+          "projection_total": 0.0008586032781749964
+        },
+        "root_orientation": {
+          "raw": 0.005568729247897863,
+          "weighted": 0.005568729247897863,
+          "weighted_gradient_norm": 0.02597087062895298,
+          "cosine_total": 0.2271149903535843,
+          "cosine_latent": 0.30399787425994873,
+          "projection_total": 0.004504008684307337
+        },
+        "root_angular_velocity": {
+          "raw": 0.0007003379869274795,
+          "weighted": 0.00700337952002883,
+          "weighted_gradient_norm": 0.0081147700548172,
+          "cosine_total": 0.25344589352607727,
+          "cosine_latent": 0.3476775884628296,
+          "projection_total": 0.001570465392433107
+        },
+        "distance_map": {
+          "raw": 0.001234141062013805,
+          "weighted": 0.001234141062013805,
+          "weighted_gradient_norm": 0.003643180476501584,
+          "cosine_total": 0.4450542628765106,
+          "cosine_latent": 0.35507023334503174,
+          "projection_total": 0.001238113734871149
+        },
+        "joint_contact": {
+          "raw": 0.0030381884425878525,
+          "weighted": 0.030381884425878525,
+          "weighted_gradient_norm": 0.863213837146759,
+          "cosine_total": 0.7535763382911682,
+          "cosine_latent": 0.12005705386400223,
+          "projection_total": 0.4967210590839386
+        }
+      }
+    },
+    {
+      "history": "full_feedback",
+      "probability": 1.0,
+      "batch": 3,
+      "loss": 0.4799686670303345,
+      "total_gradient_norm": 1.2554317712783813,
+      "gradient_sum_max_abs_error": 1.955777406692505e-08,
+      "terms": {
+        "latent_mse": {
+          "raw": 0.2769067585468292,
+          "weighted": 0.2769067585468292,
+          "weighted_gradient_norm": 0.7525278329849243,
+          "cosine_total": 0.7560774683952332,
+          "cosine_latent": 1.0,
+          "projection_total": 0.4532060921192169
+        },
+        "feature_rec": {
+          "raw": 0.10241110622882843,
+          "weighted": 0.10241110622882843,
+          "weighted_gradient_norm": 0.1989821344614029,
+          "cosine_total": 0.6277917623519897,
+          "cosine_latent": 0.671886682510376,
+          "projection_total": 0.09950309246778488
+        },
+        "smpl_joints_rec": {
+          "raw": 0.0021758400835096836,
+          "weighted": 0.02175839990377426,
+          "weighted_gradient_norm": 0.05136237293481827,
+          "cosine_total": 0.3998182713985443,
+          "cosine_latent": 0.36954399943351746,
+          "projection_total": 0.016357410699129105
+        },
+        "joint_fk_consistency": {
+          "raw": 1.832648558774963e-05,
+          "weighted": 0.00018326487042941153,
+          "weighted_gradient_norm": 0.001632088446058333,
+          "cosine_total": -0.02828337252140045,
+          "cosine_latent": -0.04824991151690483,
+          "projection_total": -3.6768997233593836e-05
+        },
+        "joint_velocity": {
+          "raw": 0.0002980777353513986,
+          "weighted": 0.029807772487401962,
+          "weighted_gradient_norm": 0.02041303552687168,
+          "cosine_total": 0.3503624498844147,
+          "cosine_latent": 0.3339987099170685,
+          "projection_total": 0.005696813575923443
+        },
+        "bone_length": {
+          "raw": 9.007534572447184e-06,
+          "weighted": 9.007535118144006e-05,
+          "weighted_gradient_norm": 0.0014674578560516238,
+          "cosine_total": -0.04701968654990196,
+          "cosine_latent": -0.028711847960948944,
+          "projection_total": -5.4960699344519526e-05
+        },
+        "foot_contact": {
+          "raw": 1.4488305168924853e-05,
+          "weighted": 0.000434649147791788,
+          "weighted_gradient_norm": 0.005041128024458885,
+          "cosine_total": 0.10818489640951157,
+          "cosine_latent": 0.10271968692541122,
+          "projection_total": 0.0004344114277046174
+        },
+        "root_orientation": {
+          "raw": 0.00772029347717762,
+          "weighted": 0.00772029347717762,
+          "weighted_gradient_norm": 0.029177367687225342,
+          "cosine_total": 0.27832043170928955,
+          "cosine_latent": 0.3410286605358124,
+          "projection_total": 0.006468418054282665
+        },
+        "root_angular_velocity": {
+          "raw": 0.0010070657590404153,
+          "weighted": 0.01007065735757351,
+          "weighted_gradient_norm": 0.01210497971624136,
+          "cosine_total": 0.24354799091815948,
+          "cosine_latent": 0.27512407302856445,
+          "projection_total": 0.002348310314118862
+        },
+        "distance_map": {
+          "raw": 0.0021654332522302866,
+          "weighted": 0.0021654332522302866,
+          "weighted_gradient_norm": 0.007242797873914242,
+          "cosine_total": 0.29535365104675293,
+          "cosine_latent": 0.25178030133247375,
+          "projection_total": 0.0017039449885487556
+        },
+        "joint_contact": {
+          "raw": 0.002842024900019169,
+          "weighted": 0.02842024900019169,
+          "weighted_gradient_norm": 0.7918553352355957,
+          "cosine_total": 0.6569536924362183,
+          "cosine_latent": 0.027382027357816696,
+          "projection_total": 0.4143691956996918
+        }
+      }
+    }
+  ],
+  "notes": [
+    "Raw parameter gradients of weighted terms; no optimizer step, no live run mutation.",
+    "Train weights and train-mode dropout; paired seeds across history settings.",
+    "Gradient norms are not loss shares or causal quality contributions.",
+    "Cosines/projections refer to raw summed gradients, not Adam preconditioned updates.",
+    "Full objective averages four primitives, including detached sampled history feedback."
+  ],
+  "paired_validation": {
+    "indices": [
+      [
+        64160,
+        43793,
+        74109,
+        32167,
+        2804,
+        370,
+        22192,
+        44102,
+        29583,
+        18054,
+        73073,
+        65535,
+        7939,
+        66898,
+        61218,
+        75012
+      ],
+      [
+        48278,
+        49654,
+        13844,
+        67345,
+        59924,
+        68711,
+        56709,
+        15123,
+        51904,
+        31174,
+        38771,
+        77304,
+        6180,
+        32843,
+        47146,
+        18423
+      ],
+      [
+        69970,
+        30366,
+        79407,
+        42548,
+        39909,
+        79849,
+        28952,
+        50022,
+        27466,
+        54718,
+        15061,
+        41698,
+        12069,
+        16057,
+        37257,
+        54670
+      ],
+      [
+        15572,
+        33019,
+        61406,
+        69214,
+        21618,
+        70924,
+        5046,
+        34609,
+        535,
+        18313,
+        6909,
+        16014,
+        29591,
+        45116,
+        74697,
+        8121
+      ]
+    ],
+    "records": [
+      {
+        "step": 4000,
+        "history": "teacher",
+        "batch": 0,
+        "terms": {
+          "loss": 0.13414183259010315,
+          "latent_mse": 0.11272331327199936,
+          "feature_rec": 0.016867652535438538,
+          "smpl_joints_rec": 4.4962274841964245e-05,
+          "joint_fk_consistency": 9.03504405869171e-06,
+          "bone_length": 4.074348908034153e-06,
+          "foot_contact": 4.471361535252072e-06,
+          "joint_velocity": 4.633269327314338e-06,
+          "root_orientation": 0.00019677216187119484,
+          "root_angular_velocity": 1.7830672732088715e-05,
+          "distance_map": 5.047455124440603e-05,
+          "joint_contact": 0.00029471193556673825,
+          "weighted_latent_mse": 0.11272331327199936,
+          "weighted_feature_rec": 0.016867652535438538,
+          "weighted_smpl_joints_rec": 0.00044962274841964245,
+          "weighted_joint_fk_consistency": 9.03504405869171e-05,
+          "weighted_bone_length": 4.074349271832034e-05,
+          "weighted_foot_contact": 0.00013414083514362574,
+          "weighted_joint_velocity": 0.00046332692727446556,
+          "weighted_root_orientation": 0.00019677216187119484,
+          "weighted_root_angular_velocity": 0.00017830672732088715,
+          "weighted_distance_map": 5.047455124440603e-05,
+          "weighted_joint_contact": 0.0029471195302903652
+        }
+      },
+      {
+        "step": 4000,
+        "history": "teacher",
+        "batch": 1,
+        "terms": {
+          "loss": 0.16433686017990112,
+          "latent_mse": 0.12911397218704224,
+          "feature_rec": 0.030472423881292343,
+          "smpl_joints_rec": 0.00011492081102915108,
+          "joint_fk_consistency": 1.321208128501894e-05,
+          "bone_length": 4.85648297399166e-06,
+          "foot_contact": 9.191289791488089e-06,
+          "joint_velocity": 9.30916030483786e-06,
+          "root_orientation": 0.0005368842394091189,
+          "root_angular_velocity": 4.5072541979607195e-05,
+          "distance_map": 0.0001214354851981625,
+          "joint_contact": 0.00011048556916648522,
+          "weighted_latent_mse": 0.12911397218704224,
+          "weighted_feature_rec": 0.030472423881292343,
+          "weighted_smpl_joints_rec": 0.0011492081684991717,
+          "weighted_joint_fk_consistency": 0.0001321208110312,
+          "weighted_bone_length": 4.8564830649411306e-05,
+          "weighted_foot_contact": 0.00027573868283070624,
+          "weighted_joint_velocity": 0.0009309160523116589,
+          "weighted_root_orientation": 0.0005368842394091189,
+          "weighted_root_angular_velocity": 0.0004507254052441567,
+          "weighted_distance_map": 0.0001214354851981625,
+          "weighted_joint_contact": 0.001104855677112937
+        }
+      },
+      {
+        "step": 4000,
+        "history": "teacher",
+        "batch": 2,
+        "terms": {
+          "loss": 0.17416241765022278,
+          "latent_mse": 0.1480480134487152,
+          "feature_rec": 0.02300616167485714,
+          "smpl_joints_rec": 6.490107625722885e-05,
+          "joint_fk_consistency": 2.0723511624964885e-05,
+          "bone_length": 5.926538506173529e-06,
+          "foot_contact": 8.116410754155368e-06,
+          "joint_velocity": 6.187533472257201e-06,
+          "root_orientation": 0.00025233678752556443,
+          "root_angular_velocity": 1.8862809156416915e-05,
+          "distance_map": 7.443319918820634e-05,
+          "joint_contact": 8.150889334501699e-05,
+          "weighted_latent_mse": 0.1480480134487152,
+          "weighted_feature_rec": 0.02300616167485714,
+          "weighted_smpl_joints_rec": 0.0006490107043646276,
+          "weighted_joint_fk_consistency": 0.0002072351344395429,
+          "weighted_bone_length": 5.9265388699714094e-05,
+          "weighted_foot_contact": 0.0002434923080727458,
+          "weighted_joint_velocity": 0.0006187533726915717,
+          "weighted_root_orientation": 0.00025233678752556443,
+          "weighted_root_angular_velocity": 0.00018862809520214796,
+          "weighted_distance_map": 7.443319918820634e-05,
+          "weighted_joint_contact": 0.0008150889188982546
+        }
+      },
+      {
+        "step": 4000,
+        "history": "teacher",
+        "batch": 3,
+        "terms": {
+          "loss": 0.12142930924892426,
+          "latent_mse": 0.1042754128575325,
+          "feature_rec": 0.015240240842103958,
+          "smpl_joints_rec": 4.394756251713261e-05,
+          "joint_fk_consistency": 8.303973118017893e-06,
+          "bone_length": 3.494893462629989e-06,
+          "foot_contact": 3.974679202656262e-06,
+          "joint_velocity": 4.216094566800166e-06,
+          "root_orientation": 0.0002183309115935117,
+          "root_angular_velocity": 2.2669322788715363e-05,
+          "distance_map": 4.4297958083916456e-05,
+          "joint_contact": 3.2601572456769645e-05,
+          "weighted_latent_mse": 0.1042754128575325,
+          "weighted_feature_rec": 0.015240240842103958,
+          "weighted_smpl_joints_rec": 0.00043947561061941087,
+          "weighted_joint_fk_consistency": 8.303973299916834e-05,
+          "weighted_bone_length": 3.494893462629989e-05,
+          "weighted_foot_contact": 0.00011924038699362427,
+          "weighted_joint_velocity": 0.00042160943849012256,
+          "weighted_root_orientation": 0.0002183309115935117,
+          "weighted_root_angular_velocity": 0.00022669322788715363,
+          "weighted_distance_map": 4.4297958083916456e-05,
+          "weighted_joint_contact": 0.00032601572456769645
+        }
+      },
+      {
+        "step": 4000,
+        "history": "full_feedback",
+        "batch": 0,
+        "terms": {
+          "loss": 0.4730730652809143,
+          "latent_mse": 0.29301297664642334,
+          "feature_rec": 0.07242859899997711,
+          "smpl_joints_rec": 0.0017830785363912582,
+          "joint_fk_consistency": 1.404124304826837e-05,
+          "bone_length": 1.1013476978405379e-05,
+          "foot_contact": 6.021205990691669e-06,
+          "joint_velocity": 0.0001921278890222311,
+          "root_orientation": 0.0070240190252661705,
+          "root_angular_velocity": 0.000859527091961354,
+          "distance_map": 0.002606272464618087,
+          "joint_contact": 0.005193118471652269,
+          "weighted_latent_mse": 0.29301297664642334,
+          "weighted_feature_rec": 0.07242859899997711,
+          "weighted_smpl_joints_rec": 0.017830783501267433,
+          "weighted_joint_fk_consistency": 0.0001404124341206625,
+          "weighted_bone_length": 0.0001101347734220326,
+          "weighted_foot_contact": 0.00018063618335872889,
+          "weighted_joint_velocity": 0.019212789833545685,
+          "weighted_root_orientation": 0.0070240190252661705,
+          "weighted_root_angular_velocity": 0.008595271036028862,
+          "weighted_distance_map": 0.002606272464618087,
+          "weighted_joint_contact": 0.05193118751049042
+        }
+      },
+      {
+        "step": 4000,
+        "history": "full_feedback",
+        "batch": 1,
+        "terms": {
+          "loss": 0.7288278341293335,
+          "latent_mse": 0.3566017150878906,
+          "feature_rec": 0.11921076476573944,
+          "smpl_joints_rec": 0.003982102498412132,
+          "joint_fk_consistency": 1.4222532627172768e-05,
+          "bone_length": 6.657839549006894e-06,
+          "foot_contact": 1.3307876542967279e-05,
+          "joint_velocity": 0.0004188460879959166,
+          "root_orientation": 0.022454826161265373,
+          "root_angular_velocity": 0.002636211458593607,
+          "distance_map": 0.002556891180574894,
+          "joint_contact": 0.01193278469145298,
+          "weighted_latent_mse": 0.3566017150878906,
+          "weighted_feature_rec": 0.11921076476573944,
+          "weighted_smpl_joints_rec": 0.03982102498412132,
+          "weighted_joint_fk_consistency": 0.00014222532627172768,
+          "weighted_bone_length": 6.657839549006894e-05,
+          "weighted_foot_contact": 0.0003992363053839654,
+          "weighted_joint_velocity": 0.04188460856676102,
+          "weighted_root_orientation": 0.022454826161265373,
+          "weighted_root_angular_velocity": 0.026362113654613495,
+          "weighted_distance_map": 0.002556891180574894,
+          "weighted_joint_contact": 0.1193278506398201
+        }
+      },
+      {
+        "step": 4000,
+        "history": "full_feedback",
+        "batch": 2,
+        "terms": {
+          "loss": 0.5866435766220093,
+          "latent_mse": 0.3172323703765869,
+          "feature_rec": 0.08732593059539795,
+          "smpl_joints_rec": 0.002392789116129279,
+          "joint_fk_consistency": 2.3561680791317485e-05,
+          "bone_length": 8.453993359580636e-06,
+          "foot_contact": 8.664057531859726e-06,
+          "joint_velocity": 0.00027967002824880183,
+          "root_orientation": 0.010969521477818489,
+          "root_angular_velocity": 0.0013582075480371714,
+          "distance_map": 0.002533983439207077,
+          "joint_contact": 0.010252468287944794,
+          "weighted_latent_mse": 0.3172323703765869,
+          "weighted_feature_rec": 0.08732593059539795,
+          "weighted_smpl_joints_rec": 0.02392789162695408,
+          "weighted_joint_fk_consistency": 0.00023561679699923843,
+          "weighted_bone_length": 8.453993359580636e-05,
+          "weighted_foot_contact": 0.000259921740507707,
+          "weighted_joint_velocity": 0.027966998517513275,
+          "weighted_root_orientation": 0.010969521477818489,
+          "weighted_root_angular_velocity": 0.013582074083387852,
+          "weighted_distance_map": 0.002533983439207077,
+          "weighted_joint_contact": 0.10252468287944794
+        }
+      },
+      {
+        "step": 4000,
+        "history": "full_feedback",
+        "batch": 3,
+        "terms": {
+          "loss": 0.42030972242355347,
+          "latent_mse": 0.3030981421470642,
+          "feature_rec": 0.06854799389839172,
+          "smpl_joints_rec": 0.001707974006421864,
+          "joint_fk_consistency": 7.740948603895959e-06,
+          "bone_length": 3.596485612433753e-06,
+          "foot_contact": 5.109358880872605e-06,
+          "joint_velocity": 0.0001733343960950151,
+          "root_orientation": 0.004819964990019798,
+          "root_angular_velocity": 0.0005820207879878581,
+          "distance_map": 0.001597702270373702,
+          "joint_contact": 0.00017458923684898764,
+          "weighted_latent_mse": 0.3030981421470642,
+          "weighted_feature_rec": 0.06854799389839172,
+          "weighted_smpl_joints_rec": 0.01707974076271057,
+          "weighted_joint_fk_consistency": 7.74094951339066e-05,
+          "weighted_bone_length": 3.596485476009548e-05,
+          "weighted_foot_contact": 0.00015328076551668346,
+          "weighted_joint_velocity": 0.017333440482616425,
+          "weighted_root_orientation": 0.004819964990019798,
+          "weighted_root_angular_velocity": 0.005820207763463259,
+          "weighted_distance_map": 0.001597702270373702,
+          "weighted_joint_contact": 0.0017458924558013678
+        }
+      },
+      {
+        "step": 10000,
+        "history": "teacher",
+        "batch": 0,
+        "terms": {
+          "loss": 0.12510675191879272,
+          "latent_mse": 0.10533393174409866,
+          "feature_rec": 0.016404127702116966,
+          "smpl_joints_rec": 4.5207678340375423e-05,
+          "joint_fk_consistency": 9.183683687297162e-06,
+          "bone_length": 3.960990397899877e-06,
+          "foot_contact": 4.760096089739818e-06,
+          "joint_velocity": 4.687683940574061e-06,
+          "root_orientation": 0.00019300122221466154,
+          "root_angular_velocity": 1.757408244884573e-05,
+          "distance_map": 4.7628469474148005e-05,
+          "joint_contact": 0.0001757225109031424,
+          "weighted_latent_mse": 0.10533393174409866,
+          "weighted_feature_rec": 0.016404127702116966,
+          "weighted_smpl_joints_rec": 0.0004520768125075847,
+          "weighted_joint_fk_consistency": 9.18368314160034e-05,
+          "weighted_bone_length": 3.960990216000937e-05,
+          "weighted_foot_contact": 0.00014280289178714156,
+          "weighted_joint_velocity": 0.0004687683831434697,
+          "weighted_root_orientation": 0.00019300122221466154,
+          "weighted_root_angular_velocity": 0.00017574080266058445,
+          "weighted_distance_map": 4.7628469474148005e-05,
+          "weighted_joint_contact": 0.0017572250217199326
+        }
+      },
+      {
+        "step": 10000,
+        "history": "teacher",
+        "batch": 1,
+        "terms": {
+          "loss": 0.1461891382932663,
+          "latent_mse": 0.11476920545101166,
+          "feature_rec": 0.027201537042856216,
+          "smpl_joints_rec": 9.839066478889436e-05,
+          "joint_fk_consistency": 1.330242957919836e-05,
+          "bone_length": 4.850536697631469e-06,
+          "foot_contact": 9.291017704526894e-06,
+          "joint_velocity": 8.73225144459866e-06,
+          "root_orientation": 0.0004808530502486974,
+          "root_angular_velocity": 4.219220136292279e-05,
+          "distance_map": 9.934943227563053e-05,
+          "joint_contact": 8.98880825843662e-05,
+          "weighted_latent_mse": 0.11476920545101166,
+          "weighted_feature_rec": 0.027201537042856216,
+          "weighted_smpl_joints_rec": 0.000983906676992774,
+          "weighted_joint_fk_consistency": 0.00013302428124006838,
+          "weighted_bone_length": 4.8505364247830585e-05,
+          "weighted_foot_contact": 0.000278730527497828,
+          "weighted_joint_velocity": 0.0008732251008041203,
+          "weighted_root_orientation": 0.0004808530502486974,
+          "weighted_root_angular_velocity": 0.0004219220136292279,
+          "weighted_distance_map": 9.934943227563053e-05,
+          "weighted_joint_contact": 0.000898880825843662
+        }
+      },
+      {
+        "step": 10000,
+        "history": "teacher",
+        "batch": 2,
+        "terms": {
+          "loss": 0.15555480122566223,
+          "latent_mse": 0.13134796917438507,
+          "feature_rec": 0.021556086838245392,
+          "smpl_joints_rec": 5.77083628741093e-05,
+          "joint_fk_consistency": 2.0119774490012787e-05,
+          "bone_length": 5.687200882675825e-06,
+          "foot_contact": 8.350614734808914e-06,
+          "joint_velocity": 5.9478838920767885e-06,
+          "root_orientation": 0.0002452409826219082,
+          "root_angular_velocity": 1.805907959351316e-05,
+          "distance_map": 6.482958269771188e-05,
+          "joint_contact": 4.7963447286747396e-05,
+          "weighted_latent_mse": 0.13134796917438507,
+          "weighted_feature_rec": 0.021556086838245392,
+          "weighted_smpl_joints_rec": 0.0005770836723968387,
+          "weighted_joint_fk_consistency": 0.00020119774853810668,
+          "weighted_bone_length": 5.687200973625295e-05,
+          "weighted_foot_contact": 0.0002505184384062886,
+          "weighted_joint_velocity": 0.0005947883473709226,
+          "weighted_root_orientation": 0.0002452409826219082,
+          "weighted_root_angular_velocity": 0.0001805907959351316,
+          "weighted_distance_map": 6.482958269771188e-05,
+          "weighted_joint_contact": 0.00047963447286747396
+        }
+      },
+      {
+        "step": 10000,
+        "history": "teacher",
+        "batch": 3,
+        "terms": {
+          "loss": 0.11252380907535553,
+          "latent_mse": 0.09618183225393295,
+          "feature_rec": 0.014695938676595688,
+          "smpl_joints_rec": 4.1621693526394665e-05,
+          "joint_fk_consistency": 8.317926585732494e-06,
+          "bone_length": 3.5888765523850452e-06,
+          "foot_contact": 4.269310011295602e-06,
+          "joint_velocity": 4.1495877667330205e-06,
+          "root_orientation": 0.00021064587053842843,
+          "root_angular_velocity": 2.090828820655588e-05,
+          "distance_map": 4.446024831850082e-05,
+          "joint_contact": 1.0351913260819856e-05,
+          "weighted_latent_mse": 0.09618183225393295,
+          "weighted_feature_rec": 0.014695938676595688,
+          "weighted_smpl_joints_rec": 0.00041621693526394665,
+          "weighted_joint_fk_consistency": 8.317926403833553e-05,
+          "weighted_bone_length": 3.588877007132396e-05,
+          "weighted_foot_contact": 0.00012807930761482567,
+          "weighted_joint_velocity": 0.0004149588057771325,
+          "weighted_root_orientation": 0.00021064587053842843,
+          "weighted_root_angular_velocity": 0.00020908287842758,
+          "weighted_distance_map": 4.446024831850082e-05,
+          "weighted_joint_contact": 0.00010351912351325154
+        }
+      },
+      {
+        "step": 10000,
+        "history": "full_feedback",
+        "batch": 0,
+        "terms": {
+          "loss": 0.35647258162498474,
+          "latent_mse": 0.234774649143219,
+          "feature_rec": 0.05938348174095154,
+          "smpl_joints_rec": 0.0014097425155341625,
+          "joint_fk_consistency": 1.9266277377028018e-05,
+          "bone_length": 1.2777791198459454e-05,
+          "foot_contact": 9.251164556189906e-06,
+          "joint_velocity": 0.00018330436432734132,
+          "root_orientation": 0.005980528891086578,
+          "root_angular_velocity": 0.0009094481938518584,
+          "distance_map": 0.0020837096963077784,
+          "joint_contact": 0.0012129904935136437,
+          "weighted_latent_mse": 0.234774649143219,
+          "weighted_feature_rec": 0.05938348174095154,
+          "weighted_smpl_joints_rec": 0.014097425155341625,
+          "weighted_joint_fk_consistency": 0.00019266275921836495,
+          "weighted_bone_length": 0.00012777790834661573,
+          "weighted_foot_contact": 0.0002775349421426654,
+          "weighted_joint_velocity": 0.018330436199903488,
+          "weighted_root_orientation": 0.005980528891086578,
+          "weighted_root_angular_velocity": 0.009094481356441975,
+          "weighted_distance_map": 0.0020837096963077784,
+          "weighted_joint_contact": 0.012129904702305794
+        }
+      },
+      {
+        "step": 10000,
+        "history": "full_feedback",
+        "batch": 1,
+        "terms": {
+          "loss": 0.6140295267105103,
+          "latent_mse": 0.30844956636428833,
+          "feature_rec": 0.1030934751033783,
+          "smpl_joints_rec": 0.0031455853022634983,
+          "joint_fk_consistency": 1.8170758266933262e-05,
+          "bone_length": 8.751609129831195e-06,
+          "foot_contact": 1.5730967788840644e-05,
+          "joint_velocity": 0.00038762259646318853,
+          "root_orientation": 0.015724197030067444,
+          "root_angular_velocity": 0.0020633521489799023,
+          "distance_map": 0.002486845478415489,
+          "joint_contact": 0.009268267080187798,
+          "weighted_latent_mse": 0.30844956636428833,
+          "weighted_feature_rec": 0.1030934751033783,
+          "weighted_smpl_joints_rec": 0.03145585209131241,
+          "weighted_joint_fk_consistency": 0.00018170758266933262,
+          "weighted_bone_length": 8.751609857426956e-05,
+          "weighted_foot_contact": 0.0004719290300272405,
+          "weighted_joint_velocity": 0.038762256503105164,
+          "weighted_root_orientation": 0.015724197030067444,
+          "weighted_root_angular_velocity": 0.020633522421121597,
+          "weighted_distance_map": 0.002486845478415489,
+          "weighted_joint_contact": 0.09268266707658768
+        }
+      },
+      {
+        "step": 10000,
+        "history": "full_feedback",
+        "batch": 2,
+        "terms": {
+          "loss": 0.42755401134490967,
+          "latent_mse": 0.2460155487060547,
+          "feature_rec": 0.06953843683004379,
+          "smpl_joints_rec": 0.0016875606961548328,
+          "joint_fk_consistency": 2.408442014711909e-05,
+          "bone_length": 8.343649824382737e-06,
+          "foot_contact": 9.320485332864337e-06,
+          "joint_velocity": 0.00022450329561252147,
+          "root_orientation": 0.00926237553358078,
+          "root_angular_velocity": 0.0012564144562929869,
+          "distance_map": 0.001599746523424983,
+          "joint_contact": 0.004864390939474106,
+          "weighted_latent_mse": 0.2460155487060547,
+          "weighted_feature_rec": 0.06953843683004379,
+          "weighted_smpl_joints_rec": 0.016875606030225754,
+          "weighted_joint_fk_consistency": 0.00024084420874714851,
+          "weighted_bone_length": 8.343650551978499e-05,
+          "weighted_foot_contact": 0.00027961452724412084,
+          "weighted_joint_velocity": 0.02245032973587513,
+          "weighted_root_orientation": 0.00926237553358078,
+          "weighted_root_angular_velocity": 0.012564144097268581,
+          "weighted_distance_map": 0.001599746523424983,
+          "weighted_joint_contact": 0.04864390939474106
+        }
+      },
+      {
+        "step": 10000,
+        "history": "full_feedback",
+        "batch": 3,
+        "terms": {
+          "loss": 0.395591139793396,
+          "latent_mse": 0.27821576595306396,
+          "feature_rec": 0.06788822263479233,
+          "smpl_joints_rec": 0.001613692264072597,
+          "joint_fk_consistency": 9.758423402672634e-06,
+          "bone_length": 4.5116566980141215e-06,
+          "foot_contact": 1.1911564797628671e-05,
+          "joint_velocity": 0.00019077194156125188,
+          "root_orientation": 0.004936217796057463,
+          "root_angular_velocity": 0.0005782294902019203,
+          "distance_map": 0.001930096186697483,
+          "joint_contact": 0.00011244064080528915,
+          "weighted_latent_mse": 0.27821576595306396,
+          "weighted_feature_rec": 0.06788822263479233,
+          "weighted_smpl_joints_rec": 0.01613692194223404,
+          "weighted_joint_fk_consistency": 9.758422675076872e-05,
+          "weighted_bone_length": 4.511656879913062e-05,
+          "weighted_foot_contact": 0.0003573469293769449,
+          "weighted_joint_velocity": 0.01907719299197197,
+          "weighted_root_orientation": 0.004936217796057463,
+          "weighted_root_angular_velocity": 0.005782294552773237,
+          "weighted_distance_map": 0.001930096186697483,
+          "weighted_joint_contact": 0.0011244064662605524
+        }
+      }
+    ]
+  },
+  "validation_log_coverage": {
+    "first_512_windows_episodes": [
+      "G001T003A016R005",
+      "G001T006A031R011",
+      "G002T000A004R026",
+      "G002T001A006R009",
+      "G002T002A011R007"
+    ],
+    "total_episodes": 570,
+    "total_windows": 82081,
+    "probe_episodes": 58
+  },
+  "vae_teacher_reference": [
+    {
+      "batch": 0,
+      "target_foot_contact": 4.91727723783697e-06,
+      "terms": {
+        "feature_rec": 0.0038600796833634377,
+        "smpl_joints_rec": 6.6376155700709205e-06,
+        "joint_fk_consistency": 9.06140121514909e-06,
+        "bone_length": 3.7580346088361694e-06,
+        "foot_contact": 3.809886948147323e-06,
+        "joint_velocity": 2.367083652643487e-06,
+        "root_orientation": 3.2656062103342265e-05,
+        "root_angular_velocity": 6.46969328954583e-06,
+        "distance_map": 7.005278803262627e-06,
+        "joint_contact": 1.713322490104474e-05
+      }
+    },
+    {
+      "batch": 1,
+      "target_foot_contact": 9.339511962025426e-06,
+      "terms": {
+        "feature_rec": 0.005209934897720814,
+        "smpl_joints_rec": 1.0807190847117454e-05,
+        "joint_fk_consistency": 1.3542588931159116e-05,
+        "bone_length": 4.8409460760012735e-06,
+        "foot_contact": 7.291851034096908e-06,
+        "joint_velocity": 2.744459834502777e-06,
+        "root_orientation": 0.00010414457210572436,
+        "root_angular_velocity": 1.277023784496123e-05,
+        "distance_map": 9.931814929586835e-06,
+        "joint_contact": 1.709757088974584e-05
+      }
+    },
+    {
+      "batch": 2,
+      "target_foot_contact": 8.097192221612204e-06,
+      "terms": {
+        "feature_rec": 0.005814341828227043,
+        "smpl_joints_rec": 1.2520276868599467e-05,
+        "joint_fk_consistency": 1.7960817785933614e-05,
+        "bone_length": 5.6676199164940044e-06,
+        "foot_contact": 7.425163857988082e-06,
+        "joint_velocity": 3.141816250717966e-06,
+        "root_orientation": 5.0798804295482114e-05,
+        "root_angular_velocity": 4.955303666065447e-06,
+        "distance_map": 1.3020631740801036e-05,
+        "joint_contact": 5.4985471251711715e-06
+      }
+    },
+    {
+      "batch": 3,
+      "target_foot_contact": 5.315902399161132e-06,
+      "terms": {
+        "feature_rec": 0.002942115068435669,
+        "smpl_joints_rec": 6.555874279001728e-06,
+        "joint_fk_consistency": 8.50543801789172e-06,
+        "bone_length": 3.5082632621197263e-06,
+        "foot_contact": 4.154971975367516e-06,
+        "joint_velocity": 1.7662231357462588e-06,
+        "root_orientation": 4.9240305088460445e-05,
+        "root_angular_velocity": 7.2215552791021764e-06,
+        "distance_map": 7.401857146760449e-06,
+        "joint_contact": 4.2735327951959334e-06
+      }
+    }
+  ]
+}

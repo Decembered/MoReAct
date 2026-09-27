@@ -1,0 +1,152 @@
+{
+  "selection": [
+    {
+      "record_id": "G046T002A010R004_aP2_rP1",
+      "episode": "G046T002A010R004",
+      "actor_person": "P2",
+      "reactor_person": "P1",
+      "target_text": "One person delivers two back-and-forth slaps to the other person using his/her right hand.",
+      "split": "train",
+      "action": "010",
+      "file": "episodes/G046T002A010R004.npz",
+      "source_rotation_max_error": 1.7881393432617188e-07
+    },
+    {
+      "record_id": "G047T005A026R008_aP1_rP2",
+      "episode": "G047T005A026R008",
+      "actor_person": "P1",
+      "reactor_person": "P2",
+      "target_text": "One person walks behind another person and raises two hands to tap the other person's shoulders, while the other person moves his/her head.",
+      "split": "train",
+      "action": "026",
+      "file": "episodes/G047T005A026R008.npz",
+      "source_rotation_max_error": 2.086162567138672e-07
+    },
+    {
+      "record_id": "G048T002A012R013_aP1_rP2",
+      "episode": "G048T002A012R013",
+      "actor_person": "P1",
+      "reactor_person": "P2",
+      "target_text": "One person raises one hand to point towards the other person, while the other person raises both hands and crosses them in front of his/her eyes.",
+      "split": "train",
+      "action": "012",
+      "file": "episodes/G048T002A012R013.npz",
+      "source_rotation_max_error": 2.980232238769531e-07
+    },
+    {
+      "record_id": "G004T009A022R002_aP1_rP2",
+      "episode": "G004T009A022R002",
+      "actor_person": "P1",
+      "reactor_person": "P2",
+      "target_text": "The first person extends his/her right hand, and the second person puts his/her left hand around his/her waist. Then, they walk forward together.",
+      "split": "train",
+      "action": "022",
+      "file": "episodes/G004T009A022R002.npz",
+      "source_rotation_max_error": 2.086162567138672e-07
+    },
+    {
+      "record_id": "G013T008A036R010_aP2_rP1",
+      "episode": "G013T008A036R010",
+      "actor_person": "P2",
+      "reactor_person": "P1",
+      "target_text": "Two individuals stand facing each other, with one person lifting his/her right hand and wiggling his/her index finger towards the other person. The second person promptly raises his/her right hand to cover the first person's mouth. Eventually, the first person raises his/her right hand again and pushes the second person's hand aside.",
+      "split": "train",
+      "action": "036",
+      "file": "episodes/G013T008A036R010.npz",
+      "source_rotation_max_error": 2.980232238769531e-07
+    },
+    {
+      "record_id": "G026T003A018R019_aP1_rP2",
+      "episode": "G026T003A018R019",
+      "actor_person": "P1",
+      "reactor_person": "P2",
+      "target_text": "The standing person speaks into the seated person's right ear with his/her left hand.",
+      "split": "train",
+      "action": "018",
+      "file": "episodes/G026T003A018R019.npz",
+      "source_rotation_max_error": 2.384185791015625e-07
+    },
+    {
+      "record_id": "G054T002A010R003_aP2_rP1",
+      "episode": "G054T002A010R003",
+      "actor_person": "P2",
+      "reactor_person": "P1",
+      "target_text": "The two people stand face to face, with the first person extending his/her left hand to block his/her face, and then lowering it. The second person extends his/her right hand to slap the face of the first person, who blocks with his/her left hand.",
+      "split": "test",
+      "action": "010",
+      "file": "episodes/G054T002A010R003.npz",
+      "source_rotation_max_error": 1.7881393432617188e-07
+    },
+    {
+      "record_id": "G009T004A026R008_aP1_rP2",
+      "episode": "G009T004A026R008",
+      "actor_person": "P1",
+      "reactor_person": "P2",
+      "target_text": "One person stands with his/her hands on his/her waist, while the second person stands behind him/her and begins to massage his/her right shoulder and arm by patting him/her with both hands.",
+      "split": "test",
+      "action": "026",
+      "file": "episodes/G009T004A026R008.npz",
+      "source_rotation_max_error": 2.384185791015625e-07
+    },
+    {
+      "record_id": "G002T002A012R010_aP1_rP2",
+      "episode": "G002T002A012R010",
+      "actor_person": "P1",
+      "reactor_person": "P2",
+      "target_text": "The first person points his finger at the second person, who faces him and holds her right hand up.",
+      "split": "test",
+      "action": "012",
+      "file": "episodes/G002T002A012R010.npz",
+      "source_rotation_max_error": 1.7881393432617188e-07
+    },
+    {
+      "record_id": "G055T004A022R011_aP2_rP1",
+      "episode": "G055T004A022R011",
+      "actor_person": "P2",
+      "reactor_person": "P1",
+      "target_text": "The first person walks to the left of the second person and embraces the second person's left arm with his/her right arm. They walk together side by side and then they part ways.",
+      "split": "test",
+      "action": "022",
+      "file": "episodes/G055T004A022R011.npz",
+      "source_rotation_max_error": 1.9371509552001953e-07
+    },
+    {
+      "record_id": "G035T007A036R009_aP2_rP1",
+      "episode": "G035T007A036R009",
+      "actor_person": "P2",
+      "reactor_person": "P1",
+      "target_text": "A person sits and the person standing in front of him extends his right hand to cover his mouth.",
+      "split": "test",
+      "action": "036",
+      "file": "episodes/G035T007A036R009.npz",
+      "source_rotation_max_error": 2.384185791015625e-07
+    },
+    {
+      "record_id": "G017T003A018R019_aP2_rP1",
+      "episode": "G017T003A018R019",
+      "actor_person": "P2",
+      "reactor_person": "P1",
+      "target_text": "One person sits while the other person walks towards the left side of the seated person. The standing person bends down and whispers near the seated person's left ear using his/her right hand. Upon hearing this, the seated person nods in surprise and covers his/her mouth with his/her right hand.",
+      "split": "test",
+      "action": "018",
+      "file": "episodes/G017T003A018R019.npz",
+      "source_rotation_max_error": 1.9371509552001953e-07
+    }
+  ],
+  "models": {
+    "root30": "/data/autovla/projects/MoReAct/runs/diffusion_scratch_b768_root30_20260926/step_008500.pt",
+    "baseline": "/data/autovla/projects/MoReAct/runs/diffusion_stage2_b512_stratified_20260926/step_021000.pt"
+  },
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "injection_cutoff": 42,
+  "probe_cutoffs": [
+    42,
+    82
+  ],
+  "frames": 120,
+  "gradients": "EMA denoiser output-latent gradients, timesteps 0/5/9, no parameter updates"
+}

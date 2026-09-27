@@ -1,0 +1,18 @@
+[
+  {
+    "record_id": "G001T000A000R004_aP2_rP1",
+    "episode": "G001T000A000R004",
+    "actor_person": "P2",
+    "reactor_person": "P1",
+    "target_text": "Two people walk towards each other. After they meet, the first person hugs the second person with his/her right hand on the left shoulder, and the second person hugs back around the waist with his/her right hand. As a result, the first person softly pats the second person on his/her back with the right hand while the second person pats the first person's waist with his/her right hand.",
+    "category": "hug"
+  },
+  {
+    "record_id": "G001T000A001R005_aP1_rP2",
+    "episode": "G001T000A001R005",
+    "actor_person": "P1",
+    "reactor_person": "P2",
+    "target_text": "The first person walks towards the second person and extends his/her right hand first. The second person also extends his/her right hand and they shake hands up and down twice. Then they release each other's hand.",
+    "category": "handshake"
+  }
+]

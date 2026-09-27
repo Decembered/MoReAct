@@ -1,0 +1,72 @@
+{
+  "source_step": 32500,
+  "source_sha256": "6b31f4f0ca8d72834a19715eb8bd98961dec5346d27baa47192a9f0615ccd208",
+  "remaining_sample_exposure": 10496000,
+  "method": "8 GPUs, 8 updates from the same source checkpoint; median of full-rollout update intervals at steps 32503..32507; final validation/checkpoint excluded",
+  "results": {
+    "512": {
+      "global_batch": 512,
+      "local_batch": 64,
+      "intervals_s": [
+        1.3123978241346776,
+        1.3744439468719065,
+        1.3078295032028109,
+        1.301018756814301,
+        1.3122311041224748
+      ],
+      "median_step_s": 1.3122311041224748,
+      "samples_per_second": 390.17517447308836,
+      "projected_remaining_train_hours_excluding_validation": 7.472427120697426,
+      "first_full_rollout_step": 32502,
+      "finite_steps": true
+    },
+    "1024": {
+      "global_batch": 1024,
+      "local_batch": 128,
+      "intervals_s": [
+        2.2224534191191196,
+        2.271774441935122,
+        2.2560660568997264,
+        2.288908227114007,
+        2.2643687669187784
+      ],
+      "median_step_s": 2.2643687669187784,
+      "samples_per_second": 452.2231603615518,
+      "projected_remaining_train_hours_excluding_validation": 6.447161072477077,
+      "first_full_rollout_step": 32502,
+      "finite_steps": true
+    },
+    "1536": {
+      "global_batch": 1536,
+      "local_batch": 192,
+      "intervals_s": [
+        3.179741515079513,
+        3.257118189940229,
+        3.2080324420239776,
+        3.2780953240580857,
+        3.3800142428372055
+      ],
+      "median_step_s": 3.257118189940229,
+      "samples_per_second": 471.582518787317,
+      "projected_remaining_train_hours_excluding_validation": 6.182492860534694,
+      "first_full_rollout_step": 32502,
+      "finite_steps": true
+    },
+    "2048": {
+      "global_batch": 2048,
+      "local_batch": 256,
+      "intervals_s": [
+        4.123544674133882,
+        4.349620207911357,
+        4.398127245949581,
+        4.244094148045406,
+        4.18297170707956
+      ],
+      "median_step_s": 4.244094148045406,
+      "samples_per_second": 482.5529143700064,
+      "projected_remaining_train_hours_excluding_validation": 6.041939585759085,
+      "first_full_rollout_step": 32502,
+      "finite_steps": true
+    }
+  }
+}

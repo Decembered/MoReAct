@@ -1,0 +1,44 @@
+{
+  "data": {
+    "source": "/data/autovla/projects/interx_ardy_mvp/full_data",
+    "cache": "/data/autovla/projects/MoReAct/data/interx_smoke",
+    "body_models": "/data/autovla/projects/remogen_official_release/smpl_models",
+    "role_overrides": "/data/autovla/projects/MoReAct/assets/role_overrides.json",
+    "raw_fps": 120,
+    "fps": 30,
+    "history": 16,
+    "future": 8,
+    "primitives": 2,
+    "clip_model": "/home/autovla/.cache/clip/ViT-B-32.pt"
+  },
+  "model": {
+    "latent_dim": 128,
+    "vae_hidden": 64,
+    "vae_layers": 3,
+    "denoiser_hidden": 64,
+    "denoiser_layers": 2,
+    "heads": 4,
+    "ff_size": 128,
+    "dropout": 0.0,
+    "diffusion_steps": 10,
+    "text_dropout": 0.1
+  },
+  "train": {
+    "seed": 0,
+    "batch_size": 4,
+    "learning_rate": 0.001,
+    "kl_weight": 0.0001,
+    "ema": 0.9,
+    "grad_clip": 1.0,
+    "stage1_steps": 1000,
+    "stage2_steps": 0,
+    "stage3_steps": 0,
+    "log_interval": 100,
+    "save_interval": 100,
+    "val_interval": 1000,
+    "val_batches": 2,
+    "latent_scale_batches": 8,
+    "device": "cuda:2",
+    "threads": 4
+  }
+}

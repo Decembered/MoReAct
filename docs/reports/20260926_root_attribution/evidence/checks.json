@@ -1,0 +1,5 @@
+{
+  "production_rollout_frame_error_max_difference_m": 1.4901161193847656e-08,
+  "paired_first_primitive_max_difference_m": 0.0,
+  "repair_translation_change_max_m": 0.0
+}
